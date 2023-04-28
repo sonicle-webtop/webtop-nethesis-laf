@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nethesis.webtop</groupId>
+    <artifactId>webtop-nethesis-laf</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+	
+	<parent>
+		<groupId>com.sonicle.webtop</groupId>
+		<artifactId>webtop-superpom</artifactId>
+		<version>6</version>
+	</parent>
+	
+	<properties>
+		<!-- WEBTOP: service configuration -->
+		<webtop.service.package>com.sonicle.webtop.core</webtop.service.package>
+		
+		<!-- WEBTOP: service configuration (loaded from "${user.home}/.m2/webtop-core.properties") -->
+		<!--
+			Built-in license to hardcode into during build
+		<tinymce.premium.builtin.license></tinymce.premium.builtin.license>
+		-->
+	</properties>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>properties-maven-plugin</artifactId>
+				<version>${properties-maven-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>read-service-properties</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>read-project-properties</goal>
+						</goals>
+						<configuration>
+							<files>
+								<file>${user.home}/.m2/webtop-core.properties</file>
+							</files>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven-resources-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>client-copy-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.outputDirectory}/client/${webtop.service.package}/resources</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/client-resources</directory>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>			
+</project>

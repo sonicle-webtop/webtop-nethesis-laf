@@ -61,10 +61,10 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${project.build.outputDirectory}/client/${webtop.service.package}/resources</outputDirectory>
+							<outputDirectory>${project.build.outputDirectory}/client</outputDirectory>
 							<resources>
 								<resource>
-									<directory>src/main/client-resources</directory>
+									<directory>src/main</directory>
 								</resource>
 							</resources>
 						</configuration>

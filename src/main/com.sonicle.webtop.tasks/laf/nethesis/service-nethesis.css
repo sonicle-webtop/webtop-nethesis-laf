@@ -1,0 +1,4 @@
+/* Service OFF-Icons (for app-drawer) */
+.wttasks-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
+.wttasks-icon-service-off-m,
+.wttasks-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }

@@ -1,0 +1,4 @@
+/* Service OFF-Icons (for app-drawer) */
+.wtcal-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtcal-icon-service-off-m,
+.wtcal-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }

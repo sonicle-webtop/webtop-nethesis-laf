@@ -1,0 +1,8 @@
+/* Service OFF-Icons (for app-drawer) */
+.wtmail-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtmail-icon-service-off-m,
+.wtmail-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
+
+.wt-imaptrees-container .x-panel-body { background-color: #e4e6eb; }
+.wt-imaptrees-container .x-grid-item { background-color: #e4e6eb; }
+.wt-imaptrees-container .x-grid-item-selected { background-color: #fcddbc; }

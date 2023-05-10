@@ -1,0 +1,28 @@
+
+.wt-viewport-navbar-watermark { background-color: #f1850e; width: 3px; }
+.wt-viewport-navbar { background-color: #4b5564; }
+/* Convert following to dedicated toolbar layout */
+.wt-viewport-navbar .x-btn-pressed {
+    background-color: #374051 !important;
+    border-color: #374051 !important;
+}
+.wt-viewport-navbar .x-btn-over {
+    background-color: #374051 !important;
+    border-color: #374051 !important;
+}
+.wt-viewport-navbar .x-btn-icon-el-default-toolbar-large {
+    width: 16px !important;
+}
+.wt-viewport-navbar .x-btn-button {
+    padding: 8px;
+}
+/****************************************/
+
+/* Service OFF-Icons (for navbar) */
+.wt-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
+.wt-icon-service-off-m,
+.wt-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
+/* Portal OFF-Icons (for navbar) */
+.wt-icon-portal-off-s { background-image: url('home-off.svg') !important; background-size: contain; }
+.wt-icon-portal-off-m,
+.wt-icon-portal-off-l { background-image: url('home-off.svg') !important; background-size: contain; }

@@ -1,7 +1,11 @@
-/* Service OFF-Icons (for app-drawer) */
-.wtmail-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
-.wtmail-icon-service-off-m,
-.wtmail-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
+/* Service Icons */
+.wtmail-icon-service,
+.wtmail-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
+.wtmail-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtmail-icon-service-md { background-image: url('service.svg') !important; background-size: contain; }
+.wtmail-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtmail-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
+.wtmail-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
 
 .wt-imaptrees-container .x-panel-body { background-color: #e4e6eb; }
 .wt-imaptrees-container .x-grid-item { background-color: #e4e6eb; }

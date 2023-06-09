@@ -1,4 +1,8 @@
-/* Service OFF-Icons (for app-drawer) */
-.wtdrm-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
-.wtdrm-icon-service-off-m,
-.wtdrm-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
+/* Service Icons */
+.wtdrm-icon-service,
+.wtdrm-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
+.wtdrm-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtdrm-icon-service-md { background-image: url('service.svg') !important; background-size: contain; }
+.wtdrm-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtdrm-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
+.wtdrm-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; 

@@ -18,11 +18,18 @@
 }
 /****************************************/
 
-/* Service OFF-Icons (for navbar) */
-.wt-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
-.wt-icon-service-off-m,
-.wt-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
-/* Portal OFF-Icons (for navbar) */
-.wt-icon-portal-off-s { background-image: url('home-off.svg') !important; background-size: contain; }
-.wt-icon-portal-off-m,
-.wt-icon-portal-off-l { background-image: url('home-off.svg') !important; background-size: contain; }
+/* Service Icons */
+.wt-icon-service,
+.wt-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
+.wt-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
+.wt-icon-service-md { background-image: url('service.svg') !important; background-size: contain; }
+.wt-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
+.wt-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
+.wt-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+.wt-icon-portal,
+.wt-icon-portal-sm { background-image: url('portal.svg') !important; background-size: contain; }
+.wt-icon-portal-off-sm { background-image: url('portal-off.svg') !important; background-size: contain; }
+.wt-icon-portal-md { background-image: url('portal.svg') !important; background-size: contain; }
+.wt-icon-portal-off-md { background-image: url('portal-off.svg') !important; background-size: contain; }
+.wt-icon-portal-lg { background-image: url('portal.svg') !important; background-size: contain; }
+.wt-icon-portal-off-lg { background-image: url('portal-off.svg') !important; background-size: contain; }

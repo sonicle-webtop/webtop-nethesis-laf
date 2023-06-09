@@ -1,5 +1,8 @@
-
-.wtadm-icon-service-off-xs,
-.wtadm-icon-service-off-s { background-image: url('service-off.svg') !important; background-size: contain; }
-.wtadm-icon-service-off-m,
-.wtadm-icon-service-off-l { background-image: url('service-off.svg') !important; background-size: contain; }
+/* Service Icons */
+.wtadm-icon-service,
+.wtadm-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
+.wtadm-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtadm-icon-service-md { background-image: url('service.svg') !important; background-size: contain; }
+.wtadm-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtadm-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
+.wtadm-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }

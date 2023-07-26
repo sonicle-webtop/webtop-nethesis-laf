@@ -1,4 +1,48 @@
-@import url("xtheme-triton-override.css");
+@import url("xtheme-nethesis-override.css");
+
+/*
+color-surface-primary -> Gray/50
+color-surface-secondary -> White
+color-primary-0 -> Orange/700
+color-primary-1 -> Gray/50
+color-ct-primary-0 -> Orange/100
+color-ct-primary-1 -> Gray/900
+color-secondary-0 -> Gray/300
+color-error-0 -> Red/700
+color-error-1 -> Gray/50
+color-ct-error-0 -> Red/50
+color-ct-error-1 -> Red/800
+color-warn-0 -> Yellow/700
+color-warn-1 -> White
+color-ct-warn-0 -> Yellow/50
+color-ct-warn-1 -> Yellow/700
+color-ok-0 -> Green/700
+color-ok-1 -> White
+color-ct-ok-0 -> Green/50
+color-ct-ok-1 -> Green/700
+*/
+
+:root {
+    --wt-theme-color-surface-1: #f9fafb; /* Gray/50 */
+    --wt-theme-color-surface-2: #ffffff; /* White */
+    --wt-theme-color-1: #c2410c; /* Orange/700 */
+    --wt-theme-color-1-contrast: #f9fafb; /* Gray/50 */
+    --wt-theme-color-ct-1: #ffedd5; /* Orange/100 */
+    --wt-theme-color-ct-1-contrast: #111827; /* Gray/900 */
+    --wt-theme-color-ct-2: #d1d5db; /* Gray/300 */
+    --wt-theme-color-ok-1: #15803d; /* Green/700 */
+    --wt-theme-color-ok-1-contrast: #ffffff; /* White */
+    --wt-theme-color-ok-2: #f0fdf4; /* Green/50 */
+    --wt-theme-color-ok-2-contrast: #15803d; /* Green/700 */
+    --wt-theme-color-warn-1: #a16207; /* Yellow/700 */
+    --wt-theme-color-warn-1-contrast: #ffffff; /* White */
+    --wt-theme-color-warn-2: #fefce8; /* Yellow/50 */
+    --wt-theme-color-warn-2-contrast: #ffffff; /* White */
+    --wt-theme-color-error-1: #b91c1c; /* Red/700 */
+    --wt-theme-color-error-1-contrast: #fef2f2; /* Gray/50 */
+    --wt-theme-color-error-2: #fef2f2; /* Red/50 */
+    --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
+}
 
 .wt-viewport-navbar-watermark { background-color: #f1850e; width: 3px; }
 .wt-viewport-navbar { background-color: #4b5564; }

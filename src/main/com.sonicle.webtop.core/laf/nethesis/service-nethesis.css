@@ -67,8 +67,11 @@ color-ct-ok-1 -> Green/700
     height: 36px;
     border-radius: 0px 6px 6px 0px;
     background: var(--primary-light-700, #C2410C);
-    content: "";
+    content: '';
 }
+/* navbar: define 50x50 logo image */
+.wt-viewport-navbar-logo { background-image: url('logo.png') }
+.so-tbimage-large .wt-viewport-navbar-logo { width: 44px !important; height: 44px !important; }
 
 /* Service Icons */
 .wt-icon-service,

@@ -44,6 +44,10 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
 }
 
+.wt-viewport-navbar-logo {
+	background-image: url('logo.png')
+}
+
 .wt-viewport-navbar { background-color: var(--wt-theme-color-surface-2); }
 .wt-viewport-navbar-watermark-right { background-color: #E5E7EB; width: 1px; }
 
@@ -85,3 +89,9 @@ color-ct-ok-1 -> Green/700
 .wt-icon-portal-off-md { background-image: url('portal-off.svg') !important; background-size: contain; }
 .wt-icon-portal-lg { background-image: url('portal.svg') !important; background-size: contain; }
 .wt-icon-portal-off-lg { background-image: url('portal-off.svg') !important; background-size: contain; }
+
+.wt-icon-meeting:before { content: '\f03d'} .wt-icon-meeting { background-image: none !important }
+.wt-icon-im-status-online:before { content: '\f27a'} .wt-icon-im-status-online { background-image: none !important }
+.wt-icon-notification:before { content: '\f0f3'} .wt-icon-notification { background-image: none !important }
+.wt-icon-print:before { content: '\f02f'} .wt-icon-print { background-image: none !important }
+.wt-icon-viewOptions:before { content: '\f0b0'} .wt-icon-viewOptions { background-image: none !important }

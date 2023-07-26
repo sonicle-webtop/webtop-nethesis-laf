@@ -3,3 +3,5 @@
 .x-form-trigger { border-radius: 6px; }
 /* WindowsPanels/PopupPanels: body do NOT have rounded corners by default, so the hides radius on bundary */
 .x-window-body { border-radius: 6px; }
+
+.x-btn-icon { font-family: 'Font Awesome 5 Free' }

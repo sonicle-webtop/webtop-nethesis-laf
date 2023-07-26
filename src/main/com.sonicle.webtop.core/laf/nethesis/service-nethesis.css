@@ -44,24 +44,31 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
 }
 
-.wt-viewport-navbar-watermark { background-color: #f1850e; width: 3px; }
-.wt-viewport-navbar { background-color: #4b5564; }
-/* Convert following to dedicated toolbar layout */
-.wt-viewport-navbar .x-btn-pressed {
-    background-color: #374051 !important;
-    border-color: #374051 !important;
+.wt-viewport-navbar { background-color: var(--wt-theme-color-surface-2); }
+.wt-viewport-navbar-watermark-right { background-color: #E5E7EB; width: 1px; }
+
+/* navbar: tweak main L/R padding */
+.wt-viewport-navbar.x-toolbar-vertical {
+    padding-left: 12px;
+    padding-right: 12px;
 }
-.wt-viewport-navbar .x-btn-over {
-    background-color: #374051 !important;
-    border-color: #374051 !important;
-}
-.wt-viewport-navbar .x-btn-icon-el-default-toolbar-large {
-    width: 16px !important;
-}
+/* navbar: tweak button internal padding */
 .wt-viewport-navbar .x-btn-button {
-    padding: 8px;
+    padding: 6px;
 }
-/****************************************/
+/* navbar: add colored right watermark on pressed button */
+.wt-viewport-navbar .x-btn.x-btn-pressed::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 4px;
+    height: 36px;
+    border-radius: 0px 6px 6px 0px;
+    background: var(--primary-light-700, #C2410C);
+    content: "";
+}
 
 /* Service Icons */
 .wt-icon-service,

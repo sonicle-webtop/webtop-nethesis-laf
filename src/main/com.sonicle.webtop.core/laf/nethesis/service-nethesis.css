@@ -42,14 +42,13 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-error-1-contrast: #fef2f2; /* Gray/50 */
     --wt-theme-color-error-2: #fef2f2; /* Red/50 */
     --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
-}
-
-.wt-viewport-navbar-logo {
-	background-image: url('logo.png')
+    --wt-theme-color-topbar: #ffffff; /* White */
+    --wt-theme-color-navbar: #ffffff; /* White */
+    --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
+    --wt-theme-color-dialog: #ffffff; /* White */
 }
 
 /* navbar: background */
-.wt-viewport-navbar { background-color: var(--wt-theme-color-surface-2); }
 .wt-viewport-navbar-watermark-right { background-color: #E5E7EB; width: 1px; }
 /* navbar: tweak main L/R padding */
 .wt-viewport-navbar.x-toolbar-vertical { padding-left: 12px; padding-right: 12px; }

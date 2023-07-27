@@ -6,3 +6,6 @@
 .wtcon-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtcon-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcon-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+
+.wtcon-icon-newContact:before { content: '\f2b9'; font-family: 'Font Awesome 5 Free Regular';} .wtcon-icon-newContact { background-image: none !important }
+.wtcon-icon-newContactsList:before { content: '\f022'; font-family: 'Font Awesome 5 Free Regular';} .wtcon-icon-newContactsList { background-image: none !important }

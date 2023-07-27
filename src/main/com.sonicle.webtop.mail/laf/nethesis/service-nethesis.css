@@ -47,16 +47,31 @@
 .x-grid-tree-node-expanded .wtmail-icon-archivefolder:before { content: '\f187'} .x-grid-tree-node-expanded .wtmail-icon-archivefolder { background-image: none !important }
 .x-grid-tree-node-expanded .wtmail-icon-sharefolder:before { content: '\f1e0'} .x-grid-tree-node-expanded .wtmail-icon-sharefolder{ background-image: none !important }
 
-.wtmail-icon-mailNew:before { content: '\f044'} .wtmail-icon-mailNew { background-image: none !important }
+.wtmail-icon-mailNew:before { content: '\f044'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-mailNew { background-image: none !important }
+.wtmail-icon-faxNew:before { content: '\f1ac'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-faxNew { background-image: none !important }
 .wtmail-icon-mailAccount:before { content: '\f1fa'} .wtmail-icon-mailAccount { background-image: none !important }
-.wtmail-icon-favorites:before { content: '\f005'} .wtmail-icon-favorites { background-image: none !important }
+.wtmail-icon-favorites:before { content: '\f005'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-favorites { background-image: none !important }
 .wtmail-icon-search-locked:before { content: '\f023'} .wtmail-icon-search-locked { background-image: none !important }
 .wtmail-icon-search-unlocked:before { content: '\f3c1'} .wtmail-icon-search-unlocked { background-image: none !important }
 .wtmail-icon-starred:before { content: '\f005'; font-family: 'Font Awesome 5 Free Regular'; } .wtmail-icon-starred { background-image: none !important }
 .wtmail-icon-tag:before { content: '\f02b' } .wtmail-icon-tag { background-image: none !important }
 .wtmail-icon-bookmark:before { content: '\f02e'; font-family: 'Font Awesome 5 Free Regular'; } .wtmail-icon-bookmark { background-image: none !important }
+.wtmail-icon-movetofolder:before { content: '\f07c'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-movetofolder { background-image: none !important }
+.wtmail-icon-markseen:before { content: '\f2b6'; font-family: 'Font Awesome 5 Free Regular'; } .wtmail-icon-markseen { background-image: none !important }
+.wtmail-icon-markunseen:before { content: '\f0e0'; font-family: 'Font Awesome 5 Free Regular'; } .wtmail-icon-markunseen { background-image: none !important }
+.wtmail-icon-reply:before { content: '\f3e5'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-reply { background-image: none !important }
+.wtmail-icon-replyall:before { content: '\f122'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-replyall { background-image: none !important }
+.wtmail-icon-forward:before { content: '\f064'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-forward { background-image: none !important }
+.wtmail-icon-archive:before { content: '\f187'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-archive { background-image: none !important }
+.wtmail-note { color: #374151; }
+
 .wtmail-icon-status-seen:before { content: '\f111'; font: 10px 'Font Awesome 5 Free Regular'; color: #374151; } .wtmail-icon-status-seen { background-image: none !important }
 .wtmail-icon-status-unseen:before { content: '\f111'; font: 10px 'Font Awesome 5 Free'; color: #EA580C; } .wtmail-icon-status-unseen { background-image: none !important }
+.wtmail-icon-status-new:before { content: '\f621'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-new { background-image: none !important }
+.wtmail-icon-status-replied:before { content: '\f3e5'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-replied { background-image: none !important }
+.wtmail-icon-status-forwarded:before { content: '\f064'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-forwarded { background-image: none !important }
+.wtmail-icon-status-replied-forwarded:before { content: '\f2f1'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-replied-forwarded { background-image: none !important }
+.wtmail-icon-status-invitation:before { content: '\f073'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-invitation { background-image: none !important }
 
 .so-avatarcolumn .so-avatar-wrap {
     background-color: #9CA3AF !important;
@@ -64,4 +79,12 @@
 
 .so-avatarcolumn .so-avatar-wrap SPAN {
     color: white !important;
+}
+
+.wtmail-message-grid .x-grid-body {
+	border-top: 0px;
+}
+
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item {
+	border-width: 0px 0 0;
 }

@@ -42,24 +42,18 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-error-1-contrast: #fef2f2; /* Gray/50 */
     --wt-theme-color-error-2: #fef2f2; /* Red/50 */
     --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
+    --wt-theme-color-topbar: #ffffff; /* White */
+    --wt-theme-color-navbar: #ffffff; /* White */
+    --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
+    --wt-theme-color-dialog: #ffffff; /* White */
 }
 
-.wt-viewport-navbar-logo {
-	background-image: url('logo.png')
-}
-
-.wt-viewport-navbar { background-color: var(--wt-theme-color-surface-2); }
+/* navbar: background */
 .wt-viewport-navbar-watermark-right { background-color: #E5E7EB; width: 1px; }
-
 /* navbar: tweak main L/R padding */
-.wt-viewport-navbar.x-toolbar-vertical {
-    padding-left: 12px;
-    padding-right: 12px;
-}
+.wt-viewport-navbar.x-toolbar-vertical { padding-left: 12px; padding-right: 12px; }
 /* navbar: tweak button internal padding */
-.wt-viewport-navbar .x-btn-button {
-    padding: 6px;
-}
+.wt-viewport-navbar .x-btn-button { padding: 6px; }
 /* navbar: add colored right watermark on pressed button */
 .wt-viewport-navbar .x-btn.x-btn-pressed::before {
     position: absolute;
@@ -75,7 +69,10 @@ color-ct-ok-1 -> Green/700
 }
 /* navbar: define 50x50 logo image */
 .wt-viewport-navbar-logo { background-image: url('logo.png') }
-.so-tbimage-large .wt-viewport-navbar-logo { width: 44px !important; height: 44px !important; }
+.so-tbimage-medium .wt-viewport-navbar-logo { width: 44px !important; height: 44px !important; }
+/* tool-hd: apply background */
+.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
+.wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
 
 /* Service Icons */
 .wt-icon-service,

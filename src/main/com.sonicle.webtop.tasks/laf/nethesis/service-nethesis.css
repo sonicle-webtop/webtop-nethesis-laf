@@ -6,3 +6,5 @@
 .wttasks-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wttasks-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wttasks-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+
+.wttasks-icon-newTask:before { content: '\f46d'; font-family: 'Font Awesome 5 Free';} .wttasks-icon-newTask { background-image: none !important }

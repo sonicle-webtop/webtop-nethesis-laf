@@ -73,6 +73,7 @@ color-ct-ok-1 -> Green/700
 /* tool-hd: apply background */
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
+.wt-tool-hd-title { font-size: 20px }
 
 /* Service Icons */
 .wt-icon-service,

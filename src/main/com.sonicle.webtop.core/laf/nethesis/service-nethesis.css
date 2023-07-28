@@ -46,6 +46,7 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
     --wt-theme-color-dialog: #ffffff; /* White */
+    --wt-theme-color-scrollbar: #D1D5DB; /* Gray/300 */
 }
 
 /* navbar: background */

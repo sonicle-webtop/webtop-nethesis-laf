@@ -46,6 +46,7 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
     --wt-theme-color-dialog: #ffffff; /* White */
+    --wt-theme-color-scrollbar: #D1D5DB; /* Gray/300 */
 }
 
 /* navbar: background */
@@ -90,6 +91,9 @@ color-ct-ok-1 -> Green/700
 .wt-icon-portal-off-md { background-image: url('portal-off.svg') !important; background-size: contain; }
 .wt-icon-portal-lg { background-image: url('portal.svg') !important; background-size: contain; }
 .wt-icon-portal-off-lg { background-image: url('portal-off.svg') !important; background-size: contain; }
+.wt-icon-navMoreLinks-off-sm { background-image: url('navMoreLinks-off.svg') !important; background-size: contain; }
+.wt-icon-navMoreLinks-off-md { background-image: url('navMoreLinks-off.svg') !important; background-size: contain; }
+.wt-icon-navMoreLinks-off-lg { background-image: url('navMoreLinks-off.svg') !important; background-size: contain; }
 
 .wt-icon-meeting:before { content: '\f03d'} .wt-icon-meeting { background-image: none !important }
 .wt-icon-im-status-online:before { content: '\f27a'} .wt-icon-im-status-online { background-image: none !important }

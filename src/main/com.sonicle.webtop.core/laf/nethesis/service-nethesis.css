@@ -57,6 +57,8 @@ color-ct-ok-1 -> Green/700
     --wt-theme-lineheight-base: 1.5rem;
     --wt-theme-fontsize-lg: 1.125rem;
     --wt-theme-lineheight-lg: 1.75rem;
+    --wt-theme-fontsize-xl: 1.25rem;
+    --wt-theme-lineheight-xl: 1.75rem;
 }
 
 /* navbar: background */
@@ -84,6 +86,7 @@ color-ct-ok-1 -> Green/700
 /* tool-hd: apply background */
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
+.wt-tool-hd-title { font-size: var(--wt-theme-fontsize-xl); }
 /* accountmenu: pad user-info */
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }

@@ -11,6 +11,17 @@
 .wtmail-trees .x-panel-body { background-color: var(--wt-theme-color-surface-1); }
 .wtmail-trees .x-grid-item:not(.x-grid-item-over) { background-color: var(--wt-theme-color-surface-1); }
 .wtmail-trees .x-grid-item-selected { background-color: #e5e7eb !important; }
+.wtmail-trees .x-grid-body {
+    border-top: 0px;
+}
+
+.wtmail-tool-items .x-panel-body {
+    border-top: 0px;
+}
+
+.wtmail-breadcrumb .x-btn-inner-plain-toolbar-small {
+	font-size: 18px;
+}
 
 .wtmail-mv-header { font-family: Poppins, sans-serif; }
 
@@ -87,4 +98,48 @@
 
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item {
 	border-width: 0px 0 0;
+}
+
+.wtmail-row-body .x-grid-rowbody {
+	padding-left: 130px !important;
+}
+
+.wtmail-row-body .x-grid-rowbody > SPAN {
+	padding-left: 0px !important;
+}
+
+.wtmail-messagecolumn-head > SPAN {
+	font-weight: bold !important;
+	color: #111827;
+	font-size: 14px;
+}
+
+.wtmail-messagecolumn-body > SPAN {
+	font-weight: bold !important;
+	font-size: 12px;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-unread TD {
+	background-color: #FFEDD5;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-unread-first .x-grid-cell-first {
+	border-top-left-radius: 25px;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-unread-first .x-grid-cell-last {
+	border-top-right-radius: 25px;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-unread-last .x-grid-cell-first {
+	border-bottom-left-radius: 25px;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-unread-last .x-grid-cell-last {
+	border-bottom-right-radius: 25px;
+}
+
+.wtmail-message-grid .x-grid-item .wtmail-row-body-unread TD {
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }

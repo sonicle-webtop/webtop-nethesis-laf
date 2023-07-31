@@ -1,4 +1,5 @@
 @import url("xtheme-nethesis-override.css");
+@import url("wtheme-nethesis-override.css");
 
 /*
 color-surface-primary -> Gray/50
@@ -47,6 +48,15 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
     --wt-theme-color-dialog: #ffffff; /* White */
     --wt-theme-color-scrollbar: #D1D5DB; /* Gray/300 */
+    
+    --wt-theme-fontsize-xs: 0.75rem;
+    --wt-theme-lineheight-xs: 1rem;
+    --wt-theme-fontsize-sm: 0.875rem;
+    --wt-theme-lineheight-sm: 1.25rem;
+    --wt-theme-fontsize-base: 1rem;
+    --wt-theme-lineheight-base: 1.5rem;
+    --wt-theme-fontsize-lg: 1.125rem;
+    --wt-theme-lineheight-lg: 1.75rem;
 }
 
 /* navbar: background */
@@ -74,6 +84,9 @@ color-ct-ok-1 -> Green/700
 /* tool-hd: apply background */
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
+/* accountmenu: pad user-info */
+.wt-accountmenu-label1 { padding-top: 12px; }
+.wt-accountmenu-label2 { padding-bottom: 12px; }
 
 /* Service Icons */
 .wt-icon-service,

@@ -1,0 +1,7 @@
+/**************************************/
+/* Tweaks for theme
+/* (eg. for applying specific theme styles)
+/**************************************/
+
+/* menu: set separator color */
+.x-menu-item-separator { border-top-color: #E5E7EB !important; }

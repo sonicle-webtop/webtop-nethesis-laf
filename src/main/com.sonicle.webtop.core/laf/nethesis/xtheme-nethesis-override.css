@@ -1,7 +1,14 @@
+/**************************************/
+/* Fixes original compiled theme
+/* (should not include theme dependent styles, colors, ecc)
+/**************************************/
 
 /* TriggerFields: triggers do NOT have rounded corners by default, so the hides radius on fields */
 .x-form-trigger { border-radius: 6px; }
 /* WindowsPanels/PopupPanels: body do NOT have rounded corners by default, so the hides radius on bundary */
 .x-window-body { border-radius: 6px; }
-
+/* Menu item: fix FontAwesome icons vertical position */
+.x-menu-item-icon.fas { top: 8px; }
+.x-menu-item-icon.far { top: 8px; }
+/* Buttons: add default icon family to FA free (excluding avatar) */
 .x-btn-icon-el:not(.so-btn-avatar-swatch) { font-family: 'Font Awesome 5 Free' }

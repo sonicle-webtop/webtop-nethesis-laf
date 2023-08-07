@@ -102,6 +102,8 @@
 
 .wtmail-row-body .x-grid-rowbody {
 	padding-left: 130px !important;
+	font-size: 12px;
+	font-weight: normal;
 }
 
 .wtmail-row-body .x-grid-rowbody > SPAN {
@@ -109,13 +111,12 @@
 }
 
 .wtmail-messagecolumn-head > SPAN {
-	font-weight: bold !important;
 	color: #111827;
 	font-size: 14px;
 }
 
 .wtmail-messagecolumn-body > SPAN {
-	font-weight: bold !important;
+	font-weight: 500 !important;
 	font-size: 12px;
 }
 
@@ -143,3 +144,19 @@
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
+
+.wtmail-messagecolumn-collapsetool {
+	color: var(--wt-theme-color-1);
+	opacity: 1;	
+}
+
+
+.wtmail-mv-hsubject { padding-bottom: 8px }
+.wtmail-mv-hfromname { padding-bottom: 8px }
+.wtmail-mv-hdate { padding-bottom: 8px }
+.wtmail-mv-hto { padding-bottom: 8px }
+.wtmail-mv-hcc { padding-bottom: 8px }
+.wtmail-mv-hbcc { padding-bottom: 8px }
+.wtmail-mv-hattach { padding-bottom: 8px }
+.wtmail-mv-hline { border-bottom: 1px solid #9CA3AF }
+.wtmail-mv-bodycell { padding-top: 8px; }

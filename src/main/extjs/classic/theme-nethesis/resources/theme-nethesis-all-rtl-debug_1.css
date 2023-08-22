@@ -561,12 +561,12 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:232 */
 .x-treelist-item-expander:after {
-    content: '\f0da';
+    content: '\f105';
     font: 16px/32px 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:240 */
 .x-treelist-item-expanded > * > * > .x-treelist-item-expander:after {
-    content: '\f0d7';
+    content: '\f107';
     font: 16px/32px 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:253 */
@@ -622,12 +622,12 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:346 */
 .x-treelist-item-expanded > .x-treelist-item-expander:after {
-    content: '\f0d7';
+    content: '\f107';
     font: 16px/1 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:351 */
 .x-treelist-item-collapsed > * > .x-treelist-item-expander:after {
-    content: '\f0da';
+    content: '\f105';
     font: 16px/1 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:357 */

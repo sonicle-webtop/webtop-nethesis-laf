@@ -12,3 +12,10 @@
 .x-menu-item-icon.far { top: 8px; }
 /* Buttons: add default icon family to FA free */
 .x-btn-icon-el:empty {font-family: 'Font Awesome 5 Free';}
+/* Buttons: force color on secondary ui */
+.x-btn-wrap-button-secondary-small.x-btn-split:after,
+.x-btn-wrap-button-tertiary-small.x-btn-split:after { color: var(--wt-theme-color-1); }
+.x-btn-wrap-button-secondary-medium.x-btn-split:after,
+.x-btn-wrap-button-tertiary-medium.x-btn-split:after { color: var(--wt-theme-color-1); }
+.x-btn-wrap-button-secondary-large.x-btn-split:after,
+.x-btn-wrap-button-tertiary-large.x-btn-split:after { color: var(--wt-theme-color-1); }

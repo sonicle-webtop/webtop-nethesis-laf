@@ -14756,7 +14756,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1070 */
 .x-menu-item-icon-default.x-menu-item-checkbox {
-    color: #374151;
+    color: #c2410c;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1080 */
 .x-menu-item-focus .x-menu-item-icon-default.x-menu-item-checkbox,
@@ -14769,15 +14769,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox:before {
-    content: '\f14a';
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1095 */
-.x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox {
-    font: 18px/24px 'Font Awesome 5 Free';
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox:before {
-    content: '\f0c8';
+    content: '\f00c';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1110 */
 .x-menu-item-focus .x-menu-item-icon-default.x-menu-group-icon,
@@ -15097,7 +15089,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1070 */
 .x-menu-item-icon-default-menubar.x-menu-item-checkbox {
-    color: #374151;
+    color: #c2410c;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1080 */
 .x-menu-item-focus .x-menu-item-icon-default-menubar.x-menu-item-checkbox,
@@ -15110,15 +15102,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-item-checkbox:before {
-    content: '\f14a';
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1095 */
-.x-menu-item-unchecked .x-menu-item-icon-default-menubar.x-menu-item-checkbox {
-    font: 18px/24px 'Font Awesome 5 Free';
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-menu-item-unchecked .x-menu-item-icon-default-menubar.x-menu-item-checkbox:before {
-    content: '\f0c8';
+    content: '\f00c';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1110 */
 .x-menu-item-focus .x-menu-item-icon-default-menubar.x-menu-group-icon,
@@ -16291,4 +16275,20 @@ div.x-border-layout-ct {
 .x-tablet .x-resizable-handle-southeast {
     width: 20px;
     height: 20px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:163 */
+.x-window .x-window-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:167 */
+.x-window-collapsed .x-window-handle {
+    display: none;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:172 */
+.x-resizable-proxy {
+    border: 1px dashed #3b5a82;
+    position: absolute;
+    overflow: hidden;
+    z-index: 50000;
 }

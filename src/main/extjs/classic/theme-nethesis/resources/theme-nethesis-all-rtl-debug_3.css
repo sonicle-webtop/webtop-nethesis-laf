@@ -1,13 +1,3 @@
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
-.x-btn.x-btn-disabled .x-btn-button-secondary-medium-ml,
-.x-btn.x-btn-disabled .x-btn-button-secondary-medium-mr {
-    background-image: url(images/btn/btn-button-secondary-medium-disabled-sides.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
-.x-btn.x-btn-disabled .x-btn-button-secondary-medium-mc {
-    background-color: #fff;
-    background-image: url(images/btn/btn-button-secondary-medium-disabled-fbg.gif);
-}
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
 .x-nbr .x-btn-button-secondary-medium {
     background-image: none;

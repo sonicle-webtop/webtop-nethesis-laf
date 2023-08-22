@@ -87,6 +87,7 @@ color-ct-ok-1 -> Green/700
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-xl); }
+.wt-tool-hd-separator { border-top-color: #E5E7EB !important; } /* FIXME: evaluate to change directly fieldset color in theme */
 /* accountmenu: pad user-info */
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }

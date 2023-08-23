@@ -84,6 +84,15 @@
 .wtmail-icon-status-replied-forwarded:before { content: '\f2f1'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-replied-forwarded { background-image: none !important }
 .wtmail-icon-status-invitation:before { content: '\f073'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-invitation { background-image: none !important }
 
+.wtmail-icon-pas-danger:before { content: '\f058'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-1); } .wtmail-icon-pas-danger { background-image: none !important }
+.wtmail-icon-pas-warning:before { content: '\f058'; font-family: 'Font Awesome 5 Free'; color: #ebab37; } .wtmail-icon-pas-warning { background-image: none !important }
+.wtmail-icon-pas-ok:before { content: '\f058'; font-family: 'Font Awesome 5 Free'; color: #15803D; } .wtmail-icon-pas-ok { background-image: none !important }
+
+.wtmail-icon-pas-spam-green:before { content: '\f2ca'; font-family: 'Font Awesome 5 Free'; color: #15803D; } .wtmail-icon-pas-spam-green { background-image: none !important; }
+.wtmail-icon-pas-spam-yellow:before { content: '\f2c9'; font-family: 'Font Awesome 5 Free'; color: #ebab37; } .wtmail-icon-pas-spam-yellow { background-image: none !important; }
+.wtmail-icon-pas-spam-red:before { content: '\f2c7'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-1); } .wtmail-icon-pas-spam-red { background-image: none !important; }
+.wtmail-icon-pas-spam-unknown:before { content: '\f2cb'; font-family: 'Font Awesome 5 Free'; color: #9CA3AF; } .wtmail-icon-pas-spam-unknown { background-image: none !important; }
+
 .so-avatarcolumn .so-avatar-wrap {
     background-color: #9CA3AF !important;
 }
@@ -125,24 +134,24 @@
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-unread-first .x-grid-cell-first {
-	border-top-left-radius: 25px;
+	border-top-left-radius: 10px;
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-unread-first .x-grid-cell-last {
-	border-top-right-radius: 25px;
+	border-top-right-radius: 10px;
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-unread-last .x-grid-cell-first {
-	border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 10px;
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-unread-last .x-grid-cell-last {
-	border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 10px;
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-body-unread TD {
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .wtmail-messagecolumn-collapsetool {
@@ -151,12 +160,14 @@
 }
 
 
-.wtmail-mv-hsubject { padding-bottom: 8px }
-.wtmail-mv-hfromname { padding-bottom: 8px }
-.wtmail-mv-hdate { padding-bottom: 8px }
-.wtmail-mv-hto { padding-bottom: 8px }
-.wtmail-mv-hcc { padding-bottom: 8px }
-.wtmail-mv-hbcc { padding-bottom: 8px }
-.wtmail-mv-hattach { padding-bottom: 8px }
+.wtmail-mv-hsubject { padding-bottom: 8px; font-size:20px; }
+.wtmail-mv-hfromname { padding-bottom: 8px; font-size:14px; font-weight: bold }
+.wtmail-mv-hdate { padding-bottom: 8px; }
+.wtmail-mv-hto { padding-bottom: 8px; }
+.wtmail-mv-hcc { padding-bottom: 8px; }
+.wtmail-mv-hbcc { padding-bottom: 8px; }
+.wtmail-mv-hattach { padding-bottom: 8px; }
 .wtmail-mv-hline { border-bottom: 1px solid #9CA3AF }
 .wtmail-mv-bodycell { padding-top: 8px; }
+.wtmail-mv-avatar { background-color:#9CA3AF !important }
+.wtmail-mv-avatar SPAN { color: white !important }

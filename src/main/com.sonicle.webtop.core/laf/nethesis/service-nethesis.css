@@ -132,3 +132,6 @@ color-ct-ok-1 -> Green/700
     color: white !important;
 }
 
+.wt-searchfield .x-form-arrow-trigger-default:before {
+    content: '\f1de';
+}

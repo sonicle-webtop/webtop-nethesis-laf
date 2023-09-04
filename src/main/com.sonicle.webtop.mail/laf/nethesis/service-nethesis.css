@@ -171,3 +171,7 @@
 .wtmail-mv-bodycell { padding-top: 8px; }
 .wtmail-mv-avatar { background-color:#9CA3AF !important }
 .wtmail-mv-avatar SPAN { color: white !important }
+
+.wt-menu-shownby {
+	background-color: var(--wt-theme-color-ct-1) !important;
+}

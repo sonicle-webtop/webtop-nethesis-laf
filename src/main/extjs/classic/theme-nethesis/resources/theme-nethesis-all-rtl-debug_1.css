@@ -10496,7 +10496,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/window/Window.scss:567 */
 .x-window-body-default {
     border-color: #c2410c;
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     background: #fff;
     color: #000;

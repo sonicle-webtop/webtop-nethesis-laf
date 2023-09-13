@@ -2402,9 +2402,9 @@
 .x-keyboard-mode .x-btn-focus.x-btn-plain-toolbar-small {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
 .x-btn-plain-toolbar-small .x-btn-arrow-el {
@@ -2422,7 +2422,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
 .x-keyboard-mode .x-btn-plain-toolbar-small.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #fb923c;
+    border: 1px solid transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-plain-toolbar-small {
@@ -2431,9 +2431,9 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
 .x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-small,
@@ -2444,9 +2444,9 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
 .x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small,
 .x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-small {
@@ -2676,18 +2676,18 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small:after,
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
@@ -2958,9 +2958,9 @@
 .x-keyboard-mode .x-btn-focus.x-btn-plain-toolbar-medium {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
 .x-btn-plain-toolbar-medium .x-btn-arrow-el {
@@ -2978,7 +2978,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
 .x-keyboard-mode .x-btn-plain-toolbar-medium.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #fb923c;
+    border: 1px solid transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-plain-toolbar-medium {
@@ -2987,9 +2987,9 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
 .x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-medium,
@@ -3000,9 +3000,9 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
 .x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-medium,
 .x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-medium {
@@ -3232,18 +3232,18 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-medium:after,
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
@@ -3514,9 +3514,9 @@
 .x-keyboard-mode .x-btn-focus.x-btn-plain-toolbar-large {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
 .x-btn-plain-toolbar-large .x-btn-arrow-el {
@@ -3534,7 +3534,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
 .x-keyboard-mode .x-btn-plain-toolbar-large.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #fb923c;
+    border: 1px solid transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-plain-toolbar-large {
@@ -3543,9 +3543,9 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
 .x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-plain-toolbar-large {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-large,
@@ -3556,9 +3556,9 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
 .x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-large,
 .x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large {
-    -webkit-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    -moz-box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
-    box-shadow: #fb923c 0 1px 0px 0 inset, #fb923c 0 -1px 0px 0 inset, #fb923c -1px 0 0px 0 inset, #fb923c 1px 0 0px 0 inset;
+    -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+    box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-large {
@@ -3788,18 +3788,18 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-large:after,
 .x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #fb923c;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
@@ -12339,13 +12339,13 @@ a.x-btn:active {
     border-width: 1px;
     border-style: solid;
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-button-secondary-large-mc {
     background-image: url(images/btn/btn-button-secondary-large-fbg.gif);
     background-position: 0 top;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-btn-button-secondary-large {
@@ -12415,22 +12415,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
 .x-btn-button-secondary-large-bc {
     height: 6px;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
-.x-btn-button-secondary-large-tl,
-.x-btn-button-secondary-large-bl,
-.x-btn-button-secondary-large-tr,
-.x-btn-button-secondary-large-br,
-.x-btn-button-secondary-large-tc,
-.x-btn-button-secondary-large-bc,
-.x-btn-button-secondary-large-ml,
-.x-btn-button-secondary-large-mr {
-    background-image: url(images/btn/btn-button-secondary-large-corners.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
-.x-btn-button-secondary-large-ml,
-.x-btn-button-secondary-large-mr {
-    background-image: url(images/btn/btn-button-secondary-large-sides.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-secondary-large-mc {
@@ -12596,7 +12580,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
 .x-keyboard-mode .x-btn-focus.x-btn-button-secondary-large {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -12646,7 +12630,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-button-secondary-large {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-large-tl,
@@ -12664,7 +12648,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-large-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-large-focus-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
@@ -12777,7 +12761,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
 .x-btn.x-btn-disabled .x-btn-button-secondary-large-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-large-disabled-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
@@ -12911,13 +12895,13 @@ a.x-btn:active {
     border-width: 1px;
     border-style: solid;
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-button-tertiary-large-mc {
     background-image: url(images/btn/btn-button-tertiary-large-fbg.gif);
     background-position: 0 top;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-btn-button-tertiary-large {
@@ -12987,22 +12971,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
 .x-btn-button-tertiary-large-bc {
     height: 6px;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
-.x-btn-button-tertiary-large-tl,
-.x-btn-button-tertiary-large-bl,
-.x-btn-button-tertiary-large-tr,
-.x-btn-button-tertiary-large-br,
-.x-btn-button-tertiary-large-tc,
-.x-btn-button-tertiary-large-bc,
-.x-btn-button-tertiary-large-ml,
-.x-btn-button-tertiary-large-mr {
-    background-image: url(images/btn/btn-button-tertiary-large-corners.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
-.x-btn-button-tertiary-large-ml,
-.x-btn-button-tertiary-large-mr {
-    background-image: url(images/btn/btn-button-tertiary-large-sides.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-tertiary-large-mc {
@@ -13168,7 +13136,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
 .x-keyboard-mode .x-btn-focus.x-btn-button-tertiary-large {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -13218,7 +13186,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-button-tertiary-large {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-tertiary-large-tl,
@@ -13236,7 +13204,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-tertiary-large-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-tertiary-large-focus-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
@@ -13349,7 +13317,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
 .x-btn.x-btn-disabled .x-btn-button-tertiary-large-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-tertiary-large-disabled-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
@@ -13483,13 +13451,13 @@ a.x-btn:active {
     border-width: 1px;
     border-style: solid;
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-button-secondary-small-mc {
     background-image: url(images/btn/btn-button-secondary-small-fbg.gif);
     background-position: 0 top;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-btn-button-secondary-small {
@@ -13559,22 +13527,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
 .x-btn-button-secondary-small-bc {
     height: 6px;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
-.x-btn-button-secondary-small-tl,
-.x-btn-button-secondary-small-bl,
-.x-btn-button-secondary-small-tr,
-.x-btn-button-secondary-small-br,
-.x-btn-button-secondary-small-tc,
-.x-btn-button-secondary-small-bc,
-.x-btn-button-secondary-small-ml,
-.x-btn-button-secondary-small-mr {
-    background-image: url(images/btn/btn-button-secondary-small-corners.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
-.x-btn-button-secondary-small-ml,
-.x-btn-button-secondary-small-mr {
-    background-image: url(images/btn/btn-button-secondary-small-sides.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-secondary-small-mc {
@@ -13740,7 +13692,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
 .x-keyboard-mode .x-btn-focus.x-btn-button-secondary-small {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -13790,7 +13742,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-button-secondary-small {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-small-tl,
@@ -13808,7 +13760,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-small-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-small-focus-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
@@ -13921,7 +13873,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
 .x-btn.x-btn-disabled .x-btn-button-secondary-small-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-small-disabled-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
@@ -14055,13 +14007,13 @@ a.x-btn:active {
     border-width: 1px;
     border-style: solid;
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-button-tertiary-small-mc {
     background-image: url(images/btn/btn-button-tertiary-small-fbg.gif);
     background-position: 0 top;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-btn-button-tertiary-small {
@@ -14131,22 +14083,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
 .x-btn-button-tertiary-small-bc {
     height: 6px;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
-.x-btn-button-tertiary-small-tl,
-.x-btn-button-tertiary-small-bl,
-.x-btn-button-tertiary-small-tr,
-.x-btn-button-tertiary-small-br,
-.x-btn-button-tertiary-small-tc,
-.x-btn-button-tertiary-small-bc,
-.x-btn-button-tertiary-small-ml,
-.x-btn-button-tertiary-small-mr {
-    background-image: url(images/btn/btn-button-tertiary-small-corners.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
-.x-btn-button-tertiary-small-ml,
-.x-btn-button-tertiary-small-mr {
-    background-image: url(images/btn/btn-button-tertiary-small-sides.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-tertiary-small-mc {
@@ -14312,7 +14248,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
 .x-keyboard-mode .x-btn-focus.x-btn-button-tertiary-small {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -14362,7 +14298,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-button-tertiary-small {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-tertiary-small-tl,
@@ -14380,7 +14316,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-tertiary-small-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-tertiary-small-focus-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
@@ -14493,7 +14429,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
 .x-btn.x-btn-disabled .x-btn-button-tertiary-small-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-tertiary-small-disabled-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
@@ -14627,13 +14563,13 @@ a.x-btn:active {
     border-width: 1px;
     border-style: solid;
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-button-secondary-medium-mc {
     background-image: url(images/btn/btn-button-secondary-medium-fbg.gif);
     background-position: 0 top;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-btn-button-secondary-medium {
@@ -14703,22 +14639,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
 .x-btn-button-secondary-medium-bc {
     height: 6px;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
-.x-btn-button-secondary-medium-tl,
-.x-btn-button-secondary-medium-bl,
-.x-btn-button-secondary-medium-tr,
-.x-btn-button-secondary-medium-br,
-.x-btn-button-secondary-medium-tc,
-.x-btn-button-secondary-medium-bc,
-.x-btn-button-secondary-medium-ml,
-.x-btn-button-secondary-medium-mr {
-    background-image: url(images/btn/btn-button-secondary-medium-corners.gif);
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
-.x-btn-button-secondary-medium-ml,
-.x-btn-button-secondary-medium-mr {
-    background-image: url(images/btn/btn-button-secondary-medium-sides.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-secondary-medium-mc {
@@ -14884,7 +14804,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
 .x-keyboard-mode .x-btn-focus.x-btn-button-secondary-medium {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -14934,7 +14854,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
 .x-btn.x-btn-disabled.x-btn-button-secondary-medium {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-medium-tl,
@@ -14952,7 +14872,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
 .x-keyboard-mode .x-btn-focus .x-btn-button-secondary-medium-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-medium-focus-fbg.gif);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
@@ -15065,6 +14985,238 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
 .x-btn.x-btn-disabled .x-btn-button-secondary-medium-mc {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(images/btn/btn-button-secondary-medium-disabled-fbg.gif);
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-button-secondary-medium {
+    background-image: none;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-button-secondary-medium {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-first .x-btn-button-secondary-medium-mc {
+    padding-right: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-middle .x-btn-button-secondary-medium-mc {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-last .x-btn-button-secondary-medium-mc {
+    padding-left: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-first .x-btn-button-secondary-medium-mc {
+    padding-bottom: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-middle .x-btn-button-secondary-medium-mc {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-last .x-btn-button-secondary-medium-mc {
+    padding-top: 8px !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-button-secondary-medium:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-first:after {
+    left: 1px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-button-secondary-medium.x-segmented-button-last:after {
+    right: 1px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-first:after {
+    top: 1px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-button-secondary-medium.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-button-secondary-medium:after {
+    border-width: 0px;
+    border-color: #eed5cb;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-button-secondary-medium:after {
+    border-width: 0px;
+    border-color: #e6d2cc;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-button-secondary-medium:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-button-secondary-medium:after {
+    border-width: 0px;
+    border-color: #e6d2cc;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-button-secondary-medium-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-button-secondary-medium-cell > .x-grid-cell-inner >.x-btn-button-secondary-medium {
+    vertical-align: top;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-button-tertiary-medium {
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: transparent;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-button-tertiary-medium-mc {
+    background-image: url(images/btn/btn-button-tertiary-medium-fbg.gif);
+    background-position: 0 top;
+    background-color: transparent;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-button-tertiary-medium {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    background-image: none;
+    box-shadow: none !important;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-button-tertiary-medium-frameInfo {
+    font-family: th-6-6-6-6-1-1-1-1-8-8-8-8;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-button-tertiary-medium-tl {
+    background-position: 0 -12px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-button-tertiary-medium-tr {
+    background-position: right -18px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-button-tertiary-medium-bl {
+    background-position: 0 -24px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-button-tertiary-medium-br {
+    background-position: right -30px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-button-tertiary-medium-ml {
+    background-position: 0 top;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-button-tertiary-medium-mr {
+    background-position: right top;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-button-tertiary-medium-tc {
+    background-position: 0 0;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-button-tertiary-medium-bc {
+    background-position: 0 -6px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-button-tertiary-medium-tr,
+.x-btn-button-tertiary-medium-br,
+.x-btn-button-tertiary-medium-mr {
+    padding-right: 6px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-button-tertiary-medium-tl,
+.x-btn-button-tertiary-medium-bl,
+.x-btn-button-tertiary-medium-ml {
+    padding-left: 6px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-button-tertiary-medium-tc {
+    height: 6px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-button-tertiary-medium-bc {
+    height: 6px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-button-tertiary-medium-mc {
+    padding: 3px 3px 3px 3px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-button-tertiary-medium {
+    border-color: transparent;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-button-tertiary-medium {
+    min-height: 20px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-button-tertiary-medium {
+    min-height: auto;
+    height: 20px;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-button-tertiary-medium {
+    font: 400 14px/18px Poppins, sans-serif;
+    color: #c2410c;
+    padding: 0 8px;
+    max-width: 100%;
 }

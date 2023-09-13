@@ -3,6 +3,11 @@
 /* (should not include theme dependent styles, colors, ecc)
 /**************************************/
 
+/* BoundList: avoid borders */
+.x-boundlist {
+    border-style: none;
+}
+
 /* TriggerFields: triggers do NOT have rounded corners by default, so the hides radius on fields */
 .x-form-trigger { border-radius: 6px; }
 

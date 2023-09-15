@@ -41,22 +41,25 @@
 	background-color: #ffffff !important; 
 }
 
-.wtmail-icon-imapfolder:before { content: '\f07b'} .wtmail-icon-imapfolder { background-image: none !important }
-.wtmail-icon-inboxfolder:before { content: '\f01c'} .wtmail-icon-inboxfolder { background-image: none !important }
-.wtmail-icon-sentfolder:before { content: '\f1d8'} .wtmail-icon-sentfolder { background-image: none !important }
-.wtmail-icon-draftsfolder:before { content: '\f15b'} .wtmail-icon-draftsfolder { background-image: none !important }
-.wtmail-icon-junkfolder:before { content: '\f06a'} .wtmail-icon-junkfolder { background-image: none !important }
-.wtmail-icon-trashfolder:before { content: '\f1f8'} .wtmail-icon-trashfolder { background-image: none !important }
-.wtmail-icon-archivefolder:before { content: '\f187'} .wtmail-icon-archivefolder { background-image: none !important }
-.wtmail-icon-sharefolder:before { content: '\f1e0'} .wtmail-icon-sharefolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-imapfolder:before { content: '\f07c'} .x-grid-tree-node-expanded .wtmail-icon-sharefolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-inboxfolder:before { content: '\f01c'} .x-grid-tree-node-expanded .wtmail-icon-inboxfolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-sentfolder:before { content: '\f1d8'} .x-grid-tree-node-expanded .wtmail-icon-sentfolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-draftsfolder:before { content: '\f15b'} .x-grid-tree-node-expanded .wtmail-icon-draftsfolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-junkfolder:before { content: '\f06a'} .x-grid-tree-node-expanded .wtmail-icon-junkfolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-trashfolder:before { content: '\f06a'} .x-grid-tree-node-expanded .wtmail-icon-trashfolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-archivefolder:before { content: '\f187'} .x-grid-tree-node-expanded .wtmail-icon-archivefolder { background-image: none !important }
-.x-grid-tree-node-expanded .wtmail-icon-sharefolder:before { content: '\f1e0'} .x-grid-tree-node-expanded .wtmail-icon-sharefolder{ background-image: none !important }
+.wtmail-icon-imapfolder:before { content: '\f07b'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-imapfolder { background-image: none !important }
+.wtmail-icon-inboxfolder:before { content: '\f01c'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-inboxfolder { background-image: none !important }
+.wtmail-icon-sentfolder:before { content: '\f1d8'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-sentfolder { background-image: none !important }
+.wtmail-icon-draftsfolder:before { content: '\f15b'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-draftsfolder { background-image: none !important }
+.wtmail-icon-junkfolder:before { content: '\f06a'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-junkfolder { background-image: none !important }
+.wtmail-icon-trashfolder:before { content: '\f1f8'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-trashfolder { background-image: none !important }
+.wtmail-icon-archivefolder:before { content: '\f187'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-archivefolder { background-image: none !important }
+.wtmail-icon-sharefolder:before { content: '\f1e0'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-sharefolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-imapfolder:before { content: '\f07c'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-sharefolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-inboxfolder:before { content: '\f01c'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-inboxfolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-sentfolder:before { content: '\f1d8'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-sentfolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-draftsfolder:before { content: '\f15b'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-draftsfolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-junkfolder:before { content: '\f06a'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-junkfolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-trashfolder:before { content: '\f06a'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-trashfolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-archivefolder:before { content: '\f187'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-archivefolder { background-image: none !important }
+.x-grid-tree-node-expanded .wtmail-icon-sharefolder:before { content: '\f1e0'; font-family: 'Font Awesome 5 Free'; } .x-grid-tree-node-expanded .wtmail-icon-sharefolder{ background-image: none !important }
+
+.wtmail-icon-mailSend:before { content: '\f1d8'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-mailSend { background-image: none !important }
+.wtmail-icon-mailSchedule:before { content: '\f017'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-mailSchedule { background-image: none !important }
 
 .wtmail-icon-mailNew:before { content: '\f044'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-mailNew { background-image: none !important }
 .wtmail-icon-faxNew:before { content: '\f1ac'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-faxNew { background-image: none !important }
@@ -93,6 +96,15 @@
 .wtmail-icon-pas-spam-red:before { content: '\f2c7'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-1); } .wtmail-icon-pas-spam-red { background-image: none !important; }
 .wtmail-icon-pas-spam-unknown:before { content: '\f2cb'; font-family: 'Font Awesome 5 Free'; color: #9CA3AF; } .wtmail-icon-pas-spam-unknown { background-image: none !important; }
 
+.wtmail-icon-msgSetReceipt-grayed:before { content: '\f00c'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-ct-2) } .wtmail-icon-msgSetReceipt-grayed { background-image: none !important; }
+.wtmail-icon-msgSetReceipt:before { content: '\f00c'; font-family: 'Font Awesome 5 Free' } .wtmail-icon-msgSetReceipt { background-image: none !important; }
+.wtmail-icon-msgSetPriorityHigh-grayed:before { content: '\f12a'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-ct-2) } .wtmail-icon-msgSetPriorityHigh-grayed { background-image: none !important; }
+.wtmail-icon-msgSetPriorityHigh:before { content: '\f12a'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-ct-1-contrast) } .wtmail-icon-msgSetPriorityHigh { background-image: none !important; }
+.wtmail-icon-msgAddReminder-grayed:before { content: '\f0f3'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-ct-2) } .wtmail-icon-msgAddReminder-grayed { background-image: none !important; }
+.wtmail-icon-msgAddReminder:before { content: '\f0f3'; font-family: 'Font Awesome 5 Free' } .wtmail-icon-msgAddReminder { background-image: none !important; }
+.wtmail-icon-msgSetMailcard-grayed:before { content: '\f5b7'; font-family: 'Font Awesome 5 Free'; color: var(--wt-theme-color-ct-2) } .wtmail-icon-msgSetMailcard-grayed { background-image: none !important; }
+.wtmail-icon-msgSetMailcard:before { content: '\f5b7'; font-family: 'Font Awesome 5 Free' } .wtmail-icon-msgSetMailcard { background-image: none !important; }
+
 .so-avatarcolumn .so-avatar-wrap {
     background-color: #9CA3AF !important;
 }
@@ -110,9 +122,13 @@
 }
 
 .wtmail-row-body .x-grid-rowbody {
-	padding-left: 130px !important;
+	padding-left: 100px !important;
 	font-size: 12px;
 	font-weight: normal;
+}
+
+.wtmail-row-body.wtmail-row-body-threaded .x-grid-rowbody {
+	padding-left: 120px !important;
 }
 
 .wtmail-row-body .x-grid-rowbody > SPAN {
@@ -129,7 +145,7 @@
 	font-size: 12px;
 }
 
-.wtmail-message-grid .x-grid-item .wtmail-row-unread TD {
+.wtmail-message-grid .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-unread TD {
 	background-color: #FFEDD5;
 }
 
@@ -175,3 +191,9 @@
 .wt-menu-shownby {
 	background-color: var(--wt-theme-color-ct-1) !important;
 }
+
+.wtmail-editor-cc-button .x-btn-inner { color: var(--wt-theme-color-ct-2); }
+.wtmail-editor-cc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-ct-1-contrast); }
+
+.wtmail-editor-bcc-button .x-btn-inner { color: var(--wt-theme-color-ct-2); }
+.wtmail-editor-bcc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-ct-1-contrast); }

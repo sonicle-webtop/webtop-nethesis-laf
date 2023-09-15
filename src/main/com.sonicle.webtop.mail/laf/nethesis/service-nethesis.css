@@ -122,9 +122,13 @@
 }
 
 .wtmail-row-body .x-grid-rowbody {
-	padding-left: 130px !important;
+	padding-left: 100px !important;
 	font-size: 12px;
 	font-weight: normal;
+}
+
+.wtmail-row-body.wtmail-row-body-threaded .x-grid-rowbody {
+	padding-left: 120px !important;
 }
 
 .wtmail-row-body .x-grid-rowbody > SPAN {

@@ -25,6 +25,7 @@
 .wt-icon-notification:before { content: '\f0f3'} .wt-icon-notification { background-image: none !important }
 .wt-icon-print:before { content: '\f02f'; font-family: 'Font Awesome 5 Free';} .wt-icon-print { background-image: none !important }
 .wt-icon-save:before { content: '\f0c7'; font-family: 'Font Awesome 5 Free';} .wt-icon-save { background-image: none !important }
+.wt-icon-save-new:before { content: '\f0c7'; font-family: 'Font Awesome 5 Free';} .wt-icon-save-new { background-image: none !important }
 .wt-icon-viewOptions:before { content: '\f0b0'} .wt-icon-viewOptions { background-image: none !important }
 .wt-icon-block:before { content: '\f05e'; font-family: 'Font Awesome 5 Free'; } .wt-icon-block { background-image: none !important }
 .wt-icon-trash:before { content: '\f1f8'; font-family: 'Font Awesome 5 Free'; } .wt-icon-trash { background-image: none !important }

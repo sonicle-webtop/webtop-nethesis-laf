@@ -54,6 +54,27 @@
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>${maven-resources-plugin.version}</version>
 				<executions>
+					<!-- Remove from here! -->
+					<!-- Remove this section when com.sonicle.webtop.* folder are migrated under client subfolder -->
+					<execution>
+						<id>client-copy-resources-temporary</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.outputDirectory}/client</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main</directory>
+									<excludes>
+										<exclude>client/**/*.*</exclude>
+									</excludes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<!-- Remove up to here! -->
 					<execution>
 						<id>client-copy-resources</id>
 						<phase>process-resources</phase>
@@ -64,9 +85,38 @@
 							<outputDirectory>${project.build.outputDirectory}/client</outputDirectory>
 							<resources>
 								<resource>
-									<directory>src/main</directory>
+									<directory>src/main/client</directory>
 								</resource>
 							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.sonicle.maven</groupId>
+				<artifactId>minify-maven-plugin</artifactId>
+				<version>${minify-maven-plugin.version}</version>
+				<configuration>
+					<charset>UTF-8</charset>
+					<webappSourceDir>${project.basedir}/src/main</webappSourceDir>
+					<webappTargetDir>${project.build.outputDirectory}</webappTargetDir>
+				</configuration>
+				<executions>
+					<execution>
+						<id>client-minify-extjs</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>minify</goal>
+						</goals>
+						<configuration>
+							<jsEngine>YUI</jsEngine>
+							<suffix>-debug</suffix>
+							<skipMerge>true</skipMerge>
+							<jsSourceDir>client/extjs</jsSourceDir>
+							<jsTargetDir>client/extjs</jsTargetDir>
+							<jsSourceIncludes>
+								<jsSourceInclude>**/*.js</jsSourceInclude>
+							</jsSourceIncludes>
 						</configuration>
 					</execution>
 				</executions>

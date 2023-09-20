@@ -8,3 +8,4 @@
 .wtcal-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
 
 .wtcal-icon-newEvent:before { content: '\f783'; font-family: 'Font Awesome 5 Free';} .wtcal-icon-newEvent { background-image: none !important }
+.wtcal-icon-event:before { content: '\f783'; font-family: 'Font Awesome 5 Free';} .wtcal-icon-event { background-image: none !important }

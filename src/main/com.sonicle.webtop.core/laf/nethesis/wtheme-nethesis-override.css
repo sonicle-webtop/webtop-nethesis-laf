@@ -63,11 +63,18 @@ color-ct-ok-1 -> Green/700
 }
 
 /* Navbar: background */
-.wt-viewport-navbar-watermark-right { background-color: #E5E7EB; width: 1px; }
+.wt-viewport-navbar-watermark-right {
+    background-color: #e5e7eb; /* Gray/200 */
+    width: 1px;
+}
 /* Navbar: tweak main L/R padding */
 .wt-viewport-navbar.x-toolbar-vertical { padding-left: 12px; padding-right: 12px; }
 /* Navbar: tweak button internal padding */
 .wt-viewport-navbar .x-btn-button { padding: 3px; }
+/* Navbar: set specific color to nav buttons */
+.wt-viewport-navbar .x-btn.x-btn-pressed, .wt-viewport-navbar .x-btn.x-btn-over {
+    background-color: #f3f4f6; /* Gray/100 */
+}
 /* Navbar: add colored right watermark on pressed button */
 .wt-viewport-navbar .x-btn.x-btn-pressed::before {
     position: absolute;
@@ -101,11 +108,24 @@ color-ct-ok-1 -> Green/700
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-xl); }
-.wt-tool-hd-separator { border-top-color: #E5E7EB !important; } /* FIXME: evaluate to change directly fieldset color in theme */
+.wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 
 /* AccountMenu: pad user-info */
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }
 
 /* Menu: set separator color */
-.x-menu-item-separator { border-top-color: #E5E7EB !important; }
+.x-menu-item-separator {
+    border-top-color: #e5e7eb !important; /* Gray/200 */
+}
+
+/* KanbanColumn: change collapse/expand icons and header color */
+.x-panel.so-kanban-column .x-tool-expand-bottom:before {
+    content: '\f424'
+}
+.x-panel.so-kanban-column .x-tool-collapse-top:before {
+    content: '\f422'
+}
+.x-panel.so-kanban-column .x-panel-header {
+    background-color: #ffffff;
+}

@@ -8,3 +8,4 @@
 .wttasks-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
 
 .wttasks-icon-newTask:before { content: '\f46d'; font-family: 'Font Awesome 5 Free';} .wttasks-icon-newTask { background-image: none !important }
+.wttasks-icon-task:before { content: '\f46d'; font-family: 'Font Awesome 5 Free';} .wttasks-icon-task { background-image: none !important }

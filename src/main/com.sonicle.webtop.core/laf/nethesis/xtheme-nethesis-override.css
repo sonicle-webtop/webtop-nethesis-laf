@@ -29,26 +29,35 @@
 .x-btn-wrap-button-secondary-large.x-btn-split:after,
 .x-btn-wrap-button-tertiary-large.x-btn-split:after { color: var(--wt-theme-color-1); }
 
-
 /* SplitButtons: fix separator color and height (default was a top-bottom line) */
 .x-btn-wrap-default-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-default-medium.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-default-large.x-btn-split-right > .x-btn-button:after {
     height: 100%;
-    top: -5%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
     border-color: var(--wt-theme-color-1-contrast);
 }
 .x-btn-wrap-button-secondary-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-secondary-medium.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-secondary-large.x-btn-split-right > .x-btn-button:after {
     height: 100%;
-    top: -5%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
     border-color: var(--wt-theme-color-1);
 }
 .x-btn-wrap-button-tertiary-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-tertiary-medium.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-tertiary-large.x-btn-split-right > .x-btn-button:after {
     height: 100%;
-    top: -5%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
     border-color: var(--wt-theme-color-1);
 }
+
+/*
+colore hover tree/grid gray/200
+blink context menu su gray/300
+avatar button icona split troppo grande
+bottone secondario 
+*/

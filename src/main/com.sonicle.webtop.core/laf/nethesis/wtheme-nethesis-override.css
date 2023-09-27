@@ -51,15 +51,17 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-scrollbar: #D1D5DB; /* Gray/300 */
     
     --wt-theme-fontsize-xs: 0.75rem;
-    --wt-theme-lineheight-xs: 1rem;
     --wt-theme-fontsize-sm: 0.875rem;
-    --wt-theme-lineheight-sm: 1.25rem;
     --wt-theme-fontsize-base: 1rem;
-    --wt-theme-lineheight-base: 1.5rem;
     --wt-theme-fontsize-lg: 1.125rem;
-    --wt-theme-lineheight-lg: 1.75rem;
     --wt-theme-fontsize-xl: 1.25rem;
+    --wt-theme-lineheight-xs: 1rem;
+    --wt-theme-lineheight-sm: 1.25rem;
+    --wt-theme-lineheight-base: 1.5rem;
+    --wt-theme-lineheight-lg: 1.75rem;
     --wt-theme-lineheight-xl: 1.75rem;
+    --wt-theme-fontweight-base: 400;
+    --wt-theme-fontweight-bold: 500;
 }
 
 /* Navbar: background */

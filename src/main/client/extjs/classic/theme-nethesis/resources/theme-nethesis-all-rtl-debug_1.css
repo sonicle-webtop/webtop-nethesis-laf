@@ -7822,7 +7822,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:694 */
 .x-toolbar-text-default {
-    padding: 0 4px;
+    padding: 0px 4px 0px 4px;
     color: #374151;
     font: 400 13px/16px Poppins, sans-serif;
 }
@@ -8012,7 +8012,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:694 */
 .x-toolbar-text-footer {
-    padding: 0 4px;
+    padding: 0px 4px 0px 4px;
     color: #374151;
     font: 400 13px/16px Poppins, sans-serif;
 }
@@ -11769,7 +11769,7 @@ body > .x-mask {
 .x-anchor-form-item,
 .x-vbox-form-item,
 .x-table-form-item {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Text.scss:201 */
 .x-form-text-field-body-default {
@@ -16127,7 +16127,7 @@ div.x-border-layout-ct {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/layout/container/Form.scss:1 */
 .x-form-layout-wrap {
-    border-spacing: 10px;
+    border-spacing: 16px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:1 */
 .x-resizable-handle {

@@ -50,16 +50,16 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-dialog: #ffffff; /* White */
     --wt-theme-color-scrollbar: #D1D5DB; /* Gray/300 */
     
-    --wt-theme-fontsize-xs: 0.75rem;
-    --wt-theme-fontsize-sm: 0.875rem;
-    --wt-theme-fontsize-base: 1rem;
-    --wt-theme-fontsize-lg: 1.125rem;
-    --wt-theme-fontsize-xl: 1.25rem;
-    --wt-theme-lineheight-xs: 1rem;
-    --wt-theme-lineheight-sm: 1.25rem;
-    --wt-theme-lineheight-base: 1.5rem;
-    --wt-theme-lineheight-lg: 1.75rem;
-    --wt-theme-lineheight-xl: 1.75rem;
+    --wt-theme-fontsize-xs: 12px;
+    --wt-theme-fontsize-sm: 14px;
+    --wt-theme-fontsize-base: 16px;
+    --wt-theme-fontsize-lg: 18px;
+    --wt-theme-fontsize-xl: 20px;
+    --wt-theme-lineheight-xs: 18px;
+    --wt-theme-lineheight-sm: 21px;
+    --wt-theme-lineheight-base: 24px;
+    --wt-theme-lineheight-lg: 27px;
+    --wt-theme-lineheight-xl: 30px;
     --wt-theme-fontweight-base: 400;
     --wt-theme-fontweight-bold: 500;
 }
@@ -118,7 +118,7 @@ color-ct-ok-1 -> Green/700
 /* ToolHD: apply background */
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
-.wt-tool-hd-title { font-size: var(--wt-theme-fontsize-xl); }
+.wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 
 /* AccountMenu: pad user-info */

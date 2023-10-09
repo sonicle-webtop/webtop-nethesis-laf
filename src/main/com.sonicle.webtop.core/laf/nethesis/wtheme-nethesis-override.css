@@ -95,7 +95,12 @@ color-ct-ok-1 -> Green/700
 }
 /* Navbar: define 50x50 logo image */
 .wt-viewport-navbar-logo.so-tbimage { padding: 0px; }
-.wt-viewport-navbar-logo.so-tbimage .so-tbimage-image { background-image: url('logo.png'); background-repeat: round; width: 50px !important; height: 50px !important; }
+.wt-viewport-navbar-logo.so-tbimage .so-tbimage-image { background-image: url('logo.svg'); background-repeat: round; width: 50px !important; height: 50px !important; }
+
+/* Topbar customization */
+.wt-viewport-topbar .x-toolbar-separator {
+    border-left-color: #6B7280; /* Gray/500 */
+}
 
 /* MoreLinksButton: customize BoundList's iconSize */
 .wt-morelinksbutton-list .x-boundlist-item {
@@ -110,9 +115,9 @@ color-ct-ok-1 -> Green/700
 }
 
 /* ToolHD: apply background */
-.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); }
+.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); padding-top: 14px; padding-left: 6px; }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
-.wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); }
+.wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); font-weight: 500; }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 
 /* AccountMenu: pad user-info */

@@ -227,8 +227,8 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/slider/Multi.scss:262 */
 .x-slider-default-cell > .x-grid-cell-inner,
 .x-sliderwidget-default-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 4px;
+    padding-top: 1px;
+    padding-bottom: 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-default-top {
@@ -1957,16 +1957,16 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/tree/View.scss:157 */
 .x-tree-icon {
     width: 16px;
-    height: 39px;
-    line-height: 39px;
+    height: 35px;
+    line-height: 35px;
     color: #c2410c;
     font-size: 16px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/tree/View.scss:165 */
 .x-tree-elbow-img {
     width: 16px;
-    height: 39px;
-    line-height: 39px;
+    height: 35px;
+    line-height: 35px;
     margin-right: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/tree/View.scss:173 */
@@ -1978,8 +1978,8 @@
 .x-tree-icon,
 .x-tree-elbow-img,
 .x-tree-checkbox {
-    margin-top: -8px;
-    margin-bottom: -8px;
+    margin-top: -6px;
+    margin-bottom: -6px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/tree/View.scss:189 */
 .x-tree-icon-leaf {
@@ -2026,7 +2026,7 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/tree/View.scss:252 */
 .x-tree-checkbox {
     margin-right: 8px;
-    top: 11px;
+    top: 9px;
     width: 18px;
     height: 18px;
     font: 18px/1 'Font Awesome 5 Free Regular';
@@ -2100,7 +2100,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:6 */
 .x-multiselector-remove .x-grid-cell-inner {
-    padding: 8px 4px 8px 4px;
+    padding: 6px 4px 6px 4px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:11 */
 .x-grid-item-over .x-multiselector-remove {
@@ -2691,8 +2691,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
-    padding-top: 5px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner >.x-btn-plain-toolbar-small {
@@ -3247,8 +3247,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner >.x-btn-plain-toolbar-medium {
@@ -3803,8 +3803,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner >.x-btn-plain-toolbar-large {
@@ -12870,8 +12870,8 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-secondary-large-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-secondary-large-cell > .x-grid-cell-inner >.x-btn-button-secondary-large {
@@ -13426,8 +13426,8 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-tertiary-large-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-tertiary-large-cell > .x-grid-cell-inner >.x-btn-button-tertiary-large {
@@ -14000,8 +14000,8 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-taskbar-large-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-taskbar-large-cell > .x-grid-cell-inner >.x-btn-button-taskbar-large {
@@ -14556,8 +14556,8 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-secondary-small-cell > .x-grid-cell-inner {
-    padding-top: 5px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-secondary-small-cell > .x-grid-cell-inner >.x-btn-button-secondary-small {
@@ -15112,8 +15112,8 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-tertiary-small-cell > .x-grid-cell-inner {
-    padding-top: 5px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-tertiary-small-cell > .x-grid-cell-inner >.x-btn-button-tertiary-small {

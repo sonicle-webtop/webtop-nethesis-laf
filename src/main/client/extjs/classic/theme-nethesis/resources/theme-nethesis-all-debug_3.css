@@ -109,8 +109,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-tertiary-medium-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-tertiary-medium-cell > .x-grid-cell-inner >.x-btn-button-tertiary-medium {
@@ -658,8 +658,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-button-taskbar-medium-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-button-taskbar-medium-cell > .x-grid-cell-inner >.x-btn-button-taskbar-medium {

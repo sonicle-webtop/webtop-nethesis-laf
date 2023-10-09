@@ -97,12 +97,6 @@ color-ct-ok-1 -> Green/700
 .wt-viewport-navbar-logo.so-tbimage { padding: 0px; }
 .wt-viewport-navbar-logo.so-tbimage .so-tbimage-image { background-image: url('logo.svg'); background-repeat: round; width: 50px !important; height: 50px !important; }
 
-/* Taskbar: set no-radius for buttons */
-.wt-viewport-taskbar .x-btn {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
 /* MoreLinksButton: customize BoundList's iconSize */
 .wt-morelinksbutton-list .x-boundlist-item {
     line-height: 62px;
@@ -124,6 +118,14 @@ color-ct-ok-1 -> Green/700
 /* AccountMenu: pad user-info */
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }
+
+/* MsgBox: make header and footer white */
+.x-window.x-message-box .x-header { background-color: #ffffff; }
+.x-window.x-message-box .x-toolbar-footer { background-color: #ffffff; }
+.x-message-box-info { color: #4338CA !important; } /* Indigo/700 */
+/*.x-message-box-warning { color: #a16207 !important; }*/ /* Yellow/700 */
+.x-message-box-question { color: #4338CA !important; } /* Indigo/700 */
+/*.x-message-box-error { color: #b91c1c !important; }*/ /* Red/700 */
 
 /* Menu: set separator color */
 .x-menu-item-separator {

@@ -83,8 +83,6 @@
 .wtmail-icon-archive:before { content: '\f187'; font-family: 'Font Awesome 5 Free';} .wtmail-icon-archive { background-image: none !important }
 .wtmail-note { color: #374151; }
 
-.wtmail-icon-status-seen:before { content: '\f111'; font: 10px 'Font Awesome 5 Free Regular'; color: #374151; } .wtmail-icon-status-seen { background-image: none !important; vertical-align: top; }
-.wtmail-icon-status-unseen:before { content: '\f111'; font: 10px 'Font Awesome 5 Free'; color: #EA580C; } .wtmail-icon-status-unseen { background-image: none !important; vertical-align: top; }
 .wtmail-icon-status-new:before { content: '\f621'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-new { background-image: none !important; vertical-align: top; }
 .wtmail-icon-status-replied:before { content: '\f3e5'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-replied { background-image: none !important; vertical-align: top; }
 .wtmail-icon-status-forwarded:before { content: '\f064'; font-family: 'Font Awesome 5 Free'; } .wtmail-icon-status-forwarded { background-image: none !important; vertical-align: top; }
@@ -121,7 +119,10 @@
 .wtmail-message-grid .x-grid-body {
 	border-top: 0px;
 }
-
+/* MessageGrid: align seen/unseen icon vertically to match next-to column's sender text */
+.wtmail-message-grid .so-grid-cell-inner-iconcolumn {
+    padding-top: 12px;
+}
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-noborderbottom {
 	border-width: 0px 0 0px;
 }

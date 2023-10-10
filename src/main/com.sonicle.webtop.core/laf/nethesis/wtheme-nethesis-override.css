@@ -124,13 +124,46 @@ color-ct-ok-1 -> Green/700
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }
 
-/* MsgBox: make header and footer white */
+/* MsgBox: tweak styling */
 .x-window.x-message-box .x-header { background-color: #ffffff; }
 .x-window.x-message-box .x-toolbar-footer { background-color: #ffffff; }
+.x-window.x-message-box .x-window-header { padding-left: 18px; padding-right: 8px; }
+.x-window.x-message-box .x-window-text {
+    font-size: var(--wt-theme-fontsize-sm);
+    color: #374151; /* Gray/700 */
+}
 .x-message-box-info { color: #4338CA !important; } /* Indigo/700 */
-/*.x-message-box-warning { color: #a16207 !important; }*/ /* Yellow/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-info {
+	border-radius: 24px;
+    background-color: #e0e7ff; /* Indigo/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    box-shadow: 0px 0px 0px 8px #e0e7ff;
+}
+.x-message-box-warning { color: #ca8a04 !important; } /* Yellow/600 */
+.x-window.x-message-box .x-title-icon.x-message-box-warning {
+	border-radius: 24px;
+    background-color: #fef9c3; /* Yellow/100 */
+    -moz-box-shadow: 1px 0px 8px 0px #fef9c3;
+    -webkit-box-shadow: 1px 0px 8px 0px #fef9c3;
+    box-shadow: 1px 0px 0px 8px #fef9c3;
+}
 .x-message-box-question { color: #4338CA !important; } /* Indigo/700 */
-/*.x-message-box-error { color: #b91c1c !important; }*/ /* Red/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-question {
+	border-radius: 24px;
+    background-color: #e0e7ff; /* Indigo/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    box-shadow: 0px 0px 0px 8px #e0e7ff;
+}
+.x-message-box-error { color: #b91c1c !important; } /* Red/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-error {
+	border-radius: 24px;
+    background-color: #fee2e2; /* Red/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #fee2e2;
+    -webkit-box-shadow: 0px 0px 8px 0px #fee2e2;
+    box-shadow: 0px 0px 0px 8px #fee2e2;
+}
 
 /* Menu: set separator color */
 .x-menu-item-separator {

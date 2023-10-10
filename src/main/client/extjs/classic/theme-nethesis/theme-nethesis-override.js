@@ -37,14 +37,12 @@ Ext.define('Nethesis.override.window.MessageBox', {
 });
 Ext.define('Nethesis.override.webtop.core.ux.app.taskbar.Bar', {
 	override: 'Sonicle.webtop.core.ux.app.taskbar.Bar',
-	
 	defaults: {
-		width: 220
+		width: 160
 	}
 });
 Ext.define('Nethesis.override.webtop.core.sdk.BaseView', {
 	override: 'Sonicle.webtop.core.sdk.BaseView',
-	
 	bodyBorder: false
 });
 Ext.define('Nethesis.override.webtop.mail.view.MessageEditor', {

@@ -60,7 +60,8 @@ color-ct-ok-1 -> Green/700
     --wt-theme-lineheight-base: 24px;
     --wt-theme-lineheight-lg: 27px;
     --wt-theme-lineheight-xl: 30px;
-    --wt-theme-fontweight-base: 400;
+    --wt-theme-fontweight-regular: 400;
+    --wt-theme-fontweight-medium: 500;
     --wt-theme-fontweight-bold: 500;
 }
 
@@ -99,7 +100,7 @@ color-ct-ok-1 -> Green/700
 
 /* Topbar customization */
 .wt-viewport-topbar .x-toolbar-separator {
-    border-left-color: #6B7280; /* Gray/500 */
+    border-left-color: #D1D5DB; /* Gray/300 */
 }
 
 /* MoreLinksButton: customize BoundList's iconSize */
@@ -186,3 +187,7 @@ color-ct-ok-1 -> Green/700
 .x-panel.so-kanban-column .x-panel-header {
     background-color: #ffffff;
 }
+
+/* SearchField: customize trigger-icon */
+.wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat center !important; }
+.wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }

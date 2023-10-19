@@ -42,7 +42,3 @@
 .so-btn-avatar-swatch SPAN {
     color: white !important;
 }
-
-.wt-searchfield .x-form-arrow-trigger-default:before {
-    content: '\f1de';
-}

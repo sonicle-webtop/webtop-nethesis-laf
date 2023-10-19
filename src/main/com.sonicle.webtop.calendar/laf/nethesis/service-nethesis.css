@@ -11,7 +11,7 @@
 .wtcal-icon-event:before { content: '\f783'; font-family: 'Font Awesome 5 Free';} .wtcal-icon-event { background-image: none !important }
 
 /* Portlet EventsBody: override default style */
-.wtcal-portlet-task-body .x-grid-rowbody {
+.wtcal-portlet-event-body .x-grid-rowbody {
     gap: 8px;
 }
 .wtcal-portlet-event-body-attime {

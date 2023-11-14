@@ -116,7 +116,7 @@ color-ct-ok-1 -> Green/700
 }
 
 /* ToolHD: apply background */
-.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); padding-top: 14px; padding-left: 6px; }
+.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); padding-top: 10px; padding-left: 6px; }
 .wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); font-weight: 500; }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */

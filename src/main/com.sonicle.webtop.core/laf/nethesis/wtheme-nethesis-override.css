@@ -72,6 +72,11 @@ color-ct-ok-1 -> Green/700
 }
 /* Navbar: tweak main L/R padding */
 .wt-viewport-navbar.x-toolbar-vertical { padding-left: 15px; padding-right: 15px; }
+/* Navbar: force specific gap (8px) between button items */
+.wt-viewport-navbar.x-toolbar-vertical .x-toolbar-item { margin-bottom: 8px; }
+/* Navbar: force button sizes */
+.wt-viewport-navbar .x-btn .x-btn-button { min-height: 24px; }
+.wt-viewport-navbar .x-btn .x-btn-icon-el { width: 24px; }
 /* Navbar: tweak button internal padding to make button square */
 .wt-viewport-navbar .x-btn.x-toolbar-item { padding: 12px; }
 /* Navbar: hide the focus outline/shadow */

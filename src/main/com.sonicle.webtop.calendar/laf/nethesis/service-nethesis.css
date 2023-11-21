@@ -7,8 +7,8 @@
 .wtcal-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcal-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
 
-.wtcal-icon-newEvent:before { content: '\f783'; font-family: 'Font Awesome 5 Free';} .wtcal-icon-newEvent { background-image: none !important }
-.wtcal-icon-event:before { content: '\f783'; font-family: 'Font Awesome 5 Free';} .wtcal-icon-event { background-image: none !important }
+.wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
+.wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
 
 /* Portlet EventsBody: override default style */
 .wtcal-portlet-event-body .x-grid-rowbody {

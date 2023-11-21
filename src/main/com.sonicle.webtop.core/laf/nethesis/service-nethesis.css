@@ -20,20 +20,20 @@
 .wt-icon-navMoreLinks-off-md { background-image: url('navMoreLinks-off.svg') !important; background-size: contain; }
 .wt-icon-navMoreLinks-off-lg { background-image: url('navMoreLinks-off.svg') !important; background-size: contain; }
 
-.wt-icon-meeting:before { content: '\f03d'} .wt-icon-meeting { background-image: none !important }
-.wt-icon-im-status-online:before { content: '\f27a'} .wt-icon-im-status-online { background-image: none !important }
-.wt-icon-notification:before { content: '\f0f3'} .wt-icon-notification { background-image: none !important }
-.wt-icon-print:before { content: '\f02f'; font-family: 'Font Awesome 5 Free';} .wt-icon-print { background-image: none !important }
-.wt-icon-save:before { content: '\f0c7'; font-family: 'Font Awesome 5 Free';} .wt-icon-save { background-image: none !important }
-.wt-icon-saveClose:before { content: '\f0c7'; font-family: 'Font Awesome 5 Free';} .wt-icon-saveClose { background-image: none !important }
-.wt-icon-save-new:before { content: '\f0c7'; font-family: 'Font Awesome 5 Free';} .wt-icon-save-new { background-image: none !important }
+.wt-icon-meeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-im-status-online:before { content: '\f27a'; font: var(--fa-font-solid); } .wt-icon-im-status-online { background-image: none !important }
+.wt-icon-notification:before { content: '\f0f3'; font: var(--fa-font-solid);} .wt-icon-notification { background-image: none !important }
+.wt-icon-print:before { content: '\f02f'; font: var(--fa-font-solid); } .wt-icon-print { background-image: none !important }
+.wt-icon-save:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save { background-image: none !important }
+.wt-icon-saveClose:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveClose { background-image: none !important }
+.wt-icon-save-new:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save-new { background-image: none !important }
 .wt-icon-viewOptions { background-image: url('table-columns.svg') !important }
-.wt-icon-block:before { content: '\f05e'; font-family: 'Font Awesome 5 Free'; } .wt-icon-block { background-image: none !important }
-.wt-icon-trash:before { content: '\f1f8'; font-family: 'Font Awesome 5 Free'; } .wt-icon-trash { background-image: none !important }
-.wt-icon-newMeeting:before { content: '\f03d'; font-family: 'Font Awesome 5 Free'; } .wt-icon-newMeeting { background-image: none !important }
-.wt-icon-search-adv:before { content: '\f00e'; font-family: 'Font Awesome 5 Free';} .wt-icon-search-adv { background-image: none !important }
-.wt-icon-refresh:before { content: '\f021'; font-family: 'Font Awesome 5 Free';} .wt-icon-refresh { background-image: none !important }
-.wt-icon-sharing:before { content: '\f1e0'; font-family: 'Font Awesome 5 Free';} .wt-icon-sharing { background-image: none !important }
+.wt-icon-block:before { content: '\f05e'; font: var(--fa-font-solid); } .wt-icon-block { background-image: none !important }
+.wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
+.wt-icon-newMeeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-newMeeting { background-image: none !important }
+.wt-icon-search-adv:before { content: '\f00e'; font: var(--fa-font-solid); } .wt-icon-search-adv { background-image: none !important }
+.wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
+.wt-icon-sharing:before { content: '\f1e0'; font: var(--fa-font-solid); } .wt-icon-sharing { background-image: none !important }
 
 .so-btn-avatar-swatch {
     background-color: #9CA3AF !important;	

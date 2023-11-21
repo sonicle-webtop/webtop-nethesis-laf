@@ -22,7 +22,7 @@
 .x-menu-item-icon.far { top: 8px; }
 
 /* Buttons: add default icon family to FA free */
-.x-btn-icon-el:empty {font-family: 'Font Awesome 5 Free';}
+.x-btn-icon-el:empty { font-family: var(--fa-style-family-classic); }
 
 /* SplitButtons: force icon color */
 .x-btn-wrap-button-secondary-small.x-btn-split:after,

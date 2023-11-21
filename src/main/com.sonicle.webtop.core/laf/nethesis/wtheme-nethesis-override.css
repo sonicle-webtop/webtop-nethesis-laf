@@ -81,7 +81,6 @@ color-ct-ok-1 -> Green/700
 .wt-viewport-navbar .x-btn.x-toolbar-item { padding: 12px; }
 /* Navbar: hide the focus outline/shadow */
 .wt-viewport-navbar .x-btn.x-btn-focus { box-shadow: none !important; }
-
 /* Navbar: set specific color to nav buttons */
 .wt-viewport-navbar .x-btn.x-btn-pressed, .wt-viewport-navbar .x-btn.x-btn-over {
     background-color: #f3f4f6; /* Gray/100 */

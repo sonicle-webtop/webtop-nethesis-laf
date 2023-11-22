@@ -10,6 +10,17 @@
 .wttasks-icon-newTask:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-newTask { background-image: none !important }
 .wttasks-icon-task:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-task { background-image: none !important }
 
+/* Portlet Grid: override padding */
+.wttasks-portlet-grid .x-grid-item {
+    border-color: transparent;
+}
+.wttasks-portlet-grid .x-grid-cell-first .x-grid-cell-inner {
+    padding-left: 16px;
+}
+.wttasks-portlet-grid .x-grid-rowbody {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 /* Portlet TasksBody: override default style */
 .wttasks-portlet-task-body-dueon {
 	color: #4B5563; /* Gray/600 */

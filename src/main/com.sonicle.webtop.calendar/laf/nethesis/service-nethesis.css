@@ -10,6 +10,17 @@
 .wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
 .wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
 
+/* Portlet Grid: override padding */
+.wtcal-portlet-grid .x-grid-item {
+    border-color: transparent;
+}
+.wtcal-portlet-grid .x-grid-cell-first .x-grid-cell-inner {
+    padding-left: 16px;
+}
+.wtcal-portlet-grid .x-grid-rowbody {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 /* Portlet EventsBody: override default style */
 .wtcal-portlet-event-body .x-grid-rowbody {
     gap: 8px;

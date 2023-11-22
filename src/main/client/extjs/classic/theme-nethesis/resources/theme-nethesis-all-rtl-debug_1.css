@@ -8168,7 +8168,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */
 .x-panel-header-default {
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:842 */
@@ -8227,9 +8227,9 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */
 .x-panel-header-title-default {
-    color: #111827;
-    font-size: 16px;
-    font-weight: 400;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
     font-family: Poppins, sans-serif;
     line-height: 20px;
 }
@@ -8297,19 +8297,19 @@ body > .x-mask {
     width: 16px;
     height: 16px;
     font-size: 16px;
-    color: #111827;
+    color: #374151;
     background-position: center center;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1051 */
 .x-ie8 .x-panel-header-title-default > .x-title-icon-wrap-default > .x-title-icon-default.x-title-glyph {
-    color: #111827;
+    color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
 .x-panel-body-default {
     background: #fff;
     border-color: #d1d1d1;
     color: #111827;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     font-family: Poppins, sans-serif;
     border-width: 1px;
@@ -8529,7 +8529,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */
 .x-panel-header-default-framed {
-    font-size: 16px;
+    font-size: 14px;
     border: 2px solid #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:842 */
@@ -8588,9 +8588,9 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */
 .x-panel-header-title-default-framed {
-    color: #111827;
-    font-size: 16px;
-    font-weight: 400;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
     font-family: Poppins, sans-serif;
     line-height: 20px;
 }
@@ -8658,19 +8658,19 @@ body > .x-mask {
     width: 16px;
     height: 16px;
     font-size: 16px;
-    color: #111827;
+    color: #374151;
     background-position: center center;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1051 */
 .x-ie8 .x-panel-header-title-default-framed > .x-title-icon-wrap-default-framed > .x-title-icon-default-framed.x-title-glyph {
-    color: #111827;
+    color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
 .x-panel-body-default-framed {
     background: #fff;
     border-color: #d1d1d1;
     color: #111827;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     font-family: Poppins, sans-serif;
     border-width: 1px;
@@ -10499,8 +10499,8 @@ body > .x-mask {
     border-width: 0px;
     border-style: solid;
     background: #fff;
-    color: #000;
-    font-size: 13px;
+    color: #111827;
+    font-size: 12px;
     font-weight: 400;
     font-family: Poppins, sans-serif;
 }

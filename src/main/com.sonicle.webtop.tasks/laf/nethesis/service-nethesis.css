@@ -9,3 +9,8 @@
 
 .wttasks-icon-newTask:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-newTask { background-image: none !important }
 .wttasks-icon-task:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-task { background-image: none !important }
+
+/* Portlet TasksBody: override default style */
+.wttasks-portlet-task-body-dueon {
+	color: #4B5563; /* Gray/600 */
+}

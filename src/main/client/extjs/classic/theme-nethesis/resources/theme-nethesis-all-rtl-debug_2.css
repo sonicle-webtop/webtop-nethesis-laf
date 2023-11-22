@@ -13447,7 +13447,7 @@ a.x-btn:active {
     -moz-border-radius-bottomleft: 6px;
     -webkit-border-bottom-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    padding: 6px 12px 6px 8px;
+    padding: 8px 8px 8px 8px;
     border-width: 1px;
     border-style: solid;
     background-image: none;
@@ -13474,7 +13474,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
 .x-btn-button-taskbar-large-frameInfo {
-    font-family: th-6-6-6-6-1-1-1-1-6-12-6-8;
+    font-family: th-6-6-6-6-1-1-1-1-8-8-8-8;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
 .x-btn-button-taskbar-large-tl {
@@ -13546,11 +13546,11 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-button-taskbar-large-mc {
-    padding: 1px 7px 1px 3px;
+    padding: 3px 3px 3px 3px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-button-taskbar-large {
-    border-color: #fff;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
 .x-btn-button-button-taskbar-large {
@@ -13563,7 +13563,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
 .x-btn-inner-button-taskbar-large {
-    font: 500 14px/20px Poppins, sans-serif;
+    font: 500 12px/20px Poppins, sans-serif;
     color: #111827;
     padding: 0 10px;
     max-width: 100%;
@@ -13640,7 +13640,7 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
 .x-btn-arrow-bottom > .x-btn-button-button-taskbar-large,
 .x-btn-split-bottom > .x-btn-button-button-taskbar-large {
-    padding-bottom: 6px;
+    padding-bottom: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
 .x-btn-wrap-button-taskbar-large.x-btn-arrow-right:after {
@@ -13658,12 +13658,12 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
 .x-btn-wrap-button-taskbar-large.x-btn-split-right > .x-btn-button {
-    padding-right: 12px;
+    padding-right: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
 .x-btn-wrap-button-taskbar-large.x-btn-split-right > .x-btn-button.x-rtl {
     padding-right: 0;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
 .x-btn-wrap-button-taskbar-large.x-btn-split-right > .x-btn-button:after {
@@ -13675,16 +13675,16 @@ a.x-btn:active {
     content: '\f107';
     font: 16px/1 'Font Awesome 5 Free';
     color: #f9fafb;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
 .x-btn-wrap-button-taskbar-large.x-rtl.x-btn-split-right:after {
     padding-left: 0;
-    padding-right: 12px;
+    padding-right: 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
 .x-btn-wrap-button-taskbar-large.x-btn-split-bottom {
-    margin-bottom: -6px;
+    margin-bottom: -8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
 .x-btn-wrap-button-taskbar-large.x-btn-split-bottom > .x-btn-button:after {
@@ -13719,7 +13719,7 @@ a.x-btn:active {
     top: 0;
     right: 0;
     height: 100%;
-    width: 32px;
+    width: 28px;
     pointer-events: none;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
@@ -13733,7 +13733,6 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-button-taskbar-large {
-    border-color: #ebebeb;
     background-image: none;
     background-color: #e5e7eb;
 }
@@ -13746,7 +13745,6 @@ a.x-btn:active {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-button-taskbar-large,
 .x-btn.x-btn-pressed.x-btn-button-taskbar-large {
-    border-color: #bfbfbf;
     background-image: none;
     background-color: #e5e7eb;
 }
@@ -13909,7 +13907,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
 .x-nbr .x-segmented-button-item-horizontal.x-btn-button-taskbar-large.x-segmented-button-first .x-btn-button-taskbar-large-mc {
-    padding-right: 12px !important;
+    padding-right: 8px !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
 .x-nbr .x-segmented-button-item-horizontal.x-btn-button-taskbar-large.x-segmented-button-middle {
@@ -13917,7 +13915,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
 .x-nbr .x-segmented-button-item-horizontal.x-btn-button-taskbar-large.x-segmented-button-middle .x-btn-button-taskbar-large-mc {
-    padding-right: 12px !important;
+    padding-right: 8px !important;
     padding-left: 8px !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
@@ -13930,7 +13928,7 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
 .x-nbr .x-segmented-button-item-vertical.x-btn-button-taskbar-large.x-segmented-button-first .x-btn-button-taskbar-large-mc {
-    padding-bottom: 6px !important;
+    padding-bottom: 8px !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
 .x-nbr .x-segmented-button-item-vertical.x-btn-button-taskbar-large.x-segmented-button-middle {
@@ -13938,12 +13936,12 @@ a.x-btn:active {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
 .x-nbr .x-segmented-button-item-vertical.x-btn-button-taskbar-large.x-segmented-button-middle .x-btn-button-taskbar-large-mc {
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
 .x-nbr .x-segmented-button-item-vertical.x-btn-button-taskbar-large.x-segmented-button-last .x-btn-button-taskbar-large-mc {
-    padding-top: 6px !important;
+    padding-top: 8px !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
 .x-nbr .x-segmented-button-item.x-btn-button-taskbar-large:after {

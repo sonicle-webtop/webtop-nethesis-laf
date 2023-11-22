@@ -590,7 +590,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-button-taskbar-small {
-    border-color: #fff;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
 .x-btn-button-button-taskbar-small {
@@ -773,7 +773,6 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-button-taskbar-small {
-    border-color: #ebebeb;
     background-image: none;
     background-color: #e5e7eb;
 }
@@ -786,7 +785,6 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-button-taskbar-small,
 .x-btn.x-btn-pressed.x-btn-button-taskbar-small {
-    border-color: #bfbfbf;
     background-image: none;
     background-color: #e5e7eb;
 }
@@ -2832,7 +2830,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-button-taskbar-medium {
-    border-color: #fff;
+    border-color: transparent;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
 .x-btn-button-button-taskbar-medium {
@@ -2845,7 +2843,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
 .x-btn-inner-button-taskbar-medium {
-    font: 500 14px/20px Poppins, sans-serif;
+    font: 500 12px/20px Poppins, sans-serif;
     color: #111827;
     padding: 0 8px;
     max-width: 100%;
@@ -3015,7 +3013,6 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
 .x-btn-over.x-btn-button-taskbar-medium {
-    border-color: #ebebeb;
     background-image: none;
     background-color: #e5e7eb;
 }
@@ -3028,7 +3025,6 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
 .x-btn.x-btn-menu-active.x-btn-button-taskbar-medium,
 .x-btn.x-btn-pressed.x-btn-button-taskbar-medium {
-    border-color: #bfbfbf;
     background-image: none;
     background-color: #e5e7eb;
 }

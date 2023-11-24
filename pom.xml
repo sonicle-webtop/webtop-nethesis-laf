@@ -139,7 +139,7 @@
 									<include name="*.css"/>
 									<replacefilter token="'Font Awesome 5 Free';" value="'Font Awesome 6 Free';font-weight:900;"/>
 									<replacefilter token="'Font Awesome 5 Free Regular';" value="'Font Awesome 6 Free';font-weight:400;"/>
-									<replacefilter token="'font-awesome/fonts/" value="'../../../../../com.sonicle.webtop.core/0.0.0/resources/vendor/fontawesome/6.4.2/webfonts/"/>
+									<replacefilter token="'font-awesome/fonts/" value="'../../../../../client/extjs/packages/font-awesome/resources/vendor/6.4.2/webfonts/"/>
 								</replace>
 							</target>	
 						</configuration>

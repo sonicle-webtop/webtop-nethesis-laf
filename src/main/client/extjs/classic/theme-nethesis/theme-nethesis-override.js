@@ -54,5 +54,11 @@ Ext.define('Nethesis.override.webtop.mail.view.MessageEditor', {
 		});
 	}
 });
-
-
+Ext.define('Nethesis.override.webtop.mail.ux.grid.column.Message', {
+	override: 'Sonicle.webtop.mail.ux.grid.column.Message',
+	
+	collapseToolPosition: 'right',
+	flagIconsPosition: 'head',
+	collapseToolOpenIconCls: 'fas fa-chevron-circle-down',
+	collapseToolCloseIconCls: 'fas fa-chevron-circle-up'
+});

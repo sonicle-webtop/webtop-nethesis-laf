@@ -29,6 +29,20 @@
 	font-weight: 500;
 }
 
+.wtmail-breadcrumb .x-btn {
+	box-shadow: none !important;
+	cursor: default !important;
+}
+
+.wtmail-breadcrumb .x-btn-pressed {
+	background-color: transparent !important;
+}
+
+.wtmail-breadcrumb-over .x-btn {
+	background-color: transparent;
+    box-shadow: none !important;
+}
+
 .wtmail-mv-header { font-family: Poppins, sans-serif; }
 
 .wtmail-mv-header-avatar { vertical-align: top; width: 48px; }

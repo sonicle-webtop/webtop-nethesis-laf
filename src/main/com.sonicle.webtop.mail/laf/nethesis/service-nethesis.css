@@ -229,11 +229,6 @@
 	font-weight: 500 !important;
 }
 
-/* TODO: verificare unread */
-.wtmail-row-unread TD DIV {
-    font-weight: 500;
-}
-
 .wtmail-progress-quota { background-color: var(--wt-theme-color-ct-2); height: 6px; border-radius: 10px }
 .wtmail-progress-quota .x-progress-bar { background-color: #9CA3AF; height: 6px; border-radius: 10px; }
 
@@ -269,25 +264,3 @@
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-body {
     color: var(--wt-theme-color-surface-contrast);
 }
-
-/*
-.wtmail-grid-cell-messagecolumn .wtmail-grid-cell-messagecolumn-unread {
-    font-weight: 500 !important;
-}
-.wtmail-messagecolumn-head > SPAN {
-	color: #111827;
-	font-size: 14px;
-}
-.wtmail-messagecolumn-head-float > SPAN {
-	color: #111827;
-	font-size: 14px;
-}
-.wtmail-messagecolumn-body > SPAN {
-	font-weight: 500 !important;
-	font-size: 12px;
-}
-.wtmail-messagecolumn-collapsetool {
-	color: var(--wt-theme-color-1);
-	opacity: 1;	
-}
-*/

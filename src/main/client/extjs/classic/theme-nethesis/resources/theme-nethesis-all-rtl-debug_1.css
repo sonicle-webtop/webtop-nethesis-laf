@@ -12351,32 +12351,25 @@ body > .x-mask {
 .x-datepicker {
     border-width: 1px;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: transparent;
     background-color: #fff;
-    width: 310px;
+    width: 205px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:19 */
 .x-datepicker-header {
     padding: 0;
     text-align: center;
-    background-color: #ededed;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:29 */
 .x-datepicker-arrow {
-    width: 32px;
-    height: 44px;
+    width: 25px;
+    height: 32px;
     top: 0px;
     cursor: pointer;
     -webkit-touch-callout: none;
-    color: #929292;
-    background-color: #ededed;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    opacity: 0.7;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:51 */
-div.x-datepicker-arrow:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    opacity: 1;
+    color: #030712;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:56 */
 .x-datepicker-next {
@@ -12385,7 +12378,7 @@ div.x-datepicker-arrow:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-datepicker-next:before {
-    content: '\f101';
+    content: '\f105';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:65 */
 .x-datepicker-prev {
@@ -12394,7 +12387,7 @@ div.x-datepicker-arrow:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-datepicker-prev:before {
-    content: '\f100';
+    content: '\f104';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:74 */
 .x-datepicker-month {
@@ -12421,9 +12414,9 @@ div.x-datepicker-arrow:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:98 */
 .x-datepicker-month .x-btn-split-right:after,
 .x-datepicker-month .x-btn-over .x-btn-split-right:after {
-    content: '\f107';
+    content: '\f0d7';
     font: 16px/1 'Font Awesome 5 Free';
-    color: #374151;
+    color: #030712;
     background: none;
     padding: 0;
     text-align: right;
@@ -12431,34 +12424,34 @@ div.x-datepicker-arrow:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:111 */
 .x-datepicker-month .x-btn {
-    padding: 14px;
+    padding: 8px 2px 8px 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:115 */
 .x-datepicker-month .x-btn-over {
     border-color: transparent;
-    background: #e0e0e0;
+    background: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:120 */
 .x-datepicker-month .x-btn.x-btn-pressed {
     border-color: transparent;
-    background: #d3d3d3;
+    background: #e6e6e6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:125 */
 .x-datepicker-month .x-btn-inner {
-    font-size: 15px;
+    font-size: 14px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:130 */
 .x-datepicker-column-header {
-    width: 44px;
+    width: 29px;
     color: #111827;
-    font: 400 13px Poppins, sans-serif;
+    font: 500 14px Poppins, sans-serif;
     text-align: right;
-    background-color: #ededed;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:149 */
 .x-datepicker-column-header-inner {
-    line-height: 36px;
-    padding: 0 15px 0 0;
+    line-height: 30px;
+    padding: 0px 0px 0px 0px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:154 */
 .x-datepicker-cell {
@@ -12467,16 +12460,16 @@ div.x-datepicker-arrow:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:163 */
 .x-datepicker-date {
-    padding: 0 15px 0 0;
-    font: 400 13px Poppins, sans-serif;
+    padding: 0px 0px 0px 0px;
+    font: 500 14px Poppins, sans-serif;
     color: #111827;
     cursor: pointer;
-    line-height: 36px;
+    line-height: 30px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:173 */
 div.x-datepicker-date:hover {
     color: #111827;
-    background-color: #ededed;
+    background-color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:178 */
 .x-datepicker-selected {
@@ -12498,7 +12491,7 @@ div.x-datepicker-date:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:199 */
 .x-datepicker-prevday .x-datepicker-date,
 .x-datepicker-nextday .x-datepicker-date {
-    color: #d1d1d1;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:206 */
 .x-datepicker-disabled .x-datepicker-date {
@@ -12514,7 +12507,7 @@ div.x-datepicker-date:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:219 */
 .x-datepicker-footer,
 .x-monthpicker-buttons {
-    padding: 6px 0;
+    padding: 6px 0px 0px 0px;
     background-color: #fff;
     text-align: center;
 }
@@ -12525,35 +12518,35 @@ div.x-datepicker-date:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:242 */
 .x-monthpicker {
-    width: 310px;
+    width: 205px;
     border-width: 1px;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: transparent;
     background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:252 */
 .x-monthpicker-months {
     border-width: 0 1px 0 0;
-    border-color: #d1d1d1;
+    border-color: transparent;
     border-style: solid;
-    width: 154px;
+    width: 101px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:261 */
 .x-monthpicker-months .x-monthpicker-item {
-    width: 76px;
+    width: 50px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:266 */
 .x-monthpicker-years {
-    width: 154px;
+    width: 102px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:269 */
 .x-monthpicker-years .x-monthpicker-item {
-    width: 77px;
+    width: 51px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:274 */
 .x-monthpicker-item {
     margin: 5px 0 5px;
-    font: 400 13px Poppins, sans-serif;
+    font: 500 14px Poppins, sans-serif;
     text-align: center;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:280 */
@@ -12561,13 +12554,13 @@ div.x-datepicker-date:hover {
     margin: 0 5px 0 5px;
     color: #111827;
     border: 0;
-    line-height: 37px;
+    line-height: 30px;
     cursor: pointer;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:295 */
 a.x-monthpicker-item-inner:hover {
     color: #111827;
-    background-color: #ededed;
+    background-color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:301 */
 .x-monthpicker-item a.x-monthpicker-selected {
@@ -12578,28 +12571,21 @@ a.x-monthpicker-item-inner:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:308 */
 .x-monthpicker-yearnav {
-    height: 47px;
+    height: 40px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:312 */
 .x-monthpicker-yearnav-button-ct {
-    width: 77px;
+    width: 51px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:316 */
 .x-monthpicker-yearnav-button {
     height: 16px;
     width: 16px;
     cursor: pointer;
-    margin-top: 15px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    opacity: 0.7;
+    margin-top: 12px;
     -webkit-touch-callout: none;
-    color: #929292;
+    color: #030712;
     background-color: #fff;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:337 */
-a.x-monthpicker-yearnav-button:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    opacity: 1;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:342 */
 .x-monthpicker-yearnav-next {
@@ -12607,7 +12593,7 @@ a.x-monthpicker-yearnav-button:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-monthpicker-yearnav-next:before {
-    content: '\f101';
+    content: '\f105';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:356 */
 .x-monthpicker-yearnav-prev {
@@ -12615,7 +12601,7 @@ a.x-monthpicker-yearnav-button:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-monthpicker-yearnav-prev:before {
-    content: '\f100';
+    content: '\f104';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:371 */
 .x-monthpicker-small .x-monthpicker-item {
@@ -12627,11 +12613,11 @@ a.x-monthpicker-yearnav-button:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:379 */
 .x-monthpicker-small .x-monthpicker-yearnav {
-    height: 41px;
+    height: 34px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:383 */
 .x-monthpicker-small .x-monthpicker-yearnav-button {
-    margin-top: 12px;
+    margin-top: 9px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/form/field/Date.scss:2 */
 .x-form-field-date .x-form-date-trigger {
@@ -16291,4 +16277,10 @@ div.x-border-layout-ct {
     position: absolute;
     overflow: hidden;
     z-index: 50000;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:180 */
+.x-resizable-handle-over,
+.x-resizable-pinned .x-resizable-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
 }

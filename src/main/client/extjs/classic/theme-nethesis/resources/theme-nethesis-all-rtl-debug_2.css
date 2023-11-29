@@ -1,9 +1,3 @@
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:180 */
-.x-resizable-handle-over,
-.x-resizable-pinned .x-resizable-handle {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    opacity: 1;
-}
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:186 */
 .x-resizable-handle-east-over,
 .x-resizable-handle-west-over,

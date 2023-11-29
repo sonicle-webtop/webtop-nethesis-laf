@@ -63,7 +63,7 @@ color-ct-ok-1 -> Green/700
     --wt-theme-lineheight-xl: 30px;
     --wt-theme-fontweight-regular: 400;
     --wt-theme-fontweight-medium: 500;
-    --wt-theme-fontweight-bold: 700;
+    --wt-theme-fontweight-bold: 800;
 }
 
 /* Loader: customize spinner and typography */
@@ -128,17 +128,22 @@ color-ct-ok-1 -> Green/700
     padding-left: 54px;
 }
 
-/* ToolHD: apply background */
+/* ---------- Tool HD/Body */
+/* Hide ugly border when docking top */
+.wt-tool .x-panel-body { border-top: 0px; }
+/* Customize HD style */
+.wt-tool .wt-tool-bg { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); padding-top: 10px; padding-left: 6px; }
-.wt-tool-hd { background-color: var(--wt-theme-color-surface-1); }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); font-weight: 500; }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 
-/* AccountMenu: pad user-info */
+/* ---------- AccountMenu */
+/* Pad user-info */
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }
 
-/* MsgBox: tweak styling */
+/* ---------- MsgBox */
+/* Tweak styling */
 .x-window.x-message-box .x-header { background-color: #ffffff; }
 .x-window.x-message-box .x-toolbar-footer { background-color: #ffffff; }
 .x-window.x-message-box .x-window-header { padding-left: 18px; padding-right: 8px; }

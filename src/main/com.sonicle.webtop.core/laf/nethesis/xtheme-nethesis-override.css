@@ -92,6 +92,29 @@
     font-weight: var(--wt-theme-fontweight-bold) !important;
 }
 
+/* ---------- UI KanbanColumn panel */
+/* Support rounded corners */
+.x-panel-panel-kanbancolumn {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ */
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
+}
+.x-panel-panel-kanbancolumn .x-panel-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.x-panel-panel-kanbancolumn .x-panel-header.x-panel-header-collapsed {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.x-panel-panel-kanbancolumn .x-panel-body {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 
 
 /*

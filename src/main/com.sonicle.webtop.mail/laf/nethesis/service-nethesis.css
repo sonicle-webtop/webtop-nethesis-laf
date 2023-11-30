@@ -7,9 +7,6 @@
 .wtmail-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtmail-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
 
-.wtmail-trees .x-toolbar { background-color: var(--wt-theme-color-surface-1); border: none; }
-.wtmail-trees .x-panel-body { background-color: var(--wt-theme-color-surface-1); }
-.wtmail-trees .x-grid-item:not(.x-grid-item-over) { background-color: var(--wt-theme-color-surface-1); }
 .wtmail-trees .x-grid-item-selected { background-color: #e5e7eb !important; border-radius: 5px; }
 .wtmail-trees .x-grid-item-over { border-radius: 5px; }
 .wtmail-trees .x-grid-body {

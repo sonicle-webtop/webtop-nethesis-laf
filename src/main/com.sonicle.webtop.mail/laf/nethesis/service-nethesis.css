@@ -40,7 +40,7 @@
     box-shadow: none !important;
 }
 
-.wtmail-mv-header { font-family: Poppins, sans-serif; }
+.wtmail-mv-header { font-family: Poppins, sans-serif; padding: 0px 6px 0px 12px; }
 
 .wtmail-mv-header-avatar { vertical-align: top; width: 48px; }
 
@@ -61,7 +61,7 @@
 .wtmail-messageview-toolbar-container {
 	background-color: #ffffff !important; 
 	padding-top: 8px;
-	padding-left: 16px;
+	padding-left: 4px;
 }
 
 .wtmail-icon-imapfolder:before { content: '\f07b'; font: var(--fa-font-solid); } .wtmail-icon-imapfolder { background-image: none !important }
@@ -126,6 +126,7 @@
 .wtmail-icon-msgSetMailcard-grayed:before { content: '\f5b7'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2) } .wtmail-icon-msgSetMailcard-grayed { background-image: none !important; }
 .wtmail-icon-msgSetMailcard:before { content: '\f5b7'; font: var(--fa-font-solid); } .wtmail-icon-msgSetMailcard { background-image: none !important; }
 .wtmail-icon-addMailFilter:before { content: '\f067'; font: var(--fa-font-solid); } .wtmail-icon-addMailFilter { background-image: none !important; }
+.wtmail-icon-inMailFilters:before { content: '\f0b0'; font: var(--fa-font-solid); } .wtmail-icon-inMailFilters { background-image: none !important; }
 
 .so-avatarcolumn .so-avatar-wrap {
     background-color: #9CA3AF !important;

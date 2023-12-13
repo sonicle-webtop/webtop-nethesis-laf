@@ -62,13 +62,8 @@ Ext.define('Nethesis.override.webtop.mail.ux.grid.column.Message', {
 	collapseToolOpenIconCls: 'fas fa-chevron-circle-down',
 	collapseToolCloseIconCls: 'fas fa-chevron-circle-up'
 });
-
-Ext.define('Nethesis.override.webtop.calendar.Service', {
-	override: 'Sonicle.webtop.calendar.Service',
+Ext.define('Nethesis.override.menu.Menu', {
+	override: 'Ext.menu.Menu',
 	
-	createSchedulerCfg: function(tagsStore, cfg) {
-		return Ext.apply(this.callParent(arguments), {
-			padding: '26 32 0 32'
-		});
-	}
+	defaultMinWidth: 200
 });

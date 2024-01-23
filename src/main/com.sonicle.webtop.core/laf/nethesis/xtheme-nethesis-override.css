@@ -89,7 +89,14 @@
     border-bottom-right-radius: 4px;
 }
 .x-datepicker-cell.so-datepicker-fulldate > .x-datepicker-date {
-    font-weight: var(--wt-theme-fontweight-bold) !important;
+    font-weight: 800 !important;
+}
+
+/* ---------- UI button-segmented */
+.x-btn-button-segmented-small.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-medium.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-large.x-btn-pressed .x-btn-inner {
+    color: var(--wt-theme-color-1);
 }
 
 /* ---------- UI KanbanColumn panel */
@@ -111,10 +118,12 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-.x-panel-panel-kanbancolumn .x-panel-body {
+.x-panel-panel-kanbancolumn .x-panel-body-panel-kanbancolumn {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+
 
 
 /*

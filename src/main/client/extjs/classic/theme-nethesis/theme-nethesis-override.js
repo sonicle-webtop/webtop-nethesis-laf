@@ -62,7 +62,6 @@ Ext.define('Nethesis.override.webtop.mail.ux.grid.column.Message', {
 	collapseToolOpenIconCls: 'fas fa-chevron-circle-down',
 	collapseToolCloseIconCls: 'fas fa-chevron-circle-up'
 });
-
 Ext.define('Nethesis.override.menu.Menu', {
 	override: 'Ext.menu.Menu',
 	

@@ -56,14 +56,27 @@ color-ct-ok-1 -> Green/700
     --wt-theme-fontsize-base: 16px;
     --wt-theme-fontsize-lg: 18px;
     --wt-theme-fontsize-xl: 20px;
+    --wt-theme-fontsize-2xl: 24px;
+    --wt-theme-fontsize-3xl: 30px;
+    --wt-theme-fontsize-4xl: 36px;
+    --wt-theme-fontsize-5xl: 48px;
+    --wt-theme-fontsize-6xl: 64px;
     --wt-theme-lineheight-xs: 18px;
     --wt-theme-lineheight-sm: 21px;
     --wt-theme-lineheight-base: 24px;
     --wt-theme-lineheight-lg: 27px;
     --wt-theme-lineheight-xl: 30px;
+    --wt-theme-lineheight-2xl: 36px;
+    --wt-theme-lineheight-3xl: 45px;
+    --wt-theme-lineheight-4xl: 54px;
+    --wt-theme-lineheight-5xl: 72px;
+    --wt-theme-lineheight-6xl: 96px;
     --wt-theme-fontweight-regular: 400;
     --wt-theme-fontweight-medium: 500;
-    --wt-theme-fontweight-bold: 800;
+    --wt-theme-fontweight-bold: 500; /* Do NOT use it keep at 500 */
+    
+    --fc-now-indicator-color: #c2410c; /* Orange/700 */
+    --fc-neutral-bg-color: #f9fafb; /* Gray/50 */
 }
 
 /* Loader: customize spinner and typography */
@@ -213,4 +226,52 @@ color-ct-ok-1 -> Green/700
 /* ColorColumn */
 .so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
     margin-left: 8px;
+}
+
+/* ---------- FullCalendar Panel */
+.so-fullcalendar-panel {
+    background-color: var(--wt-theme-color-surface-2);
+}
+.so-fullcalendar > .fc {
+	/*zoom: 1.1;*/
+}
+.so-fullcalendar-panel-toolbar {
+    margin-bottom: 16px;
+}
+.so-fullcalendar-panel-toolbar-month {
+    gap: 16px;
+}
+.so-fullcalendar-panel-toolbar-month span:nth-child(1) {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-3xl);
+    line-height: var(--wt-theme-lineheight-3xl);
+}
+.so-fullcalendar-panel-toolbar-month span:nth-child(2) {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-3xl);
+    line-height: var(--wt-theme-lineheight-3xl);
+}
+/* Hide borders */
+.so-fullcalendar .fc-theme-standard .fc-scrollgrid {
+    /*border: none;*/
+}
+.so-fullcalendar .fc-theme-standard .fc-col-header th {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.so-fullcalendar .fc-more-link {
+    /*font-size: var(--wt-theme-fontsize-sm) !important;*/
+    /*font-weight: var(--wt-theme-fontweight-medium) !important;*/
+    /*line-height: var(--wt-theme-lineheight-sm) !important;*/
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-col-header-cell.fc-day-today .fc-col-header-cell-cushion {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-event,
+.so-fullcalendar .fc-timegrid-event {
+    border-radius: 6px;
 }

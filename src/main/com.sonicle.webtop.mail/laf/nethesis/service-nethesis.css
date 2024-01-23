@@ -146,7 +146,11 @@
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-noborderbottom {
 	border-width: 0px 0 0px;
 }
-.wtmail-message-grid .x-grid-with-row-lines .x-grid-item:not(.wtmail-x-grid-item-noborderbottom) {
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-read:not(.wtmail-x-grid-item-noborderbottom) {
+	border-width: 0px 0 1px;
+	border-color: #e5e7eb;
+}
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-unread:not(.wtmail-x-grid-item-noborderbottom) {
 	border-width: 0px 0 1px;
 	border-color: white;
 }

@@ -266,3 +266,28 @@
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-body {
     color: var(--wt-theme-color-surface-contrast);
 }
+
+.wtmail-x-grid-item-threadfirst .x-grid-cell-last:before {
+	position: absolute;
+	height: 100%;
+	content: "";
+	border-left: 2px solid orange;
+	bottom: 0px;
+	top: 8px;
+}
+
+.wtmail-x-grid-item-threadchild .x-grid-cell-last:before {
+	position: absolute;
+	height: 100%;
+	content: "";
+	border-left: 2px solid orange;
+	bottom: 8px;
+	top: 0px;
+}
+
+.wtmail-x-grid-item-threadchild.wtmail-x-grid-item-noborderbottom .x-grid-cell-last:before {
+	position: absolute;
+	height: 100%;
+	content: "";
+	border-left: 2px solid orange;
+}

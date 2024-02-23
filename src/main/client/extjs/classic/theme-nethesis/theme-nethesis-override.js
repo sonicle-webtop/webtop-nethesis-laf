@@ -67,3 +67,20 @@ Ext.define('Nethesis.override.menu.Menu', {
 	
 	defaultMinWidth: 200
 });
+Ext.define('Nethesis.override.webtop.calendar.Service', {
+	override: 'Sonicle.webtop.calendar.Service',
+	
+	createToolCalendarCfg: function(cfg) {
+		return Ext.apply(this.callParent(arguments), {
+			width: 242,
+			height: 274
+		});
+	},
+	
+	createSchedulerCfg: function(tagsStore, cfg) {
+		return Ext.apply(this.callParent(arguments), {
+			padding: '26 32 0 32',
+			showWeekNumbers: true
+		});
+	}
+});

@@ -75,8 +75,11 @@ color-ct-ok-1 -> Green/700
     --wt-theme-fontweight-medium: 500;
     --wt-theme-fontweight-bold: 500; /* Do NOT use it keep at 500 */
     
-    --fc-now-indicator-color: #c2410c; /* Orange/700 */
-    --fc-neutral-bg-color: #f9fafb; /* Gray/50 */
+    --fc-border-color: #E5E7EB !Important; /* Gray/200 */
+    --fc-now-indicator-color: #c2410c !Important; /* Orange/700 */
+    --fc-neutral-bg-color: #f9fafb !Important; /* Gray/50 */
+    --fc-non-business-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
+    --fc-today-bg-color: #fff7ed !Important; /* Orange/50 */
 }
 
 /* Loader: customize spinner and typography */
@@ -228,18 +231,47 @@ color-ct-ok-1 -> Green/700
     margin-left: 8px;
 }
 
-/* ---------- FullCalendar Panel */
-.so-fullcalendar-panel {
-    background-color: var(--wt-theme-color-surface-2);
+/* ---------- TreePanel toggle checkbox */
+.wt-tree-toggle.x-tree-checkbox-checked:before {
+	color: #C2410C; /* Orange/700 */
 }
+
+/* ---------- TreePanel swatch */
+.wt-tree-colorswatch {
+    top: 10px;
+    width: 16px;
+    height: 16px;
+}
+.wt-tree-colorswatch.wt-tree-colorswatch-rounded {
+    border-radius: 5px;
+    font-size: 80%;
+}
+.wt-tree-colorswatch.wt-tree-colorswatch-framed {
+    border-color: #9ca3af; /* Gray/400 */
+}
+.wt-tree-colorswatch.wt-tree-colorswatch-lightmark {
+    color: #ffffff;
+}
+.wt-tree-colorswatch.wt-tree-colorswatch-darkmark {
+    color: #111827; /* Gray/900 */
+}
+
+/* ---------- FullCalendar Panel */
 .so-fullcalendar > .fc {
 	/*zoom: 1.1;*/
 }
-.so-fullcalendar-panel-toolbar {
-    margin-bottom: 16px;
+.so-fullcalendar-panel {
+    background-color: var(--wt-theme-color-surface-2);
 }
 .so-fullcalendar-panel-toolbar-month {
     gap: 16px;
+    width: 260px; /* Keep nav-buttons equally spaced! */
+}
+.so-fullcalendar .fc-daygrid-week-number {
+    background-color: #FFEDD5; /* Orange/100 */
+}
+.so-fullcalendar-panel-toolbar {
+    margin-bottom: 16px;
 }
 .so-fullcalendar-panel-toolbar-month span:nth-child(1) {
     font-weight: var(--wt-theme-fontweight-medium);
@@ -251,9 +283,16 @@ color-ct-ok-1 -> Green/700
     font-size: var(--wt-theme-fontsize-3xl);
     line-height: var(--wt-theme-lineheight-3xl);
 }
-/* Hide borders */
-.so-fullcalendar .fc-theme-standard .fc-scrollgrid {
-    /*border: none;*/
+/* Hide old-style borders */
+.so-fullcalendar .fc-theme-standard table.fc-scrollgrid {
+    border: transparent; /* Hide external (top/right) border */
+}
+.so-fullcalendar .fc-theme-standard div.fc-timegrid table.fc-scrollgrid td:nth-child(1),
+.so-fullcalendar .fc-theme-standard th {
+    border-right: transparent; /* Hide R-borders in dayviews TD[1] and THs */
+}
+.so-fullcalendar .fc-theme-standard div.fc-daygrid table.fc-scrollgrid td:nth-child(1) {
+    border-left: 1px solid var(--fc-border-color); /* Restore L-borders in timeviews TD[1] */
 }
 .so-fullcalendar .fc-theme-standard .fc-col-header th {
     border-left-width: 0px;
@@ -274,4 +313,23 @@ color-ct-ok-1 -> Green/700
 .so-fullcalendar .fc-daygrid-event,
 .so-fullcalendar .fc-timegrid-event {
     border-radius: 6px;
+}
+.so-fullcalendar .fc-timegrid-slot-minor {
+    border-top-style: solid; /* Do not use dotted style */
+    border-top-color: #F3F4F6; /* Gray/100 */
+}
+/* Add padding in event content */
+.so-fullcalendar .fc-timegrid .fc-event-main {
+    padding: 4px;
+}
+.so-fullcalendar .fc-daygrid .fc-event-main {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.so-fullcalendar .so-cal-appo-icons {
+    left: 4px;
+    bottom: 1px;
+}
+.so-fullcalendar .so-cal-appo-bottomline {
+    flex-basis: 10px;
 }

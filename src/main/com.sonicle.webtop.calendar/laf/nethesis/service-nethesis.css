@@ -36,3 +36,33 @@
 .wtcal-portlet-event-body-location {
     color: unset;
 }
+.wtcal-tool-searchpanel-body {
+    padding: 24px 16px 18px 16px;
+}
+.wtcal-tool-tree {
+    margin-left: 10px;
+}
+.wtcal-tool-calendarpanel {
+    margin-top: 6px;
+}
+/* FullCalendar Panel tooltip */
+.so-cal-appo-hov {
+    gap: 16px;
+	font-size: var(--wt-theme-fontsize-sm);
+    font-weight: var(--wt-theme-fontweight-regular);
+}
+.so-cal-appo-hov-group {
+    gap: 8px;
+}
+.so-cal-appo-hov-title {
+	font-size: var(--wt-theme-fontsize-lg);
+    font-weight: var(--wt-theme-fontweight-medium);
+}
+.so-cal-appo-hov-when {
+	font-size: var(--wt-theme-fontsize-xs);
+}
+.so-cal-appo-hov-calendar > i,
+.so-cal-appo-hov-where > i,
+.so-cal-appo-hov-organizer > i {
+    margin-right: 8px;
+}

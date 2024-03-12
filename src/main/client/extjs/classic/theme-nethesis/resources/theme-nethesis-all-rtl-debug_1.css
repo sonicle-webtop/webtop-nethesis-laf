@@ -527,7 +527,7 @@
 .x-treelist-item-icon:before,
 .x-treelist-item-tool:before,
 .x-treelist-item-expander {
-    line-height: 35px;
+    line-height: 29px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:178 */
 .x-treelist-item-icon,
@@ -562,20 +562,20 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:232 */
 .x-treelist-item-expander:after {
     content: '\f105';
-    font: 16px/35px 'Font Awesome 5 Free';
+    font: 16px/29px 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:240 */
 .x-treelist-item-expanded > * > * > .x-treelist-item-expander:after {
     content: '\f107';
-    font: 16px/35px 'Font Awesome 5 Free';
+    font: 16px/29px 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:253 */
 .x-treelist-item-text {
     color: #111827;
     margin-left: 24px;
     margin-right: 16px;
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 12px;
+    line-height: 29px;
     text-overflow: ellipsis;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/packages/core/sass/src/list/TreeItem.scss:270 */
@@ -3731,8 +3731,8 @@ body > .x-mask {
 .x-progressbar-default-cell > .x-grid-cell-inner,
 .x-progress-default-cell > .x-grid-cell-inner,
 .x-progressbarwidget-default-cell > .x-grid-cell-inner {
-    padding-top: 6px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/ProgressBar.scss:288 */
 .x-progressbar-default-cell > .x-grid-cell-inner .x-progress-default,
@@ -4308,8 +4308,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-default-small-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-default-small-cell > .x-grid-cell-inner >.x-btn-default-small {
@@ -4883,8 +4883,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-default-medium-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-default-medium-cell > .x-grid-cell-inner >.x-btn-default-medium {
@@ -6030,8 +6030,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-default-toolbar-small-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-default-toolbar-small-cell > .x-grid-cell-inner >.x-btn-default-toolbar-small {
@@ -6602,8 +6602,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-default-toolbar-medium-cell > .x-grid-cell-inner {
-    padding-top: 1px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-default-toolbar-medium-cell > .x-grid-cell-inner >.x-btn-default-toolbar-medium {
@@ -11870,8 +11870,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Text.scss:384 */
 .x-textfield-default-cell > .x-grid-cell-inner {
-    padding-top: 2px;
-    padding-bottom: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/form/field/Text.scss:54 */
 .x-form-clear-trigger {
@@ -12044,8 +12044,8 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Checkbox.scss:215 */
 .x-checkbox-default-cell > .x-grid-cell-inner {
-    padding-top: 2px;
-    padding-bottom: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/CheckboxGroup.scss:96 */
 .x-form-item-body-default.x-form-checkboxgroup-body {
@@ -13347,7 +13347,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/Table.scss:11 */
 .x-theme-row-height-el {
-    height: 35px;
+    height: 29px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/Table.scss:15 */
 .x-grid-body {
@@ -13361,12 +13361,12 @@ a.x-color-picker-item:hover {
     padding: 10px;
     color: grey;
     background-color: #fff;
-    font: 400 16px Poppins, sans-serif;
+    font: 400 12px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/Table.scss:30 */
 .x-grid-item {
     color: #111827;
-    font: 400 16px/23px Poppins, sans-serif;
+    font: 400 12px/17px Poppins, sans-serif;
     background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/Table.scss:36 */
@@ -13750,7 +13750,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Action.scss:1 */
 .x-grid-cell-inner-action-col {
-    padding: 10px 4px 9px 4px;
+    padding: 7px 4px 6px 4px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Action.scss:14 */
 .x-action-col-cell .x-item-disabled {
@@ -13768,7 +13768,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:2 */
 .x-column-header-checkbox .x-column-header-inner,
 .x-grid-checkcolumn-cell-inner {
-    padding: 9px 4px 8px 4px;
+    padding: 6px 4px 5px 4px;
     text-overflow: clip;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:20 */
@@ -14343,8 +14343,8 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-grid-cell-small-cell > .x-grid-cell-inner {
-    padding-top: 3px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
 .x-button-grid-cell-small-cell > .x-grid-cell-inner >.x-btn-grid-cell-small {
@@ -14447,7 +14447,7 @@ a.x-color-picker-item:hover {
     border-color: #eaeaea;
     background-color: #fff;
     color: #111827;
-    font: 400 16px/23px Poppins, sans-serif;
+    font: 400 12px/17px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGroupingSummary.scss:1 */
 .x-docked-grid-summary {
@@ -14465,7 +14465,7 @@ a.x-color-picker-item:hover {
     border-color: #eaeaea;
     background-color: #fff !important;
     border-top: 1px solid #eaeaea;
-    font: 400 16px/23px Poppins, sans-serif;
+    font: 400 12px/17px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Grouping.scss:1 */
 .x-grid-group-hd {
@@ -14518,7 +14518,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/RowBody.scss:1 */
 .x-grid-rowbody {
-    font: 400 16px/23px Poppins, sans-serif;
+    font: 400 12px/17px Poppins, sans-serif;
     padding: 5px 10px 5px 10px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss:1 */
@@ -14539,7 +14539,7 @@ a.x-color-picker-item:hover {
     border-color: #eaeaea;
     background-color: #fff !important;
     border-top: 1px solid #eaeaea;
-    font: 400 16px/23px Poppins, sans-serif;
+    font: 400 12px/17px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss:26 */
 .x-docked-summary .x-grid-item,
@@ -15375,7 +15375,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/Editing.scss:24 */
 .x-grid-editor .x-form-action-col-field {
-    padding: 10px 4px 9px 4px;
+    padding: 7px 4px 6px 4px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/Editing.scss:30 */
 .x-grid-editor .x-form-text {
@@ -15505,15 +15505,15 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:7 */
 .x-grid-row-editor .x-form-display-field {
     padding: 6px 8px 6px 8px;
-    line-height: 23px;
+    line-height: 17px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:18 */
 .x-ie9m .x-grid-row-editor .x-form-display-field {
-    min-height: 23px;
+    min-height: 17px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:26 */
 .x-grid-row-editor .x-form-action-col-field {
-    padding: 8px 1px 8px 2px;
+    padding: 7px 1px 6px 2px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:37 */
 .x-grid-row-editor .x-form-text {
@@ -15802,7 +15802,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowExpander.scss:1 */
 .x-grid-cell-inner-row-expander {
-    padding: 10px 8px 9px 8px;
+    padding: 7px 8px 6px 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowExpander.scss:16 */
 .x-grid-row-expander {

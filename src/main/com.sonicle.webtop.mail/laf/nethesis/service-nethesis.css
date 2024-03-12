@@ -291,3 +291,5 @@
 	content: "";
 	border-left: 2px solid orange;
 }
+
+.wtmail-unsubscribe-link { color: var(--wt-theme-color-1) !important; }

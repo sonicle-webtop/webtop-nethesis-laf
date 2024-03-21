@@ -203,6 +203,7 @@
 
 .wtmail-mv-hsubject { padding-bottom: 8px; padding-left: 8px; font-size:20px; }
 .wtmail-mv-hfromname { padding-bottom: 8px; font-size:14px; font-weight: bold }
+.wtmail-mv-hthroughname { padding-bottom: 8px; }
 .wtmail-mv-hdate { padding-bottom: 8px; }
 .wtmail-mv-hto { padding-bottom: 8px; }
 .wtmail-mv-hcc { padding-bottom: 8px; }

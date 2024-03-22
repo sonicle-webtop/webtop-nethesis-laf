@@ -200,15 +200,56 @@ color-ct-ok-1 -> Green/700
     box-shadow: 0px 0px 0px 8px #fee2e2;
 }
 
+
+
+.wtcal-planning-grid .x-group-header:after {
+	width: 0px;
+}
+
+
+
+
 /* Menu: set separator color */
 .x-menu-item-separator {
     border-top-color: #e5e7eb !important; /* Gray/200 */
+}
+
+/* GridPanel: hide top border*/
+.x-grid-body {
+	border-top: 0px;
 }
 
 /* ContextMenu: highlight owner */
 .x-grid-view .so-contextmenu-owner,
 .x-tree-view .so-contextmenu-owner {
     background-color: #d1d5db !important; /* Gray/300 */
+}
+
+/* ModelView: toolbars */
+.wt-modelview-toolbar {
+	padding-left: 24px;
+	padding-right: 24px;
+    border-top: none;
+}
+.wt-modelview-toolbar-first {
+	padding-top: 24px;
+}
+.wt-modelview-toolbar-last {
+}
+
+/* AttachmentsField: hide tagfield borders */
+.wt-attachmentsfield .x-form-trigger-wrap {
+	border: none;
+}
+
+/* IconedFieldContainer */
+.so-label-icon-el {
+    margin-right: 0;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.so-fieldcontainerwicon > .x-form-item-body {
+	padding-left: 24px;
 }
 
 /* KanbanColumn: change collapse/expand icons and header color */
@@ -255,6 +296,15 @@ color-ct-ok-1 -> Green/700
 .wt-tree-colorswatch.wt-tree-colorswatch-darkmark {
     color: #111827; /* Gray/900 */
 }
+
+/* ---------- Display Field */
+.so-displayfield-clickable {
+    color: #C2410C;
+}
+.so-displayfield-clickable:hover {
+    color: #7c2d12;
+}
+
 
 /* ---------- FullCalendar Panel */
 .so-fullcalendar > .fc {

@@ -760,8 +760,8 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3220 */
 .x-tab-inner-default {
-    font: 400 13px/20px Poppins, sans-serif;
-    color: #f0f0f0;
+    font: 500 16px/20px Poppins, sans-serif;
+    color: #6b7280;
     max-width: 100%;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3228 */
@@ -779,7 +779,7 @@
     background-position: center center;
     font-size: 20px;
     line-height: 20px;
-    color: #f0f0f0;
+    color: #6b7280;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3245 */
 .x-tab-icon-left > .x-tab-icon-el-default,
@@ -920,7 +920,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3741 */
 .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #9b340a;
+    color: #c2410c;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3746 */
 .x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
@@ -928,11 +928,11 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3761 */
 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #9b340a;
+    color: #c2410c;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3769 */
 .x-ie8 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #b97153;
+    color: #d47a55;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3775 */
 .x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
@@ -973,7 +973,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4005 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #f0f0f0;
+    color: #6b7280;
     opacity: 0.3;
     filter: none;
 }
@@ -1532,7 +1532,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
 .x-tab-bar-default {
-    background-color: #c2410c;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:428 */
 .x-tab-bar-default-top > .x-tab-bar-body-default {
@@ -1615,22 +1615,22 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:632 */
 .x-tab-bar-default-top {
     background-image: none;
-    background-color: #c2410c;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:642 */
 .x-tab-bar-default-bottom {
     background-image: none;
-    background-color: #c2410c;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:652 */
 .x-tab-bar-default-left {
     background-image: none;
-    background-color: #c2410c;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Bar.scss:662 */
 .x-tab-bar-default-right {
     background-image: none;
-    background-color: #c2410c;
+    background-color: #fff;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
 .x-tab-bar-default-scroller .x-box-scroller-body-horizontal {

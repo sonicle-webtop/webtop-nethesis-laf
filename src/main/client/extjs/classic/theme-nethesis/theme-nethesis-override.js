@@ -84,3 +84,29 @@ Ext.define('Nethesis.override.webtop.calendar.Service', {
 		});
 	}
 });
+Ext.define('Nethesis.override.webtop.calendar.view.EventNew', {
+	override: 'Sonicle.webtop.calendar.view.EventNew',
+	
+	privates: {
+		createTopToolbar2Cfg: function() {
+			var me = this;
+			return {
+				xtype: 'toolbar',
+				cls: 'wt-modelview-toolbar',
+				items: [
+					{
+						xtype: 'checkbox',
+						bind: '{isPrivate}',
+						hideEmptyLabel: true,
+						boxLabel: me.res('event.fld-private.lbl')
+					}, {
+						xtype: 'checkbox',
+						bind: '{busy}',
+						hideEmptyLabel: true,
+						boxLabel: me.res('event.fld-busy.lbl')
+					}
+				]
+			};
+		}
+	}
+});

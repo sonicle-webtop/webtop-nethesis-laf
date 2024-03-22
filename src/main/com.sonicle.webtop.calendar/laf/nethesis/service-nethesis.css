@@ -9,6 +9,23 @@
 
 .wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
 .wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
+.wtcal-icon-title:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-title { background-image: none !important }
+.wtcal-icon-description:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-description { background-image: none !important }
+.wtcal-icon-datetime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-datetime { background-image: none !important }
+.wtcal-icon-location:before { content: '\f3c5'; font: var(--fa-font-solid); } .wtcal-icon-location { background-image: none !important }
+.wtcal-icon-meeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wtcal-icon-meeting { background-image: none !important }
+.wtcal-icon-attendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-attendees { background-image: none !important }
+.wtcal-icon-reminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-reminder { background-image: none !important }
+.wtcal-icon-showDescription:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-showDescription { background-image: none !important }
+.wtcal-icon-addResource:before { content: '\f54f'; font-family: var(--fa-style-family-classic); } .wtcal-icon-addResource { background-image: none !important }
+.wtcal-icon-importAttendees:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-importAttendees { background-image: none !important }
+.wtcal-icon-importAttendeesPaste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wtcal-icon-importAttendeesPaste { background-image: none !important }
+.wtcal-icon-importAttendeesList:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-importAttendeesList { background-image: none !important }
+.wtcal-icon-addMeeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wtcal-icon-addMeeting { background-image: none !important }
+.wtcal-icon-attendeeRole-REQ { background-repeat: no-repeat; }
+.wtcal-icon-attendeeRole-OPT { background-repeat: no-repeat; }
+.wtcal-icon-attendeeRole-CHA { background-repeat: no-repeat; }
+
 
 /* Portlet Grid: override padding */
 .wtcal-portlet-grid .x-grid-item {
@@ -65,4 +82,13 @@
 .so-cal-appo-hov-where > i,
 .so-cal-appo-hov-organizer > i {
     margin-right: 8px;
+}
+/* Attendees checked icon */
+.wtcal-attendees-notify-checkcolumn:after {
+    content: '\e4e8';
+        font-family: var(--fa-style-family-classic);
+}
+.wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
+    content: '\e4e8';
+    color: #C2410C;
 }

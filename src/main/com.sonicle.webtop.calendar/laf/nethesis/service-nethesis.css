@@ -26,8 +26,18 @@
 .wtcal-icon-attendeeRole-OPT { background-repeat: no-repeat; }
 .wtcal-icon-attendeeRole-CHA { background-repeat: no-repeat; }
 
+/* ---------- Attendees checked icon */
+.wtcal-attendees-notify-checkcolumn:after {
+    content: '\e4e8';
+    font-family: var(--fa-style-family-classic);
+}
+.wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
+    content: '\e4e8';
+    color: #C2410C;
+}
 
-/* Portlet Grid: override padding */
+/* ---------- Portlet Grid */
+/* Override padding */
 .wtcal-portlet-grid .x-grid-item {
     border-color: transparent;
 }
@@ -38,7 +48,8 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-/* Portlet EventsBody: override default style */
+/* ---------- Portlet EventsBody */
+/* Override default style */
 .wtcal-portlet-event-body .x-grid-rowbody {
     gap: 8px;
 }
@@ -53,6 +64,7 @@
 .wtcal-portlet-event-body-location {
     color: unset;
 }
+/* ---------- ToolPanel related */
 .wtcal-tool-searchpanel-body {
     padding: 24px 16px 18px 16px;
 }
@@ -62,7 +74,7 @@
 .wtcal-tool-calendarpanel {
     margin-top: 6px;
 }
-/* FullCalendar Panel tooltip */
+/* ---------- FullCalendar Panel tooltip */
 .so-cal-appo-hov {
     gap: 16px;
 	font-size: var(--wt-theme-fontsize-sm);
@@ -82,13 +94,4 @@
 .so-cal-appo-hov-where > i,
 .so-cal-appo-hov-organizer > i {
     margin-right: 8px;
-}
-/* Attendees checked icon */
-.wtcal-attendees-notify-checkcolumn:after {
-    content: '\e4e8';
-        font-family: var(--fa-style-family-classic);
-}
-.wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
-    content: '\e4e8';
-    color: #C2410C;
 }

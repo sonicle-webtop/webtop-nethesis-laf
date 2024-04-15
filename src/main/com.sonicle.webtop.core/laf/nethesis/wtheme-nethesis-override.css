@@ -272,30 +272,22 @@ color-ct-ok-1 -> Green/700
     margin-left: 8px;
 }
 
-/* ---------- TreePanel toggle checkbox */
+/* ---------- TreePanel: toggle checkbox */
 .wt-tree-toggle.x-tree-checkbox-checked:before {
 	color: #C2410C; /* Orange/700 */
 }
 
-/* ---------- TreePanel swatch */
-.wt-tree-colorswatch {
+/* ---------- TreePanel: treecolumn colorswatch */
+.wt-tree-colorswatch.x-tree-icon {
+    margin-top: 4px;
+}
+.x-tree-view .x-tree-checkbox.wt-tree-colorswatch {
     top: 10px;
-    width: 16px;
-    height: 16px;
 }
-.wt-tree-colorswatch.wt-tree-colorswatch-rounded {
-    border-radius: 5px;
-    font-size: 80%;
+.x-tree-view .x-tree-icon.wt-tree-colorswatch {
+   height: 16px;
 }
-.wt-tree-colorswatch.wt-tree-colorswatch-framed {
-    border-color: #9ca3af; /* Gray/400 */
-}
-.wt-tree-colorswatch.wt-tree-colorswatch-lightmark {
-    color: #ffffff;
-}
-.wt-tree-colorswatch.wt-tree-colorswatch-darkmark {
-    color: #111827; /* Gray/900 */
-}
+
 
 /* ---------- Display Field */
 .so-displayfield-clickable {

@@ -23,17 +23,50 @@
 .wt-icon-meeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
 .wt-icon-im-status-online:before { content: '\f27a'; font: var(--fa-font-solid); } .wt-icon-im-status-online { background-image: none !important }
 .wt-icon-notification:before { content: '\f0f3'; font: var(--fa-font-solid);} .wt-icon-notification { background-image: none !important }
-.wt-icon-print:before { content: '\f02f'; font: var(--fa-font-solid); } .wt-icon-print { background-image: none !important }
-.wt-icon-save:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save { background-image: none !important }
-.wt-icon-saveClose:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveClose { background-image: none !important }
-.wt-icon-save-new:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save-new { background-image: none !important }
 .wt-icon-viewOptions { background-image: url('table-columns.svg') !important }
-.wt-icon-block:before { content: '\f05e'; font: var(--fa-font-solid); } .wt-icon-block { background-image: none !important }
-.wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
 .wt-icon-newMeeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-newMeeting { background-image: none !important }
 .wt-icon-search-adv:before { content: '\f00e'; font: var(--fa-font-solid); } .wt-icon-search-adv { background-image: none !important }
-.wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
 .wt-icon-sharing:before { content: '\f1e0'; font: var(--fa-font-solid); } .wt-icon-sharing { background-image: none !important }
+
+
+
+/* Icons: actions */
+.wt-icon-add:before { content: '\f055'; font: var(--fa-font-solid); } .wt-icon-add { background-image: none !important }
+.wt-icon-open:before { content: '\f044'; font: var(--fa-font-solid); } .wt-icon-open { background-image: none !important }
+.wt-icon-edit:before { content: '\f044'; font: var(--fa-font-solid); } .wt-icon-edit { background-image: none !important }
+.wt-icon-cancel:before { content: '\f00d'; font: var(--fa-font-solid); } .wt-icon-cancel { background-image: none !important }
+.wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
+.wt-icon-remove:before { content: '\f068'; font: var(--fa-font-solid); } .wt-icon-remove { background-image: none !important }
+.wt-icon-delete:before { content: '\f00d'; font: var(--fa-font-solid); } .wt-icon-delete { background-image: none !important }
+.wt-icon-restore:before { content: '\f0e2'; font: var(--fa-font-solid); } .wt-icon-restore { background-image: none !important }
+.wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
+.wt-icon-cleanup:before { content: '\f51a'; font: var(--fa-font-solid); } .wt-icon-cleanup { background-image: none !important }
+.wt-icon-print:before { content: '\f02f'; font: var(--fa-font-solid); } .wt-icon-print { background-image: none !important }
+.wt-icon-call:before { content: '\f095'; font: var(--fa-font-solid); } .wt-icon-call { background-image: none !important }
+.wt-icon-snooze:before { content: '\f017'; font: var(--fa-font-solid); } .wt-icon-snooze { background-image: none !important }
+.wt-icon-share:before { content: '\f1e0'; font: var(--fa-font-solid); } .wt-icon-share { background-image: none !important }
+.wt-icon-attach:before { content: '\f0c6'; font: var(--fa-font-solid); } .wt-icon-attach { background-image: none !important }
+.wt-icon-search:before { content: '\f002'; font: var(--fa-font-solid); } .wt-icon-search { background-image: none !important }
+.wt-icon-block:before { content: '\f05e'; font: var(--fa-font-solid); } .wt-icon-block { background-image: none !important }
+.wt-icon-lock:before { content: '\f023'; font: var(--fa-font-solid); } .wt-icon-lock { background-image: none !important }
+.wt-icon-unlock:before { content: '\f09c'; font: var(--fa-font-solid); } .wt-icon-unlock { background-image: none !important }
+.wt-icon-save:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save { background-image: none !important }
+.wt-icon-saveClose:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveClose { background-image: none !important }
+.wt-icon-saveAdd { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveAdd { background-image: none !important }
+.wt-icon-saveAll { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveAll { background-image: none !important }
+.wt-icon-save-new:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save-new { background-image: none !important }
+.wt-icon-select-all { background-image: url('select-all_16.svg') !important; background-size: 16px; }
+.wt-icon-select-none { background-image: url('select-none_16.svg') !important; background-size: 16px; }
+.wt-icon-select-one { background-image: url('select-one_16.svg') !important; background-size: 16px; }
+.wt-icon-item-show { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-item-hide { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-item-enable { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-item-disable { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-item-disabled { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-meeting { background-image: none !important }
+.wt-icon-file-download { content: '\f56d'; font: var(--fa-font-solid); } .wt-icon-file-download { background-image: none !important }
+.wt-icon-file-upload { content: '\f574'; font: var(--fa-font-solid); } .wt-icon-file-upload { background-image: none !important }
+.wt-icon-sort { content: '\f0dc'; font: var(--fa-font-solid); } .wt-icon-sort { background-image: none !important }
+
 
 .so-btn-avatar-swatch {
     background-color: #9CA3AF !important;	

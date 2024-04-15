@@ -208,7 +208,21 @@
     border-bottom-right-radius: 8px;
 }
 
-
+/* ---------- ColorUtils */
+/* Customize radius and tick colors */
+.so-colorswatch-rounded {
+	border-radius: 5px;
+	font-size: 80%;
+}
+.so-colorswatch-framed {
+    border-color: #9ca3af; /* Gray/400 */
+}
+.so-colorswatch-darkmark {
+	color: #111827; /* Gray/900 */
+}
+.so-colorswatch-lightmark {
+	color: #ffffff;
+}
 
 
 /*

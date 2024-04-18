@@ -475,18 +475,6 @@ div.wt-wnlist {
 	border-width: 0px !important;
 }
 
-/* --- UX grid.TileList --- */
-.wt-tilelist .x-grid-cell-first {
-	cursor: pointer;
-	padding: 5px 0 5px 0px;
-}
-.wt-tilelist .x-grid-cell-last {
-	vertical-align: middle;
-}
-.wt-tilelist .wt-cell-caption {
-	font-size: 0.9em;
-}
-/* ------------------------ */
 
 /* UX grid.column.ChatMessage */
 .wt-chatmsgcol-sysmsg {

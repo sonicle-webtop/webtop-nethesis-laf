@@ -42,3 +42,8 @@
 .so-btn-avatar-swatch SPAN {
     color: white !important;
 }
+
+/* check if this can be done in theme */
+.x-keyboard-mode .x-mask.x-focus {
+    border-width: 0px;
+}

@@ -207,25 +207,39 @@ color-ct-ok-1 -> Green/700
 }
 
 
-
-
-/* Menu: set separator color */
+/* ---------- Menu */
+/* Set separator color */
 .x-menu-item-separator {
     border-top-color: #e5e7eb !important; /* Gray/200 */
 }
 
-/* GridPanel: hide top border*/
+/* ---------- GridPanel */
+/* Hide top border*/
 .x-grid-body {
 	border-top: 0px;
 }
 
-/* ContextMenu: highlight owner */
+/* ---------- GridTileList */
+.so-tilelist-caption {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+.so-tilelist-value {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+
+/* ---------- ContextMenu */
+/* Highlight owner */
 .x-grid-view .so-contextmenu-owner,
 .x-tree-view .so-contextmenu-owner {
     background-color: #d1d5db !important; /* Gray/300 */
 }
 
-/* ModelView: toolbars */
+/* ---------- ModelView */
+/* Customize toolbars */
 .wt-modelview-toolbar {
 	padding-left: 24px;
 	padding-right: 24px;
@@ -237,12 +251,13 @@ color-ct-ok-1 -> Green/700
 .wt-modelview-toolbar-last {
 }
 
-/* AttachmentsField: hide tagfield borders */
+/* ---------- AttachmentsField */
+/* Hide tagfield borders */
 .wt-attachmentsfield .x-form-trigger-wrap {
 	border: none;
 }
 
-/* IconedFieldContainer */
+/* ---------- IconedFieldContainer */
 .so-label-icon-el {
     margin-right: 0;
     margin-top: 30px;
@@ -252,7 +267,8 @@ color-ct-ok-1 -> Green/700
 	padding-left: 24px;
 }
 
-/* KanbanColumn: change collapse/expand icons and header color */
+/* ---------- KanbanColumn */
+/* Change collapse/expand icons and header color */
 .x-panel.so-kanban-column .x-tool-expand-bottom:before {
     content: '\f424'
 }
@@ -263,41 +279,35 @@ color-ct-ok-1 -> Green/700
     background-color: #ffffff;
 }
 
-/* SearchField: customize trigger-icon */
+/* ---------- SearchField */
+/* Customize trigger-icon */
 .wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat center !important; }
 .wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }
 
-/* ColorColumn */
+/* ---------- ColorColumn */
 .so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
     margin-left: 8px;
 }
 
-/* ---------- TreePanel toggle checkbox */
+/* ---------- TreePanel */
+/* Toggle checkbox */
 .wt-tree-toggle.x-tree-checkbox-checked:before {
 	color: #C2410C; /* Orange/700 */
 }
 
-/* ---------- TreePanel swatch */
-.wt-tree-colorswatch {
+/* ---------- TreePanel (treecolumn colorswatch) */
+.wt-tree-colorswatch.x-tree-icon {
+    margin-top: 4px;
+}
+.x-tree-view .x-tree-checkbox.wt-tree-colorswatch {
     top: 10px;
-    width: 16px;
-    height: 16px;
 }
-.wt-tree-colorswatch.wt-tree-colorswatch-rounded {
-    border-radius: 5px;
-    font-size: 80%;
-}
-.wt-tree-colorswatch.wt-tree-colorswatch-framed {
-    border-color: #9ca3af; /* Gray/400 */
-}
-.wt-tree-colorswatch.wt-tree-colorswatch-lightmark {
-    color: #ffffff;
-}
-.wt-tree-colorswatch.wt-tree-colorswatch-darkmark {
-    color: #111827; /* Gray/900 */
+.x-tree-view .x-tree-icon.wt-tree-colorswatch {
+   height: 16px;
 }
 
-/* ---------- Display Field */
+
+/* ---------- DisplayField */
 .so-displayfield-clickable {
     color: #C2410C;
 }
@@ -306,7 +316,7 @@ color-ct-ok-1 -> Green/700
 }
 
 
-/* ---------- FullCalendar Panel */
+/* ---------- FullCalendarPanel */
 .so-fullcalendar > .fc {
 	/*zoom: 1.1;*/
 }

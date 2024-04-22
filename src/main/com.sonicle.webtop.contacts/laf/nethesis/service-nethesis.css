@@ -6,6 +6,62 @@
 .wtcon-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtcon-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcon-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+/* Other Icons */
+.wtcon-icon-category:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-category { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryMy:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryMy { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryIncoming:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryIncoming { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryRemote:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryRemote { background-image: none !important; background-size: contain; }
+.wtcon-icon-addCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addCategory { background-image: none !important; background-size: contain; }
+.wtcon-icon-editCategory:before { content: '\f044'; font: var(--fa-font-solid); } .wtcon-icon-editCategory { background-image: none !important; background-size: contain; }
+.wtcon-icon-deleteCategory:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcon-icon-deleteCategory { background-image: none !important; background-size: contain; }
+.wtcon-icon-contact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-contact { background-image: none !important }
+.wtcon-icon-contactsList:before { content: '\f500'; font: var(--fa-font-solid); } .wtcon-icon-contactsList { background-image: none !important }
+.wtcon-icon-newContact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-newContact { background-image: none !important }
+.wtcon-icon-newContactsList:before { content: '\f500'; font: var(--fa-font-solid); } .wtcon-icon-newContactsList { background-image: none !important }
+.wtcon-icon-addContact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-addContact { background-image: none !important }
+.wtcon-icon-addContactsList:before { content: '\f500'; font: var(--fa-font-solid); } .wtcon-icon-addContactsList { background-image: none !important }
+.wtcon-icon-import:before { content: '\f56f'; font: var(--fa-font-solid); } .wtcon-icon-import { background-image: none !important }
+.wtcon-icon-export:before { content: '\f56e'; font: var(--fa-font-solid); } .wtcon-icon-export { background-image: none !important }
+.wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: background-image: none !important }
+.wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: background-image: none !important }
+.wtcon-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-writeMessage { background-image: none !important }
 
-.wtcon-icon-newContact:before { content: '\f2b9'; font: var(--fa-font-regular); } .wtcon-icon-newContact { background-image: none !important }
-.wtcon-icon-newContactsList:before { content: '\f022'; font: var(--fa-font-regular); } .wtcon-icon-newContactsList { background-image: none !important }
+
+.wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
+
+/* ---------- ToolPanel related */
+.wtcon-tool-searchpanel-body {
+    padding: 16px 16px 18px 16px;
+}
+.wtcon-tool-tree {
+    margin-left: 10px;
+}
+
+/* ---------- ToolPanel related */
+.wtcon-preview-header-dn {
+    margin-bottom: 0px;
+}
+.wtcon-preview-header-dn .x-form-display-field {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-base);
+    line-height: var(--wt-theme-lineheight-base);
+    min-height: 0px !important;
+}
+.wtcon-preview-header-info {
+    margin-right: 16px;
+}
+.wtcon-preview-header-info .x-form-display-field {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+    color: #4B5563; /* Gray/600 */
+}
+.wtcon-preview-header-category .x-form-display-field {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+    color: #4B5563; /* Gray/600 */
+}
+.wtcon-preview-tilelist {
+    margin: 0 5px 0 5px;
+}

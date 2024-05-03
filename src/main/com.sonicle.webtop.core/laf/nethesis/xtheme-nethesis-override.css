@@ -27,7 +27,9 @@
 /* UIs are not supported for Tree/Grid panels: provide a bigger styling */
 /* NB: not all necessary classes are covered here: see saved "tree-ui-alternative.patch".patch file to determine all modified CSS classed */
 .x-tree-view .x-grid-item {
-	font-size: var(--wt-theme-fontsize-base, inherit); line-height: var(--wt-theme-lineheight-base, inherit); font-weight: var(--wt-theme-fontweight-regular, normal);
+	font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
 }
 .x-tree-view .x-grid-cell-inner-action-col {
 	padding: 10px 4px 9px 4px;
@@ -50,7 +52,7 @@
     height: 35px;
 }
 .x-tree-view .x-grid-cell-inner-treecolumn {
-    padding: 5px 10px 6px 6px;
+    padding: 6px 10px 6px 6px;
 }
 
 /* ---------- TextArea */
@@ -212,7 +214,7 @@
 /* Customize radius and tick colors */
 .so-colorswatch-rounded {
 	border-radius: 5px;
-	font-size: 80%;
+	font-size: 90%;
 }
 .so-colorswatch-framed {
     border-color: #9ca3af; /* Gray/400 */

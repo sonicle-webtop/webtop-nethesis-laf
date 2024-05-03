@@ -90,9 +90,9 @@
 .wt-icon-cancel:before { content: '\f00d'; font: var(--fa-font-solid); } .wt-icon-cancel { background-image: none !important }
 .wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
 .wt-icon-remove:before { content: '\f068'; font: var(--fa-font-solid); } .wt-icon-remove { background-image: none !important }
-.wt-icon-delete:before { content: '\f00d'; font: var(--fa-font-solid); } .wt-icon-delete { background-image: none !important }
+.wt-icon-delete:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-delete { background-image: none !important }
 .wt-icon-restore:before { content: '\f0e2'; font: var(--fa-font-solid); } .wt-icon-restore { background-image: none !important }
-.wt-icon-refresh:before { content: '\f01e'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
+.wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
 .wt-icon-cleanup:before { content: '\f51a'; font: var(--fa-font-solid); } .wt-icon-cleanup { background-image: none !important }
 .wt-icon-print:before { content: '\f02f'; font: var(--fa-font-solid); } .wt-icon-print { background-image: none !important }
 .wt-icon-call:before { content: '\f095'; font: var(--fa-font-solid); } .wt-icon-call { background-image: none !important }

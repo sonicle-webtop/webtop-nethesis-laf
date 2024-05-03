@@ -6,9 +6,25 @@
 .wtcal-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtcal-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcal-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
-
-.wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
+/* Other Icons */
+.wtcal-icon-reminder-event:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-reminder-event { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendar:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarMy:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarMy { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarIncoming:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarIncoming { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarRemote:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarRemote { background-image: none !important; background-size: contain; }
+.wtcal-icon-addCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-addRemoteCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addRemoteCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-editCalendar:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-editCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-deleteCalendar:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcal-icon-deleteCalendar { background-image: none !important; background-size: contain; }
 .wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
+.wtcal-icon-event-single:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event-single { background-image: none !important }
+.wtcal-icon-event-recurring:before { content: '\f021'; font: var(--fa-font-solid); } .wtcal-icon-event-recurring { background-image: none !important }
+.wtcal-icon-event-broken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-event-broken { background-image: none !important }
+.wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
+.wtcal-icon-addEvent:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addEvent { background-image: none !important }
+.wtcal-icon-rejoinSeries:before { content: '\f0e2'; font: var(--fa-font-solid); } .wtcal-icon-rejoinSeries { background-image: none !important }
+.wtcal-icon-import:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcal-icon-import { background-image: none !important }
+.wtcal-icon-export:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcal-icon-export { background-image: none !important }
 .wtcal-icon-title:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-title { background-image: none !important }
 .wtcal-icon-description:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-description { background-image: none !important }
 .wtcal-icon-datetime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-datetime { background-image: none !important }

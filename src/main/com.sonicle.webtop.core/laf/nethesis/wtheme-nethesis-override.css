@@ -111,7 +111,7 @@ color-ct-ok-1 -> Green/700
     background-color: #f3f4f6; /* Gray/100 */
 }
 /* Navbar: add colored right watermark on pressed button */
-.wt-viewport-navbar .x-btn.x-btn-pressed::before {
+.wt-viewport-navbar .wt-launcher-servicebutton.x-btn.x-btn-pressed::before {
     position: absolute;
     left: 0;
     top: 0;
@@ -133,15 +133,20 @@ color-ct-ok-1 -> Green/700
 }
 
 /* MoreLinksButton: customize BoundList's iconSize */
-.wt-morelinksbutton-list .x-boundlist-item {
-    line-height: 62px;
+.wt-launcher-morelinksbutton-list .x-list-plain {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
-.wt-morelinksbutton-list .so-boundlist-icon {
+.wt-launcher-morelinksbutton-list .x-boundlist-item {
+    line-height: 74px;
+    padding: 0 16px;
+}
+.wt-launcher-morelinksbutton-list .so-boundlist-icon {
     width: 50px;
     height: 50px;
 }
-.wt-morelinksbutton-list .so-boundlist-display {
-    padding-left: 54px;
+.wt-launcher-morelinksbutton-list .so-boundlist-display {
+    padding-left: 66px;
 }
 
 /* ---------- Tool HD/Body */
@@ -258,11 +263,16 @@ color-ct-ok-1 -> Green/700
 }
 
 /* ---------- IconedFieldContainer */
-.so-label-icon-el {
+.so-fieldcontainerwicon .so-label-icon-el {
     margin-right: 0;
-    margin-top: 30px;
     font-size: 15px;
 }
+/*
+.so-fieldcontainerwicon .x-form-item-label-inner {
+    position: absolute;
+    bottom: 10px;
+}
+*/
 .so-fieldcontainerwicon > .x-form-item-body {
 	padding-left: 24px;
 }

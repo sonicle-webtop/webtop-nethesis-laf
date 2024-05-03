@@ -35,6 +35,147 @@ Ext.define('Nethesis.override.window.MessageBox', {
 		return me;
 	}
 });
+/*
+Ext.define('Nethesis.override.webtop.core.viewport.private.Default', {
+	override: 'Sonicle.webtop.core.viewport.private.Default',
+	
+	getNewButtons: function() {
+		var card = this.getToolRegion(),
+			buttons = [];
+		card.items.each(function(item) {
+			buttons.push(item.getDockedItems()[0].lookupReference('newbtn'));
+		});
+		return buttons;
+	},
+	
+	getViewConstrainRegion: function() {
+		return this.centerContentCmp().getConstrainRegion();
+	},
+	
+	getViewMaximizeInsets: Ext.emptyFn,
+	
+	returnBottomDockCfg: function() {
+		var me = this;
+		return {
+			xtype: 'container',
+			layout: 'hbox',
+			cls: 'wt-viewport-bottombar',
+			items: [
+				me.applyMoreCfg(me.createTaskBarCfg(), {
+					height: '100%',
+					flex: 1,
+					listeners: {
+						add: function(s) {
+							me.bottomDockCmp().setHidden(false);
+						},
+						remove: function(s) {
+							me.bottomDockCmp().setHidden(s.items.getCount() === 0);
+						}
+					}
+				})
+			],
+			height: me.bottombarHeight(),
+			hidden: true
+		};
+	},
+	
+	privates: {
+		navbarItemsScale: function() {
+			return 'large';
+		},
+		
+		topbarHeight: function() {
+			return 64;
+		},
+		
+		bottombarHeight: function() {
+			return 46;
+		},
+		
+		toolHeaderHeight: function() {
+			return 80;
+		},
+		
+		toolHeaderSeparatorHeight: function() {
+			return 0;
+		},
+		
+		toolSplitterMinWidth: function() {
+			return 320;
+		},
+		
+		viewPrimaryButtonPosition: function() {
+			return 'tr';
+		},
+		
+		createViewportTopbarItemsCfg: function() {
+			var items = this.callParent(arguments);
+			// Base impl. carries newButton (only one) in topbar: here we have a newButton in each tool panel.
+			// So, begin removing the default one from returned items!
+			return items.slice(1);
+		},
+		
+		createToolRegionItemTopDockCfg: function(desc, moreHdItems, toolboxItems) {
+			// Do NOT pass moreHdItems in original method: newbtn MUST be the last!
+			var cfg = this.callParent([desc, [], toolboxItems]);
+			// Now add the separator...
+			Ext.Array.push(cfg.items, [
+				{
+					xtype: 'soformseparator',
+					cls: 'wt-tool-hd-separator',
+					margin: '10 6 16 6'
+				}
+			]);
+			return cfg;
+		},
+		
+		createToolRegionItemBaseHdToolbarItems: function(name, toolboxItems) {
+			return [
+				{
+					xtype: 'button',
+					ui: 'button-icon',
+					reference: 'toolboxbtn',
+					iconCls: 'fas fa-ellipsis-vertical',
+					arrowVisible: false,
+					menu: toolboxItems
+				}, {
+					xtype: 'tbtext',
+					html: Sonicle.String.htmlEncode(name),
+					style: 'padding-left:0px;user-select:none;',
+					cls: 'wt-tool-hd-title'
+				}, '->', {
+					xtype: 'splitbutton',
+					ui: 'button-secondary',
+					reference: 'newbtn',
+					text: WT.res('new.btn-new.lbl'),
+					menu: [],
+					handler: 'onNewActionButtonClick'
+				}
+			];
+		},
+		
+		createNavbarItemsCfg: function() {
+			var items = [
+				{
+					xtype: 'tbimage',
+					scale: 'medium',
+					cls: 'wt-viewport-navbar-logo'
+				}
+			];
+			Ext.Array.push(items, this.callParent(arguments));
+			return items;
+		},
+		
+		createAvatarButtonCfg: function() {
+			return Ext.apply(this.callParent(arguments), {
+				scale: 'large',
+				arrowVisible: false
+			});
+		}
+	}
+});
+*/
+
 Ext.define('Nethesis.override.webtop.core.ux.app.taskbar.Bar', {
 	override: 'Sonicle.webtop.core.ux.app.taskbar.Bar',
 	defaults: {

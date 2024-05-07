@@ -1,4 +1,4 @@
-/* Service Icons */
+/* ---------- Icons (service) */
 .wtcon-icon-service,
 .wtcon-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
 .wtcon-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
@@ -6,7 +6,7 @@
 .wtcon-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtcon-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcon-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
-/* Other Icons */
+/* ---------- Icons (others) */
 .wtcon-icon-category:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-category { background-image: none !important; background-size: contain; }
 .wtcon-icon-categoryMy:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryMy { background-image: none !important; background-size: contain; }
 .wtcon-icon-categoryIncoming:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryIncoming { background-image: none !important; background-size: contain; }
@@ -21,11 +21,18 @@
 .wtcon-icon-newContactsList:before { content: '\f022'; font: var(--fa-font-solid); } .wtcon-icon-newContactsList { background-image: none !important }
 .wtcon-icon-addContact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-addContact { background-image: none !important }
 .wtcon-icon-addContactsList:before { content: '\f022'; font: var(--fa-font-solid); } .wtcon-icon-addContactsList { background-image: none !important }
-.wtcon-icon-import:before { content: '\f56f'; font: var(--fa-font-solid); } .wtcon-icon-import { background-image: none !important }
-.wtcon-icon-export:before { content: '\f56e'; font: var(--fa-font-solid); } .wtcon-icon-export { background-image: none !important }
-.wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: background-image: none !important }
-.wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: background-image: none !important }
+.wtcon-icon-openContact:before { content: '\f044'; font: var(--fa-font-solid); } .wtcon-icon-openContact { background-image: none !important }
+.wtcon-icon-copyContact:before { content: '\f24d'; font: var(--fa-font-solid); } .wtcon-icon-copyContact { background-image: none !important }
+.wtcon-icon-moveContact:before { content: '\f061'; font: var(--fa-font-solid); } .wtcon-icon-moveContact { background-image: none !important }
+.wtcon-icon-importContacts:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcon-icon-importContacts { background-image: none !important }
+.wtcon-icon-exportContacts:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcon-icon-exportContacts { background-image: none !important }
+.wtcon-icon-addContactsListFromSel:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addContactsListFromSel { background-image: none !important }
+.wtcon-icon-addToContactsListFromSel:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addToContactsListFromSel { background-image: none !important }
+.wtcon-icon-sendByEmail:before { content: '\f1d8'; font: var(--fa-font-solid); } .wtcon-icon-sendByEmail { background-image: none !important }
 .wtcon-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-writeMessage { background-image: none !important }
+.wtcon-icon-createEvent:before { content: '\f271'; font: var(--fa-font-solid); } .wtcon-icon-createEvent { background-image: none !important }
+.wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }
+.wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: none !important }
 .wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
 /*
 .wtcon-icon-viewHome:before { content: '\f015'; font: var(--fa-font-solid); } .wtcon-icon-viewHome { background-image: none !important }

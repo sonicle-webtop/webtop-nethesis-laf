@@ -12,6 +12,12 @@
     border-style: none;
 }
 
+/* ---------- DisplayField */
+/* Fix text vertical alignment */
+.x-form-display-field-default {
+    margin-top: 14px;
+}
+
 /* ---------- TabPanel */
 /* Add bottom-line to selected tab */
 .x-tab-active:before {
@@ -226,6 +232,19 @@
 	color: #ffffff;
 }
 
+/* ---------- HSpacer */
+.so-form-hspacer.x-component-default {
+	margin: 0 5px 0 0;
+}
+.so-form-hspacer.x-component-small {
+	margin: 0 16px 0 0;
+}
+.so-form-hspacer.x-component-medium {
+	margin: 0 24px 0 0;
+}
+.so-form-hspacer.x-component-large {
+	margin: 0 32px 0 0;
+}
 
 /*
 colore hover tree/grid gray/200

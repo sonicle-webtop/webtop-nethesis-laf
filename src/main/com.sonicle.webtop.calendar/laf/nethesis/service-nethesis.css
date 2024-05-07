@@ -22,9 +22,12 @@
 .wtcal-icon-event-broken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-event-broken { background-image: none !important }
 .wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
 .wtcal-icon-addEvent:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addEvent { background-image: none !important }
+.wtcal-icon-openEvent:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-openEvent { background-image: none !important }
+.wtcal-icon-copyEvent:before { content: '\f24d'; font: var(--fa-font-solid); } .wtcal-icon-copyEvent { background-image: none !important }
+.wtcal-icon-moveEvent:before { content: '\f061'; font: var(--fa-font-solid); } .wtcal-icon-moveEvent { background-image: none !important }
 .wtcal-icon-rejoinSeries:before { content: '\f0e2'; font: var(--fa-font-solid); } .wtcal-icon-rejoinSeries { background-image: none !important }
-.wtcal-icon-import:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcal-icon-import { background-image: none !important }
-.wtcal-icon-export:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcal-icon-export { background-image: none !important }
+.wtcal-icon-importEvents:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcal-icon-importEvents { background-image: none !important }
+.wtcal-icon-exportEvents:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcal-icon-exportEvents { background-image: none !important }
 .wtcal-icon-title:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-title { background-image: none !important }
 .wtcal-icon-description:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-description { background-image: none !important }
 .wtcal-icon-datetime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-datetime { background-image: none !important }
@@ -32,7 +35,7 @@
 .wtcal-icon-meeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wtcal-icon-meeting { background-image: none !important }
 .wtcal-icon-attendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-attendees { background-image: none !important }
 .wtcal-icon-reminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-reminder { background-image: none !important }
-.wtcal-icon-showDescription:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-showDescription { background-image: none !important }
+.wtcal-icon-showDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-showDescription { background-image: none !important }
 .wtcal-icon-addResource:before { content: '\f54f'; font-family: var(--fa-style-family-classic); } .wtcal-icon-addResource { background-image: none !important }
 .wtcal-icon-importAttendees:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-importAttendees { background-image: none !important }
 .wtcal-icon-importAttendeesPaste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wtcal-icon-importAttendeesPaste { background-image: none !important }
@@ -110,4 +113,9 @@
 .so-cal-appo-hov-where > i,
 .so-cal-appo-hov-organizer > i {
     margin-right: 8px;
+}
+
+/* ---------- EventView */
+.wtcal-event-info .x-form-display-field {
+	padding-left: 45px;
 }

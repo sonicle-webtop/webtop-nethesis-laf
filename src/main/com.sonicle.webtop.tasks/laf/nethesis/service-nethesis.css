@@ -1,4 +1,4 @@
-/* Service Icons */
+/* ---------- Icons (service) */
 .wttasks-icon-service,
 .wttasks-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
 .wttasks-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
@@ -6,10 +6,39 @@
 .wttasks-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wttasks-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wttasks-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+/* ---------- Icons (others) */
 
-.wttasks-icon-newTask:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-newTask { background-image: none !important }
+
+.wttasks-icon-category:before { content: '\f187'; font: var(--fa-font-solid); } .wttasks-icon-category { background-image: none !important; background-size: contain; }
+.wttasks-icon-categoryMy:before { content: '\f187'; font: var(--fa-font-solid); } .wttasks-icon-categoryMy { background-image: none !important; background-size: contain; }
+.wttasks-icon-categoryIncoming:before { content: '\f187'; font: var(--fa-font-solid); } .wttasks-icon-categoryIncoming { background-image: none !important; background-size: contain; }
+.wttasks-icon-addCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wttasks-icon-addCategory { background-image: none !important; background-size: contain; }
+.wttasks-icon-editCategory:before { content: '\f044'; font: var(--fa-font-solid); } .wttasks-icon-editCategory { background-image: none !important; background-size: contain; }
+.wttasks-icon-deleteCategory:before { content: '\f1f8'; font: var(--fa-font-solid); } .wttasks-icon-deleteCategory { background-image: none !important; background-size: contain; }
 .wttasks-icon-task:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-task { background-image: none !important }
 
+
+
+
+
+.wttasks-icon-newTask:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-newTask { background-image: none !important }
+.wttasks-icon-addTask:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-addTask { background-image: none !important }
+.wttasks-icon-openTask:before { content: '\f044'; font: var(--fa-font-solid); } .wttasks-icon-openTask { background-image: none !important }
+.wttasks-icon-copyTask:before { content: '\f24d'; font: var(--fa-font-solid); } .wttasks-icon-copyTask { background-image: none !important }
+.wttasks-icon-moveTask:before { content: '\f061'; font: var(--fa-font-solid); } .wttasks-icon-moveTask { background-image: none !important }
+.wttasks-icon-importTasks:before { content: '\f0aa'; font: var(--fa-font-solid); } .wttasks-icon-importTasks { background-image: none !important }
+.wttasks-icon-exportTasks:before { content: '\f0ab'; font: var(--fa-font-solid); } .wttasks-icon-exportTasks { background-image: none !important }
+
+.wttasks-icon-sendByEmail:before { content: '\f1d8'; font: var(--fa-font-solid); } .wttasks-icon-sendByEmail { background-image: none !important }
+.wttasks-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wttasks-icon-writeMessage { background-image: none !important }
+
+/* ---------- ToolPanel related */
+.wttasks-tool-searchpanel-body {
+    padding: 16px 16px 18px 16px;
+}
+.wttasks-tool-tree {
+    margin-left: 10px;
+}
 /* ---------- Portlet */
 /* Portlet Grid: override padding */
 .wttasks-portlet-grid .x-grid-item {
@@ -25,12 +54,4 @@
 /* Portlet TasksBody: override default style */
 .wttasks-portlet-task-body-dueon {
 	color: #4B5563; /* Gray/600 */
-}
-
-/* ---------- ToolPanel related */
-.wttasks-tool-searchpanel-body {
-    padding: 16px 16px 18px 16px;
-}
-.wttasks-tool-tree {
-    margin-left: 10px;
 }

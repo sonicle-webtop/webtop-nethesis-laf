@@ -267,6 +267,9 @@ color-ct-ok-1 -> Green/700
     margin-right: 0;
     font-size: 15px;
 }
+.so-fieldcontainerwicon .so-item-label-iconed .x-form-item-label-inner {
+    margin-top: 30px;
+}
 /*
 .so-fieldcontainerwicon .x-form-item-label-inner {
     position: absolute;
@@ -314,6 +317,15 @@ color-ct-ok-1 -> Green/700
 }
 .x-tree-view .x-tree-icon.wt-tree-colorswatch {
    height: 16px;
+}
+
+/* ---------- FieldsPanel */
+.wt-fieldspanel-body {
+	padding: 5px;
+}
+.wt-fieldspanel-body-padded {
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 

@@ -229,25 +229,23 @@ Ext.define('Nethesis.override.webtop.calendar.view.EventNew', {
 	override: 'Sonicle.webtop.calendar.view.EventNew',
 	
 	privates: {
-		createTopToolbar2Cfg: function() {
+		
+		createTopToolbar2Cfg: function(items) {
+			// No items are empty by default, so provide our elements!
 			var me = this;
-			return {
-				xtype: 'toolbar',
-				cls: 'wt-modelview-toolbar',
-				items: [
-					{
-						xtype: 'checkbox',
-						bind: '{isPrivate}',
-						hideEmptyLabel: true,
-						boxLabel: me.res('event.fld-private.lbl')
-					}, {
-						xtype: 'checkbox',
-						bind: '{busy}',
-						hideEmptyLabel: true,
-						boxLabel: me.res('event.fld-busy.lbl')
-					}
-				]
-			};
+			return me.createTopToolbarXCfg([
+				{
+					xtype: 'checkbox',
+					bind: '{isPrivate}',
+					hideEmptyLabel: true,
+					boxLabel: me.res('event.fld-private.lbl')
+				}, {
+					xtype: 'checkbox',
+					bind: '{busy}',
+					hideEmptyLabel: true,
+					boxLabel: me.res('event.fld-busy.lbl')
+				}
+			]);
 		}
 	}
 });

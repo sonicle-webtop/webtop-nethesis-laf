@@ -218,10 +218,15 @@ color-ct-ok-1 -> Green/700
     border-top-color: #e5e7eb !important; /* Gray/200 */
 }
 
-/* ---------- GridPanel */
-/* Hide top border*/
-.x-grid-body {
+/* ---------- Ext.grid.Panel */
+/* Fix hide top border when x-grid-no-border (custom class) is explict */
+.x-grid .x-grid-body.x-grid-no-border {
 	border-top: 0px;
+}
+/* Fix top-border size and apply radius */
+.x-grid .x-grid-body:not(.x-grid-no-border) {
+    border-top-width: 1px;
+    border-radius: 4px;
 }
 
 /* ---------- GridTileList */
@@ -262,22 +267,13 @@ color-ct-ok-1 -> Green/700
 	border: none;
 }
 
-/* ---------- IconedFieldContainer */
-.so-fieldcontainerwicon .so-label-icon-el {
+/* ---------- Sonicle.form.FieldSection */
+.so-fieldsection .so-label-icon-el {
     margin-right: 0;
     font-size: 15px;
 }
-.so-fieldcontainerwicon .so-item-label-iconed .x-form-item-label-inner {
+.so-fieldsection .so-item-label-iconed .x-form-item-label-inner {
     margin-top: 30px;
-}
-/*
-.so-fieldcontainerwicon .x-form-item-label-inner {
-    position: absolute;
-    bottom: 10px;
-}
-*/
-.so-fieldcontainerwicon > .x-form-item-body {
-	padding-left: 24px;
 }
 
 /* ---------- KanbanColumn */
@@ -319,15 +315,17 @@ color-ct-ok-1 -> Green/700
    height: 16px;
 }
 
-/* ---------- FieldsPanel */
-.wt-fieldspanel-body {
-	padding: 5px;
+/* ---------- WTA.ux.panel.Fields */
+.wt-fieldspanel-body-padding-t {
+	padding-top: 24px;
 }
-.wt-fieldspanel-body-padded {
+.wt-fieldspanel-body-padding-b {
+	padding-bottom: 24px;
+}
+.wt-fieldspanel-body-padding-lr {
 	padding-left: 24px;
 	padding-right: 24px;
 }
-
 
 /* ---------- DisplayField */
 .so-displayfield-clickable {

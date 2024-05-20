@@ -47,11 +47,11 @@
 
 /* ---------- Attendees checked icon */
 .wtcal-attendees-notify-checkcolumn:after {
-    content: '\e4e8';
+    content: '\f204';
     font-family: var(--fa-style-family-classic);
 }
 .wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
-    content: '\e4e8';
+    content: '\f205';
     color: #C2410C;
 }
 

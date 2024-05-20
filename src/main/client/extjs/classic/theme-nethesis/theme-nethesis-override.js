@@ -175,7 +175,13 @@ Ext.define('Nethesis.override.webtop.core.viewport.private.Default', {
 	}
 });
 */
-
+Ext.define('Nethesis.override.webtop.core.ux.panel.Fields', {
+	override: 'Sonicle.webtop.core.ux.panel.Fields',
+	
+	paddingTop: false,
+	paddingBottom: false,
+	paddingSides: false
+});
 Ext.define('Nethesis.override.webtop.core.ux.app.taskbar.Bar', {
 	override: 'Sonicle.webtop.core.ux.app.taskbar.Bar',
 	defaults: {
@@ -229,7 +235,6 @@ Ext.define('Nethesis.override.webtop.calendar.view.EventNew', {
 	override: 'Sonicle.webtop.calendar.view.EventNew',
 	
 	privates: {
-		
 		createTopToolbar2Cfg: function(items) {
 			// No items are empty by default, so provide our elements!
 			var me = this;
@@ -246,6 +251,29 @@ Ext.define('Nethesis.override.webtop.calendar.view.EventNew', {
 					boxLabel: me.res('event.fld-busy.lbl')
 				}
 			]);
+		}
+	}
+});
+Ext.define('Nethesis.override.webtop.contacts.view.Contact', {
+	override: 'Sonicle.webtop.contacts.view.Contact',
+	
+	privates: {
+		createPicSectionMoreItemsCfg: function() {
+			var me = this;
+			return [
+				{
+					xtype: 'sohspacer'
+				}, {
+					xtype: 'button',
+					ui: '{secondary|toolbar}',
+					text: me.res('contact.fld-picture.upload.lbl'),
+					//tooltip: this.res('contact.fld-picture.upload.tip'),
+					iconCls: 'fas fa-circle-up',
+					handler: function() {
+						me.lref('fldpic').uploader.browse();
+					}
+				}
+			];
 		}
 	}
 });

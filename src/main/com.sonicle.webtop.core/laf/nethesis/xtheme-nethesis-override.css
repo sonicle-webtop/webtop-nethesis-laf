@@ -6,106 +6,19 @@
 /* ---------- Font: import full Poppins family from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
 
-/* ---------- BoundList */
-/* Avoid borders */
-.x-boundlist {
-    border-style: none;
-}
-
-/* ---------- DisplayField */
-/* Fix text vertical alignment */
-.x-form-display-field-default {
-    margin-top: 14px;
-}
-
-/* ---------- TabPanel */
-/* Add bottom-line to selected tab */
-.x-tab-active:before {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-    right: 5px;
-    border-bottom: 2px solid #C2410C;
-}
-
-/* ---------- TreePanel */
-/* UIs are not supported for Tree/Grid panels: provide a bigger styling */
-/* NB: not all necessary classes are covered here: see saved "tree-ui-alternative.patch".patch file to determine all modified CSS classed */
-.x-tree-view .x-grid-item {
-	font-size: var(--wt-theme-fontsize-sm, inherit);
-    line-height: var(--wt-theme-lineheight-sm, inherit);
-    font-weight: var(--wt-theme-fontweight-regular, normal);
-}
-.x-tree-view .x-grid-cell-inner-action-col {
-	padding: 10px 4px 9px 4px;
-}
-.x-tree-view .x-grid-cell-inner-row-expander {
-	padding: 10px 8px 9px 8px;
-}
-.x-tree-view .x-tree-checkbox {
-    top: 9px;
-}
-.x-tree-view .x-tree-icon {
-    height: 35px;
-	line-height: 35px;
-}
-.x-tree-view .x-tree-elbow-img {
-    height: 35px;
-    line-height: 35px;
-}
-.x-tree-view .x-theme-row-height-el {
-    height: 35px;
-}
-.x-tree-view .x-grid-cell-inner-treecolumn {
-    padding: 6px 10px 6px 6px;
-}
-
-/* ---------- TextArea */
-/* Provide SW (south-west) handle for customized smart resizing */
-.x-form-textarea-resizable-smart {
-    position: relative;
-	background: #fff url("data:image/svg+xml,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.2773%2011.7773L12.2773%209.77734M12.2773%206.77734L7.27734%2011.7773M12.2773%203.77734L4.27734%2011.7773M12.2773%200.777344L1.27734%2011.7773%22%20stroke%3D%22%239CA3AF%22%2F%3E%3C%2Fsvg%3E") 100% 100% no-repeat;
-	bottom: 1px;
-	right: 2px;
-}
-.x-form-text-wrap {
-    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
-}
-
-/* ---------- TriggerFields */
-.x-form-trigger {
-    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
-    text-align: left;
-    width: 24px;
-}
-.x-form-trigger-left {
-    text-align: right;
-    width: 24px;
-}
-
-/* ---------- WindowsPanels/PopupPanels */
-/* Body do NOT have rounded corners by default, so the hides radius on boundary */
-.x-window-body { border-radius: 6px; }
-
-/* ---------- Menu */
-/* Add border radius */
-.x-menu-body { border-radius: 6px; }
-
-/* ---------- QuickTip */
-/* Add border radius */
-.x-tip-default { border-radius: 6px; }
-
-/* ---------- Menu item */
-/* Fix FontAwesome icons vertical position */
-.x-menu-item-icon.fas { top: 8px; }
-.x-menu-item-icon.far { top: 8px; }
-
-/* ---------- Buttons */
+/* ---------- Ext.button.Button */
 /* Add default icon family to FA free */
 .x-btn-icon-el:empty { font-family: var(--fa-style-family-classic); }
 
-/* ---------- Split Button */
+/* ---------- Ext.button.Segmented */
+/* Customize segmented UI */
+.x-btn-button-segmented-small.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-medium.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-large.x-btn-pressed .x-btn-inner {
+    color: var(--wt-theme-color-1);
+}
+
+/* ---------- Ext.button.Split */
 /* Force icon color */
 .x-btn-wrap-button-secondary-small.x-btn-split:after,
 .x-btn-wrap-button-tertiary-small.x-btn-split:after { color: var(--wt-theme-color-1); }
@@ -139,7 +52,86 @@
     border-color: var(--wt-theme-color-1);
 }
 
-/* ---------- Date Picker */
+/* ---------- Ext.form.field.Display */
+/* Fix text vertical alignment */
+.x-form-display-field-default {
+    margin-top: 14px;
+}
+
+/* ---------- Ext.form.field.Text */
+.x-form-trigger {
+    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
+    text-align: left;
+    width: 24px;
+}
+.x-form-trigger-left {
+    text-align: right;
+    width: 24px;
+}
+
+/* ---------- Ext.form.field.TextArea */
+/* Provide SW (south-west) handle for customized smart resizing */
+.x-form-textarea-resizable-smart {
+    position: relative;
+	background: #fff url("data:image/svg+xml,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.2773%2011.7773L12.2773%209.77734M12.2773%206.77734L7.27734%2011.7773M12.2773%203.77734L4.27734%2011.7773M12.2773%200.777344L1.27734%2011.7773%22%20stroke%3D%22%239CA3AF%22%2F%3E%3C%2Fsvg%3E") 100% 100% no-repeat;
+	bottom: 1px;
+	right: 2px;
+}
+.x-form-text-wrap {
+    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
+}
+
+/* ---------- Ext.grid.Panel */
+/* Center empty text */
+.x-grid-empty { text-align: center; }
+.x-grid-cell-empty { color: grey; }
+
+/* ---------- Ext.grid.column.Action */
+/* Adds some extra spacing between action column icons */
+.x-action-col-icon {
+	margin-left: 4px;
+}
+
+/* ---------- Ext.grid.column.Check */
+/* Adds right pointer */
+.x-grid-checkcolumn {
+    cursor: pointer;
+}
+
+/* ---------- Ext.menu.Menu */
+/* Add border radius */
+.x-menu-body { border-radius: 6px; }
+
+/* ---------- Ext.menu.Item */
+/* Fix FontAwesome icons vertical position */
+.x-menu-item-icon.fas { top: 8px; }
+.x-menu-item-icon.far { top: 8px; }
+
+/* ---------- Ext.panel.Panel : UI KanbanColumm */
+/* Support rounded corners */
+.x-panel-panel-kanbancolumn {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ */
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
+}
+.x-panel-panel-kanbancolumn .x-panel-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.x-panel-panel-kanbancolumn .x-panel-header.x-panel-header-collapsed {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.x-panel-panel-kanbancolumn .x-panel-body-panel-kanbancolumn {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* ---------- Ext.picker.Date */
 /* Center items text */
 .x-datepicker-column-header-inner, .x-datepicker-date {
     text-align: center;
@@ -185,38 +177,64 @@
     height: 28px;
 }
 
-/* ---------- UI button-segmented */
-.x-btn-button-segmented-small.x-btn-pressed .x-btn-inner,
-.x-btn-button-segmented-medium.x-btn-pressed .x-btn-inner,
-.x-btn-button-segmented-large.x-btn-pressed .x-btn-inner {
-    color: var(--wt-theme-color-1);
+/* ---------- Ext.tab.Panel */
+/* Add bottom-line to selected tab */
+.x-tab-active:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    border-bottom: 2px solid #C2410C;
 }
 
-/* ---------- UI KanbanColumn panel */
-/* Support rounded corners */
-.x-panel-panel-kanbancolumn {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ */
-	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
-	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
+/* ---------- Ext.tip.QuickTip */
+/* Add border radius */
+.x-tip-default { border-radius: 6px; }
+
+/* ---------- Ext.tree.Panel */
+/* UIs are not supported for Tree/Grid panels: provide a bigger styling */
+/* NB: not all necessary classes are covered here: see saved "tree-ui-alternative.patch".patch file to determine all modified CSS classed */
+.x-tree-view .x-grid-item {
+	font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
 }
-.x-panel-panel-kanbancolumn .x-panel-header {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+.x-tree-view .x-grid-cell-inner-action-col {
+	padding: 10px 4px 9px 4px;
 }
-.x-panel-panel-kanbancolumn .x-panel-header.x-panel-header-collapsed {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.x-tree-view .x-grid-cell-inner-row-expander {
+	padding: 10px 8px 9px 8px;
 }
-.x-panel-panel-kanbancolumn .x-panel-body-panel-kanbancolumn {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.x-tree-view .x-tree-checkbox {
+    top: 9px;
+}
+.x-tree-view .x-tree-icon {
+    height: 35px;
+	line-height: 35px;
+}
+.x-tree-view .x-tree-elbow-img {
+    height: 35px;
+    line-height: 35px;
+}
+.x-tree-view .x-theme-row-height-el {
+    height: 35px;
+}
+.x-tree-view .x-grid-cell-inner-treecolumn {
+    padding: 6px 10px 6px 6px;
 }
 
-/* ---------- ColorUtils */
+/* ---------- Ext.view.BoundList */
+/* Avoid borders */
+.x-boundlist {
+    border-style: none;
+}
+
+/* ---------- Ext.window.Window */
+/* (WindowsPanels/PopupPanels) Body do NOT have rounded corners by default, so the hides radius on boundary */
+.x-window-body { border-radius: 6px; }
+
+/* ---------- Sonicle.ColorUtils */
 /* Customize radius and tick colors */
 .so-colorswatch-rounded {
 	border-radius: 5px;
@@ -232,7 +250,19 @@
 	color: #ffffff;
 }
 
-/* ---------- HSpacer */
+/* ---------- Sonicle.form.field.Image */
+/* Align trigger icon on top */
+.so-form-image-field-body .x-form-trigger {
+    vertical-align: top;
+    /*padding-top: 10px;*/
+}
+
+/* ---------- Sonicle.form.FieldSection */
+.so-fieldsection > .x-form-item-body {
+    padding-left: 19px; /* 5px (related to label) are already there */
+}
+
+/* ---------- Sonicle.form.HSpacer */
 .so-form-hspacer.x-component-default {
 	margin: 0 5px 0 0;
 }

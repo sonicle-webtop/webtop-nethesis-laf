@@ -34,10 +34,15 @@
 .wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }
 .wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: none !important }
 .wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
-/*
-.wtcon-icon-viewHome:before { content: '\f015'; font: var(--fa-font-solid); } .wtcon-icon-viewHome { background-image: none !important }
-.wtcon-icon-viewWork:before { content: '\f1ad'; font: var(--fa-font-solid); } .wtcon-icon-viewWork { background-image: none !important }
-*/
+.wtcon-icon-contact-name:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcon-icon-contact-name { background-image: none !important }
+.wtcon-icon-contact-company:before { content: '\f1ad'; font: var(--fa-font-solid); } .wtcon-icon-contact-company { background-image: none !important }
+.wtcon-icon-contact-email:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-contact-email { background-image: none !important }
+.wtcon-icon-contact-mobile:before { content: '\f3ce'; font: var(--fa-font-solid); } .wtcon-icon-contact-mobile { background-image: none !important }
+.wtcon-icon-contact-phone:before { content: '\f095'; font: var(--fa-font-solid); } .wtcon-icon-contact-phone { background-image: none !important }
+.wtcon-icon-contact-notes:before { content: '\f036'; font: var(--fa-font-solid); } .wtcon-icon-contact-notes { background-image: none !important }
+.wtcon-icon-contact-address:before { content: '\f041'; font: var(--fa-font-solid); } .wtcon-icon-contact-address { background-image: none !important }
+.wtcon-icon-uploadContactPicture:before { content: '\f35b'; font: var(--fa-font-solid); }
+.wtcon-icon-clearContactPicture:before { content: '\f057'; font: var(--fa-font-solid); }
 
 /* ---------- ToolPanel related */
 .wtcon-tool-searchpanel-body {

@@ -13,6 +13,7 @@
 .wtcon-icon-categoryRemote:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryRemote { background-image: none !important; background-size: contain; }
 .wtcon-icon-addCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-addRemoteCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addRemoteCategory { background-image: none !important; background-size: contain; }
+.wtcon-icon-viewCategoryLinks:before { content: '\f0c1'; font: var(--fa-font-solid); } .wtcon-icon-viewCategoryLinks { background-image: none !important; background-size: contain; }
 .wtcon-icon-editCategory:before { content: '\f044'; font: var(--fa-font-solid); } .wtcon-icon-editCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-deleteCategory:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcon-icon-deleteCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-contact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-contact { background-image: none !important }
@@ -28,7 +29,7 @@
 .wtcon-icon-exportContacts:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcon-icon-exportContacts { background-image: none !important }
 .wtcon-icon-addContactsListFromSel:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addContactsListFromSel { background-image: none !important }
 .wtcon-icon-addToContactsListFromSel:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addToContactsListFromSel { background-image: none !important }
-.wtcon-icon-sendByEmail:before { content: '\f1d8'; font: var(--fa-font-solid); } .wtcon-icon-sendByEmail { background-image: none !important }
+.wtcon-icon-sendByEmail:before { content: '\f1e0'; font: var(--fa-font-solid); } .wtcon-icon-sendByEmail { background-image: none !important }
 .wtcon-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-writeMessage { background-image: none !important }
 .wtcon-icon-createEvent:before { content: '\f271'; font: var(--fa-font-solid); } .wtcon-icon-createEvent { background-image: none !important }
 .wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }

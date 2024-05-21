@@ -14,6 +14,7 @@
 .wtcal-icon-calendarRemote:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarRemote { background-image: none !important; background-size: contain; }
 .wtcal-icon-addCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addCalendar { background-image: none !important; background-size: contain; }
 .wtcal-icon-addRemoteCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addRemoteCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-viewCalendarLinks:before { content: '\f0c1'; font: var(--fa-font-solid); } .wtcal-icon-viewCalendarLinks { background-image: none !important; background-size: contain; }
 .wtcal-icon-editCalendar:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-editCalendar { background-image: none !important; background-size: contain; }
 .wtcal-icon-deleteCalendar:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcal-icon-deleteCalendar { background-image: none !important; background-size: contain; }
 .wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
@@ -45,6 +46,10 @@
 .wtcal-icon-attendeeRole-OPT { background-repeat: no-repeat; }
 .wtcal-icon-attendeeRole-CHA { background-repeat: no-repeat; }
 
+/* ---------- Planning Grid */
+.wtcal-planning-grid .x-group-header:after {
+	width: 0px;
+}
 /* ---------- Attendees checked icon */
 .wtcal-attendees-notify-checkcolumn:after {
     content: '\f204';
@@ -55,7 +60,6 @@
     content: '\f205';
     color: #C2410C; /* Orange/700 */
 }
-
 /* ---------- Portlet Grid */
 /* Override padding */
 .wtcal-portlet-grid .x-grid-item {
@@ -115,7 +119,6 @@
 .so-cal-appo-hov-organizer > i {
     margin-right: 8px;
 }
-
 /* ---------- EventView */
 .wtcal-event-info .x-form-display-field {
 	padding-left: 45px;

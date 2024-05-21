@@ -163,84 +163,6 @@ color-ct-ok-1 -> Green/700
 .wt-accountmenu-label1 { padding-top: 12px; }
 .wt-accountmenu-label2 { padding-bottom: 12px; }
 
-/* ---------- MsgBox */
-/* Tweak styling */
-.x-window.x-message-box .x-header { background-color: #ffffff; }
-.x-window.x-message-box .x-toolbar-footer { background-color: #ffffff; }
-.x-window.x-message-box .x-window-header { padding-left: 18px; padding-right: 8px; }
-.x-window.x-message-box .x-window-text {
-    font-size: var(--wt-theme-fontsize-sm);
-    color: #374151; /* Gray/700 */
-}
-.x-message-box-info { color: #4338CA !important; } /* Indigo/700 */
-.x-window.x-message-box .x-title-icon.x-message-box-info {
-	border-radius: 24px;
-    background-color: #e0e7ff; /* Indigo/100 */
-    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
-    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
-    box-shadow: 0px 0px 0px 8px #e0e7ff;
-}
-.x-message-box-warning { color: #ca8a04 !important; } /* Yellow/600 */
-.x-window.x-message-box .x-title-icon.x-message-box-warning {
-	border-radius: 24px;
-    background-color: #fef9c3; /* Yellow/100 */
-    -moz-box-shadow: 1px 0px 8px 0px #fef9c3;
-    -webkit-box-shadow: 1px 0px 8px 0px #fef9c3;
-    box-shadow: 1px 0px 0px 8px #fef9c3;
-}
-.x-message-box-question { color: #4338CA !important; } /* Indigo/700 */
-.x-window.x-message-box .x-title-icon.x-message-box-question {
-	border-radius: 24px;
-    background-color: #e0e7ff; /* Indigo/100 */
-    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
-    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
-    box-shadow: 0px 0px 0px 8px #e0e7ff;
-}
-.x-message-box-error { color: #b91c1c !important; } /* Red/700 */
-.x-window.x-message-box .x-title-icon.x-message-box-error {
-	border-radius: 24px;
-    background-color: #fee2e2; /* Red/100 */
-    -moz-box-shadow: 0px 0px 8px 0px #fee2e2;
-    -webkit-box-shadow: 0px 0px 8px 0px #fee2e2;
-    box-shadow: 0px 0px 0px 8px #fee2e2;
-}
-
-
-
-.wtcal-planning-grid .x-group-header:after {
-	width: 0px;
-}
-
-
-/* ---------- Menu */
-/* Set separator color */
-.x-menu-item-separator {
-    border-top-color: #e5e7eb !important; /* Gray/200 */
-}
-
-/* ---------- Ext.grid.Panel */
-/* Fix hide top border when x-grid-no-border (custom class) is explict */
-.x-grid .x-grid-body.x-grid-no-border {
-	border-top: 0px;
-}
-/* Fix top-border size and apply radius */
-.x-grid .x-grid-body:not(.x-grid-no-border) {
-    border-top-width: 1px;
-    border-radius: 4px;
-}
-
-/* ---------- GridTileList */
-.so-tilelist-caption {
-    font-weight: var(--wt-theme-fontweight-medium);
-    font-size: var(--wt-theme-fontsize-xs);
-    line-height: var(--wt-theme-lineheight-xs);
-}
-.so-tilelist-value {
-    font-weight: var(--wt-theme-fontweight-regular);
-    font-size: var(--wt-theme-fontsize-xs);
-    line-height: var(--wt-theme-lineheight-xs);
-}
-
 /* ---------- ContextMenu */
 /* Highlight owner */
 .x-grid-view .so-contextmenu-owner,
@@ -248,7 +170,7 @@ color-ct-ok-1 -> Green/700
     background-color: #d1d5db !important; /* Gray/300 */
 }
 
-/* ---------- ModelView */
+/* ---------- WTA.sdk.ModelView */
 /* Customize toolbars */
 .wt-modelview-toolbar {
 	padding-left: 24px;
@@ -258,23 +180,18 @@ color-ct-ok-1 -> Green/700
 .wt-modelview-toolbar-first {
 	padding-top: 24px;
 }
-.wt-modelview-toolbar-last {
-}
+.wt-modelview-toolbar-last {}
 
-/* ---------- AttachmentsField */
+/* ---------- WTA.ux.field.Attachments */
 /* Hide tagfield borders */
 .wt-attachmentsfield .x-form-trigger-wrap {
 	border: none;
 }
 
-/* ---------- Sonicle.form.FieldSection */
-.so-fieldsection .so-label-icon-el {
-    margin-right: 0;
-    font-size: 15px;
-}
-.so-fieldsection .so-item-label-iconed .x-form-item-label-inner {
-    margin-top: 30px;
-}
+/* ---------- WTA.ux.field.Search */
+/* Customize trigger-icon */
+.wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat center !important; }
+.wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }
 
 /* ---------- KanbanColumn */
 /* Change collapse/expand icons and header color */
@@ -286,33 +203,6 @@ color-ct-ok-1 -> Green/700
 }
 .x-panel.so-kanban-column .x-panel-header {
     background-color: #ffffff;
-}
-
-/* ---------- SearchField */
-/* Customize trigger-icon */
-.wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat center !important; }
-.wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }
-
-/* ---------- ColorColumn */
-.so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
-    margin-left: 8px;
-}
-
-/* ---------- TreePanel */
-/* Toggle checkbox */
-.wt-tree-toggle.x-tree-checkbox-checked:before {
-	color: #C2410C; /* Orange/700 */
-}
-
-/* ---------- TreePanel (treecolumn colorswatch) */
-.wt-tree-colorswatch.x-tree-icon {
-    margin-top: 4px;
-}
-.x-tree-view .x-tree-checkbox.wt-tree-colorswatch {
-    top: 10px;
-}
-.x-tree-view .x-tree-icon.wt-tree-colorswatch {
-   height: 16px;
 }
 
 /* ---------- WTA.ux.panel.Fields */
@@ -327,7 +217,16 @@ color-ct-ok-1 -> Green/700
 	padding-right: 24px;
 }
 
-/* ---------- DisplayField */
+/* ---------- Sonicle.form.FieldSection */
+.so-fieldsection .so-label-icon-el {
+    margin-right: 0;
+    font-size: 15px;
+}
+.so-fieldsection .so-item-label-iconed .x-form-item-label-inner {
+    margin-top: 30px;
+}
+
+/* ---------- Sonicle.form.field.Display */
 .so-displayfield-clickable {
     color: #C2410C;
 }
@@ -335,8 +234,24 @@ color-ct-ok-1 -> Green/700
     color: #7c2d12;
 }
 
+/* ---------- Sonicle.grid.column.Color */
+.so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
+    margin-left: 8px;
+}
 
-/* ---------- FullCalendarPanel */
+/* ---------- Sonicle.grid.TileList */
+.so-tilelist-caption {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+.so-tilelist-value {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+
+/* ---------- Sonicle.fullcalendar.Panel */
 .so-fullcalendar > .fc {
 	/*zoom: 1.1;*/
 }
@@ -400,7 +315,7 @@ color-ct-ok-1 -> Green/700
 }
 /* Add padding in event content */
 .so-fullcalendar .fc-timegrid .fc-event-main {
-    padding: 4px;
+    padding: 2px;
 }
 .so-fullcalendar .fc-daygrid .fc-event-main {
     padding-right: 2px;
@@ -412,4 +327,83 @@ color-ct-ok-1 -> Green/700
 }
 .so-fullcalendar .so-cal-appo-bottomline {
     flex-basis: 10px;
+}
+.so-fullcalendar .fc-timegrid-event, .so-fullcalendar .fc-daygrid-event {
+    font-size: 11px;
+}
+
+/* ---------- Ext.panel.Tree */
+/* Toggle checkbox */
+.wt-tree-toggle.x-tree-checkbox-checked:before {
+	color: #C2410C; /* Orange/700 */
+}
+
+/* ---------- Ext.panel.Tree (treecolumn colorswatch) */
+.wt-tree-colorswatch.x-tree-icon {
+    margin-top: 4px;
+}
+.x-tree-view .x-tree-checkbox.wt-tree-colorswatch {
+    top: 10px;
+}
+.x-tree-view .x-tree-icon.wt-tree-colorswatch {
+   height: 16px;
+}
+
+/* ---------- Ext.menu.Menu */
+/* Set separator color */
+.x-menu-item-separator {
+    border-top-color: #e5e7eb !important; /* Gray/200 */
+}
+
+/* ---------- Ext.grid.Panel */
+/* Fix hide top border when x-grid-no-border (custom class) is explict */
+.x-grid .x-grid-body.x-grid-no-border {
+	border-top: 0px;
+}
+/* Fix top-border size and apply radius only for no-header grids */
+.x-grid.x-grid-header-hidden .x-grid-body:not(.x-grid-no-border) {
+    border-top-width: 1px;
+    border-radius: 4px;
+}
+
+/* ---------- Ext.window.MessageBox */
+/* Tweak styling */
+.x-window.x-message-box .x-header { background-color: #ffffff; }
+.x-window.x-message-box .x-toolbar-footer { background-color: #ffffff; }
+.x-window.x-message-box .x-window-header { padding-left: 18px; padding-right: 8px; }
+.x-window.x-message-box .x-window-text {
+    font-size: var(--wt-theme-fontsize-sm);
+    color: #374151; /* Gray/700 */
+}
+.x-message-box-info { color: #4338CA !important; } /* Indigo/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-info {
+	border-radius: 24px;
+    background-color: #e0e7ff; /* Indigo/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    box-shadow: 0px 0px 0px 8px #e0e7ff;
+}
+.x-message-box-warning { color: #ca8a04 !important; } /* Yellow/600 */
+.x-window.x-message-box .x-title-icon.x-message-box-warning {
+	border-radius: 24px;
+    background-color: #fef9c3; /* Yellow/100 */
+    -moz-box-shadow: 1px 0px 8px 0px #fef9c3;
+    -webkit-box-shadow: 1px 0px 8px 0px #fef9c3;
+    box-shadow: 1px 0px 0px 8px #fef9c3;
+}
+.x-message-box-question { color: #4338CA !important; } /* Indigo/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-question {
+	border-radius: 24px;
+    background-color: #e0e7ff; /* Indigo/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    -webkit-box-shadow: 0px 0px 8px 0px #e0e7ff;
+    box-shadow: 0px 0px 0px 8px #e0e7ff;
+}
+.x-message-box-error { color: #b91c1c !important; } /* Red/700 */
+.x-window.x-message-box .x-title-icon.x-message-box-error {
+	border-radius: 24px;
+    background-color: #fee2e2; /* Red/100 */
+    -moz-box-shadow: 0px 0px 8px 0px #fee2e2;
+    -webkit-box-shadow: 0px 0px 8px 0px #fee2e2;
+    box-shadow: 0px 0px 0px 8px #fee2e2;
 }

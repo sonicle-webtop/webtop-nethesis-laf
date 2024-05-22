@@ -231,8 +231,8 @@ Ext.define('Nethesis.override.webtop.calendar.Service', {
 		});
 	}
 });
-Ext.define('Nethesis.override.webtop.calendar.view.EventNew', {
-	override: 'Sonicle.webtop.calendar.view.EventNew',
+Ext.define('Nethesis.override.webtop.calendar.view.Event', {
+	override: 'Sonicle.webtop.calendar.view.Event',
 	
 	privates: {
 		createTopToolbar2Cfg: function(items) {

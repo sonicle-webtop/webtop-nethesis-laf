@@ -8,7 +8,7 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 	
 	/* Swap buttons, separate Cancel and customize pseudo-UI */
 	reverseButtons: true,
-	splitCancelButton: true,
+	splitCancelButton: false,
 	buttonPseudoUi: {
 		ok: '{primary}',
 		yes: '{primary}',

@@ -8,6 +8,7 @@ Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 			};
 		me.callParent(arguments);
 		set('view.Event', {width: 820, height: 620});
+		set('view.RecurrenceEditor', {width: 740, height: 480});
 	},
 	
 	createToolCalendarCfg: function(cfg) {

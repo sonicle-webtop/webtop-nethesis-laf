@@ -184,7 +184,7 @@
 /*.wt-icon-propView-hier-gray { background-image: url('propview-hier-grayed_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-browser-checkPermission { background-image: url('browser-checkperms_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-emoji { background-image: url('emoji_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-clipboard-paste { background-image: url('clipboard-paste_16.svg') !important; background-size: contain; }*/
+.wt-icon-clipboard-paste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wt-icon-clipboard-paste { background-image: none !important }
 .wt-icon-viewOptions:before { content: '\f0db'; font: var(--fa-font-solid); } .wt-icon-viewOptions { background-image: none !important }
 /*.wt-icon-clearState { background-image: url('clear-state_16.svg') !important; background-size: contain; }*/
 

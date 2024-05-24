@@ -81,6 +81,12 @@
     border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
 }
 
+/* ---------- Ext.form.trigger.Spinner  */
+/* Fix width, too large for field */
+.x-form-spinner-default {
+    width: 15px;
+}
+
 /* ---------- Ext.grid.Panel */
 /* Center empty text */
 .x-grid-empty { text-align: center; }

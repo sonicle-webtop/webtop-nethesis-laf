@@ -6,9 +6,9 @@ Ext.define('Nethesis.overrides.menu.Menu', {
 Ext.define('Nethesis.overrides.window.MessageBox', {
 	override: 'Ext.window.MessageBox',
 	
-	/* Swap buttons, separate Cancel and customize pseudo-UI */
+	/* Swap buttons, align them and customize pseudo-UI */
 	reverseButtons: true,
-	splitCancelButton: false,
+	buttonsAlign: 'right',
 	buttonPseudoUi: {
 		ok: '{primary}',
 		yes: '{primary}',

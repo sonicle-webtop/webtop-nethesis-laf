@@ -28,18 +28,6 @@ Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 	override: 'Sonicle.webtop.calendar.view.Event',
 	
-	constructor: function(cfg) {
-		var me = this,
-			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
-				{dockableConfig: true}
-			]);
-		
-		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
-			dockPosition: 'side'
-		});
-		me.callParent([cfg]);
-	},
-	
 	privates: {
 		createTopToolbar2Cfg: function(items) {
 			// No items are empty by default, so provide our elements!

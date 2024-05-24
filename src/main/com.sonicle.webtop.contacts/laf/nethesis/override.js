@@ -14,18 +14,6 @@ Ext.define('Nethesis.overrides.webtop.contacts.Service', {
 Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 	override: 'Sonicle.webtop.contacts.view.Contact',
 	
-	constructor: function(cfg) {
-		var me = this,
-			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
-				{dockableConfig: true}
-			]);
-		
-		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
-			dockPosition: 'side'
-		});
-		me.callParent([cfg]);
-	},
-	
 	privates: {
 		createPicSectionMoreItemsCfg: function() {
 			var me = this;
@@ -44,20 +32,5 @@ Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 				}
 			];
 		}
-	}
-});
-Ext.define('Nethesis.overrides.webtop.contacts.view.ContactsList', {
-	override: 'Sonicle.webtop.contacts.view.ContactsList',
-	
-	constructor: function(cfg) {
-		var me = this,
-			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
-				{dockableConfig: true}
-			]);
-		
-		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
-			dockPosition: 'side'
-		});
-		me.callParent([cfg]);
 	}
 });

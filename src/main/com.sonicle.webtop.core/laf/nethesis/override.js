@@ -37,7 +37,21 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
-
+Ext.define('Nethesis.overrides.webtop.core.sdk.ModelView', {
+	override: 'Sonicle.webtop.core.sdk.ModelView',
+	
+	constructor: function(cfg) {
+		var me = this,
+			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
+				{dockableConfig: true}
+			]);
+		
+		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
+			dockPosition: 'side'
+		});
+		me.callParent([cfg]);
+	},
+});
 Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
 	override: 'Sonicle.webtop.core.viewport.private.ViewController',
 	

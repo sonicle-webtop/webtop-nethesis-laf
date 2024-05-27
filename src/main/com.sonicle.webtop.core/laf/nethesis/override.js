@@ -37,6 +37,10 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
+Ext.define('Nethesis.overrides.webtop.core.sdk.BaseView', {
+	override: 'Sonicle.webtop.core.sdk.BaseView',
+	bodyBorder: false
+});
 Ext.define('Nethesis.overrides.webtop.core.sdk.ModelView', {
 	override: 'Sonicle.webtop.core.sdk.ModelView',
 	
@@ -50,7 +54,7 @@ Ext.define('Nethesis.overrides.webtop.core.sdk.ModelView', {
 			dockPosition: 'side'
 		});
 		me.callParent([cfg]);
-	},
+	}
 });
 Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
 	override: 'Sonicle.webtop.core.viewport.private.ViewController',
@@ -74,7 +78,18 @@ Ext.define('Nethesis.overrides.webtop.core.ux.app.taskbar.Bar', {
 		width: 160
 	}
 });
-Ext.define('Nethesis.overrides.webtop.core.sdk.BaseView', {
-	override: 'Sonicle.webtop.core.sdk.BaseView',
-	bodyBorder: false
+Ext.define('Nethesis.overrides.webtop.core.view.Reminder', {
+	override: 'Sonicle.webtop.core.view.Reminder',
+	
+	constructor: function(cfg) {
+		var me = this,
+			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
+				{dockableConfig: true}
+			]);
+		
+		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
+			dockPosition: 'center'
+		});
+		me.callParent([cfg]);
+	}
 });

@@ -37,7 +37,7 @@
 .wtcal-icon-attendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-attendees { background-image: none !important }
 .wtcal-icon-reminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-reminder { background-image: none !important }
 .wtcal-icon-showDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-showDescription { background-image: none !important }
-.wtcal-icon-addResource:before { content: '\f54f'; font-family: var(--fa-style-family-classic); } .wtcal-icon-addResource { background-image: none !important }
+.wtcal-icon-addResource:before { content: '\f055'; font-family: var(--fa-style-family-classic); } .wtcal-icon-addResource { background-image: none !important }
 .wtcal-icon-importAttendees:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-importAttendees { background-image: none !important }
 .wtcal-icon-importAttendeesPaste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wtcal-icon-importAttendeesPaste { background-image: none !important }
 .wtcal-icon-importAttendeesList:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-importAttendeesList { background-image: none !important }

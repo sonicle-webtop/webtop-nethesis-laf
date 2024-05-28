@@ -15,3 +15,19 @@ Ext.define('Nethesis.overrides.webtop.mail.ux.grid.column.Message', {
 	collapseToolOpenIconCls: 'fas fa-chevron-circle-down',
 	collapseToolCloseIconCls: 'fas fa-chevron-circle-up'
 });
+
+Ext.define('Nethesis.overrides.webtop.mail.view.AdvancedSearchDialog', {
+	override: 'Sonicle.webtop.mail.view.AdvancedSearchDialog',
+	
+	constructor: function(cfg) {
+		var me = this,
+			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
+				{dockableConfig: true}
+			]);
+		
+		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
+			dockPosition: 'side'
+		});
+		me.callParent([cfg]);
+	}
+});

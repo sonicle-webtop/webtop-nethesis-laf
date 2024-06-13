@@ -256,13 +256,6 @@
 	color: #ffffff;
 }
 
-/* ---------- Sonicle.form.field.Image */
-/* Align trigger icon on top */
-.so-form-image-field-body .x-form-trigger {
-    vertical-align: top;
-    /*padding-top: 10px;*/
-}
-
 /* ---------- Sonicle.form.FieldSection */
 .so-fieldsection > .x-form-item-body {
     padding-left: 19px; /* 5px (related to label) are already there */
@@ -280,6 +273,22 @@
 }
 .so-form-hspacer.x-component-large {
 	margin: 0 32px 0 0;
+}
+
+/* ---------- Sonicle.form.field.Display */
+.so-displayfield-swatch {
+    margin-top: 14px;
+}
+
+/* ---------- Sonicle.form.field.Image */
+/* Align trigger icon on top */
+.so-form-image-field-body .x-form-trigger {
+    vertical-align: top;
+    /*padding-top: 10px;*/
+}
+/* Hide field borders */
+.so-form-image .x-form-trigger-wrap {
+    border-color: transparent;
 }
 
 /*

@@ -150,7 +150,7 @@
 .wt-icon-search-adv:before { content: '\f002'; font: var(--fa-font-solid); } .wt-icon-search-adv { background-image: none !important }
 /*.wt-icon-history { background-image: url('history_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-public { background-image: url('public_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-sms { background-image: url('sms_16.svg') !important; background-size: contain; }*/
+.wt-icon-sms:before { content: '\f7cd'; font: var(--fa-font-solid); } .wt-icon-sms { background-image: none !important }
 /*.wt-icon-permission-denied { background-image: url('permission-denied_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-permission-allowed { background-image: url('permission-allowed_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-permission-denied-gray { background-image: url('permission-denied-grayed_16.svg') !important; background-size: contain; }*/

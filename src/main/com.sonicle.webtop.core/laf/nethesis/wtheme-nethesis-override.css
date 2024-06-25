@@ -190,7 +190,7 @@ color-ct-ok-1 -> Green/700
 
 /* ---------- WTA.ux.field.Search */
 /* Customize trigger-icon */
-.wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat center !important; }
+.wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat left !important; }
 .wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }
 
 /* ---------- KanbanColumn */

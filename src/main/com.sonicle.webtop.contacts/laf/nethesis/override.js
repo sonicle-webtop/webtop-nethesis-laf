@@ -34,3 +34,13 @@ Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 		}
 	}
 });
+Ext.define('Nethesis.overrides.webtop.contacts.ux.grid.column.Contact', {
+	override: 'Sonicle.webtop.contacts.ux.grid.column.Contact',
+	
+	tagIconCls: 'fas fa-tag',
+	dlistIconCls: 'fas fa-rectangle-list',
+	emailIconCls: 'fas fa-envelope',
+	mobileIconCls: 'fas fa-phone',
+	telephoneIconCls: 'fas fa-phone'
+});
+

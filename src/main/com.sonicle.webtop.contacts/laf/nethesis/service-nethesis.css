@@ -6,18 +6,12 @@
 .wtcon-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtcon-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtcon-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
-/* ---------- Icons (others) */
-.wtcon-icon-category:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-category { background-image: none !important; background-size: contain; }
-.wtcon-icon-categoryMy:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryMy { background-image: none !important; background-size: contain; }
-.wtcon-icon-categoryIncoming:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryIncoming { background-image: none !important; background-size: contain; }
-.wtcon-icon-categoryRemote:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryRemote { background-image: none !important; background-size: contain; }
+/* ---------- Icons (actions) */
 .wtcon-icon-addCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-addRemoteCategory:before { content: '\f055'; font: var(--fa-font-solid); } .wtcon-icon-addRemoteCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-viewCategoryLinks:before { content: '\f0c1'; font: var(--fa-font-solid); } .wtcon-icon-viewCategoryLinks { background-image: none !important; background-size: contain; }
 .wtcon-icon-editCategory:before { content: '\f044'; font: var(--fa-font-solid); } .wtcon-icon-editCategory { background-image: none !important; background-size: contain; }
 .wtcon-icon-deleteCategory:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcon-icon-deleteCategory { background-image: none !important; background-size: contain; }
-.wtcon-icon-contact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-contact { background-image: none !important }
-.wtcon-icon-contactsList:before { content: '\f022'; font: var(--fa-font-solid); } .wtcon-icon-contactsList { background-image: none !important }
 .wtcon-icon-newContact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-newContact { background-image: none !important }
 .wtcon-icon-newContactsList:before { content: '\f022'; font: var(--fa-font-solid); } .wtcon-icon-newContactsList { background-image: none !important }
 .wtcon-icon-addContact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-addContact { background-image: none !important }
@@ -32,18 +26,29 @@
 .wtcon-icon-sendByEmail:before { content: '\f1e0'; font: var(--fa-font-solid); } .wtcon-icon-sendByEmail { background-image: none !important }
 .wtcon-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-writeMessage { background-image: none !important }
 .wtcon-icon-createEvent:before { content: '\f271'; font: var(--fa-font-solid); } .wtcon-icon-createEvent { background-image: none !important }
-.wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }
-.wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: none !important }
-.wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
-.wtcon-icon-contact-name:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcon-icon-contact-name { background-image: none !important }
-.wtcon-icon-contact-company:before { content: '\f1ad'; font: var(--fa-font-solid); } .wtcon-icon-contact-company { background-image: none !important }
-.wtcon-icon-contact-email:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-contact-email { background-image: none !important }
-.wtcon-icon-contact-mobile:before { content: '\f3ce'; font: var(--fa-font-solid); } .wtcon-icon-contact-mobile { background-image: none !important }
-.wtcon-icon-contact-phone:before { content: '\f095'; font: var(--fa-font-solid); } .wtcon-icon-contact-phone { background-image: none !important }
-.wtcon-icon-contact-notes:before { content: '\f036'; font: var(--fa-font-solid); } .wtcon-icon-contact-notes { background-image: none !important }
-.wtcon-icon-contact-address:before { content: '\f041'; font: var(--fa-font-solid); } .wtcon-icon-contact-address { background-image: none !important }
 .wtcon-icon-uploadContactPicture:before { content: '\f35b'; font: var(--fa-font-solid); }
 .wtcon-icon-clearContactPicture:before { content: '\f057'; font: var(--fa-font-solid); }
+/* ---------- Icons (others) */
+.wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }
+.wtcon-icon-reminder-anniversary:before { content: '\f3a5'; font: var(--fa-font-solid); } .wtcon-icon-reminder-anniversary { background-image: none !important }
+.wtcon-icon-category:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-category { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryMy:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryMy { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryIncoming:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryIncoming { background-image: none !important; background-size: contain; }
+.wtcon-icon-categoryRemote:before { content: '\f187'; font: var(--fa-font-solid); } .wtcon-icon-categoryRemote { background-image: none !important; background-size: contain; }
+.wtcon-icon-contact:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-contact { background-image: none !important }
+.wtcon-icon-contactsList:before { content: '\f022'; font: var(--fa-font-solid); } .wtcon-icon-contactsList { background-image: none !important }
+.wtcon-icon-contactName:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcon-icon-contact-name { background-image: none !important }
+.wtcon-icon-contactCompany:before { content: '\f1ad'; font: var(--fa-font-solid); } .wtcon-icon-contact-company { background-image: none !important }
+.wtcon-icon-contactEmail:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-contact-email { background-image: none !important }
+.wtcon-icon-contactPhone:before { content: '\f095'; font: var(--fa-font-solid); } .wtcon-icon-contact-phone { background-image: none !important }
+.wtcon-icon-contactNotes:before { content: '\f036'; font: var(--fa-font-solid); } .wtcon-icon-contact-notes { background-image: none !important }
+.wtcon-icon-contactUrl:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtcon-icon-contactUrl { background-image: none !important }
+.wtcon-icon-contactPartner:before { content: '\f007'; font: var(--fa-font-solid); } .wtcon-icon-contactPartner { background-image: none !important }
+.wtcon-icon-contactBirthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-contactBirthday { background-image: none !important }
+.wtcon-icon-contactAnniversary:before { content: '\f783'; font: var(--fa-font-solid); } .wtcon-icon-contactAnniversary { background-image: none !important }
+.wtcon-icon-contactAddress:before { content: '\f041'; font: var(--fa-font-solid); } .wtcon-icon-contact-address { background-image: none !important }
+.wtcon-icon-eventAttachments:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcon-icon-eventAttachments { background-image: none !important }
+.wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
 
 /* ---------- ToolPanel related */
 .wtcon-tool-searchpanel-body {
@@ -69,7 +74,7 @@
     color: #374151; /* Gray/700 */
 }
 .wtcon-contactcolumn-head > span {
-    padding-left: 16px;
+    margin-left: 16px;
     font-weight: var(--wt-theme-fontweight-regular);
     font-size: var(--wt-theme-fontsize-xs);
     color: #4B5563; /* Gray/600 */
@@ -80,8 +85,21 @@
     line-height: var(--wt-theme-lineheight-xs);
     color: #374151; /* Gray/700 */
 }
+.wtcon-contactcolumn-icon {
+    margin-right: 8px;
+}
+.wtcon-contactcolumn-body span {
+    margin-left: 24px;
+}
+.wtcon-contactcolumn-body span:first-child {
+    margin-left: 0px;
+}
 
 /* ---------- ux.panel.ContactPreview */
+/* no padding for tagfield */
+.wtcon-preview-header .x-tagfield.x-form-field {
+	padding: 0px !important;
+}
 .wtcon-preview-header-dn {
     margin-bottom: 0px;
 }

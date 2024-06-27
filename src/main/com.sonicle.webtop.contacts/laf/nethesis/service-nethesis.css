@@ -131,7 +131,21 @@
     margin: 0 5px 0 5px;
 }
 
-
- .x-form-trigger-wrap {
-    
+/* ---------- Sonicle.webtop.contacts.ux.panel.ContactPreview */
+.wtcon-preview-header > * > .x-panel-body {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+/* no padding for tagfield */
+.wtcon-preview-header .x-tagfield.x-form-field {
+	padding: 0px !important;
+}
+.wtcon-preview-header-tbactions {
+    padding-left: 24px;
+}
+.wtcon-preview-main > * > .x-panel-body, .wtcon-preview-cfields > * > .x-panel-body {
+	padding-top: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
 }

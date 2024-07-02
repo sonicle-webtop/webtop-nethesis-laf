@@ -37,6 +37,16 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
+Ext.define('Nethesis.form.field.InitialsAvatar', {
+	override: 'Sonicle.form.field.InitialsAvatar',
+	
+	colors: ['#9CA3AF'] // Force single color: Gray/400
+});
+Ext.define('Nethesis.grid.column.Avatar', {
+	override: 'Sonicle.grid.column.Avatar',
+	
+	colors: ['#9CA3AF'] // Force single color: Gray/400
+});
 Ext.define('Nethesis.overrides.webtop.core.sdk.BaseView', {
 	override: 'Sonicle.webtop.core.sdk.BaseView',
 	bodyBorder: false

@@ -142,10 +142,6 @@
 
 .wtmail-imaptree-gearmenu:before { content: '\f013'; font: var(--fa-font-solid); color: var(--wt-theme-color-1); } .wtmail-imaptree-gearmenu { background-image: none !important; }
 
-.so-avatarcolumn .so-avatar-wrap {
-    background-color: #9CA3AF !important;
-}
-
 .so-avatarcolumn .so-avatar-wrap SPAN {
     color: white !important;
 }

@@ -205,6 +205,12 @@ color-ct-ok-1 -> Green/700
     background-color: #ffffff;
 }
 
+/* ---------- WTA.ux.field.Recipients */
+/* Adjust gap between items */
+.wt-recipients-field .x-tagfield-list {
+    column-gap: 16px;
+}
+
 /* ---------- WTA.ux.panel.Fields */
 .wt-fieldspanel-body-padding-t {
 	padding-top: 24px;
@@ -364,6 +370,17 @@ color-ct-ok-1 -> Green/700
 .x-grid.x-grid-header-hidden .x-grid-body:not(.x-grid-no-border) {
     border-top-width: 1px;
     border-radius: 4px;
+}
+
+/* ---------- Ext.tab.Panel */
+/* Add bottom-line to selected tab */
+.x-tab-active:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    border-bottom: 2px solid #C2410C;
 }
 
 /* ---------- Ext.window.MessageBox */

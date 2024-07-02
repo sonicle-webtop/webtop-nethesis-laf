@@ -4204,12 +4204,12 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/header/Container.scss:1 */
 .x-grid-header-ct {
-    border: 1px solid #d1d1d1;
+    border: 1px solid #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:6 */
 .x-column-header-trigger {
     background-color: #e5e7eb;
-    border-left: 1px solid #d1d1d1;
+    border-left: 0px solid #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:18 */
 .x-column-header-last {
@@ -4217,7 +4217,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:20 */
 .x-column-header-last .x-column-header-over .x-column-header-trigger {
-    border-right: 1px solid #d1d1d1;
+    border-right: 0px solid #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:35 */
 .x-group-header {
@@ -4226,9 +4226,9 @@
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:37 */
 .x-group-header:after {
     content: '';
-    width: 1px;
+    width: 0px;
     height: 100%;
-    background: #d1d1d1;
+    background: #d1d5db;
     position: absolute;
     right: 0;
     top: 0;

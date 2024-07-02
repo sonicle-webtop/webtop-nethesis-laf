@@ -6968,21 +6968,21 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:147 */
 .x-tool-right {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-right:before {
-    content: '\f0da';
+    content: '\f138';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:156 */
 .x-tool-left {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-left:before {
-    content: '\f0d9';
+    content: '\f137';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:165 */
 .x-tool-down {
@@ -7103,75 +7103,75 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:282 */
 .x-tool-expand-bottom {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-expand-bottom:before {
-    content: '\f0d7';
+    content: '\f13a';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:291 */
 .x-tool-collapse-bottom {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-collapse-bottom:before {
-    content: '\f0d7';
+    content: '\f13a';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:300 */
 .x-tool-expand-top {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-expand-top:before {
-    content: '\f0d8';
+    content: '\f139';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:309 */
 .x-tool-collapse-top {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-collapse-top:before {
-    content: '\f0d8';
+    content: '\f139';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:318 */
 .x-tool-expand-left {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-expand-left:before {
-    content: '\f0d9';
+    content: '\f137';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:327 */
 .x-tool-collapse-left {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-collapse-left:before {
-    content: '\f0d9';
+    content: '\f137';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:336 */
 .x-tool-expand-right {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-expand-right:before {
-    content: '\f0da';
+    content: '\f138';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Tool.scss:345 */
 .x-tool-collapse-right {
-    font: 16px/1 'Font Awesome 5 Free';
+    font: 16px/1 'Font Awesome 6 Free';
     background: none !important;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tool-collapse-right:before {
-    content: '\f0da';
+    content: '\f138';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/panel/Header.scss:1 */
 .x-header-draggable,
@@ -12386,7 +12386,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Tag.scss:320 */
 .x-form-text-default.x-tagfield {
-    padding: 3px 0 0 4px;
+    padding: 3px 0px 0px 10px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Tag.scss:324 */
 .x-form-text-default .x-tagfield-input {
@@ -12658,10 +12658,10 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */
 .x-grid-header-ct {
     border: 1px solid #d1d1d1;
-    border-bottom-color: #fff;
-    background-color: #fff;
+    border-bottom-color: #f3f4f6;
+    background-color: #f3f4f6;
     background-image: none;
-    background-color: #fff;
+    background-color: #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:14 */
 .x-accordion-item .x-grid-header-ct {
@@ -12674,7 +12674,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:31 */
 .x-grid-body {
-    border-top-color: #d1d1d1;
+    border-top-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:35 */
 .x-hmenu-sort-asc {
@@ -12702,21 +12702,21 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:1 */
 .x-column-header {
-    border-right: 1px solid #d1d1d1;
+    border-right: 0px solid #d1d5db;
     color: #111827;
     font: 400 14px/20px Poppins, sans-serif;
     outline: 0;
     background-image: none;
-    background-color: #fff;
+    background-color: #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:27 */
 .x-group-sub-header {
     background: transparent;
-    border-top: 1px solid #d1d1d1;
+    border-top: 0px solid #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:32 */
 .x-group-sub-header .x-column-header-inner {
-    padding: 6px 10px 6px 10px;
+    padding: 7px 10px 6px 10px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:37 */
 .x-column-header-inner {
@@ -12739,7 +12739,7 @@ a.x-color-picker-item:hover {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    border: 1px solid #ce673d;
+    border: 1px solid #cc653b;
     pointer-events: none;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:65 */
@@ -12755,7 +12755,7 @@ a.x-color-picker-item:hover {
 .x-column-header-sort-ASC,
 .x-column-header-sort-DESC {
     background-image: none;
-    background-color: #fff;
+    background-color: #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:111 */
 .x-column-header-open {
@@ -12771,7 +12771,7 @@ a.x-color-picker-item:hover {
     width: 24px;
     cursor: pointer;
     font: 16px/1 'Font Awesome 5 Free';
-    color: #929292;
+    color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-column-header-over .x-column-header-trigger:before,
@@ -12808,13 +12808,13 @@ a.x-color-picker-item:hover {
 .x-column-header-sort-ASC .x-column-header-text-inner:after {
     content: '\f30c';
     font: 14px/1 'Font Awesome 5 Free';
-    color: #929292;
+    color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:139 */
 .x-column-header-sort-DESC .x-column-header-text-inner:after {
     content: '\f309';
     font: 14px/1 'Font Awesome 5 Free';
-    color: #929292;
+    color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:224 */
 .x-no-header-borders .x-column-header {
@@ -12849,7 +12849,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:20 */
 .x-column-header-checkbox {
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:22 */
 .x-column-header-checkbox .x-column-header-text {
@@ -12889,7 +12889,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss:1 */
 .x-grid-cell-row-numberer {
     background-image: none;
-    background-color: #fff;
+    background-color: #f3f4f6;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss:10 */
 .x-grid-cell-inner-row-numberer {
@@ -13409,7 +13409,7 @@ a.x-color-picker-item:hover {
 .x-grid-advanced-group-hd {
     border-width: 0 0 0 1px;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
     padding: 8px 10px 9px;
     cursor: pointer;
     white-space: nowrap;
@@ -13419,7 +13419,7 @@ a.x-color-picker-item:hover {
 .x-grid-advanced-group-record {
     border-width: 0 0 0 1px;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
     padding: 8px 10px 9px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGrouping.scss:18 */
@@ -13517,7 +13517,7 @@ a.x-color-picker-item:hover {
 .x-grid-group-hd {
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
     padding: 8px 10px;
     background: #fff;
     cursor: pointer;
@@ -14174,7 +14174,7 @@ a.x-color-picker-item:hover {
 .x-grid-locked-split .x-grid-inner-normal {
     border-width: 0 0 0 2px;
     border-style: solid;
-    border-left-color: #d1d1d1;
+    border-left-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:24 */
 .x-grid-locking-body {
@@ -14190,7 +14190,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:40 */
 .x-grid-inner-locked {
-    border-right-color: #d1d1d1;
+    border-right-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:45 */
 .x-grid-inner-locked .x-column-header-last,
@@ -14223,7 +14223,7 @@ a.x-color-picker-item:hover {
 .x-grid-scrollbar-locked {
     border-width: 0 2px 0 0;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:123 */
 .x-grid-scroll-container {
@@ -14250,7 +14250,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:1 */
 .x-grid-group-column {
     background-image: none;
-    background-color: #fff;
+    background-color: #f3f4f6;
     cursor: pointer;
     margin: 2px;
 }
@@ -14267,7 +14267,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:22 */
 .x-grid-group-column.x-focus .x-grid-group-column-inner {
-    border: 1px solid #ce673d;
+    border: 1px solid #cc653b;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:27 */
 .x-grid-group-column-over {
@@ -14277,7 +14277,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:31 */
 .x-grid-group-column-inner {
     padding: 3px;
-    border: 1px solid #d1d1d1;
+    border: 1px solid #d1d5db;
     margin: 1px;
     font: 400 14px/20px Poppins, sans-serif;
 }
@@ -14386,8 +14386,8 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:50 */
 .x-grid-row-editor .x-panel-body {
-    border-top: 1px solid #d1d1d1 !important;
-    border-bottom: 1px solid #d1d1d1 !important;
+    border-top: 1px solid #d1d5db !important;
+    border-bottom: 1px solid #d1d5db !important;
     padding: 5px 0 5px 0;
     background-color: #f1e2db;
 }
@@ -14621,7 +14621,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:108 */
 .x-grid-row-editor-buttons {
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:112 */
 .x-row-editor-update-button {
@@ -14779,7 +14779,7 @@ a.x-color-picker-item:hover {
 .x-grid-filter-base .x-form-trigger-wrap-default {
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/None.scss:1 */
 .x-grid-filter-none {
@@ -14787,7 +14787,7 @@ a.x-color-picker-item:hover {
     min-height: 32px;
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: #d1d1d1;
+    border-color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/FilterBar.scss:2 */
 .x-grid-filterbar .x-form-text {

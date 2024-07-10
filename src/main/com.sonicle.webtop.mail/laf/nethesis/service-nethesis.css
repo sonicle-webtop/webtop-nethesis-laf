@@ -302,3 +302,13 @@
 }
 
 .wtmail-unsubscribe-link { color: var(--wt-theme-color-1) !important; }
+
+.wtmail-editor-htmleditor-container > * > .x-panel-body {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 16px;
+}
+
+.wtmail-editor-htmleditor-container .so-tmcehtmleditor-toolbar {
+	padding-left: 24px;
+}

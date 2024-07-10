@@ -105,8 +105,8 @@
 }
 .wtcon-preview-header-dn .x-form-display-field {
     font-weight: var(--wt-theme-fontweight-medium);
-    font-size: var(--wt-theme-fontsize-base);
-    line-height: var(--wt-theme-lineheight-base);
+    font-size: var(--wt-theme-fontsize-xl);
+    line-height: var(--wt-theme-lineheight-xl);
     min-height: 0px !important;
 }
 .wtcon-preview-header-info {

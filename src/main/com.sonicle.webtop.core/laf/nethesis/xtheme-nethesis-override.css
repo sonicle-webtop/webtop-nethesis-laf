@@ -33,7 +33,7 @@
     height: 100%;
     /*top: -5%; for original lineheight */
     top: 0%;
-    border-color: var(--wt-theme-color-1-contrast);
+    border-color: var(--wt-theme-color-1-on);
 }
 .x-btn-wrap-button-secondary-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-secondary-medium.x-btn-split-right > .x-btn-button:after,
@@ -55,7 +55,7 @@
 /* ---------- Ext.form.field.Display */
 /* Fix text vertical alignment */
 .x-form-display-field-default {
-    margin-top: 14px;
+    /*margin-top: 14px;*/ /* commented for fixing */
 }
 
 /* ---------- Ext.form.field.Text */
@@ -91,6 +91,16 @@
 /* Center empty text */
 .x-grid-empty { text-align: center; }
 .x-grid-cell-empty { color: grey; }
+/* Implement rounded-style for Grids */
+.x-grid.x-grid-rounded .x-grid-header-ct {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+/* Implement rounded-style for Grids */
+.x-grid.x-grid-rounded .x-grid-body {
+    border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
 
 /* ---------- Ext.grid.column.Action */
 /* Adds some extra spacing between action column icons */
@@ -115,14 +125,15 @@
 
 /* ---------- Ext.panel.Panel : UI KanbanColumm */
 /* Support rounded corners */
+/*
 .x-panel-panel-kanbancolumn {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ */
-	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
-	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ *
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome *
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 *
 }
 .x-panel-panel-kanbancolumn .x-panel-header {
     border-top-left-radius: 8px;
@@ -135,6 +146,14 @@
 .x-panel-panel-kanbancolumn .x-panel-body-panel-kanbancolumn {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+*/
+
+/* ---------- Ext.panel.Tool */
+/* Expand/Collapse tools must be colored */
+.x-tool-expand-left, .x-tool-expand-right, .x-tool-collapse-left, .x-tool-collapse-right {
+    color: #C2410C !important; /* Orange/700 */
+    opacity: 1 !important;
 }
 
 /* ---------- Ext.picker.Date */
@@ -181,17 +200,6 @@
     content: '';
     width: 27.28px;
     height: 28px;
-}
-
-/* ---------- Ext.tab.Panel */
-/* Add bottom-line to selected tab */
-.x-tab-active:before {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-    right: 5px;
-    border-bottom: 2px solid #C2410C;
 }
 
 /* ---------- Ext.tip.QuickTip */
@@ -276,8 +284,11 @@
 }
 
 /* ---------- Sonicle.form.field.Display */
+.so-displayfield-icon {
+    margin-right: 8px;
+}
 .so-displayfield-swatch {
-    margin-top: 14px;
+    /*margin-top: 14px;*/ /* commented for fixing */
 }
 
 /* ---------- Sonicle.form.field.Image */
@@ -296,4 +307,9 @@ colore hover tree/grid gray/200
 blink context menu su gray/300
 avatar button icona split troppo grande
 bottone secondario 
+*/
+
+
+/*
+x-tagfield x-form-field x-form-text x-form-text-default
 */

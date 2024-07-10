@@ -25,26 +25,63 @@ color-ct-ok-1 -> Green/700
 */
 
 :root {
-    --wt-theme-color-surface-1: #f9fafb; /* Gray/50 */
-    --wt-theme-color-surface-2: #ffffff; /* White */
-    --wt-theme-color-surface-contrast: #111827; /* Gray/900 */
+    /* https://m3.material.io/styles/color/roles */
+    
+    /* Surface – Default color for backgrounds */
+    --wt-theme-color-surface: #ffffff; /* White */
+    /* On surface – Text and icons against any surface color */
+    --wt-theme-color-surface-on: #111827; /* Gray/900 */
+    /* On surface variant – Lower-emphasis color for text and icons against any surface color */
+    --wt-theme-color-surface-on-low: #374151; /* Gray/700 */
+    /* Surface container – Default container color */
+    --wt-theme-color-surface-ct: #f9fafb; /* Gray/50 */
+    /* Surface container high – High-emphasis container color */
+    --wt-theme-color-surface-ct-high: #f3f4f6; /* Gray/100 */
+    
+    /* Use primary roles for the most prominent components across the UI, such as the FAB, high-emphasis buttons, and active states. */
+    /* Primary – High-emphasis fills, texts, and icons against surface */
     --wt-theme-color-1: #c2410c; /* Orange/700 */
-    --wt-theme-color-1-contrast: #f9fafb; /* Gray/50 */
-    --wt-theme-color-ct-1: #ffedd5; /* Orange/100 */
-    --wt-theme-color-ct-1-contrast: #111827; /* Gray/900 */
-    --wt-theme-color-ct-2: #d1d5db; /* Gray/300 */
-    --wt-theme-color-ok-1: #15803d; /* Green/700 */
-    --wt-theme-color-ok-1-contrast: #ffffff; /* White */
-    --wt-theme-color-ok-2: #f0fdf4; /* Green/50 */
-    --wt-theme-color-ok-2-contrast: #15803d; /* Green/700 */
-    --wt-theme-color-warn-1: #a16207; /* Yellow/700 */
-    --wt-theme-color-warn-1-contrast: #ffffff; /* White */
-    --wt-theme-color-warn-2: #fefce8; /* Yellow/50 */
-    --wt-theme-color-warn-2-contrast: #ffffff; /* White */
-    --wt-theme-color-error-1: #b91c1c; /* Red/700 */
-    --wt-theme-color-error-1-contrast: #fef2f2; /* Gray/50 */
-    --wt-theme-color-error-2: #fef2f2; /* Red/50 */
-    --wt-theme-color-error-2-contrast: #991b1b; /* Red/800 */
+    /* On primary – Text and icons against primary */
+    --wt-theme-color-1-on: #f9fafb; /* Gray/50 */
+    /* Primary container – Standout fill color against surface, for key components like FAB */
+    --wt-theme-color-1-ct: #ffedd5; /* Orange/100 */
+    /* On primary container – Text and icons against primary container */
+    --wt-theme-color-1-ct-on: #111827; /* Gray/900 */
+    
+    /* Secondary – Less prominent fills, text, and icons against surface */
+    --wt-theme-color-2: #e5e7eb; /* Gray/200 */
+    /* On secondary – Text and icons against secondary */
+    --wt-theme-color-2-on: #111827; /* Gray/900 */
+    /* Secondary container – Less prominent fill color against surface, for recessive components like tonal buttons */
+    --wt-theme-color-ct-2: #ffffff; /* White */
+    /* On secondary container – Text and icons against secondary container */
+    --wt-theme-color-ct-2-on: #6b7280; /* Gray/500 */
+    
+    /* Ok – Attention-grabbing color against surface for fills, icons, and text, indicating safe status */
+    --wt-theme-color-ok: #15803d; /* Green/700 */
+    /* On ok – Text and icons against safe status */
+    --wt-theme-color-ok-on: #ffffff; /* White */
+    /* Ok container – Attention-grabbing fill color against surface */
+    --wt-theme-color-ok-ct: #f0fdf4; /* Green/50 */
+    /* On ok container – Text and icons against warning container */
+    --wt-theme-color-ok-ct-on: #15803d; /* Green/700 */
+    /* Warning – Attention-grabbing color against surface for fills, icons, and text, indicating attention */
+    --wt-theme-color-warn: #a16207; /* Yellow/700 */
+    /* On warning – Text and icons against warning */
+    --wt-theme-color-warn-on: #ffffff; /* White */
+    /* Warning container – Attention-grabbing fill color against surface */
+    --wt-theme-color-warn-ct: #fefce8; /* Yellow/50 */
+    /* On warning container – Text and icons against warning container */
+    --wt-theme-color-warn-ct-on: #ffffff; /* White */
+    /* Error – Attention-grabbing color against surface for fills, icons, and text, indicating urgency */
+    --wt-theme-color-error: #b91c1c; /* Red/700 */
+    /* On error – Text and icons against error */
+    --wt-theme-color-error-on: #fef2f2; /* Gray/50 */
+    /* Error container – Attention-grabbing fill color against surface */
+    --wt-theme-color-error-ct: #fef2f2; /* Red/50 */
+    /* On error container – Text and icons against error container */
+    --wt-theme-color-error-ct-on: #991b1b; /* Red/800 */
+    
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */
@@ -80,6 +117,19 @@ color-ct-ok-1 -> Green/700
     --fc-neutral-bg-color: #f9fafb !Important; /* Gray/50 */
     --fc-non-business-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
     --fc-today-bg-color: #fff7ed !Important; /* Orange/50 */
+    
+    --kanban-column-border-radius: 8px;
+}
+
+.wt-theme-text-off { color: var(--wt-theme-color-ct-2-on); }
+
+.wt-form-body-title {
+	font-weight: var(--wt-theme-fontweight-medium);
+	font-size: var(--wt-theme-fontsize-base);
+}
+.wt-form-body-subtitle {
+	font-weight: var(--wt-theme-fontweight-base);
+	font-size: var(--wt-theme-fontsize-sm);
 }
 
 /* Loader: customize spinner and typography */
@@ -88,7 +138,7 @@ color-ct-ok-1 -> Green/700
     font-size: var(--wt-theme-fontsize-xl) !important;
     font-weight: var(--wt-theme-fontweight-medium) !important;
     line-height: var(--wt-theme-lineheight-xl) !important;
-    color: var(--wt-theme-color-surface-contrast) !important;
+    color: var(--wt-theme-color-surface-on) !important;
 }
 /* Navbar: background */
 .wt-viewport-navbar-watermark-right {
@@ -120,7 +170,7 @@ color-ct-ok-1 -> Green/700
     width: 4px;
     height: 36px;
     border-radius: 0px 6px 6px 0px;
-    background: var(--primary-light-700, #C2410C);
+    background: var(--primary-light-700, #C2410C); /* Orange/700 */
     content: '';
 }
 /* Navbar: define 50x50 logo image */
@@ -153,8 +203,8 @@ color-ct-ok-1 -> Green/700
 /* Hide ugly border when docking top */
 .wt-tool .x-panel-body { border-top: 0px; }
 /* Customize HD style */
-.wt-tool .wt-tool-bg { background-color: var(--wt-theme-color-surface-1); }
-.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-1); padding-top: 10px; padding-left: 6px; }
+.wt-tool .wt-tool-bg { background-color: var(--wt-theme-color-surface-ct); }
+.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-ct); padding-top: 10px; padding-left: 6px; }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); font-weight: 500; }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 
@@ -234,7 +284,7 @@ color-ct-ok-1 -> Green/700
 
 /* ---------- Sonicle.form.field.Display */
 .so-displayfield-clickable {
-    color: #C2410C;
+    color: #C2410C; /* Orange/700 */
 }
 .so-displayfield-clickable:hover {
     color: #7c2d12;
@@ -262,7 +312,7 @@ color-ct-ok-1 -> Green/700
 	/*zoom: 1.1;*/
 }
 .so-fullcalendar-panel {
-    background-color: var(--wt-theme-color-surface-2);
+    background-color: var(--wt-theme-color-surface);
 }
 .so-fullcalendar-panel-toolbar-month {
     gap: 16px;
@@ -380,7 +430,7 @@ color-ct-ok-1 -> Green/700
     bottom: 0px;
     left: 5px;
     right: 5px;
-    border-bottom: 2px solid #C2410C;
+    border-bottom: 2px solid #C2410C; /* Orange/700 */
 }
 
 /* ---------- Ext.window.MessageBox */

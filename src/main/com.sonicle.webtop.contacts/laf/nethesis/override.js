@@ -14,7 +14,36 @@ Ext.define('Nethesis.overrides.webtop.contacts.Service', {
 Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 	override: 'Sonicle.webtop.contacts.view.Contact',
 	
+	/**
+	 * Override original {@link WTA.sdk.ModelView#initTBar}
+	 * - Add tags field in last position
+	 * - Add bottom divider
+	 */
+	initTBar: function() {
+		var me = this,
+			SoU = Sonicle.Utils;
+		
+		me.dockedItems = SoU.mergeDockedItems(me.dockedItems, 'top', [
+			me.createTopToolbar1Cfg(me.prepareTopToolbarItems()),
+			me.createTopToolbarXCfg([
+				me.createTagsFieldCfg()
+			], 'last'),
+			me.createTopToolbarsDividerCfg()
+		]);
+		me.dockedItems = SoU.mergeDockedItems(me.dockedItems, 'bottom', [
+			me.createStatusbarCfg()
+		]);
+	},
+	
 	privates: {
+		/**
+		 * Override original {@link Sonicle.webtop.calendar.view.Event#prepareMainFields}
+		 * - Remove tags field from returned items: it's the 1st field added by createTagsFieldCfg() in original impl.
+		 */
+		prepareMainFields: function() {
+			return Ext.Array.slice(this.callParent(arguments), 1);
+		},
+		
 		createPicSectionMoreItemsCfg: function() {
 			var me = this;
 			return [
@@ -31,6 +60,40 @@ Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 					}
 				}
 			];
+		}
+	}
+});
+Ext.define('Nethesis.overrides.webtop.contacts.view.ContactsList', {
+	override: 'Sonicle.webtop.contacts.view.ContactsList',
+	
+	/**
+	 * Override original {@link WTA.sdk.ModelView#initTBar}
+	 * - Add tags field in last position
+	 * - Add bottom divider
+	 */
+	initTBar: function() {
+		var me = this,
+			SoU = Sonicle.Utils;
+		
+		me.dockedItems = SoU.mergeDockedItems(me.dockedItems, 'top', [
+			me.createTopToolbar1Cfg(me.prepareTopToolbarItems()),
+			me.createTopToolbarXCfg([
+				me.createTagsFieldCfg()
+			], 'last'),
+			me.createTopToolbarsDividerCfg()
+		]);
+		me.dockedItems = SoU.mergeDockedItems(me.dockedItems, 'bottom', [
+			me.createStatusbarCfg()
+		]);
+	},
+	
+	privates: {
+		/**
+		 * Override original {@link Sonicle.webtop.calendar.view.Event#prepareMainFields}
+		 * - Remove tags field from returned items: it's the 1st field added by createTagsFieldCfg() in original impl.
+		 */
+		prepareMainFields: function() {
+			return Ext.Array.slice(this.callParent(arguments), 1);
 		}
 	}
 });

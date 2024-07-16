@@ -32,8 +32,8 @@
 .wttasks-icon-task:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-task { background-image: none !important }
 /*.wttasks-icon-taskType-default { background-image: url('tasktype-default_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskType-seriesMaster { background-image: url('tasktype-series-master_16.svg') !important; background-size: contain; }*/
-/*.wttasks-icon-taskType-seriesItem { background-image: url('tasktype-series-item_16.svg') !important; background-size: contain; }*/
-/*.wttasks-icon-taskType-seriesBroken { background-image: url('tasktype-series-broken_16.svg') !important; background-size: contain; }*/
+.wttasks-icon-taskType-seriesItem:before { content: '\f021'; font: var(--fa-font-solid); } .wttasks-icon-taskType-seriesItem { background-image: none !important; background-size: contain; }
+.wttasks-icon-taskType-seriesBroken:before { content: '\f127'; font: var(--fa-font-solid); } .wttasks-icon-taskType-seriesBroken { background-image: none !important; background-size: contain; }
 /*.wttasks-icon-taskStatus-NA { background-image: url('taskstatus-NA_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskStatus-CO { background-image: url('taskstatus-CO_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskStatus-IP { background-image: url('taskstatus-IP_16.svg') !important; background-size: contain; }*/
@@ -73,9 +73,25 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-/* Portlet TasksBody: override default style */
+/* override default style for taskbody */
 .wttasks-portlet-task-body-dueon {
 	color: #4B5563; /* Gray/600 */
+}
+
+/* ---------- Main (center) container */
+.wttasks-main-list {
+    padding: 16px;
+    background-color: var(--wt-theme-color-surface);
+}
+/* Customize action icon color */
+.wttasks-main-grid .x-action-col-icon {
+    color: var(--wt-theme-color-1);
+}
+.wttasks-main-list-toolbar {
+    margin-bottom: 16px;
+}
+.wttasks-main-search {
+    padding: 16px;
 }
 
 /* ---------- Ext.grid.Panel@main-grid */
@@ -104,6 +120,15 @@
     font-weight: var(--wt-theme-fontweight-regular, normal);
 }
 */
+
+/* ---------- Sonicle.grid.column.Nest */
+.wttasks-main-grid .so-nestcolumn-wrap .so-iconcolumn-icon.wttasks-icon-taskType-default {
+    background-image: url(hide-real-svg.svg) !important;
+}
+.wttasks-main-grid .so-nestcolumn-wrap .so-nestcolumn-collapsetool:before {
+    content: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath fill='%23374150' fill-rule='evenodd' d='m0 5c0-1.1 0.9-2 2-2h20c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-14v7h4v-1c0-1.1 0.9-2 2-2h8c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-8c-1.1 0-2-0.9-2-2h-5c-0.6 0-1-0.4-1-1v-8h-4c-1.1 0-2-0.9-2-2zm22 11h-8v3h8z'/%3E%3C/svg%3E") !important;
+    vertical-align: middle;
+}
 
 /* ---------- Sonicle.webtop.tasks.ux.panel.TaskPreview */
 .wttasks-preview-header > * > .x-panel-body {

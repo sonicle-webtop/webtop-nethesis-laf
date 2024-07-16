@@ -13603,7 +13603,7 @@ a.x-color-picker-item:hover {
 .x-column-header {
     border-right: 0px solid #d1d5db;
     color: #111827;
-    font: 400 14px/20px Poppins, sans-serif;
+    font: 500 14px/20px Poppins, sans-serif;
     outline: 0;
     background-image: none;
     background-color: #f3f4f6;
@@ -15419,7 +15419,7 @@ a.x-color-picker-item:hover {
     padding: 3px;
     border: 1px solid #d1d5db;
     margin: 1px;
-    font: 400 14px/20px Poppins, sans-serif;
+    font: 500 14px/20px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:41 */
 .x-grid-group-column-btn-image {
@@ -15468,7 +15468,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Panel.scss:4 */
 .x-grid-group-panel-header .x-panel-header-title {
-    font: 400 14px/20px Poppins, sans-serif;
+    font: 500 14px/20px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Panel.scss:8 */
 .x-grid-group-panel-header.x-header-noborder {

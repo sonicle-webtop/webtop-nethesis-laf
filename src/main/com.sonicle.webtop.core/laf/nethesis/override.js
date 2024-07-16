@@ -47,6 +47,24 @@ Ext.define('Nethesis.grid.column.Avatar', {
 	
 	colors: ['#9CA3AF'] // Force single color: Gray/400
 });
+Ext.define('Nethesis.grid.column.Nest', {
+	override: 'Sonicle.grid.column.Nest',
+	
+	statics: {
+		hierarchySvg: function(color, beginColor, endColor) {
+			var ME = Sonicle.grid.column.Nest;
+			return !Ext.isEmpty(beginColor) ? ME.hierarchySvgTplParent : ME.hierarchySvgTplChild;
+		},
+		
+		hierarchySvgTplParent: '<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">' +
+			'<path fill="currentcolor" fill-rule="evenodd" d="m0 5c0-1.1 0.9-2 2-2h20c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-14v7h4v-1c0-1.1 0.9-2 2-2h8c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-8c-1.1 0-2-0.9-2-2h-5c-0.6 0-1-0.4-1-1v-8h-4c-1.1 0-2-0.9-2-2zm22 11h-8v3h8z"/>' +
+			'</svg>',
+		
+		hierarchySvgTplChild: '<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">' +
+			'<path fill="currentcolor" fill-rule="evenodd" d="m22 3c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-14v7h4v-1c0-1.1 0.9-2 2-2h8c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-8c-1.1 0-2-0.9-2-2h-5c-0.6 0-1-0.4-1-1v-8h-4c-1.1 0-2-0.9-2-2v-3c0-1.1 0.9-2 2-2zm0 2h-20v3h20z"/>' +
+			'</svg>'
+	}
+});
 Ext.define('Nethesis.overrides.webtop.core.sdk.BaseView', {
 	override: 'Sonicle.webtop.core.sdk.BaseView',
 	bodyBorder: false

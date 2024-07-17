@@ -11,10 +11,10 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 	},
 	
 	privates: {
-		createGridConfig: function(tagsStore, nest, cfg) {
-			return Ext.apply(this.callParent(arguments), {
-				cls: 'x-grid-rounded'
-			});
+		createGridCfg: function(tagsStore, nest, cfg) {
+			var cfg = this.callParent(arguments);
+			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			return cfg;
 		}
 	}
 });

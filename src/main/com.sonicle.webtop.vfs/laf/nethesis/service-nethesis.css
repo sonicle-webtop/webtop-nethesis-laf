@@ -1,4 +1,4 @@
-/* Service Icons */
+/* ---------- Icons (service) */
 .wtvfs-icon-service,
 .wtvfs-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
 .wtvfs-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
@@ -6,3 +6,87 @@
 .wtvfs-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtvfs-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtvfs-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+/* ---------- Icons (actions) */
+.wtvfs-icon-addStore:before { content: '\f055'; font: var(--fa-font-solid); } .wtvfs-icon-addStore { background-image: none !important }
+.wtvfs-icon-addStoreFtp:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtvfs-icon-addStoreFtp { background-image: none !important }
+.wtvfs-icon-addStoreDropbox:before { content: '\f16b'; font: var(--fa-font-brands); } .wtvfs-icon-addStoreDropbox { background-image: none !important }
+.wtvfs-icon-addStoreGooDrive:before { content: '\f3aa'; font: var(--fa-font-brands); } .wtvfs-icon-addStoreGooDrive { background-image: none !important }
+.wtvfs-icon-addStoreNextcloud:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-addStoreNextcloud { background-image: none !important }
+.wtvfs-icon-addStoreFile:before { content: '\f0a0'; font: var(--fa-font-solid); } .wtvfs-icon-addStoreFile { background-image: none !important }
+.wtvfs-icon-editStore:before { content: '\f044'; font: var(--fa-font-solid); } .wtvfs-icon-editStore { background-image: none !important }
+.wtvfs-icon-deleteStore:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtvfs-icon-deleteStore { background-image: none !important }
+.wtvfs-icon-goUp:before { content: '\f35b'; font: var(--fa-font-solid); } .wtvfs-icon-goUp { background-image: none !important }
+.wtvfs-icon-createFile:before { content: '\f15b'; font: var(--fa-font-solid); } .wtvfs-icon-createFile { background-image: none !important }
+.wtvfs-icon-createFolder:before { content: '\f65e'; font: var(--fa-font-solid); } .wtvfs-icon-createFolder { background-image: none !important }
+.wtvfs-icon-uploadFile:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtvfs-icon-uploadFile { background-image: none !important }
+.wtvfs-icon-downloadFile:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtvfs-icon-downloadFile { background-image: none !important }
+.wtvfs-icon-renameFile:before { content: '\f044'; font: var(--fa-font-solid); } .wtvfs-icon-renameFile { background-image: none !important }
+.wtvfs-icon-deleteFile:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtvfs-icon-deleteFile { background-image: none !important }
+.wtvfs-icon-addFileDlLink:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtvfs-icon-addFileDlLink { background-image: none !important }
+.wtvfs-icon-addFileUlLink:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtvfs-icon-addFileUlLink { background-image: none !important }
+.wtvfs-icon-genFileDlQRcode:before { content: '\f029'; font: var(--fa-font-solid); } .wtvfs-icon-genFileDlQRcode { background-image: none !important }
+/* ---------- Icons (others) */
+.wtvfs-icon-rootfolder:before { content: '\f015'; font: var(--fa-font-solid); } .wtvfs-icon-rootfolder { background-image: none !important }
+.wtvfs-icon-store:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-store { background-image: none !important }
+.wtvfs-icon-storeMy:before { content: '\f007'; font: var(--fa-font-solid); } .wtvfs-icon-storeMy { background-image: none !important }
+.wtvfs-icon-storeIncoming:before { content: '\f1e0'; font: var(--fa-font-solid); } .wtvfs-icon-storeIncoming { background-image: none !important }
+.wtvfs-icon-storeMyDocs:before { content: '\f015'; font: var(--fa-font-solid); } .wtvfs-icon-storeMyDocs { background-image: none !important }
+.wtvfs-icon-storeDomainImages:before { content: '\f03e'; font: var(--fa-font-solid); } .wtvfs-icon-storeDomainImages { background-image: none !important }
+.wtvfs-icon-storeFile:before { content: '\f0a0'; font: var(--fa-font-solid); } .wtvfs-icon-storeFile { background-image: none !important }
+.wtvfs-icon-storeFtp:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtvfs-icon-storeFtp { background-image: none !important }
+.wtvfs-icon-storeWebdav:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtvfs-icon-storeWebdav { background-image: none !important }
+.wtvfs-icon-storeSmb:before { content: '\f17a'; font: var(--fa-font-brands); } .wtvfs-icon-storeSmb { background-image: none !important }
+.wtvfs-icon-storeDropbox:before { content: '\f16b'; font: var(--fa-font-brands); } .wtvfs-icon-storeDropbox { background-image: none !important }
+.wtvfs-icon-storeGooDrive:before { content: '\f3aa'; font: var(--fa-font-brands); } .wtvfs-icon-storeGooDrive { background-image: none !important }
+.wtvfs-icon-storeNextcloud:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-storeNextcloud { background-image: none !important }
+.wtvfs-icon-storeOther:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-storeOther { background-image: none !important }
+.wtvfs-icon-downloadLink:before { content: '\f0ab'; font: var(--fa-font-brands); } .wtvfs-icon-downloadLink { background-image: none !important }
+/*.wtvfs-icon-downloadLink-active { background-image: url('linkDownload_16.svg') !important; background-size: contain; }*/
+/*.wtvfs-icon-downloadLink-expired { background-image: url('linkDownload-broken_16.svg') !important; background-size: contain; }*/
+.wtvfs-icon-uploadLink:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtvfs-icon-uploadLink { background-image: none !important }
+/*.wtvfs-icon-uploadLink-active { background-image: url('linkUpload_16.svg') !important; background-size: contain; }*/
+/*.wtvfs-icon-uploadLink-expired { background-image: url('linkUpload-broken_16.svg') !important; background-size: contain; }*/
+.wtvfs-icon-sharingLink:before { content: '\f0c1'; font: var(--fa-font-solid); } .wtvfs-icon-sharingLink { background-image: none !important }
+.wtvfs-icon-sharingLinks:before { content: '\f022'; font: var(--fa-font-solid); } .wtvfs-icon-sharingLinks { background-image: none !important }
+.wtvfs-icon-qrCodeGen:before { content: '\f029'; font: var(--fa-font-solid); } .wtvfs-icon-qrCodeGen { background-image: none !important }
+
+/* ---------- ToolPanel related */
+.wtvfs-tool-tree {
+    margin-left: 10px;
+}
+
+/* ---------- Main (center) container */
+.wtvfs-main-files {
+    padding: 16px 16px 0 16px;
+    background-color: var(--wt-theme-color-surface);
+}
+.wtvfs-main-files-toolbar {
+    margin-bottom: 16px;
+}
+/* Customize action icon color */
+.wtvfs-main-files-grid .x-action-col-icon {
+    color: var(--wt-theme-color-1);
+}
+.wtvfs-main-files-toolbar .wtvfs-icon-createFolder {
+	color: var(--wt-theme-color-1);
+}
+.wtvfs-main-files-toolbar .wtvfs-icon-createFile {
+	color: var(--wt-theme-color-1);
+}
+.wtvfs-main-files-footer .x-btn-button span {
+    color: var(--wt-theme-color-1);
+}
+
+/* ---------- Ext.grid.Panel@main-files-grid */
+/* NB: do NOT insert middle classes on selectors, otherwise automatic mesures done in Js may fail! */
+.wtvfs-main-files-grid .x-column-header-inner {
+    padding: 18px 10px 18px;
+}
+.wtvfs-main-files-grid .x-grid-cell-inner {
+	padding: 22px 10px 22px;
+}
+.wtvfs-main-files-grid .x-grid-item {
+	font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+}

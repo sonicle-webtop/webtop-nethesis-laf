@@ -83,12 +83,12 @@
     padding: 16px;
     background-color: var(--wt-theme-color-surface);
 }
+.wttasks-main-list-toolbar {
+    margin-bottom: 16px;
+}
 /* Customize action icon color */
 .wttasks-main-grid .x-action-col-icon {
     color: var(--wt-theme-color-1);
-}
-.wttasks-main-list-toolbar {
-    margin-bottom: 16px;
 }
 .wttasks-main-search {
     padding: 16px;

@@ -404,6 +404,13 @@ color-ct-ok-1 -> Green/700
     font-size: 11px;
 }
 
+/* ---------- Ext.menu.Item */
+/* Use the following selector for Ext.button.Button: ".wt-dangerzone .x-btn-inner, .wt-dangerzone .x-btn-icon-el" */
+/* Customize text and icon color */
+.wt-dangerzone .x-menu-item-text, .wt-dangerzone .x-menu-item-icon {
+    color: #BE123C; /* Rose/700 */
+}
+
 /* ---------- Ext.panel.Tree */
 /* Toggle checkbox */
 .wt-tree-toggle.x-tree-checkbox-checked:before {

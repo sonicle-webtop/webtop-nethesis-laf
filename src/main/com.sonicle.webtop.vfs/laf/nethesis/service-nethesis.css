@@ -40,7 +40,7 @@
 .wtvfs-icon-storeGooDrive:before { content: '\f3aa'; font: var(--fa-font-brands); } .wtvfs-icon-storeGooDrive { background-image: none !important }
 .wtvfs-icon-storeNextcloud:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-storeNextcloud { background-image: none !important }
 .wtvfs-icon-storeOther:before { content: '\f0c2'; font: var(--fa-font-solid); } .wtvfs-icon-storeOther { background-image: none !important }
-.wtvfs-icon-downloadLink:before { content: '\f0ab'; font: var(--fa-font-brands); } .wtvfs-icon-downloadLink { background-image: none !important }
+.wtvfs-icon-downloadLink:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtvfs-icon-downloadLink { background-image: none !important }
 /*.wtvfs-icon-downloadLink-active { background-image: url('linkDownload_16.svg') !important; background-size: contain; }*/
 /*.wtvfs-icon-downloadLink-expired { background-image: url('linkDownload-broken_16.svg') !important; background-size: contain; }*/
 .wtvfs-icon-uploadLink:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtvfs-icon-uploadLink { background-image: none !important }
@@ -65,15 +65,6 @@
 }
 /* Customize action icon color */
 .wtvfs-main-files-grid .x-action-col-icon {
-    color: var(--wt-theme-color-1);
-}
-.wtvfs-main-files-toolbar .wtvfs-icon-createFolder {
-	color: var(--wt-theme-color-1);
-}
-.wtvfs-main-files-toolbar .wtvfs-icon-createFile {
-	color: var(--wt-theme-color-1);
-}
-.wtvfs-main-files-footer .x-btn-button span {
     color: var(--wt-theme-color-1);
 }
 

@@ -84,6 +84,23 @@ Ext.define('Nethesis.overrides.webtop.core.sdk.ModelView', {
 		me.callParent([cfg]);
 	}
 });
+Ext.define('Nethesis.overrides.webtop.core.view.WizardView', {
+	override: 'Sonicle.webtop.core.view.WizardView',
+	
+	privates: {
+		createCancelButtonCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				ui: '{tertiary}'
+			});
+		},
+		
+		createBackButtonCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				ui: '{tertiary}'
+			});
+		}
+	}
+});
 Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
 	override: 'Sonicle.webtop.core.viewport.private.ViewController',
 	

@@ -7,6 +7,12 @@ Ext.define('Nethesis.overrides.webtop.vfs.Service', {
 			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
 			cfg.selModel.headerWidth = 50;
 			return cfg;
+		},
+		
+		createUploadBarCfg: function(filesGridId, cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				buttonUI: '{primary}'
+			});
 		}
 	}
 });

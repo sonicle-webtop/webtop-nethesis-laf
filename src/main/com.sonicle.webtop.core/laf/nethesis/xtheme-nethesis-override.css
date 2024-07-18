@@ -9,6 +9,12 @@
 /* ---------- Ext.button.Button */
 /* Add default icon family to FA free */
 .x-btn-icon-el:empty { font-family: var(--fa-style-family-classic); }
+/* Fix arrow color not customizable via SenchaThemer */
+.x-btn-button-secondary-small .x-btn-arrow-right:after,
+.x-btn-button-secondary-medium .x-btn-arrow-right:after,
+.x-btn-button-secondary-large .x-btn-arrow-right:after {
+    color: var(--wt-theme-color-1);
+}
 
 /* ---------- Ext.button.Segmented */
 /* Customize segmented UI */
@@ -91,6 +97,9 @@
 /* Center empty text */
 .x-grid-empty { text-align: center; }
 .x-grid-cell-empty { color: grey; }
+.x-column-header {
+    border-right: 0px solid #d1d5db !important;
+}
 /* Implement rounded-style for Grids */
 .x-grid.x-grid-rounded .x-grid-header-ct {
 	border-top-left-radius: 8px;

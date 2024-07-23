@@ -12,8 +12,14 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 	
 	privates: {
 		createGridCfg: function(tagsStore, nest, cfg) {
-			var cfg = this.callParent(arguments);
+			var me = this,
+				cfg = me.callParent(arguments);
 			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			if (nest) {
+				cfg.columns[5].forceCollapseTooltip = true;
+				cfg.columns[5].collapseTooltip = me.res('gptasks.type.parent.tip');
+				cfg.columns[5].hierarchyTooltip = me.res('gptasks.type.child.tip');
+			}
 			return cfg;
 		}
 	}

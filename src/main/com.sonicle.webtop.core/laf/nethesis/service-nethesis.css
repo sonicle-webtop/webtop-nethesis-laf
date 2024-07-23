@@ -35,7 +35,7 @@
 /*.wt-icon-causal { background-image: url('causal_16.svg') !important; background-size: contain; }*/
 .wt-icon-sharing:before { content: '\f1e0'; font: var(--fa-font-solid); } .wt-icon-sharing { background-image: none !important }
 .wt-icon-notification:before { content: '\f0f3'; font: var(--fa-font-solid);} .wt-icon-notification { background-image: none !important }
-/*.wt-icon-im-chat { background-image: url('im-chat_16.svg') !important; background-size: contain; }*/
+.wt-icon-im-chat:before { content: '\f27a'; font: var(--fa-font-solid);} .wt-icon-im-chat { background-image: none !important }
 /*.wt-icon-im-chat-hot { background-image: url('im-chat-hot_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-im-ichat { background-image: url('im-ichat_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-im-ichat-hot { background-image: url('im-ichat-hot_16.svg') !important; background-size: contain; }*/

@@ -81,6 +81,14 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-error-ct: #fef2f2; /* Red/50 */
     /* On error container – Text and icons against error container */
     --wt-theme-color-error-ct-on: #991b1b; /* Red/800 */
+    /* Info – Attention-grabbing color against surface for fills, icons, and text, indicating information */
+    --wt-theme-color-info: #3730A3; /* Indigo/800 */
+    /* On Info – Text and icons against error */
+    --wt-theme-color-info-on: #fef2f2; /* Gray/50 */
+    /* Info container – Attention-grabbing fill color against surface */
+    --wt-theme-color-info-ct: #E0E7FF; /* Indigo/100 */
+    /* On info container – Text and icons against info container */
+    --wt-theme-color-info-ct-on: #4338CA; /* Indigo/700 */
     
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */

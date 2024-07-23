@@ -49,8 +49,8 @@
 .wtcon-icon-contactAddress:before { content: '\f041'; font: var(--fa-font-solid); } .wtcon-icon-contact-address { background-image: none !important }
 .wtcon-icon-eventAttachments:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcon-icon-eventAttachments { background-image: none !important }
 .wtcon-icon-mailchimp:before { content: '\f59e'; font: var(--fa-font-brands); } .wtcon-icon-mailchimp { background-image: none !important }
-.wtcon-icon-viewHome { background-image: none !important; background-size: contain; }
-.wtcon-icon-viewWork { background-image: none !important; background-size: contain; }
+.wtcon-icon-viewHome:before { content: '\f015'; font: var(--fa-font-solid); } .wtcon-icon-viewHome { background-image: none !important }
+.wtcon-icon-viewWork:before { content: '\f1ad'; font: var(--fa-font-solid); } .wtcon-icon-viewWork { background-image: none !important }
 
 /* ---------- ToolPanel related */
 .wtcon-tool-searchpanel-body {
@@ -65,7 +65,7 @@
     font-weight: var(--wt-theme-fontweight-medium);
     font-size: var(--wt-theme-fontsize-sm);
     line-height: var(--wt-theme-lineheight-sm);
-    color: var(--wt-theme-color-1);
+    color: var(--wt-theme-color-info-ct-on);
 }
 
 /* ---------- ux.grid.column.Contact */

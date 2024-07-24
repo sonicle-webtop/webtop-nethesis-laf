@@ -7,13 +7,20 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
 			};
 		me.callParent(arguments);
+		set('view.Category', {width: 550});
 		set('view.Task', {width: 820/*, height: 620*/});
 	},
 	
 	privates: {
 		createGridCfg: function(tagsStore, nest, cfg) {
-			var cfg = this.callParent(arguments);
+			var me = this,
+				cfg = me.callParent(arguments);
 			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			if (nest) {
+				cfg.columns[5].forceCollapseTooltip = true;
+				cfg.columns[5].collapseTooltip = me.res('gptasks.type.parent.tip');
+				cfg.columns[5].hierarchyTooltip = me.res('gptasks.type.child.tip');
+			}
 			return cfg;
 		}
 	}

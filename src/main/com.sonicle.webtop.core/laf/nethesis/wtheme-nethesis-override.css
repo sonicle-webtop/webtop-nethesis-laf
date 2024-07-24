@@ -290,6 +290,13 @@ color-ct-ok-1 -> Green/700
     margin-top: 30px;
 }
 
+/* ---------- Sonicle.form.Separator */
+.so-form-separator .x-fieldset-header-text {
+	font-size: var(--wt-theme-fontsize-base);
+    font-weight: var(--wt-theme-fontweight-medium);
+	color: var(--wt-theme-color-info-ct-on);
+}
+
 /* ---------- Sonicle.form.field.Display */
 .so-displayfield-clickable {
     color: #C2410C; /* Orange/700 */

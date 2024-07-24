@@ -32,8 +32,8 @@
 .wttasks-icon-task:before { content: '\f328'; font: var(--fa-font-solid); } .wttasks-icon-task { background-image: none !important }
 /*.wttasks-icon-taskType-default { background-image: url('tasktype-default_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskType-seriesMaster { background-image: url('tasktype-series-master_16.svg') !important; background-size: contain; }*/
-.wttasks-icon-taskType-seriesItem:before { content: '\f021'; font: var(--fa-font-solid); } .wttasks-icon-taskType-seriesItem { background-image: none !important; background-size: contain; }
-.wttasks-icon-taskType-seriesBroken:before { content: '\f127'; font: var(--fa-font-solid); } .wttasks-icon-taskType-seriesBroken { background-image: none !important; background-size: contain; }
+/*.wttasks-icon-taskType-seriesItem { background-image: url('tasktype-series-item_16.svg') !important; background-size: contain; }*/
+/*.wttasks-icon-taskType-seriesBroken { background-image: url('tasktype-series-broken_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskStatus-NA { background-image: url('taskstatus-NA_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskStatus-CO { background-image: url('taskstatus-CO_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskStatus-IP { background-image: url('taskstatus-IP_16.svg') !important; background-size: contain; }*/

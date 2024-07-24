@@ -7,6 +7,7 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
 			};
 		me.callParent(arguments);
+		set('view.Category', {width: 550});
 		set('view.Task', {width: 820/*, height: 620*/});
 	},
 	

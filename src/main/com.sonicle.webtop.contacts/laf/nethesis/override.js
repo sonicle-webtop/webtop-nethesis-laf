@@ -7,6 +7,7 @@ Ext.define('Nethesis.overrides.webtop.contacts.Service', {
 				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
 			};
 		me.callParent(arguments);
+		set('view.Category', {width: 550});
 		set('view.Contact', {width: 820/*, height: 620*/});
 		set('view.ContactsList', {width: 820/*, height: 620*/});
 	}

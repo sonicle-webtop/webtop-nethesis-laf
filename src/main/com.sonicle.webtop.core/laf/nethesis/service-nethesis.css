@@ -201,7 +201,7 @@
 .wt-ftype-file:before { content: '\f15b'; font: var(--fa-font-solid); } .wt-ftype-file { background-image: none !important }
 .wt-ftype-folder:before { content: '\f07b'; font: var(--fa-font-solid); } .wt-ftype-folder { background-image: none !important }
 .wt-ftype-font:before { content: '\f031'; font: var(--fa-font-solid); } .wt-ftype-font { background-image: none !important }
-.wt-ftype-image:before { content: '\f1c5'; font: var(--fa-font-solid); } .wt-ftype-image { background-image: none !important }
+.wt-ftype-image:before { content: '\f03e'; font: var(--fa-font-solid); } .wt-ftype-image { background-image: none !important }
 .wt-ftype-message:before { content: '\f0e0'; font: var(--fa-font-solid); } .wt-ftype-message { background-image: none !important }
 .wt-ftype-script:before { content: '\f1c9'; font: var(--fa-font-solid); } .wt-ftype-script { background-image: none !important }
 .wt-ftype-source:before { content: '\f1c9'; font: var(--fa-font-solid); } .wt-ftype-source { background-image: none !important }

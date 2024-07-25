@@ -311,6 +311,11 @@
     border-color: transparent;
 }
 
+/* ---------- Sonicle.view.BoundList */
+.so-boundlist-swatchitem .so-boundlist-display {
+	padding-left: 25px;
+}
+
 /*
 colore hover tree/grid gray/200
 blink context menu su gray/300

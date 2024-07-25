@@ -262,11 +262,7 @@ Ext.define('Nethesis.overrides.webtop.core.view.WizardView', {
 Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
 	override: 'Sonicle.webtop.core.viewport.private.ViewController',
 	
-	constructor: function(cfg) {
-		this.callParent([cfg]);
-		// Override static view scale-factor to give better sizes to any view non explicitly revamped by new UI improvements!
-		this.viewsScaleFactor = {width: 1.3, height: 1.3};
-	}
+	viewsScaleFactor: {width: 1.3, height: 1.3}
 });
 Ext.define('Nethesis.overrides.webtop.core.ux.panel.Fields', {
 	override: 'Sonicle.webtop.core.ux.panel.Fields',

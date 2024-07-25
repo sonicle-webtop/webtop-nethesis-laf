@@ -130,11 +130,7 @@ color-ct-ok-1 -> Green/700
 }
 
 .wt-theme-text-off {
-    color: var(--wt-theme-color-ct-2-on);
-}
-.wt-theme-text-info-inline {
-    color: var(--wt-theme-color-ct-2-on);
-    margin-right: 8px;
+    opacity: 0.8;
 }
 .wt-theme-text-title {
     font-weight: var(--wt-theme-fontweight-medium);

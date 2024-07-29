@@ -58,37 +58,46 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-ct-2-on: #6b7280; /* Gray/500 */
     
     /* Ok – Attention-grabbing color against surface for fills, icons, and text, indicating safe status */
-    --wt-theme-color-ok: #15803d; /* Green/700 */
+    --wt-theme-color-ok: #0f766e; /* Teal/700 */
     /* On ok – Text and icons against safe status */
     --wt-theme-color-ok-on: #ffffff; /* White */
     /* Ok container – Attention-grabbing fill color against surface */
-    --wt-theme-color-ok-ct: #f0fdf4; /* Green/50 */
+    --wt-theme-color-ok-ct: #f0fdfa; /* Teal/50 */
     /* On ok container – Text and icons against warning container */
-    --wt-theme-color-ok-ct-on: #15803d; /* Green/700 */
+    --wt-theme-color-ok-ct-on: #0f766e; /* Teal/700 */
     /* Warning – Attention-grabbing color against surface for fills, icons, and text, indicating attention */
-    --wt-theme-color-warn: #a16207; /* Yellow/700 */
+    --wt-theme-color-warn: #b45309; /* Amber/700 */
     /* On warning – Text and icons against warning */
     --wt-theme-color-warn-on: #ffffff; /* White */
     /* Warning container – Attention-grabbing fill color against surface */
-    --wt-theme-color-warn-ct: #fefce8; /* Yellow/50 */
+    --wt-theme-color-warn-ct: #fffbeb; /* Amber/50 */
     /* On warning container – Text and icons against warning container */
     --wt-theme-color-warn-ct-on: #ffffff; /* White */
     /* Error – Attention-grabbing color against surface for fills, icons, and text, indicating urgency */
-    --wt-theme-color-error: #b91c1c; /* Red/700 */
+    --wt-theme-color-error: #be123c; /* Rose/700 */
     /* On error – Text and icons against error */
     --wt-theme-color-error-on: #fef2f2; /* Gray/50 */
     /* Error container – Attention-grabbing fill color against surface */
-    --wt-theme-color-error-ct: #fef2f2; /* Red/50 */
+    --wt-theme-color-error-ct: #fff1f2; /* Rose/50 */
     /* On error container – Text and icons against error container */
-    --wt-theme-color-error-ct-on: #991b1b; /* Red/800 */
+    --wt-theme-color-error-ct-on: #9f1239; /* Rose/800 */
     /* Info – Attention-grabbing color against surface for fills, icons, and text, indicating information */
     --wt-theme-color-info: #3730A3; /* Indigo/800 */
     /* On Info – Text and icons against error */
-    --wt-theme-color-info-on: #fef2f2; /* Gray/50 */
+    --wt-theme-color-info-on: #eef2ff; /* Indigo/50 */
     /* Info container – Attention-grabbing fill color against surface */
     --wt-theme-color-info-ct: #E0E7FF; /* Indigo/100 */
     /* On info container – Text and icons against info container */
     --wt-theme-color-info-ct-on: #4338CA; /* Indigo/700 */
+    
+    --announcementbar-alert-color: #fef2f2; /* Gray/50 */
+	--announcementbar-alert-bg-color: #be123c; /* Rose/700 */
+	--announcementbar-warning-color: #ffffff; /* White */
+	--announcementbar-warning-bg-color: #b45309; /* Amber/700 */
+	--announcementbar-info-color: #eef2ff; /* Indigo/50 */
+	--announcementbar-info-bg-color: #3730A3; /* Indigo/800 */
+	--announcementbar-success-color: #ffffff; /* White */
+	--announcementbar-success-bg-color: #15803d; /* Green/700 */
     
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */

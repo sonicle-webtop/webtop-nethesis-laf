@@ -141,6 +141,10 @@ color-ct-ok-1 -> Green/700
 .wt-theme-text-off {
     opacity: 0.8;
 }
+.wt-theme-text-error {
+	color: var(--wt-theme-color-error); 
+}
+
 .wt-theme-text-title {
     font-weight: var(--wt-theme-fontweight-medium);
     font-size: var(--wt-theme-fontsize-sm);

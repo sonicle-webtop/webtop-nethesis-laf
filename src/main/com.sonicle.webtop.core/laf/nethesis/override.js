@@ -23,6 +23,7 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 	reconfigure: function(cfg) {
 		var me = this;
 		cfg.iconCls = cfg.icon;
+		cfg.minWidth = 512;
 		me.callParent(arguments);
 	},
 	

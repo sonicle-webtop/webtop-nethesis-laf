@@ -499,3 +499,48 @@ color-ct-ok-1 -> Green/700
     -webkit-box-shadow: 0px 0px 8px 0px #fee2e2;
     box-shadow: 0px 0px 0px 8px #fee2e2;
 }
+
+
+/* ---------- Sonicle.webtop.core.view.Options */
+/* left pad the entire options view */
+.wt-view-options {
+	padding-left: 10px
+}
+/* remove gray background from the tabs */
+.wt-view-options > .x-panel-bodyWrap > .x-panel-body {
+	background-color: transparent;
+}
+/* remove border from the tab view */
+.wt-view-options > .x-panel-bodyWrap > .x-panel-body > .x-panel > .x-panel-bodyWrap > .x-panel-body {
+	border: 0px;
+}
+
+/* ---------- Sonicle.webtop.core.sdk.UserOptionsView */
+/* add pad to the upper side of the options view */
+.wt-useroptionsview {
+	padding-top: 24px;
+}
+/* position left tabs as from mockup */
+.wt-useroptionsview * .x-tab-bar-body {
+    padding: 16px 24px 16px 14px;
+}
+/* style left tabs as from mockup */
+.wt-useroptionsview * .x-tab-active:before {
+	border-bottom: 0px !important;
+    border-left: 2px solid var(--wt-theme-color-1) !important;
+    border-radius: 4px;
+    top: 2px;
+    bottom: 2px;
+    left: 0px;
+    background-color: var(--wt-theme-color-surface-ct-high);
+}
+
+/* ---------- Sonicle.form.Separator */
+/* remove line after title */
+.so-form-separator.x-fieldset {
+    border-top: 0px !important;
+}
+/* align left */
+.so-form-separator .x-fieldset-header {
+	padding-left: 0px;
+}

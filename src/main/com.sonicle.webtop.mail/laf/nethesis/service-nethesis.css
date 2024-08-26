@@ -312,3 +312,6 @@
 .wtmail-editor-htmleditor-container .so-tmcehtmleditor-toolbar {
 	padding-left: 24px;
 }
+
+.wtmail-icon-editMailcard:before { content: '\f044'; font: var(--fa-font-solid); } .wtmail-icon-editMailcard { background-image: none !important; }
+.wtmail-icon-deleteMailcard:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtmail-icon-deleteMailcard { background-image: none !important; }

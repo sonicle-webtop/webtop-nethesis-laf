@@ -327,3 +327,22 @@ bottone secondario
 /*
 x-tagfield x-form-field x-form-text x-form-text-default
 */
+
+/*
+remove outline from tabs on active and pressed
+*/
+
+/* ---------- Ext.tab.Tab  */
+/* Remove outline on focus and press */
+.x-tab-pressed {
+	outline: 0px !important;	
+}
+.x-tab-active {
+	outline: 0px !important;	
+}
+
+/* ---------- Ext.form.Labelable  */
+/* Avoid wrap round of text, good for label align top */
+.x-form-item-label-text {
+	text-wrap: nowrap;
+}

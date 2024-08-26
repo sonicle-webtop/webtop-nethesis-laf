@@ -67,7 +67,7 @@ Ext.define('Nethesis.grid.column.Nest', {
 });
 Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 	override: 'Sonicle.webtop.core.viewport.private.Default',
-	
+
 	/*
 	 * Added CSS classes:
 	 * wt-viewport-navbar-logo
@@ -292,3 +292,69 @@ Ext.define('Nethesis.overrides.webtop.core.view.Reminder', {
 		me.callParent([cfg]);
 	}
 });
+Ext.define('Nethesis.overrides.webtop.core.sdk.OptionTabSection', {
+	override: 'Sonicle.webtop.core.sdk.OptionTabSection',
+	
+	bodyPadding: 24,
+	
+	defaults: {
+		labelAlign: 'top',
+		labelStyle: 'font-weight: 500'
+	}
+});
+
+Ext.define('Nethesis.overrides.webtop.core.view.Options', {
+	override: 'Sonicle.webtop.core.view.Options',
+	
+	constructor: function(cfg) {
+		var me = this,
+			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
+				{dockableConfig: true}
+			]);
+		
+		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
+			maximized: true
+		});
+		me.callParent([cfg]);
+	}
+	
+});
+
+Ext.define('Nethesis.overrides.webtop.core.sdk.UserOptionsView', {
+	override: 'Sonicle.webtop.core.sdk.UserOptionsView',
+	
+
+	privates: {
+		createGridCfg: function(cfg) {
+			var me = this,
+				cfg = me.callParent(arguments);
+			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			return cfg;
+		}
+	}
+});
+	
+Ext.define('Nethesis.overrides.webtop.core.view.UserOptions', {
+	override: 'Sonicle.webtop.core.view.UserOptions',
+	
+	//overridable properties to influence UI
+	mainDesktopNotificationsLayout: 'hbox',
+	mainPasswordButtonPack: 'left',
+	upiNicknameHidden: true,
+	upiGenderHidden: true,
+	upiFaxHidden: true,
+	upiPagerHidden: true
+	
+});	
+
+Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {
+	override: 'Sonicle.webtop.mail.view.UserOptions',
+	
+	//overridable properties to influence UI
+	mainTodayRowColorWidth: 64,
+	mainTodayRowColorHidden: true,
+	editingFontSizeWidth: 64,
+	editingFontColorWidth: 64
+	
+	
+});	

@@ -222,3 +222,7 @@
 .x-keyboard-mode .x-mask.x-focus {
     border-width: 0px;
 }
+
+.wtcore-panel-grids-container .x-panel-body {
+	background-color: transparent !important;
+}

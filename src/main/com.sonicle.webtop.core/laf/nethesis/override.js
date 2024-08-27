@@ -341,10 +341,10 @@ Ext.define('Nethesis.overrides.webtop.core.view.UserOptions', {
 	//overridable properties to influence UI
 	mainDesktopNotificationsLayout: 'hbox',
 	mainPasswordButtonPack: 'left',
-	upiNicknameHidden: true,
-	upiGenderHidden: true,
-	upiFaxHidden: true,
-	upiPagerHidden: true
+	upiNicknameHidden: false,
+	upiGenderHidden: false,
+	upiFaxHidden: false,
+	upiPagerHidden: false
 	
 });	
 
@@ -355,7 +355,7 @@ Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {
 	mainTodayRowColorWidth: 64,
 	mainTodayRowColorHidden: true,
 	editingFontSizeWidth: 64,
-	editingFontColorWidth: 64
-	
-	
+	editingFontColorWidth: 64,
+	identitiesColumnFaxHidden: true,
+	advancedRegisterMailtoPack: 'left'
 });	

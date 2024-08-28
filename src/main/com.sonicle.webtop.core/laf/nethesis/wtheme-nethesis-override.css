@@ -129,8 +129,8 @@ color-ct-ok-1 -> Green/700
 }
 .wt-form-toolbar-title {
     font-size: var(--wt-theme-fontsize-base, inherit);
-    line-height: var(--wt-theme-lineheight-base, inherit);
     font-weight: var(--wt-theme-fontweight-medium, normal);
+    color: var(--wt-theme-color-surface-on) !important;
 }
 
 /* Loader: customize spinner and typography */

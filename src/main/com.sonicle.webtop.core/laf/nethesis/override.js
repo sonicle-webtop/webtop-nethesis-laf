@@ -303,7 +303,6 @@ Ext.define('Nethesis.overrides.webtop.core.sdk.OptionTabSection', {
 		labelStyle: 'font-weight: 500'
 	}
 });
-
 Ext.define('Nethesis.overrides.webtop.core.view.Options', {
 	override: 'Sonicle.webtop.core.view.Options',
 	
@@ -344,18 +343,13 @@ Ext.define('Nethesis.overrides.webtop.core.view.UserOptions', {
 	upiNicknameHidden: false,
 	upiGenderHidden: false,
 	upiFaxHidden: false,
-	upiPagerHidden: false
+	upiPagerHidden: false,
 	
-});	
-
-Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {
-	override: 'Sonicle.webtop.mail.view.UserOptions',
-	
-	//overridable properties to influence UI
-	mainTodayRowColorWidth: 64,
-	mainTodayRowColorHidden: true,
-	editingFontSizeWidth: 64,
-	editingFontColorWidth: 64,
-	identitiesColumnFaxHidden: true,
-	advancedRegisterMailtoPack: 'left'
-});	
+	privates: {
+		createSyncGridCfg: function(cfg) {
+			var cfg = this.callParent(arguments);
+			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			return cfg;
+		}
+	}
+});

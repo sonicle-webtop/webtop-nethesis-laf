@@ -19,6 +19,17 @@ Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 		});
 	}
 });
+Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {
+	override: 'Sonicle.webtop.mail.view.UserOptions',
+	
+	//overridable properties to influence UI
+	mainTodayRowColorWidth: 64,
+	mainTodayRowColorHidden: true,
+	editingFontSizeWidth: 64,
+	editingFontColorWidth: 64,
+	identitiesColumnFaxHidden: true,
+	advancedRegisterMailtoPack: 'left'
+});
 Ext.define('Nethesis.overrides.webtop.mail.ux.grid.column.Message', {
 	override: 'Sonicle.webtop.mail.ux.grid.column.Message',
 	

@@ -3,6 +3,13 @@ Ext.define('Nethesis.overrides.menu.Menu', {
 	
 	defaultMinWidth: 200
 });
+Ext.define('Nethesis.overrides.grid.RowEditorButtons', {
+	override: 'Ext.grid.RowEditorButtons',
+	
+	reverseButtons: true,
+	updateButtonUI: '{primary}',
+	cancelButtonUI: '{secondary}'
+});
 Ext.define('Nethesis.overrides.window.MessageBox', {
 	override: 'Ext.window.MessageBox',
 	

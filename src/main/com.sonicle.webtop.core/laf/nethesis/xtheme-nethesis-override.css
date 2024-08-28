@@ -116,6 +116,13 @@ body > .x-mask {
 	border-bottom-right-radius: 8px;
 }
 
+/* ---------- Ext.grid.RowEditorButtons */
+/* Apply base background for row-editor and disarm clip applied on main element */
+.x-grid-row-editor-buttons-default-bottom {
+	background-color: #ffffff;
+    clip: unset !important;
+}
+
 /* ---------- Ext.grid.column.Action */
 /* Adds some extra spacing between action column icons */
 .x-action-col-icon {
@@ -295,6 +302,20 @@ body > .x-mask {
 }
 .so-form-hspacer.x-component-large {
 	margin: 0 32px 0 0;
+}
+
+/* ---------- Sonicle.form.VSpacer */
+.so-form-vspacer.x-component-default {
+	margin: 8px 0 0 0;
+}
+.so-form-vspacer.x-component-small {
+	margin: 8px 0 0 0;
+}
+.so-form-vspacer.x-component-medium {
+	margin: 24px 0 0 0;
+}
+.so-form-vspacer.x-component-large {
+	margin: 40px 0 0 0;
 }
 
 /* ---------- Sonicle.form.field.Display */

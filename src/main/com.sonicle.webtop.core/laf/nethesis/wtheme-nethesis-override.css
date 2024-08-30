@@ -57,16 +57,7 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-info-on: #eef2ff; /* Indigo/50 */
     --wt-theme-color-info-ct: #E0E7FF; /* Indigo/100 */
     --wt-theme-color-info-ct-on: #4338CA; /* Indigo/700 */
-    
-    --announcementbar-alert-color: #fef2f2; /* Gray/50 */
-	--announcementbar-alert-bg-color: #be123c; /* Rose/700 */
-	--announcementbar-warning-color: #ffffff; /* White */
-	--announcementbar-warning-bg-color: #b45309; /* Amber/700 */
-	--announcementbar-info-color: #eef2ff; /* Indigo/50 */
-	--announcementbar-info-bg-color: #3730A3; /* Indigo/800 */
-	--announcementbar-success-color: #ffffff; /* White */
-	--announcementbar-success-bg-color: #15803d; /* Green/700 */
-    
+   
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */

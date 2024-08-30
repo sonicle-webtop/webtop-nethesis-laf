@@ -44,11 +44,11 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-ok: #0f766e; /* Teal/700 */
     --wt-theme-color-ok-on: #ffffff; /* White */
     --wt-theme-color-ok-ct: #f0fdfa; /* Teal/50 */
-    --wt-theme-color-ok-ct-on: #0f766e; /* Teal/700 */
+    --wt-theme-color-ok-ct-on: #0d9488; /* Teal/600 */
     --wt-theme-color-warn: #b45309; /* Amber/700 */
     --wt-theme-color-warn-on: #ffffff; /* White */
     --wt-theme-color-warn-ct: #fffbeb; /* Amber/50 */
-    --wt-theme-color-warn-ct-on: #ffffff; /* White */
+    --wt-theme-color-warn-ct-on: #b45309; /* Amber/700 */
     --wt-theme-color-error: #be123c; /* Rose/700 */
     --wt-theme-color-error-on: #fef2f2; /* Gray/50 */
     --wt-theme-color-error-ct: #fff1f2; /* Rose/50 */
@@ -66,6 +66,19 @@ color-ct-ok-1 -> Green/700
 	--announcementbar-info-bg-color: #3730A3; /* Indigo/800 */
 	--announcementbar-success-color: #ffffff; /* White */
 	--announcementbar-success-bg-color: #15803d; /* Green/700 */
+    
+    --so-formfeedback-color-info: #3730A3; /* Indigo/800 */
+    --so-formfeedback-color-info-ct: #E0E7FF; /* Indigo/100 */
+    --so-formfeedback-color-info-ct-on: #4338CA; /* Indigo/700 */
+    --so-formfeedback-color-alert: #be123c; /* Rose/700 */
+    --so-formfeedback-color-alert-ct: #fff1f2; /* Rose/50 */
+    --so-formfeedback-color-alert-ct-on: #9f1239; /* Rose/800 */
+    --so-formfeedback-color-warning: #b45309; /* Amber/700 */
+    --so-formfeedback-color-warning-ct: #fffbeb; /* Amber/50 */
+    --so-formfeedback-color-warning-ct-on: #b45309; /* Amber/700 */
+    --so-formfeedback-color-success: #0f766e; /* Teal/700 */
+    --so-formfeedback-color-success-ct: #f0fdfa; /* Teal/50 */
+    --so-formfeedback-color-success-ct-on: #0d9488; /* Teal/600 */
     
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */

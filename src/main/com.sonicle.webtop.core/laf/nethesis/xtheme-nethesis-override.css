@@ -284,6 +284,19 @@ body > .x-mask {
 .so-colorswatch-lightmark {
 	color: #ffffff;
 }
+/* ---------- Sonicle.form.Feedback */
+.so-formfeedback {
+    font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+    border-radius: 6px;
+}
+.so-formfeedback.so-formfeedback-accent {
+	border-left-width: 6px;
+}
+.so-formfeedback-wrap {
+    padding: 16px;
+}
 
 /* ---------- Sonicle.form.FieldSection */
 .so-fieldsection > .x-form-item-body {

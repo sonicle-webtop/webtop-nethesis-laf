@@ -1,17 +1,6 @@
 Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 	override: 'Sonicle.webtop.calendar.Service',
 	
-	constructor: function(cfg) {
-		var me = this,
-			set = function(cn, value) {
-				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
-			};
-		me.callParent(arguments);
-		set('view.Calendar', {width: 550});
-		set('view.Event', {width: 820/*, height: 620*/});
-		set('view.RecurrenceEditor', {width: 740/*, height: 480*/});
-	},
-	
 	createToolCalendarCfg: function(cfg) {
 		return Ext.apply(this.callParent(arguments), {
 			width: 242,
@@ -27,8 +16,23 @@ Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 		});
 	}
 });
+Ext.define('Nethesis.overrides.webtop.calendar.view.Calendar', {
+	override: 'Sonicle.webtop.calendar.view.Calendar',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 550});
+		me.callParent([cfg]);
+	}
+});
 Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 	override: 'Sonicle.webtop.calendar.view.Event',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 820/*, height: 620*/});
+		me.callParent([cfg]);
+	},
 	
 	/**
 	 * Override original {@link WTA.sdk.ModelView#initTBar}
@@ -81,5 +85,14 @@ Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 		prepareTopToolbarItems: function() {
 			return Ext.Array.slice(this.callParent(arguments), 0, -3);
 		}
+	}
+});
+Ext.define('Nethesis.overrides.webtop.calendar.view.RecurrenceEditor', {
+	override: 'Sonicle.webtop.calendar.view.RecurrenceEditor',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 740/*, height: 480*/});
+		me.callParent([cfg]);
 	}
 });

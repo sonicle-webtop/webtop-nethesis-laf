@@ -1,17 +1,11 @@
-Ext.define('Nethesis.overrides.webtop.mail.Service', {
-	override: 'Sonicle.webtop.mail.Service',
-	
-	constructor: function(cfg) {
-		var me = this,
-			set = function(cn, value) {
-				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
-			};
-		me.callParent(arguments);
-		set('view.MessageEditor', {width: 900});
-	}
-});
 Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 	override: 'Sonicle.webtop.mail.view.MessageEditor',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 900});
+		me.callParent([cfg]);
+	},
 	
 	createTopToolbarCfg: function(cfg) {
 		return Ext.apply(this.callParent(arguments), {

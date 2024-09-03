@@ -1,19 +1,20 @@
-Ext.define('Nethesis.overrides.webtop.contacts.Service', {
-	override: 'Sonicle.webtop.contacts.Service',
+Ext.define('Nethesis.overrides.webtop.contacts.view.Category', {
+	override: 'Sonicle.webtop.contacts.view.Category',
 	
 	constructor: function(cfg) {
-		var me = this,
-			set = function(cn, value) {
-				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
-			};
-		me.callParent(arguments);
-		set('view.Category', {width: 550});
-		set('view.Contact', {width: 820/*, height: 620*/});
-		set('view.ContactsList', {width: 820/*, height: 620*/});
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 550});
+		me.callParent([cfg]);
 	}
 });
 Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 	override: 'Sonicle.webtop.contacts.view.Contact',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 820/*, height: 620*/});
+		me.callParent([cfg]);
+	},
 	
 	/**
 	 * Override original {@link WTA.sdk.ModelView#initTBar}
@@ -66,6 +67,12 @@ Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 });
 Ext.define('Nethesis.overrides.webtop.contacts.view.ContactsList', {
 	override: 'Sonicle.webtop.contacts.view.ContactsList',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 820/*, height: 620*/});
+		me.callParent([cfg]);
+	},
 	
 	/**
 	 * Override original {@link WTA.sdk.ModelView#initTBar}

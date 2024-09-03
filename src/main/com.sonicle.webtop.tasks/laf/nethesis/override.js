@@ -1,16 +1,6 @@
 Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 	override: 'Sonicle.webtop.tasks.Service',
 	
-	constructor: function(cfg) {
-		var me = this,
-			set = function(cn, value) {
-				Sonicle.Object.setProp(me.viewsDCfgMap, me.preNs(cn), value);
-			};
-		me.callParent(arguments);
-		set('view.Category', {width: 550});
-		set('view.Task', {width: 820/*, height: 620*/});
-	},
-	
 	privates: {
 		createGridCfg: function(tagsStore, nest, cfg) {
 			var me = this,
@@ -25,8 +15,23 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 		}
 	}
 });
+Ext.define('Nethesis.overrides.webtop.tasks.view.Category', {
+	override: 'Sonicle.webtop.tasks.view.Category',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 550});
+		me.callParent([cfg]);
+	}
+});
 Ext.define('Nethesis.overrides.webtop.tasks.view.Task', {
 	override: 'Sonicle.webtop.tasks.view.Task',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 820/*, height: 620*/});
+		me.callParent([cfg]);
+	},
 	
 	/**
 	 * Override original {@link WTA.sdk.ModelView#initTBar}

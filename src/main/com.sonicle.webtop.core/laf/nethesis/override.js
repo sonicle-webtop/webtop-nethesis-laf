@@ -239,14 +239,8 @@ Ext.define('Nethesis.overrides.webtop.core.sdk.ModelView', {
 	override: 'Sonicle.webtop.core.sdk.ModelView',
 	
 	constructor: function(cfg) {
-		var me = this,
-			icfg = Sonicle.Utils.getConstructorConfigs(me, cfg, [
-				{dockableConfig: true}
-			]);
-		
-		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
-			dockPosition: 'side'
-		});
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {dockPosition: 'side'});
 		me.callParent([cfg]);
 	}
 });

@@ -57,7 +57,8 @@ color-ct-ok-1 -> Green/700
     --wt-theme-color-info-on: #eef2ff; /* Indigo/50 */
     --wt-theme-color-info-ct: #E0E7FF; /* Indigo/100 */
     --wt-theme-color-info-ct-on: #4338CA; /* Indigo/700 */
-   
+    --wt-theme-color-off: #9ca3af; /* Gray/400 */
+    
     --wt-theme-color-topbar: #ffffff; /* White */
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #F3F4F6; /* Gray/100 */

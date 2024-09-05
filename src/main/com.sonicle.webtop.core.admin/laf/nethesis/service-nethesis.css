@@ -6,3 +6,54 @@
 .wtadm-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
 .wtadm-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
 .wtadm-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+/* ---------- Icons (actions) */
+.wtadm-icon-addDomain:before { content: '\f055'; font: var(--fa-font-solid); } .wtadm-icon-addDomain { background-image: none !important; background-size: contain; }
+.wtadm-icon-editDomain:before { content: '\f044'; font: var(--fa-font-solid); } .wtadm-icon-editDomain { background-image: none !important; background-size: contain; }
+.wtadm-icon-deleteDomain:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtadm-icon-deleteDomain { background-image: none !important; background-size: contain; }
+.wtadm-icon-initCheckDomain:before { content: '\f0ae'; font: var(--fa-font-solid); } .wtadm-icon-initCheckDomain { background-image: none !important; background-size: contain; }
+.wtadm-icon-selectStmt:before { content: '\f245'; font: var(--fa-font-solid); } .wtadm-icon-selectStmt { background-image: none !important; background-size: contain; }
+.wtadm-icon-play1Stmt:before { content: '\f04b'; font: var(--fa-font-solid); } .wtadm-icon-play1Stmt { background-image: none !important; background-size: contain; }
+.wtadm-icon-playStmt:before { content: '\f04e'; font: var(--fa-font-solid); } .wtadm-icon-playStmt { background-image: none !important; background-size: contain; }
+.wtadm-icon-skipStmt:before { content: '\f051'; font: var(--fa-font-solid); } .wtadm-icon-skipStmt { background-image: none !important; background-size: contain; }
+.wtadm-icon-testConnection:before { content: '\e0b7'; font: var(--fa-font-solid); } .wtadm-icon-testConnection { background-image: none !important; background-size: contain; }
+/* ---------- Icons (others) */
+.wtadm-icon-maintenance-on:before { content: '\f071'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wtadm-icon-maintenance-on { background-image: none !important; background-size: contain; }
+.wtadm-icon-maintenance-off:before { content: '\f071'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtadm-icon-maintenance-off { background-image: none !important; background-size: contain; }
+.wtadm-icon-settings:before { content: '\f00b'; font: var(--fa-font-solid); } .wtadm-icon-settings { background-image: none !important; background-size: contain; }
+.wtadm-icon-logging:before { content: '\f022'; font: var(--fa-font-solid); } .wtadm-icon-logging { background-image: none !important; background-size: contain; }
+.wtadm-icon-loggers:before { content: '\f022'; font: var(--fa-font-solid); } .wtadm-icon-loggers { background-image: none !important; background-size: contain; }
+.wtadm-icon-logViewer:before { content: '\f15c'; font: var(--fa-font-solid); } .wtadm-icon-logViewer { background-image: none !important; background-size: contain; }
+.wtadm-icon-accesslog:before { content: '\f2c1'; font: var(--fa-font-solid); } .wtadm-icon-accesslog { background-image: none !important; background-size: contain; }
+.wtadm-icon-audit:before { content: '\f46c'; font: var(--fa-font-solid); } .wtadm-icon-audit { background-image: none !important; background-size: contain; }
+.wtadm-icon-dbUpgrader:before { content: '\f1c0'; font: var(--fa-font-solid); } .wtadm-icon-dbUpgrader { background-image: none !important; background-size: contain; }
+.wtadm-icon-domains:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtadm-icon-domains { background-image: none !important; background-size: contain; }
+.wtadm-icon-domain:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtadm-icon-domain { background-image: none !important; background-size: contain; }
+.wtadm-icon-domain-disabled:before { content: '\f0ac'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtadm-icon-domain-disabled { background-image: none !important; background-size: contain; }
+.wtadm-icon-groups:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtadm-icon-groups { background-image: none !important; background-size: contain; }
+.wtadm-icon-group:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtadm-icon-group { background-image: none !important; background-size: contain; }
+.wtadm-icon-users:before { content: '\f007'; font: var(--fa-font-solid); } .wtadm-icon-users { background-image: none !important; background-size: contain; }
+.wtadm-icon-user:before { content: '\f007'; font: var(--fa-font-solid); } .wtadm-icon-user { background-image: none !important; background-size: contain; }
+.wtadm-icon-roles:before { content: '\f4fe'; font: var(--fa-font-solid); } .wtadm-icon-roles { background-image: none !important; background-size: contain; }
+.wtadm-icon-role:before { content: '\f4fe'; font: var(--fa-font-solid); } .wtadm-icon-role { background-image: none !important; background-size: contain; }
+.wtadm-icon-launcherLinks:before { content: '\f35d'; font: var(--fa-font-solid); } .wtadm-icon-launcherLinks { background-image: none !important; background-size: contain; }
+.wtadm-icon-service-module:before { content: '\f00c'; font: var(--fa-font-solid); } .wtadm-icon-service-module { background-image: none !important; background-size: contain; }
+.wtadm-icon-permission:before { content: '\f084'; font: var(--fa-font-solid); } .wtadm-icon-permission { background-image: none !important; background-size: contain; }
+.wtadm-icon-licenses:before { content: '\f0a3'; font: var(--fa-font-solid); } .wtadm-icon-licenses { background-image: none !important; background-size: contain; }
+.wtadm-icon-license:before { content: '\f0a3'; font: var(--fa-font-solid); } .wtadm-icon-license { background-image: none !important; background-size: contain; }
+.wtadm-icon-licenseActivatorWiz:before { content: '\e2ca'; font: var(--fa-font-solid); } .wtadm-icon-licenseActivatorWiz { background-image: none !important; background-size: contain; }
+.wtadm-icon-licenseAutoLease-on:before { content: '\f205'; font: var(--fa-font-solid); color: var(--wt-theme-color-1); } .wtadm-icon-licenseAutoLease-on { background-image: none !important; background-size: contain; }
+.wtadm-icon-licenseAutoLease-off:before { content: '\f204'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtadm-icon-licenseAutoLease-off { background-image: none !important; background-size: contain; }
+.wtadm-icon-dataSources:before { content: '\f233'; font: var(--fa-font-solid); } .wtadm-icon-dataSources { background-image: none !important; background-size: contain; }
+.wtadm-icon-dataSource:before { content: '\f233'; font: var(--fa-font-solid); } .wtadm-icon-dataSource { background-image: none !important; background-size: contain; }
+.wtadm-icon-dataSourceQuery:before { content: '\f121'; font: var(--fa-font-solid); } .wtadm-icon-dataSourceQuery { background-image: none !important; background-size: contain; }
+/*.wtadm-icon-virtualDomain { background-image: url('virtualDomain_16.svg') !important; background-size: contain; }*/
+/*.wtadm-icon-virtualEmail { background-image: url('virtualEmail_16.svg') !important; background-size: contain; }*/
+.wtadm-icon-pecBridge:before { content: '\f658'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-OK:before { content: '\f058'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-OK { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-ER:before { content: '\f057'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-ER { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-UN:before { content: '\f059'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-UN { background-image: none !important; background-size: contain; }
+/*.wtadm-icon-fetchmail { background-image: url('fetchmail_16.svg') !important; background-size: contain; }*/
+.wtadm-icon-stmtStatus-ok:before { content: '\f058'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-ok { background-image: none !important; background-size: contain; }
+.wtadm-icon-stmtStatus-error:before { content: '\f057'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-error { background-image: none !important; background-size: contain; }
+.wtadm-icon-stmtStatus-warning:before { content: '\f071'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-warning { background-image: none !important; background-size: contain; }
+.wtadm-icon-stmtStatus-skipped:before { content: '\f04e'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-skipped { background-image: none !important; background-size: contain; }

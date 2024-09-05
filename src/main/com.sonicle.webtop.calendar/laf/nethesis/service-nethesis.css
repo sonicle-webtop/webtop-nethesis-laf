@@ -63,11 +63,13 @@
 .wtcal-attendees-notify-checkcolumn:after {
     content: '\f204';
     font-family: var(--fa-style-family-classic);
-    color: #6b7280; /* Gray/500 */
+    color: var(--wt-theme-color-off);
+    /*color: #6b7280; /* Gray/500 */
 }
 .wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
     content: '\f205';
-    color: #C2410C; /* Orange/700 */
+    color: var(--wt-theme-color-1);
+    /*color: #C2410C; /* Orange/700 */
 }
 /* ---------- Portlet Grid */
 /* Override padding */

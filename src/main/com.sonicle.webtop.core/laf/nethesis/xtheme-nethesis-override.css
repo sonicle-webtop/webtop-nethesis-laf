@@ -126,7 +126,11 @@ body > .x-mask {
 /* ---------- Ext.grid.column.Action */
 /* Adds some extra spacing between action column icons */
 .x-action-col-icon {
-	margin-left: 4px;
+	margin-left: 12px;
+}
+/* Override action color only for grids */
+.x-grid-view .x-action-col-icon {
+    color: var(--wt-theme-color-1);
 }
 
 /* ---------- Ext.grid.column.Check */

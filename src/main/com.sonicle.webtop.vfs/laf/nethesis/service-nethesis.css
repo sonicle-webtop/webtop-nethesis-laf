@@ -63,10 +63,6 @@
 .wtvfs-main-files-toolbar {
     margin-bottom: 16px;
 }
-/* Customize action icon color */
-.wtvfs-main-files-grid .x-action-col-icon {
-    color: var(--wt-theme-color-1);
-}
 
 /* ---------- Ext.grid.Panel@main-files-grid */
 /* NB: do NOT insert middle classes on selectors, otherwise automatic mesures done in Js may fail! */

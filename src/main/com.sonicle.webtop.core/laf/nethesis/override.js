@@ -314,7 +314,7 @@ Ext.define('Nethesis.overrides.webtop.core.view.Options', {
 			]);
 		
 		cfg.dockableConfig = Ext.apply(icfg.dockableConfig || {}, {
-			maximized: true
+			maximized: false //true
 		});
 		me.callParent([cfg]);
 	}

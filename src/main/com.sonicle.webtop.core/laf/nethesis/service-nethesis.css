@@ -123,9 +123,8 @@
 .wt-icon-newMeeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wt-icon-newMeeting { background-image: none !important }
 /* ---------- Icons (statuses) */
 .wt-icon-ok:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wt-icon-ok { background-image: none !important }
-.wt-icon-okwarn:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wt-icon-okwarn { background-image: none !important }
-.wt-icon-ok-yellow:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wt-icon-ok-yellow { background-image: none !important }
-
+.wt-icon-okwarn:before { content: '\f058'; font: var(--fa-font-solid); color: #eab308; /* Yellow/500 */ } .wt-icon-okwarn { background-image: none !important }
+.wt-icon-ok-yellow:before { content: '\f058'; font: var(--fa-font-solid); color: #eab308; /* Yellow/500 */ } .wt-icon-ok-yellow { background-image: none !important }
 .wt-icon-warn:before { content: '\f071'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wt-icon-warn { background-image: none !important }
 .wt-icon-warn-red:before { content: '\f071'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wt-icon-warn-red { background-image: none !important }
 .wt-icon-critical:before { content: '\f057'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wt-icon-critical { background-image: none !important }
@@ -133,18 +132,6 @@
 .wt-icon-status-up-blue:before { content: '\f35b'; font: var(--fa-font-solid); color: var(--wt-theme-color-info); } .wt-icon-status-up-blue { background-image: none !important }
 .wt-icon-status-down-red:before { content: '\f358'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wt-icon-status-down-red { background-image: none !important }
 .wt-icon-status-down-gray:before { content: '\f358'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on); } .wt-icon-status-down-gray { background-image: none !important }
-
-/*.wt-icon-ok { background-image: url('ok_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-okwarn { background-image: url('okwarn_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-ok-yellow { background-image: url('ok-yellow_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-cancel { background-image: url('cancel_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-warn { background-image: url('warn_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-warn-red { background-image: url('warn-red_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-critical { background-image: url('critical_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-status-up-green { background-image: url('status-up-green_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-status-up-blue { background-image: url('status-up-blue_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-status-down-red { background-image: url('status-down-red_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-status-down-gray { background-image: url('status-down-gray_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-priority3-low { background-image: url('priority3-low_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-priority3-normal { background-image: url('priority3-normal_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-priority3-high { background-image: url('priority3-high_16.svg') !important; background-size: contain; }*/

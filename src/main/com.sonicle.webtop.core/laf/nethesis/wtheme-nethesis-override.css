@@ -543,3 +543,10 @@ color-ct-ok-1 -> Green/700
 .so-form-separator .x-fieldset-header {
 	padding-left: 0px;
 }
+
+/* ---------- Ext.form.field.Text */
+/* Fix trigger right-icons in simple fields falling-left in the middle of the field itself */
+/* Do NOT use it in other fields (like combos) otherwise it will break their layout (it's not clear why combos are not affected!) */
+.wt-field-fix-fallingtrigger .x-form-text-wrap {
+	width: 100%;
+}

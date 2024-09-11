@@ -45,6 +45,24 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
+Ext.define('Nethesis.form.field.Password', {
+	override: 'Sonicle.form.field.Password',
+	
+	initComponent: function() {
+		var me = this;
+		me.callParent(arguments);
+		me.addCls('wt-field-fix-fallingtrigger');
+	}
+});
+Ext.define('Nethesis.webtop.core.ux.field.Meeting', {
+	override: 'Sonicle.webtop.core.ux.field.Meeting',
+	
+	initComponent: function() {
+		var me = this;
+		me.callParent(arguments);
+		me.addCls('wt-field-fix-fallingtrigger');
+	}
+});
 Ext.define('Nethesis.form.field.InitialsAvatar', {
 	override: 'Sonicle.form.field.InitialsAvatar',
 	

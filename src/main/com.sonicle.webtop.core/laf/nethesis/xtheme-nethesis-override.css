@@ -79,6 +79,11 @@ body > .x-mask {
     text-align: right;
     width: 24px;
 }
+/* Fix trigger right-icons in simple fields falling-left in the middle of the field itself */
+/* Do NOT use it in combos otherwise it will break their layout (it's not clear why combos are not affected!) */
+.x-field:not(.x-field-combobox) .x-form-text-wrap {
+	width: 100%;
+}
 
 /* ---------- Ext.form.field.TextArea */
 /* Provide SW (south-west) handle for customized smart resizing */

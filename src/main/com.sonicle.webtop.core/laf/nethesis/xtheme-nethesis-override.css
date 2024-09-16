@@ -389,3 +389,6 @@ remove outline from tabs on active and pressed
 .x-form-item-label-text {
 	text-wrap: nowrap;
 }
+
+.x-tree-view .x-grid-item-selected { background-color: #e5e7eb !important; border-radius: 5px; }
+.x-tree-view .x-grid-item-over { border-radius: 5px; }

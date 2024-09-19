@@ -364,12 +364,7 @@ Ext.define('Nethesis.overrides.webtop.core.view.UserOptions', {
 	override: 'Sonicle.webtop.core.view.UserOptions',
 	
 	//overridable properties to influence UI
-	mainDesktopNotificationsLayout: 'hbox',
 	mainPasswordButtonPack: 'left',
-	upiNicknameHidden: false,
-	upiGenderHidden: false,
-	upiFaxHidden: false,
-	upiPagerHidden: false,
 	
 	privates: {
 		createSyncGridCfg: function(cfg) {

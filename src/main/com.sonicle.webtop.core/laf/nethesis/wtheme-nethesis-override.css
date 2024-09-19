@@ -98,6 +98,7 @@ color-ct-ok-1 -> Green/700
     --kanban-column-border-radius: 8px;
 }
 
+.wt-theme-dialog-bgcolor {}
 .wt-theme-text-color-off { color: #9ca3af; /* Gray/400 */ }
 .wt-theme-text-color-title { color: var(--wt-theme-color-info-ct-on); }
 .wt-theme-text-color-subtitle {}

@@ -65,6 +65,9 @@
     line-height: var(--wt-theme-lineheight-sm);
     color: var(--wt-theme-color-info-ct-on);
 }
+.wtcon-gpcontacts .wtcon-group-letter {
+    padding-left: 11px;
+}
 /* ---------- onicle.webtop.contacts.ux.grid.column.Contact */
 .wtcon-contactcolumn-head {
     font-weight: var(--wt-theme-fontweight-medium);

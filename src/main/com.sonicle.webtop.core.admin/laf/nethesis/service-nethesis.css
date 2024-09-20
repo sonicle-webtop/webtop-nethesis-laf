@@ -49,9 +49,9 @@
 /*.wtadm-icon-virtualDomain { background-image: url('virtualDomain_16.svg') !important; background-size: contain; }*/
 /*.wtadm-icon-virtualEmail { background-image: url('virtualEmail_16.svg') !important; background-size: contain; }*/
 .wtadm-icon-pecBridge:before { content: '\f658'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge { background-image: none !important; background-size: contain; }
-.wtadm-icon-pecBridge-authState-OK:before { content: '\f058'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-OK { background-image: none !important; background-size: contain; }
-.wtadm-icon-pecBridge-authState-ER:before { content: '\f057'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-ER { background-image: none !important; background-size: contain; }
-.wtadm-icon-pecBridge-authState-UN:before { content: '\f059'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge-authState-UN { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-OK:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok) } .wtadm-icon-pecBridge-authState-OK { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-ER:before { content: '\f057'; font: var(--fa-font-solid); color: var(--wt-theme-color-error) } .wtadm-icon-pecBridge-authState-ER { background-image: none !important; background-size: contain; }
+.wtadm-icon-pecBridge-authState-UN:before { content: '\f059'; font: var(--fa-font-solid); color: var(--wt-theme-color-info) } .wtadm-icon-pecBridge-authState-UN { background-image: none !important; background-size: contain; }
 /*.wtadm-icon-fetchmail { background-image: url('fetchmail_16.svg') !important; background-size: contain; }*/
 .wtadm-icon-stmtStatus-ok:before { content: '\f058'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-ok { background-image: none !important; background-size: contain; }
 .wtadm-icon-stmtStatus-error:before { content: '\f057'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-error { background-image: none !important; background-size: contain; }

@@ -99,7 +99,7 @@
 .wtcal-portlet-event-body-location {
     color: unset;
 }
-/* ---------- ToolPanel related */
+/* ---------- ToolPanel */
 .wtcal-tool-searchpanel-body {
     padding: 24px 16px 18px 16px;
 }
@@ -109,7 +109,7 @@
 .wtcal-tool-calendarpanel {
     margin-top: 6px;
 }
-/* ---------- FullCalendar Panel tooltip */
+/* ---------- FullCalendar Panel (tooltip) */
 .so-cal-appo-hov {
     gap: 16px;
 	font-size: var(--wt-theme-fontsize-sm);

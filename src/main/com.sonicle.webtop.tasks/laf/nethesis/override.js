@@ -15,6 +15,20 @@ Ext.define('Nethesis.overrides.webtop.tasks.Service', {
 		}
 	}
 });
+Ext.define('Nethesis.overrides.webtop.tasks.ux.panel.TaskPreview', {
+	override: 'Sonicle.webtop.tasks.ux.panel.TaskPreview',
+	
+	privates: {
+		createDescriptionFieldCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.minHeight;
+			delete ret.flex;
+			return Ext.apply(ret, {
+				height: 150
+			});
+		}
+	}
+});
 Ext.define('Nethesis.overrides.webtop.tasks.view.Category', {
 	override: 'Sonicle.webtop.tasks.view.Category',
 	
@@ -78,6 +92,12 @@ Ext.define('Nethesis.overrides.webtop.tasks.view.Task', {
 		 */
 		prepareTopToolbarItems: function() {
 			return Ext.Array.slice(this.callParent(arguments), 0, -2);
+		},
+		
+		createDescriptionFieldCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.minHeight;
+			return ret;
 		}
 	}
 });

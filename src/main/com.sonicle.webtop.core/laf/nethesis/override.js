@@ -91,6 +91,13 @@ Ext.define('Nethesis.grid.column.Nest', {
 			'</svg>'
 	}
 });
+Ext.define('Nethesis.webtop.core.ux.app.taskbar.Bar', {
+	override: 'Sonicle.webtop.core.ux.app.taskbar.Bar',
+	
+	defaults: {
+		width: 180 // Taskbar buttons MUST have a fixed-width
+	}
+});
 Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 	override: 'Sonicle.webtop.core.viewport.private.Default',
 
@@ -357,12 +364,7 @@ Ext.define('Nethesis.overrides.webtop.core.view.UserOptions', {
 	override: 'Sonicle.webtop.core.view.UserOptions',
 	
 	//overridable properties to influence UI
-	mainDesktopNotificationsLayout: 'hbox',
 	mainPasswordButtonPack: 'left',
-	upiNicknameHidden: false,
-	upiGenderHidden: false,
-	upiFaxHidden: false,
-	upiPagerHidden: false,
 	
 	privates: {
 		createSyncGridCfg: function(cfg) {

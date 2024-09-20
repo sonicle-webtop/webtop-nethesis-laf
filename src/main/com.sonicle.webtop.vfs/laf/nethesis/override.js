@@ -16,3 +16,12 @@ Ext.define('Nethesis.overrides.webtop.vfs.Service', {
 		}
 	}
 });
+Ext.define('Nethesis.overrides.webtop.vfs.Service', {
+	override: 'Sonicle.webtop.vfs.view.SharingLinks',
+	
+	constructor: function(cfg) {
+		var me = this;
+		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {maximized: true});
+		me.callParent([cfg]);
+	}
+});

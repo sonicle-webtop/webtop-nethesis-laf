@@ -1,3 +1,35 @@
+Ext.define('Nethesis.overrides.webtop.contacts.ux.panel.ContactPreview', {
+	override: 'Sonicle.webtop.contacts.ux.panel.ContactPreview',
+	
+	privates: {
+		createMailTileListCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				maxWidth: 230
+			});
+		},
+		
+		createTelTileListCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				maxWidth: 180
+			});
+		},
+		
+		createMoreTileListCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				maxWidth: 230
+			});
+		},
+		
+		createNoteFieldCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.minHeight;
+			delete ret.flex;
+			return Ext.apply(ret, {
+				height: 150
+			});
+		}
+	}
+});
 Ext.define('Nethesis.overrides.webtop.contacts.view.Category', {
 	override: 'Sonicle.webtop.contacts.view.Category',
 	
@@ -44,6 +76,12 @@ Ext.define('Nethesis.overrides.webtop.contacts.view.Contact', {
 		 */
 		prepareMainFields: function() {
 			return Ext.Array.slice(this.callParent(arguments), 1);
+		},
+		
+		createNotesFieldCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.minHeight;
+			return ret;
 		},
 		
 		createPicSectionMoreItemsCfg: function() {

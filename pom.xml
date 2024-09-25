@@ -11,17 +11,6 @@
 		<artifactId>webtop-superpom</artifactId>
 		<version>6</version>
 	</parent>
-	
-	<properties>
-		<!-- WEBTOP: service configuration -->
-		<webtop.service.package>com.sonicle.webtop.core</webtop.service.package>
-		
-		<!-- WEBTOP: service configuration (loaded from "${user.home}/.m2/webtop-core.properties") -->
-		<!--
-			Built-in license to hardcode into during build
-		<tinymce.premium.builtin.license></tinymce.premium.builtin.license>
-		-->
-	</properties>
 
 	<build>
 		<resources>
@@ -30,6 +19,7 @@
 			</resource>
 		</resources>
 		<plugins>
+			<!--
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>properties-maven-plugin</artifactId>
@@ -49,6 +39,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>

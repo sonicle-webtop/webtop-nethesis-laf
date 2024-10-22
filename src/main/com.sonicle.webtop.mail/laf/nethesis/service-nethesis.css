@@ -182,8 +182,13 @@
 
 /*.wtmail-row-unread .x-grid-cell-inner { padding-bottom: 0px }*/
 
+/* Grid row Unread unselected */
 .wtmail-message-grid .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-unread TD {
 	background-color: #FFEDD5;
+}
+/* Grid row Today unselected */
+.x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-today { 
+	background: initial;
 }
 
 .wtmail-message-grid .x-grid-item .wtmail-row-unread-first .x-grid-cell-first {

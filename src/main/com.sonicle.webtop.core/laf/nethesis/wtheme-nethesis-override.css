@@ -267,6 +267,18 @@ color-ct-ok-1 -> Green/700
 	padding-right: 24px;
 }
 
+/* ---------- WTA.ux.panel.Tab */
+.wt-tabpanel-margin-t {
+	margin-top: 24px;
+}
+.wt-tabpanel-margin-lr {
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.wt-tabpanel-margin-b {
+	margin-bottom: 24px;
+}
+
 /* ---------- Sonicle.form.FieldSection */
 .so-fieldsection .so-label-icon-el {
     margin-right: 0;

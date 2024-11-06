@@ -296,7 +296,8 @@ Ext.define('Nethesis.overrides.webtop.core.ux.panel.Fields', {
 	
 	paddingTop: false,
 	paddingBottom: false,
-	paddingSides: false
+	paddingSides: false,
+	autoPadding: false
 });
 Ext.define('Nethesis.overrides.webtop.core.ux.app.taskbar.Bar', {
 	override: 'Sonicle.webtop.core.ux.app.taskbar.Bar',

@@ -98,7 +98,8 @@
 }
 */
 /* ---------- Sonicle.grid.column.Nest */
-.wttasks-main-grid .so-nestcolumn-wrap .so-iconcolumn-icon.wttasks-icon-taskType-default {
+/* Do NOT show icon for default type */
+.wttasks-main-grid .so-iconcolumn-icon.wttasks-icon-taskType-default {
     background-image: url(hide-real-svg.svg) !important;
 }
 .wttasks-main-grid .so-nestcolumn-wrap .so-nestcolumn-collapsetool:before {

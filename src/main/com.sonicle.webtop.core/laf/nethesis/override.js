@@ -215,7 +215,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 					xtype: 'button',
 					ui: 'button-icon',
 					reference: 'toolboxbtn',
-					iconCls: 'fas fa-ellipsis-vertical',
+					iconCls: 'wt-glyph-menu-kebab',
 					arrowVisible: false,
 					menu: toolboxItems
 				}, {

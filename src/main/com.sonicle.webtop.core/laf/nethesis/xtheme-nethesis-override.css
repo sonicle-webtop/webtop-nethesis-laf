@@ -148,6 +148,12 @@ body > .x-mask {
 .x-menu-item-icon.fas { top: 8px; }
 .x-menu-item-icon.far { top: 8px; }
 
+/* ---------- Ext.panel.Panel */
+/* Force panel's body BG to base when using 'border' layout */
+.x-panel-body-default.x-border-layout-ct {
+	background-color: var(--wt-theme-color-surface);
+}
+
 /* ---------- Ext.panel.Panel : UI KanbanColumm */
 /* Support rounded corners */
 /*
@@ -352,6 +358,11 @@ body > .x-mask {
 /* Hide field borders */
 .so-form-image .x-form-trigger-wrap {
     border-color: transparent;
+}
+
+/* ---------- Sonicle.form.field.tinymce.HTMLEditor */
+.so-tmcetextarea .x-form-text-field-body {
+    background-color: var(--wt-theme-color-surface);
 }
 
 /* ---------- Sonicle.view.BoundList */

@@ -154,6 +154,11 @@ body > .x-mask {
 	background-color: var(--wt-theme-color-surface);
 }
 
+/* Force splitter BG to its gray to avoid previous panel override to set it white  */
+.x-splitter {
+    background-color: var(--wt-theme-color-2);
+}
+
 /* ---------- Ext.panel.Panel : UI KanbanColumm */
 /* Support rounded corners */
 /*

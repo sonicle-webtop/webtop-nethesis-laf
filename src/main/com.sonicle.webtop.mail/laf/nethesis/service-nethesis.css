@@ -82,7 +82,7 @@
 .wtmail-icon-mailSend:before { content: '\f1d8'; font: var(--fa-font-solid); } .wtmail-icon-mailSend { background-image: none !important }
 .wtmail-icon-mailSchedule:before { content: '\f017'; font: var(--fa-font-solid); } .wtmail-icon-mailSchedule { background-image: none !important }
 
-.wtmail-icon-mailNew:before { content: '\f044'; font: var(--fa-font-solid);} .wtmail-icon-mailNew { background-image: none !important }
+.wtmail-icon-mailNew:before { content: '\f304'; font: var(--fa-font-solid);} .wtmail-icon-mailNew { background-image: none !important }
 .wtmail-icon-faxNew:before { content: '\f1ac'; font: var(--fa-font-solid);} .wtmail-icon-faxNew { background-image: none !important }
 .wtmail-icon-mailAccount:before { content: '\f1fa'} .wtmail-icon-mailAccount { background-image: none !important }
 .wtmail-icon-favorites:before { content: '\f005'; font: var(--fa-font-solid);} .wtmail-icon-favorites { background-image: none !important }

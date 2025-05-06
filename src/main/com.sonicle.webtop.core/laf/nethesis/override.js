@@ -227,7 +227,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 				'->',
 				{
 					xtype: 'splitbutton',
-					ui: 'button-secondary',
+					ui: '{primary}',
 					reference: 'newbtn',
 					text: WT.res('new.btn-new.lbl'),
 					menu: [],

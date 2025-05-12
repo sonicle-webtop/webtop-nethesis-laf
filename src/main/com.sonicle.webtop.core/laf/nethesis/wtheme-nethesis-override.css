@@ -88,6 +88,9 @@ color-ct-ok-1 -> Green/700
     --wt-theme-fontweight-regular: 400;
     --wt-theme-fontweight-medium: 500;
     --wt-theme-fontweight-bold: 500; /* Do NOT use it keep at 500 */
+	--wt-theme-color-scrollbar-thumb: rgba(156, 163, 175, 0.5); /* gray-400 con 50% opacità */
+	--wt-theme-color-scrollbar-track: rgba(229, 231, 235, 0.25); /* gray-200 con 25% opacità */
+	
     
     --fc-border-color: #E5E7EB !Important; /* Gray/200 */
     --fc-now-indicator-color: #c2410c !Important; /* Orange/700 */
@@ -559,4 +562,10 @@ color-ct-ok-1 -> Green/700
 /* Do NOT use it in other fields (like combos) otherwise it will break their layout (it's not clear why combos are not affected!) */
 .wt-field-fix-fallingtrigger .x-form-text-wrap {
 	width: 100%;
+}
+
+/* ---------- Browser */
+::-webkit-scrollbar {
+    width: 8px; /* for vertical scrollbars */
+    height: 8px; /* for horizontal scrollbars */
 }

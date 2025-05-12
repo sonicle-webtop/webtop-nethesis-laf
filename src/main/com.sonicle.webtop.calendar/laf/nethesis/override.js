@@ -12,7 +12,8 @@ Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 		return Ext.apply(this.callParent(arguments), {
 			padding: '26 32 0 32',
 			showWeekNumbers: true,
-			viewButtonsPosition: 'right'
+			toolbarLayout: ['headerText', ' ', 'controlButtons', '->', 'viewButtons'],
+			headerTextMinWidth: 180
 		});
 	}
 });

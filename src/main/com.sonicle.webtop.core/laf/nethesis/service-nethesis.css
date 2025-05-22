@@ -218,6 +218,19 @@
     color: white !important;
 }
 
+.so-mask-cancelLinkText {
+	color: var(--wt-theme-color-1);
+	padding: 6px;
+}
+
+.so-mask-cancelLinkText:hover {
+	color: var(--wt-theme-color-1);
+	background-color: var(--wt-theme-color-2);
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 6px;
+}
+
 /* check if this can be done in theme */
 .x-keyboard-mode .x-mask.x-focus {
     border-width: 0px;

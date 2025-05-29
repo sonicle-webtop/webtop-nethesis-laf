@@ -106,6 +106,7 @@
 .wt-icon-saveClose:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveClose { background-image: none !important }
 .wt-icon-saveAdd:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveAdd { background-image: none !important }
 .wt-icon-saveAll:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-saveAll { background-image: none !important }
+.wt-icon-saveCloud:before { content: '\f0ee'; font: var(--fa-font-solid); } .wt-icon-saveCloud { background-image: none !important }
 .wt-icon-save-new:before { content: '\f0c7'; font: var(--fa-font-solid); } .wt-icon-save-new { background-image: none !important }
 .wt-icon-select-all { background-image: url('select-all_16.svg') !important; background-size: 16px; }
 .wt-icon-select-none { background-image: url('select-none_16.svg') !important; background-size: 16px; }
@@ -215,6 +216,19 @@
 
 .so-btn-avatar-swatch SPAN {
     color: white !important;
+}
+
+.so-mask-cancelLinkText {
+	color: var(--wt-theme-color-1);
+	padding: 6px;
+}
+
+.so-mask-cancelLinkText:hover {
+	color: var(--wt-theme-color-1);
+	background-color: var(--wt-theme-color-2);
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 6px;
 }
 
 /* check if this can be done in theme */

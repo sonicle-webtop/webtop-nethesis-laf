@@ -128,7 +128,7 @@
 .wtmail-icon-addMailFilter:before { content: '\f055'; font-family: var(--fa-style-family-classic); } .wtmail-icon-addMailFilter { background-image: none !important }
 
 .wtmail-icon-inMailFilters:before { content: '\f0b0'; font: var(--fa-font-solid); } .wtmail-icon-inMailFilters { background-image: none !important; }
-.wtmail-icon-autoResponder:before { content: '\f590'; font: var(--fa-font-solid); } .wtmail-icon-autoResponder { background-image: none !important; }
+.wtmail-icon-autoResponder:before { content: '\f658'; font: var(--fa-font-solid); } .wtmail-icon-autoResponder { background-image: none !important; }
 
 .wtmail-icon-newfolder:before { content: '\f65e'; font: var(--fa-font-solid); } .wtmail-icon-newfolder { background-image: none !important; }
 .wtmail-icon-newmainfolder:before { content: '\f65e'; font: var(--fa-font-solid); } .wtmail-icon-newmainfolder { background-image: none !important; }
@@ -322,3 +322,14 @@
 
 .wtmail-icon-editMailcard:before { content: '\f044'; font: var(--fa-font-solid); } .wtmail-icon-editMailcard { background-image: none !important; }
 .wtmail-icon-deleteMailcard:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtmail-icon-deleteMailcard { background-image: none !important; }
+
+.wtmail-icon-p7m-locked:before { content: '\f56e'; font: var(--fa-font-solid); } .wtmail-icon-p7m-locked { background-image: none !important; }
+.wtmail-icon-p7m-unlocked:before { content: '\f56e'; font: var(--fa-font-solid); } .wtmail-icon-p7m-unlocked { background-image: none !important; }
+
+.wtmail-icon-message:before { content: '\f2b6'; font: var(--fa-font-solid); } .wtmail-icon-message { background-image: none !important; }
+
+.wtmail-pec:before { content: '\f559'; font: var(--fa-font-solid); } .wtmail-pec { background-image: none !important; }
+.wtmail-pec-accepted:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wtmail-pec-accepted { background-image: none !important; }
+.wtmail-pec-not-accepted:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wtmail-pec-not-accepted { background-image: none !important; }
+.wtmail-pec-delivered:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wtmail-pec-delivered { background-image: none !important; }
+.wtmail-pec-error:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wtmail-pec-error { background-image: none !important; }

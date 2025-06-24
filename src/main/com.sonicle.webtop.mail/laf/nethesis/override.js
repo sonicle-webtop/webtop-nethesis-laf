@@ -48,3 +48,11 @@ Ext.define('Nethesis.overrides.webtop.mail.view.AdvancedSearchDialog', {
 		me.callParent([cfg]);
 	}
 });
+
+Ext.define('Nethesis.overrides.webtop.mail.view.MoveCopyMessagesDialog', {
+	override: 'Sonicle.webtop.mail.view.MoveCopyMessagesDialog',
+	
+	//overridable properties to influence UI
+	buttonWidth: 100
+
+});

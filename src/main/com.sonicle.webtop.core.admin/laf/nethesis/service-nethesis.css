@@ -46,6 +46,8 @@
 .wtadm-icon-dataSources:before { content: '\f233'; font: var(--fa-font-solid); } .wtadm-icon-dataSources { background-image: none !important; background-size: contain; }
 .wtadm-icon-dataSource:before { content: '\f233'; font: var(--fa-font-solid); } .wtadm-icon-dataSource { background-image: none !important; background-size: contain; }
 .wtadm-icon-dataSourceQuery:before { content: '\f121'; font: var(--fa-font-solid); } .wtadm-icon-dataSourceQuery { background-image: none !important; background-size: contain; }
+.wtadm-icon-apiKeys:before { content: '\f084'; font: var(--fa-font-solid); } .wtadm-icon-apiKeys { background-image: none !important; background-size: contain; }
+.wtadm-icon-apiKey:before { content: '\f084'; font: var(--fa-font-solid); } .wtadm-icon-apiKey { background-image: none !important; background-size: contain; }
 /*.wtadm-icon-virtualDomain { background-image: url('virtualDomain_16.svg') !important; background-size: contain; }*/
 /*.wtadm-icon-virtualEmail { background-image: url('virtualEmail_16.svg') !important; background-size: contain; }*/
 .wtadm-icon-pecBridge:before { content: '\f658'; font: var(--fa-font-solid); } .wtadm-icon-pecBridge { background-image: none !important; background-size: contain; }

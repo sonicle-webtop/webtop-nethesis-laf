@@ -225,14 +225,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 					cls: 'wt-tool-hd-title'
 				},
 				'->',
-				{
-					xtype: 'splitbutton',
-					ui: '{primary}',
-					reference: 'newbtn',
-					text: WT.res('new.btn-new.lbl'),
-					menu: [],
-					handler: 'onNewActionButtonClick'
-				}
+				this.createNewButtonCfg()
 			];
 		},
 		

@@ -1,4 +1,3 @@
-@import url("xtheme-nethesis-override.css");
 @import url("wtheme-nethesis-override.css");
 
 /* ---------- Icons (service) */
@@ -149,23 +148,28 @@
 .wt-icon-sms:before { content: '\f7cd'; font: var(--fa-font-solid); } .wt-icon-sms { background-image: none !important }
 /*.wt-icon-permission-denied { background-image: url('permission-denied_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-permission-allowed { background-image: url('permission-allowed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-permission-denied-gray { background-image: url('permission-denied-grayed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-permission-allowed-gray { background-image: url('permission-allowed-grayed_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-permission-denied-off { background-image: url('permission-denied-off_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-permission-allowed-off { background-image: url('permission-allowed-off_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-permission-locked-gray { background-image: url('padlock-close-grayed_32.svg') !important; background-size: contain; }*/
 /*.wt-icon-permission-unlocked-gray { background-image: url('padlock-open-grayed_32.svg') !important; background-size: contain; }*/
 /*.wt-icon-traffic-light-green { background-image: url('trafficlight-green_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-traffic-light-orange { background-image: url('trafficlight-orange_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-traffic-light-red { background-image: url('trafficlight-red_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-none { background-image: url('dock-none_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-none-gray { background-image: url('dock-none-grayed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-top { background-image: url('dock-top_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-top-gray { background-image: url('dock-top-grayed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-left { background-image: url('dock-left_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-left-gray { background-image: url('dock-left-grayed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-right { background-image: url('dock-right_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-right-gray { background-image: url('dock-right-grayed_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-bottom { background-image: url('dock-bottom_16.svg') !important; background-size: contain; }*/
-/*.wt-icon-dock-bottom-gray { background-image: url('dock-bottom-grayed_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-none,*/
+/*.wt-icon-dock-none-on { background-image: url('dock-none_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-none-off { background-image: url('dock-none-off_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-top,*/
+/*.wt-icon-dock-top-on { background-image: url('dock-top_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-top-off { background-image: url('dock-top-off_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-left,*/
+/*.wt-icon-dock-left-on { background-image: url('dock-left_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-left-off { background-image: url('dock-left-off_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-right,*/
+/*.wt-icon-dock-right-on { background-image: url('dock-right_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-right-off { background-image: url('dock-right-off_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-bottom,*/
+/*.wt-icon-dock-bottom-on { background-image: url('dock-bottom_16.svg') !important; background-size: contain; }*/
+/*.wt-icon-dock-bottom-off { background-image: url('dock-bottom-off_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-calDays-1 { background-image: url('cal-days-1_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-calDays-5 { background-image: url('cal-days-5_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-calDays-7 { background-image: url('cal-days-7_16.svg') !important; background-size: contain; }*/

@@ -35,7 +35,7 @@
     font-size: var(--wt-theme-fontsize-xl) !important;
     font-weight: var(--wt-theme-fontweight-medium) !important;
     line-height: var(--wt-theme-lineheight-xl) !important;
-    color: var(--wt-theme-color-surface-on) !important;
+    color: var(--wt-theme-color-surface-on-1) !important;
 }
 /* Navbar: background */
 .wt-viewport-navbar-watermark-right {
@@ -100,8 +100,8 @@
 /* Hide ugly border when docking top */
 .wt-tool .x-panel-body { border-top: 0px; }
 /* Customize HD style */
-.wt-tool .wt-tool-bg { background-color: var(--wt-theme-color-surface-ct); }
-.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-ct); padding-top: 10px; padding-left: 6px; }
+.wt-tool .wt-tool-bg { background-color: var(--wt-theme-color-surface-l1); }
+.wt-tool-hd-wrap { background-color: var(--wt-theme-color-surface-l1); padding-top: 10px; padding-left: 6px; }
 .wt-tool-hd-title { font-size: var(--wt-theme-fontsize-lg); font-weight: 500; }
 .wt-tool-hd-separator { border-top-color: #e5e7eb !important; } /* Gray/200 FIXME: evaluate to change directly fieldset color in theme */
 .wt-tool-foo { padding-top: 10px; padding-bottom: 15px; }
@@ -211,7 +211,7 @@
 
 /* ---------- Sonicle.grid.column.Nest */
 .so-nestcolumn-hierarchysymbol {
-    color: var(--wt-theme-color-surface-on-low);
+    color: var(--wt-theme-color-surface-on-2);
 }
 .so-nestcolumn-wrap-root > span:nth-of-type(1), .so-nestcolumn-wrap-root > i:nth-of-type(1) {
 	margin-right: 8px;
@@ -237,7 +237,7 @@
 	/*zoom: 1.1;*/
 }
 .so-fullcalendar-panel {
-    background-color: var(--wt-theme-color-surface);
+    background-color: var(--wt-theme-color-surface-l0);
 }
 .so-fullcalendar-panel-toolbar-month {
     gap: 16px;
@@ -436,7 +436,7 @@
     top: 2px;
     bottom: 2px;
     left: 0px;
-    background-color: var(--wt-theme-color-surface-ct-high);
+    background-color: var(--wt-theme-color-surface-l2);
 }
 
 /* ---------- Sonicle.form.Separator */

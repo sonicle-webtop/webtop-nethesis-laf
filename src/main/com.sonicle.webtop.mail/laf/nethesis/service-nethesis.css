@@ -119,7 +119,7 @@
 .wtmail-icon-msgSetReceipt-grayed:before { content: '\f00c'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on) } .wtmail-icon-msgSetReceipt-grayed { background-image: none !important; }
 .wtmail-icon-msgSetReceipt:before { content: '\f00c'; font: var(--fa-font-solid); } .wtmail-icon-msgSetReceipt { background-image: none !important; }
 .wtmail-icon-msgSetPriorityHigh-grayed:before { content: '\f12a'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on) } .wtmail-icon-msgSetPriorityHigh-grayed { background-image: none !important; }
-.wtmail-icon-msgSetPriorityHigh:before { content: '\f12a'; font: var(--fa-font-solid); color: var(--wt-theme-color-surface-on) } .wtmail-icon-msgSetPriorityHigh { background-image: none !important; }
+.wtmail-icon-msgSetPriorityHigh:before { content: '\f12a'; font: var(--fa-font-solid); color: var(--wt-theme-color-surface-on-1) } .wtmail-icon-msgSetPriorityHigh { background-image: none !important; }
 .wtmail-icon-msgAddReminder-grayed:before { content: '\f0f3'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on) } .wtmail-icon-msgAddReminder-grayed { background-image: none !important; }
 .wtmail-icon-msgAddReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtmail-icon-msgAddReminder { background-image: none !important; }
 .wtmail-icon-msgSetMailcard-grayed:before { content: '\f5b7'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on) } .wtmail-icon-msgSetMailcard-grayed { background-image: none !important; }
@@ -232,10 +232,10 @@
 .wtmail-mv-avatar SPAN { color: white !important }
 
 .wtmail-editor-cc-button .x-btn-inner { color: var(--wt-theme-color-ct-2-on); }
-.wtmail-editor-cc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-surface-on); }
+.wtmail-editor-cc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-surface-on-1); }
 
 .wtmail-editor-bcc-button .x-btn-inner { color: var(--wt-theme-color-ct-2-on); }
-.wtmail-editor-bcc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-surface-on); }
+.wtmail-editor-bcc-button.x-btn-pressed .x-btn-inner { color: var(--wt-theme-color-surface-on-1); }
 
 .wtmail-tree-folder-span-bold {
 	font-weight: 500 !important;
@@ -275,11 +275,11 @@
     color: #C2410C; /* orange/700 */
 }
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-head {
-    color: var(--wt-theme-color-surface-on);
+    color: var(--wt-theme-color-surface-on-1);
 	font-weight: var(--wt-theme-fontweight-medium);
 }
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-body {
-    color: var(--wt-theme-color-surface-on);
+    color: var(--wt-theme-color-surface-on-1);
 	font-weight: var(--wt-theme-fontweight-medium);
 }
 

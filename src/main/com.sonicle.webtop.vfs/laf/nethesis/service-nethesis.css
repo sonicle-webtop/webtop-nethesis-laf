@@ -58,7 +58,7 @@
 /* ---------- Main (center) container */
 .wtvfs-main-files {
     padding: 16px 16px 0 16px;
-    background-color: var(--wt-theme-color-surface);
+    background-color: var(--wt-theme-color-surface-l0);
 }
 .wtvfs-main-files-toolbar {
     margin-bottom: 16px;

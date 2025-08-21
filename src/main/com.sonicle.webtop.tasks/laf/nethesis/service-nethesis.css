@@ -15,8 +15,6 @@
 .wttasks-icon-addSubTask:before { content: '\f055'; font: var(--fa-font-solid); } .wttasks-icon-addSubTask { background-image: none !important }
 .wttasks-icon-openTask:before { content: '\f044'; font: var(--fa-font-solid); } .wttasks-icon-openTask { background-image: none !important }
 .wttasks-icon-openTaskSeries:before { content: '\f044'; font: var(--fa-font-solid); } .wttasks-icon-openTaskSeries { background-image: none !important }
-.wttasks-icon-copyTask:before { content: '\f24d'; font: var(--fa-font-solid); } .wttasks-icon-copyTask { background-image: none !important }
-.wttasks-icon-moveTask:before { content: '\f061'; font: var(--fa-font-solid); } .wttasks-icon-moveTask { background-image: none !important }
 .wttasks-icon-importTasks:before { content: '\f0aa'; font: var(--fa-font-solid); } .wttasks-icon-importTasks { background-image: none !important }
 .wttasks-icon-exportTasks:before { content: '\f0ab'; font: var(--fa-font-solid); } .wttasks-icon-exportTasks { background-image: none !important }
 .wttasks-icon-showLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wttasks-icon-showLocation { background-image: none !important }
@@ -63,7 +61,7 @@
 /* ---------- Main (center) container */
 .wttasks-main-list {
     padding: 16px;
-    background-color: var(--wt-theme-color-surface);
+    background-color: var(--wt-theme-color-surface-l0);
 }
 .wttasks-main-list-toolbar {
     margin-bottom: 16px;

@@ -35,7 +35,6 @@
     font-size: var(--wt-theme-fontsize-xl) !important;
     font-weight: var(--wt-theme-fontweight-medium) !important;
     line-height: var(--wt-theme-lineheight-xl) !important;
-    color: var(--wt-theme-color-surface-on-1) !important;
 }
 /* Navbar: watermark */
 .wt-viewport-navbar-watermark-right {

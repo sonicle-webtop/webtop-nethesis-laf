@@ -6,6 +6,7 @@
 @import url("../themes-nethesisbuilt-override.css");
 
 :root {
+    color-scheme: light;
     --wt-theme-color-surface-l0: #ffffff; /* White */
     --wt-theme-color-surface-l1: #f9fafb; /* Gray/50 */
     --wt-theme-color-surface-l2: #f3f4f6; /* Gray/100 */
@@ -69,6 +70,7 @@
     --wt-theme-color-navbar: #ffffff; /* White */
     --wt-theme-color-taskbar: #f3f4f6; /* Gray/100 */
     
+    --wt-theme-fontfamily: 'Poppins, helvetica, arial, verdana, sans-serif';
     --wt-theme-fontsize-xs: 12px;
     --wt-theme-fontsize-sm: 14px;
     --wt-theme-fontsize-base: 16px;

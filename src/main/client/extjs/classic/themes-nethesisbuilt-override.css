@@ -27,7 +27,7 @@ body > .x-mask {
 }
 
 /* ---------- Ext.button.Segmented (same as custombuilt.css) */
-/* Customize segmented UI */
+/* Customize segmented UI (button-segmented) */
 .x-btn-button-segmented-small.x-btn-pressed .x-btn-inner,
 .x-btn-button-segmented-medium.x-btn-pressed .x-btn-inner,
 .x-btn-button-segmented-large.x-btn-pressed .x-btn-inner {
@@ -87,12 +87,6 @@ body > .x-mask {
 
 /* ---------- Ext.form.field.TextArea */
 /* Provide SW (south-west) handle for customized smart resizing */
-.x-form-textarea-resizable-smart {
-    position: relative;
-	background: #fff url("data:image/svg+xml,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.2773%2011.7773L12.2773%209.77734M12.2773%206.77734L7.27734%2011.7773M12.2773%203.77734L4.27734%2011.7773M12.2773%200.777344L1.27734%2011.7773%22%20stroke%3D%22%239CA3AF%22%2F%3E%3C%2Fsvg%3E") 100% 100% no-repeat;
-	bottom: 1px;
-	right: 2px;
-}
 .x-form-text-wrap {
     border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
 }
@@ -110,15 +104,28 @@ body > .x-mask {
 }
 
 /* ---------- Ext.grid.Panel */
-/* Implement rounded-style for Grids */
+/* Fix hide top border when x-grid-no-border (custom class) is explict */
+.x-grid .x-grid-body.x-grid-no-border {
+	border-top: 0px;
+}
+/* Fix top-border size and apply radius only for no-header grids */
+.x-grid.x-grid-header-hidden .x-grid-body:not(.x-grid-no-border) {
+    border-top-width: 1px;
+    border-radius: 4px;
+}
+/* Support rounded-style for Header */
 .x-grid.x-grid-rounded .x-grid-header-ct {
 	border-top-left-radius: var(--wt-theme-grid-radius, 0px);
 	border-top-right-radius: var(--wt-theme-grid-radius, 0px);
 }
-/* Implement rounded-style for Grids */
+/* Support rounded-style for Body */
 .x-grid.x-grid-rounded .x-grid-body {
     border-bottom-left-radius: var(--wt-theme-grid-radius, 0px);
 	border-bottom-right-radius: var(--wt-theme-grid-radius, 0px);
+}
+/* Add depth effect for rounded-style grids */
+.x-grid.x-grid-rounded .x-grid-item {
+    background-color: var(--wt-theme-color-surface-l0);
 }
 
 /* ---------- Ext.grid.RowEditorButtons (same as custombuilt.css) */
@@ -145,6 +152,10 @@ body > .x-mask {
 .x-menu-icon-separator {
     display: none !important;
 }
+/* Set separator color */
+.x-menu-item-separator {
+    border-top-color: #e5e7eb !important; /* Gray/200 */
+}
 
 /* ---------- Ext.menu.Item */
 /* Fix FontAwesome icons vertical position */
@@ -156,9 +167,9 @@ body > .x-mask {
 .x-panel-body-default.x-border-layout-ct {
 	background-color: var(--wt-theme-color-surface-l0);
 }
-/* Force splitter BG to its original color (gray) to avoid previous panel override to set it white  */
+/* Force splitter BG to its original color, to avoid that the above override set it back to L0  */
 .x-splitter {
-    background-color: var(--wt-theme-color-2);
+    background-color: var(--wt-theme-color-surface-l3);
 }
 
 /* ---------- Ext.panel.Panel@panel-kanbancolumn (same as custombuilt.css) */
@@ -203,7 +214,7 @@ body > .x-mask {
 }
 /* Style highlight and full dates */
 .x-datepicker-cell.so-datepicker-highlighted {
-    background-color: var(--wt-theme-color-1-ct);
+    background-color: var(--wt-theme-color-2-ct);
 }
 .x-datepicker-cell.so-datepicker-highlighted.so-datepicker-highlighted-begin {
     border-top-left-radius: 4px;
@@ -232,6 +243,17 @@ body > .x-mask {
     content: '';
     width: 27.28px;
     height: 28px;
+}
+
+/* ---------- Ext.tab.Panel */
+/* Add bottom-line to selected tab */
+.x-tab-active:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    border-bottom: 2px solid var(--wt-theme-color-1);
 }
 
 /* ---------- Ext.tab.Tab  */
@@ -278,7 +300,8 @@ body > .x-mask {
 .x-tree-view .x-grid-cell-inner-treecolumn {
     padding: 6px 10px 6px 6px;
 }
-.x-tree-view .x-grid-item-selected { background-color: #e5e7eb !important; border-radius: 5px; }
+.x-tree-view .x-grid-item-selected { border-radius: 5px; }
+/*.x-tree-view .x-grid-item-selected { background-color: #e5e7eb !important; border-radius: 5px; }*/
 .x-tree-view .x-grid-item-over { border-radius: 5px; }
 
 /* ---------- Ext.view.BoundList (same as custombuilt.css) */
@@ -307,6 +330,14 @@ body > .x-mask {
 	color: #ffffff;
 }
 
+/* ---------- Sonicle.button.Avatar */
+.so-btn-avatar-swatch {
+    background-color: var(--wt-theme-color-2-ct-on) !important;
+}
+.so-btn-avatar-swatch SPAN {
+    color: var(--wt-theme-color-surface-on-1-inv) !important;
+}
+
 /* ---------- Sonicle.form.Feedback */
 .so-formfeedback {
     font-size: var(--wt-theme-fontsize-sm, inherit);
@@ -322,6 +353,13 @@ body > .x-mask {
 }
 
 /* ---------- Sonicle.form.FieldSection */
+.so-fieldsection .so-label-icon-el {
+    margin-right: 0;
+    font-size: 15px;
+}
+.so-fieldsection .so-item-label-iconed .x-form-item-label-inner {
+    margin-top: 30px;
+}
 .so-fieldsection > .x-form-item-body {
     padding-left: 19px; /* 5px (related to label) are already there */
 }
@@ -354,6 +392,21 @@ body > .x-mask {
 	margin: 40px 0 0 0;
 }
 
+/* ---------- Sonicle.form.Separator */
+.so-form-separator .x-fieldset-header-text {
+	font-size: var(--wt-theme-fontsize-base);
+    font-weight: var(--wt-theme-fontweight-medium);
+	color: var(--wt-theme-color-info-ct-on);
+}
+/* Remove line after title */
+.so-form-separator.x-fieldset {
+    border-top: 0px !important;
+}
+/* Align left */
+.so-form-separator .x-fieldset-header {
+	padding-left: 0px;
+}
+
 /* ---------- Sonicle.form.field.Display */
 .so-displayfield-icon {
     margin-right: 8px;
@@ -378,7 +431,137 @@ body > .x-mask {
     background-color: var(--wt-theme-color-surface-l0);
 }
 
+/* ---------- Sonicle.fullcalendar.Panel */
+.so-fullcalendar > .fc {
+	/*zoom: 1.1;*/
+}
+.so-fullcalendar-panel {
+    background-color: var(--wt-theme-color-surface-l1);
+}
+.so-fullcalendar-panel-toolbar-month {
+    gap: 16px;
+    width: 260px; /* Keep nav-buttons equally spaced! */
+}
+.so-fullcalendar .fc-daygrid-week-number {
+    background-color: var(--wt-theme-color-2-ct);
+}
+.so-fullcalendar-panel-toolbar {
+    margin-bottom: 16px;
+}
+.so-fullcalendar-panel-toolbar-hdtext {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-3xl);
+    line-height: var(--wt-theme-lineheight-3xl);
+}
+.so-fullcalendar-panel-toolbar-hdtext .so-fullcalendar-panel-toolbar-hdtext-cmyo span[data-part="view-month"] {
+    font-weight: var(--wt-theme-fontweight-medium);
+}
+/* Hide old-style borders */
+.so-fullcalendar .fc-theme-standard table.fc-scrollgrid {
+    border: transparent; /* Hide external (top/right) border */
+}
+.so-fullcalendar .fc-theme-standard div.fc-timegrid table.fc-scrollgrid td:nth-child(1),
+.so-fullcalendar .fc-theme-standard th {
+    border-right: transparent; /* Hide R-borders in dayviews TD[1] and THs */
+}
+.so-fullcalendar .fc-theme-standard div.fc-daygrid table.fc-scrollgrid td:nth-child(1) {
+    border-left: 1px solid var(--fc-border-color); /* Restore L-borders in timeviews TD[1] */
+}
+.so-fullcalendar .fc-theme-standard .fc-col-header th {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.so-fullcalendar .fc-more-link {
+    /*font-size: var(--wt-theme-fontsize-sm) !important;*/
+    /*font-weight: var(--wt-theme-fontweight-medium) !important;*/
+    /*line-height: var(--wt-theme-lineheight-sm) !important;*/
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-col-header-cell.fc-day-today .fc-col-header-cell-cushion {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-event,
+.so-fullcalendar .fc-timegrid-event {
+    border-radius: 6px;
+}
+.so-fullcalendar .fc-timegrid-slot-minor {
+    border-top-style: solid; /* Do not use dotted style */
+    /*border-top-color: #F3F4F6; /* Gray/100 */
+}
+/* Add padding in event content */
+.so-fullcalendar .fc-timegrid .fc-event-main {
+    padding: 2px;
+}
+.so-fullcalendar .fc-daygrid .fc-event-main {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.so-fullcalendar .so-cal-appo-icons {
+    left: 4px;
+    bottom: 1px;
+}
+.so-fullcalendar .so-cal-appo-bottomline {
+    flex-basis: 10px;
+}
+.so-fullcalendar .fc-timegrid-event, .so-fullcalendar .fc-daygrid-event {
+    font-size: 11px;
+}
+
+/* ---------- Sonicle.grid.column.Color */
+.so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
+    margin-left: 8px;
+}
+
+/* ---------- Sonicle.grid.column.Icon */
+.so-grid-cell-inner-iconcolumn .so-iconcolumn-text {
+    margin-left: 8px;
+}
+
+/* ---------- Sonicle.grid.column.Nest */
+.so-nestcolumn-hierarchysymbol {
+    color: var(--wt-theme-color-surface-on-2);
+}
+.so-nestcolumn-wrap-root > span:nth-of-type(1), .so-nestcolumn-wrap-root > i:nth-of-type(1) {
+	margin-right: 8px;
+}
+.so-nestcolumn-wrap-child > span:nth-of-type(1), .so-nestcolumn-wrap-child > i:nth-of-type(1) {
+	margin-right: 8px;
+}
+
+/* ---------- Sonicle.grid.TileList (same as custombuilt.css) */
+.so-tilelist-caption {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+.so-tilelist-value {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+
 /* ---------- Sonicle.view.BoundList */
 .so-boundlist-swatchitem .so-boundlist-display {
 	padding-left: 25px;
+}
+
+/* ---------- Sonicle.form.field.InitialsAvatar */
+/* Do NOT use colors for avatar */
+.so-form-initialsavatar-field {
+    background-color: var(--wt-theme-color-surface-on-2) !important;
+}
+.so-form-initialsavatar-field SPAN {
+    color: var(--wt-theme-color-surface-on-1-inv) !important;
+}
+
+/* ---------- Sonicle.grid.column.Avatar */
+/* Do NOT use colors for avatar */
+.so-avatarcolumn .so-avatar-initials {
+    background-color: var(--wt-theme-color-surface-on-2) !important;
+}
+.so-avatarcolumn .so-avatar-initials SPAN {
+    color: var(--wt-theme-color-surface-on-1-inv) !important;
 }

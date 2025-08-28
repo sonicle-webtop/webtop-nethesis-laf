@@ -1,0 +1,18 @@
+
+/* ---------- Sonicle.webtop.contacts.ux.grid.column.Contact */
+.wtcon-contactcolumn-head {
+    color: var(--wt-theme-color-surface-on-2);
+}
+.wtcon-contactcolumn-head > span {
+    color: var(--wt-theme-color-surface-on-3);
+}
+.wtcon-contactcolumn-body > span {
+    color: var(--wt-theme-color-surface-on-2);
+}
+/* ---------- Sonicle.webtop.contacts.ux.panel.ContactPreview */
+.wtcon-preview-header-info .x-form-display-field {
+    color: var(--wt-theme-color-surface-on-3);
+}
+.wtcon-preview-header-category .x-form-display-field {
+    color: var(--wt-theme-color-surface-on-3);
+}

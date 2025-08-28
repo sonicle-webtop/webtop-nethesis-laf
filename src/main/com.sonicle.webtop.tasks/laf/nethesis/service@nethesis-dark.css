@@ -1,0 +1,19 @@
+
+/* ---------- Main (center) container */
+.wttasks-main-list {
+    background-color: var(--wt-theme-color-surface-l1);
+}
+/* ---------- Sonicle.grid.column.Nest */
+.wttasks-main-grid .so-nestcolumn-wrap .so-nestcolumn-collapsetool:before {
+    content: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath fill='%23F9FAFB' fill-rule='evenodd' d='m0 5c0-1.1 0.9-2 2-2h20c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-14v7h4v-1c0-1.1 0.9-2 2-2h8c1.1 0 2 0.9 2 2v3c0 1.1-0.9 2-2 2h-8c-1.1 0-2-0.9-2-2h-5c-0.6 0-1-0.4-1-1v-8h-4c-1.1 0-2-0.9-2-2zm22 11h-8v3h8z'/%3E%3C/svg%3E") !important;
+    vertical-align: middle;
+}
+/* ---------- Sonicle.webtop.tasks.ux.panel.TaskPreview */
+.wttasks-preview-header-category .x-form-display-field {
+    color: var(--wt-theme-color-surface-on-2);
+}
+/* ---------- Portlet */
+/* override default style for taskbody */
+.wttasks-portlet-task-body-dueon {
+	color: var(--wt-theme-color-surface-on-2);
+}

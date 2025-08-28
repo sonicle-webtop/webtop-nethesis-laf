@@ -66,12 +66,12 @@ Ext.define('Nethesis.webtop.core.ux.field.Meeting', {
 Ext.define('Nethesis.form.field.InitialsAvatar', {
 	override: 'Sonicle.form.field.InitialsAvatar',
 	
-	colors: ['#9CA3AF'] // Force single color: Gray/400
+	colors: ['#000000'] // Force single dummy color: see color overrides in nethesisbuilt-override.css
 });
 Ext.define('Nethesis.grid.column.Avatar', {
 	override: 'Sonicle.grid.column.Avatar',
 	
-	colors: ['#9CA3AF'] // Force single color: Gray/400
+	colors: ['#000000'] // Force single dummy color: see color overrides in nethesisbuilt-override.css
 });
 Ext.define('Nethesis.grid.column.Nest', {
 	override: 'Sonicle.grid.column.Nest',

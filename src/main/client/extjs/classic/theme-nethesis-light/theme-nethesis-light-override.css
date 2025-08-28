@@ -1,0 +1,141 @@
+/**************************************/
+/* This file should contain tweaks/fixes for specific theme.
+/**************************************/
+
+@import url("../themes-override.css");
+@import url("../themes-nethesisbuilt-override.css");
+
+:root {
+    --wt-theme-color-surface-l0: #ffffff; /* White */
+    --wt-theme-color-surface-l1: #f9fafb; /* Gray/50 */
+    --wt-theme-color-surface-l2: #f3f4f6; /* Gray/100 */
+    --wt-theme-color-surface-l2-inv: #ffffff; /* White */
+    --wt-theme-color-surface-l3: #e5e7eb; /* Gray/200 */
+    --wt-theme-color-surface-l4: #d1d5db; /* Gray/300 */
+    --wt-theme-color-surface-on-1: #111827; /* Gray/900 */
+    --wt-theme-color-surface-on-1-inv: #f9fafb; /* Gray/50 */
+    --wt-theme-color-surface-on-2: #374151; /* Gray/700 */
+    --wt-theme-color-surface-on-3: #4b5563; /* Gray/600 */
+    
+    --wt-theme-color-1: #c2410c; /* Orange/700 */
+    --wt-theme-color-1-on: #f9fafb; /* Gray/50 */
+    --wt-theme-color-2: #4338CA; /* Indigo/700 - NDS : Text/Secondary */
+    --wt-theme-color-2-on: #111827; /* Gray/900 */
+    
+    --wt-theme-color-1-ct: #ffedd5; /* Orange/100 */
+    --wt-theme-color-1-ct-on: #111827; /* Gray/900 */
+    --wt-theme-color-2-ct: #edf0fe; /* Indigo/300@ 20% - NDS : Surface/Overlay 20% */
+    --wt-theme-color-2-ct-on: #374151; /* Gray/700 - NDS : Icon/Secondary neutral */
+    
+    --wt-theme-color-3: #9ca3af; /* Gray/400 - NDS : Text/Placeholder */
+    
+    /*--wt-theme-color-2: #e5e7eb;*/ /* Gray/200 */
+    /*--wt-theme-color-2-on: #111827;*/ /* Gray/900 */
+    /*--wt-theme-color-ct-2: #ffffff;*/ /* White */
+    /*--wt-theme-color-ct-2-on: #6b7280;*/ /* Gray/500 */
+    
+    --wt-theme-color-ok: #0f766e; /* Teal/700 - NDS : Text/Inline notification/Success/Description */
+    --wt-theme-color-ok-on: #ffffff; /* White */
+    --wt-theme-color-ok-ct: #ccfbf1; /* Teal/100 - NDS : Surface/Inline notification/Success */
+    --wt-theme-color-ok-ct-on: #115e59; /* Teal/800 - NDS : Text/Inline notification/Success/Title*/
+    --wt-theme-color-warn: #b45309; /* Amber/700 - NDS : Text/Inline notification/Warning/Description */
+    --wt-theme-color-warn-on: #ffffff; /* White */
+    --wt-theme-color-warn-ct: #fef3c7; /* Amber/100 - NDS : Surface/Inline notification/Warning */
+    --wt-theme-color-warn-ct-on: #92400e; /* Amber/800 - NDS : Text/Inline notification/Warning/Title*/
+    --wt-theme-color-error: #be123c; /* Rose/700 - NDS : Text/Inline notification/Error/Description */
+    --wt-theme-color-error-on: #fef2f2; /* Gray/50 */
+    --wt-theme-color-error-ct: #ffe4e6; /* Rose/100 - NDS : Surface/Inline notification/Error */
+    --wt-theme-color-error-ct-on: #9f1239; /* Rose/800 - NDS : Text/Inline notification/Error/Title*/
+    --wt-theme-color-info: #4338ca; /* Indigo/700 - NDS : Text/Inline notification/Information/Description */
+    --wt-theme-color-info-on: #eef2ff; /* Indigo/50 */
+    --wt-theme-color-info-ct: #e0e7ff; /* Indigo/100 - NDS : Surface/Inline notification/Info */
+    --wt-theme-color-info-ct-on: #3730a3; /* Indigo/800 - NDS : Text/Inline notification/Info/Title*/
+    --wt-theme-color-off: #9ca3af; /* Gray/400 */
+    
+    --wt-theme-color-scrollbar-thumb: rgba(156, 163, 175, 0.5); /* Gray/400 @50% */
+	--wt-theme-color-scrollbar-track: rgba(229, 231, 235, 0.25); /* Gray/200 @25% */
+    --wt-theme-color-mask: rgba(107, 114, 128, 0.75); /* Gray/500 @75% */
+    --wt-theme-color-dialog: #ffffff; /* White */
+    --wt-theme-color-dialog-on: #111827; /* Gray/900 */
+    --wt-theme-color-dialog-hd: #f3f4f6; /* Gray/100 */
+    --wt-theme-color-dialog-hd-on: #111827; /* Gray/900 */
+    --wt-theme-color-mbox: #ffffff; /* White */
+    --wt-theme-color-mbox-on: #374151; /* Gray/700 */
+    --wt-theme-color-mbox-hd: #ffffff; /* White */
+    --wt-theme-color-mbox-hd-on: #111827; /* Gray/900 */
+    --wt-theme-color-popup: #1f2937; /* Gray/800 - NDS : Surface/Background/Tooltip */
+    --wt-theme-color-popup-on: #f0f0f0; /* ??? Maybe riton default? */
+    --wt-theme-color-topbar: #ffffff; /* White */
+    --wt-theme-color-navbar: #ffffff; /* White */
+    --wt-theme-color-taskbar: #f3f4f6; /* Gray/100 */
+    
+    --wt-theme-fontsize-xs: 12px;
+    --wt-theme-fontsize-sm: 14px;
+    --wt-theme-fontsize-base: 16px;
+    --wt-theme-fontsize-lg: 18px;
+    --wt-theme-fontsize-xl: 20px;
+    --wt-theme-fontsize-2xl: 24px;
+    --wt-theme-fontsize-3xl: 30px;
+    --wt-theme-fontsize-4xl: 36px;
+    --wt-theme-fontsize-5xl: 48px;
+    --wt-theme-fontsize-6xl: 64px;
+    --wt-theme-lineheight-xs: 18px;
+    --wt-theme-lineheight-sm: 21px;
+    --wt-theme-lineheight-base: 24px;
+    --wt-theme-lineheight-lg: 27px;
+    --wt-theme-lineheight-xl: 30px;
+    --wt-theme-lineheight-2xl: 36px;
+    --wt-theme-lineheight-3xl: 45px;
+    --wt-theme-lineheight-4xl: 54px;
+    --wt-theme-lineheight-5xl: 72px;
+    --wt-theme-lineheight-6xl: 96px;
+    --wt-theme-fontweight-regular: 400;
+    --wt-theme-fontweight-medium: 500;
+    --wt-theme-fontweight-bold: 500; /* Do NOT use it keep at 500 */
+    
+    --wt-theme-dialog-radius: 6px;
+    --wt-theme-menu-radius: 6px;
+    --wt-theme-field-radius: 6px;
+    --wt-theme-grid-radius: 8px;
+    
+    --fc-page-bg-color: var(--wt-theme-color-surface-l0) !Important;
+    --fc-border-color: #E5E7EB !Important; /* Gray/200 */
+    /*--fc-border-color: var(--wt-theme-color-surface-l2) !Important;*/
+    --fc-now-indicator-color: var(--wt-theme-color-1) !Important; /* Orange/700 */
+    --fc-neutral-bg-color: var(--wt-theme-color-surface-l1) !Important; /* Gray/50 */
+    --fc-day-other-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
+    --fc-non-business-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
+    --fc-today-bg-color: #fff7ed !Important; /* Orange/50 */
+    
+    --so-kanban-column-border-radius: 8px;
+    --so-displayfield-clickable-color: var(--wt-theme-color-1);
+    --so-displayfield-clickable-hover-color: #7c2d12;
+}
+
+/* ---------- Font */
+/* Import full Poppins family */
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+*/
+
+/* ---------- Ext.form.field.TextArea */
+/* Provide SW (south-west) handle for customized smart resizing */
+.x-form-textarea-resizable-smart {
+    position: relative;
+	background: #fff url("data:image/svg+xml,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.2773%2011.7773L12.2773%209.77734M12.2773%206.77734L7.27734%2011.7773M12.2773%203.77734L4.27734%2011.7773M12.2773%200.777344L1.27734%2011.7773%22%20stroke%3D%22%239CA3AF%22%2F%3E%3C%2Fsvg%3E") 100% 100% no-repeat;
+	bottom: 1px;
+	right: 2px;
+}
+
+/* ---------- Ext.grid.Panel */
+.x-column-header {
+    border-right: 0px solid #d1d5db !important;
+}
+
+/* ---------- Ext.panel.Panel@panel-kanbancolumn */
+/* Add shadow on borders */
+.x-panel-panel-kanbancolumn {
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* FF3.5+ */
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
+}

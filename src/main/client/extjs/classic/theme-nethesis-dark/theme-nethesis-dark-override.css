@@ -108,6 +108,7 @@
     --fc-non-business-color: rgba(55,65,81,.3) !Important; /* Gray/700 */
     --fc-today-bg-color: rgba(99, 102, 241, 0.1) !Important; /* Indigo/500 @10% */
     
+    --so-mask-button-text-color: var(--wt-theme-color-1);
     --so-kanban-column-border-radius: 8px;
     --so-displayfield-clickable-color: var(--wt-theme-color-1);
     --so-displayfield-clickable-hover-color: #9A3412;

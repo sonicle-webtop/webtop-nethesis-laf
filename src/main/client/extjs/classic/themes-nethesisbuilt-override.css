@@ -565,3 +565,17 @@ body > .x-mask {
 .so-avatarcolumn .so-avatar-initials SPAN {
     color: var(--wt-theme-color-surface-on-1-inv) !important;
 }
+
+/* ---------- Sonicle.LoadMask */
+.so-mask-button-wrap {
+    padding-top: 15px;
+}
+.so-mask-button {
+    padding: 6px;
+    border-radius: 6px;
+}
+.so-mask-button:hover {
+	text-decoration: none !important;
+    /*color: var(--wt-theme-color-1);*/
+    background-color: var(--wt-theme-color-surface-l3);
+}

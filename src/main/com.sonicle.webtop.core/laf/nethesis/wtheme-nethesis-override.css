@@ -128,15 +128,17 @@
 
 /* ---------- KanbanColumn */
 /* Change collapse/expand icons and header color */
-.x-panel.so-kanban-column .x-tool-expand-bottom:before {
+.x-panel-panel-kanbancolumn .x-tool-expand-bottom:before {
     content: '\f424'
 }
-.x-panel.so-kanban-column .x-tool-collapse-top:before {
+.x-panel-panel-kanbancolumn .x-tool-collapse-top:before {
     content: '\f422'
 }
-.x-panel.so-kanban-column .x-panel-header {
+/*
+.x-panel-panel-kanbancolumn .x-panel-header {
     background-color: var(--wt-theme-color-surface-l2-inv);
 }
+*/
 
 /* ---------- WTA.ux.field.Recipients */
 /* Adjust gap between items */

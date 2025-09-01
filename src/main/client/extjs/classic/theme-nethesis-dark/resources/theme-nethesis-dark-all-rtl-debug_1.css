@@ -12351,7 +12351,7 @@ body > .x-mask {
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
-    background-color: #111827;
+    background-color: #030712;
     width: 205px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:19 */
@@ -12507,7 +12507,7 @@ div.x-datepicker-date:hover {
 .x-datepicker-footer,
 .x-monthpicker-buttons {
     padding: 6px 0px 0px 0px;
-    background-color: #111827;
+    background-color: #030712;
     text-align: center;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:236 */
@@ -12521,7 +12521,7 @@ div.x-datepicker-date:hover {
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
-    background-color: #111827;
+    background-color: #030712;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:252 */
 .x-monthpicker-months {
@@ -12584,7 +12584,7 @@ a.x-monthpicker-item-inner:hover {
     margin-top: 12px;
     -webkit-touch-callout: none;
     color: #f9fafb;
-    background-color: #111827;
+    background-color: #030712;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Date.scss:342 */
 .x-monthpicker-yearnav-next {

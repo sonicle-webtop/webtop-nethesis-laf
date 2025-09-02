@@ -13,28 +13,15 @@
     --wt-theme-color-surface-l2-inv: #ffffff; /* White */
     --wt-theme-color-surface-l3: #e5e7eb; /* Gray/200 */
     --wt-theme-color-surface-l4: #d1d5db; /* Gray/300 */
-    --wt-theme-color-surface-on-1: #111827; /* Gray/900 */
-    --wt-theme-color-surface-on-1-inv: #f9fafb; /* Gray/50 */
-    --wt-theme-color-surface-on-2: #374151; /* Gray/700 */
-    --wt-theme-color-surface-on-3: #4b5563; /* Gray/600 */
-    
-    --wt-theme-color-1: #c2410c; /* Orange/700 */
-    --wt-theme-color-1-on: #f9fafb; /* Gray/50 */
+    --wt-theme-color-ct-1: #ffedd5; /* Orange/100 */
+    --wt-theme-color-ct-2: #edf0fe; /* Indigo/300@ 20% - NDS : Surface/Overlay 20% */
+    --wt-theme-color-n1: #111827; /* Gray/900 - NDS : Text/Primary neutral */
+    --wt-theme-color-n1-inv: #f9fafb; /* Gray/50 - NDS : Text/Primary invert neutral */
+    --wt-theme-color-n2: #374151; /* Gray/700 - NDS : Text/Secondary neutral */
+    --wt-theme-color-n3: #4b5563; /* Gray/600 - NDS : Text/Tertiary neutral */
+    --wt-theme-color-1: #c2410c; /* Orange/700 - NDS : Product Primary/NethService/Active */
     --wt-theme-color-2: #4338CA; /* Indigo/700 - NDS : Text/Secondary */
-    --wt-theme-color-2-on: #111827; /* Gray/900 */
-    
-    --wt-theme-color-1-ct: #ffedd5; /* Orange/100 */
-    --wt-theme-color-1-ct-on: #111827; /* Gray/900 */
-    --wt-theme-color-2-ct: #edf0fe; /* Indigo/300@ 20% - NDS : Surface/Overlay 20% */
-    --wt-theme-color-2-ct-on: #374151; /* Gray/700 - NDS : Icon/Secondary neutral */
-    
     --wt-theme-color-3: #9ca3af; /* Gray/400 - NDS : Text/Placeholder */
-    
-    /*--wt-theme-color-2: #e5e7eb;*/ /* Gray/200 */
-    /*--wt-theme-color-2-on: #111827;*/ /* Gray/900 */
-    /*--wt-theme-color-ct-2: #ffffff;*/ /* White */
-    /*--wt-theme-color-ct-2-on: #6b7280;*/ /* Gray/500 */
-    
     --wt-theme-color-ok: #0f766e; /* Teal/700 - NDS : Text/Inline notification/Success/Description */
     --wt-theme-color-ok-on: #ffffff; /* White */
     --wt-theme-color-ok-ct: #ccfbf1; /* Teal/100 - NDS : Surface/Inline notification/Success */
@@ -108,14 +95,15 @@
     --so-displayfield-clickable-color: var(--wt-theme-color-1);
     --so-displayfield-clickable-hover-color: #7c2d12;
     /* ---------- FullCalendar */
-    --fc-page-bg-color: var(--wt-theme-color-surface-l0) !Important;
+    --fc-page-bg-color: var(--wt-theme-color-surface-l0) !important;
     --fc-border-color: #E5E7EB !Important; /* Gray/200 */
-    /*--fc-border-color: var(--wt-theme-color-surface-l2) !Important;*/
-    --fc-neutral-bg-color: var(--wt-theme-color-surface-l1) !Important; /* Gray/50 */
-    --fc-now-indicator-color: var(--wt-theme-color-1) !Important; /* Orange/700 */
-    --fc-today-bg-color: #fff7ed !Important; /* Orange/50 */
-    --fc-day-other-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
-    --fc-non-business-color: rgba(229,231,235,.3) !Important; /* Gray/200 */
+    /*--fc-border-color: var(--wt-theme-color-surface-l2) !important;*/
+    --fc-neutral-bg-color: var(--wt-theme-color-surface-l1) !important; /* Gray/50 */
+    --fc-now-indicator-color: var(--wt-theme-color-1) !important; /* Orange/700 */
+    --fc-today-bg-color: var(--wt-theme-color-ct-2) !important;
+    --fc-day-other-color: rgba(229,231,235,.3) !important; /* Gray/200 */
+    --fc-non-business-color: rgba(229,231,235,.3) !important; /* Gray/200 */
+    --fc-highlight-color: rgba(186,230,253,.3) !important; /* Sky/200 @30% */
     --fc-event-resizer-swatch-bg-color: #ffffff;
     --fc-event-resizer-swatch-border-color: #111827;
 	--fc-event-style-shadow: rgba(0,0,0,.1);

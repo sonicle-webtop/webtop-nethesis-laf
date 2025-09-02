@@ -10,10 +10,10 @@
 }
 /* ---------- Sonicle.webtop.tasks.ux.panel.TaskPreview */
 .wttasks-preview-header-category .x-form-display-field {
-    color: var(--wt-theme-color-surface-on-3);
+    color: var(--wt-theme-color-n3);
 }
 /* ---------- Portlet */
 /* override default style for taskbody */
 .wttasks-portlet-task-body-dueon {
-	color: var(--wt-theme-color-surface-on-3);
+	color: var(--wt-theme-color-n3);
 }

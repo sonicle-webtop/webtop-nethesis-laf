@@ -75,8 +75,8 @@
 	padding-top: 8px;
 	padding-left: 4px;
 }
-.wtmail-mv-avatar .so-avatar-initials { background-color: var(--wt-theme-color-2-ct-on) !important; }
-.wtmail-mv-avatar .so-avatar-initials SPAN { color: var(--wt-theme-color-surface-on-1-inv) !important; }
+.wtmail-mv-avatar .so-avatar-initials { background-color: var(--wt-theme-color-n2) !important; }
+.wtmail-mv-avatar .so-avatar-initials SPAN { color: var(--wt-theme-color-n1-inv) !important; }
 .wtmail-unsubscribe-link { color: var(--wt-theme-color-1) !important; }
 
 
@@ -261,22 +261,22 @@
 .wtmail-messagecolumn-head {
     font-size: var(--wt-theme-fontsize-sm);
     font-weight: var(--wt-theme-fontweight-regular);
-    color: var(--wt-theme-color-surface-on-2);
+    color: var(--wt-theme-color-n2);
 }
 .wtmail-messagecolumn-head-float {
     font-size: var(--wt-theme-fontsize-xs);
     font-weight: var(--wt-theme-fontweight-regular);
-    color: var(--wt-theme-color-surface-on-2);
+    color: var(--wt-theme-color-n2);
 }
 .wtmail-messagecolumn-body {
     font-size: var(--wt-theme-fontsize-xs);
     font-weight: var(--wt-theme-fontweight-regular);
-    color: var(--wt-theme-color-surface-on-2);
+    color: var(--wt-theme-color-n2);
 }
 .wtmail-messagecolumn-body-float {
     font-size: var(--wt-theme-fontsize-xs);
     font-weight: var(--wt-theme-fontweight-regular);
-    color: var(--wt-theme-color-surface-on-2);
+    color: var(--wt-theme-color-n2);
 }
 .wtmail-messagecolumn-collapsetool {
     font-size: var(--wt-theme-fontsize-sm);
@@ -284,11 +284,11 @@
     color: var(--wt-theme-color-1);
 }
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-head {
-    color: var(--wt-theme-color-surface-on-1);
+    color: var(--wt-theme-color-n1);
 	font-weight: var(--wt-theme-fontweight-medium);
 }
 .wtmail-messagecolumn-grid-cell.wtmail-messagecolumn-grid-cell-unread .wtmail-messagecolumn-body {
-    color: var(--wt-theme-color-surface-on-1);
+    color: var(--wt-theme-color-n1);
 	font-weight: var(--wt-theme-fontweight-medium);
 }
 

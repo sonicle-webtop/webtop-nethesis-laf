@@ -83,7 +83,7 @@
     gap: 8px;
 }
 .wtcal-portlet-event-body-atdate {
-	color: var(--wt-theme-color-surface-on-3);
+	color: var(--wt-theme-color-n3);
 }
 .wtcal-portlet-event-body-attime {
 	padding: 2px 10px;

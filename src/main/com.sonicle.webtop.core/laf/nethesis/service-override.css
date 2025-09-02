@@ -131,7 +131,7 @@
 .wt-icon-status-up-green:before { content: '\f35b'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wt-icon-status-up-green { background-image: none !important }
 .wt-icon-status-up-blue:before { content: '\f35b'; font: var(--fa-font-solid); color: var(--wt-theme-color-info); } .wt-icon-status-up-blue { background-image: none !important }
 .wt-icon-status-down-red:before { content: '\f358'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wt-icon-status-down-red { background-image: none !important }
-.wt-icon-status-down-gray:before { content: '\f358'; font: var(--fa-font-solid); color: var(--wt-theme-color-ct-2-on); } .wt-icon-status-down-gray { background-image: none !important }
+.wt-icon-status-down-gray:before { content: '\f358'; font: var(--fa-font-solid); color: var(--wt-theme-color-n2); } .wt-icon-status-down-gray { background-image: none !important }
 /*.wt-icon-priority3-low { background-image: url('priority3-low_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-priority3-normal { background-image: url('priority3-normal_16.svg') !important; background-size: contain; }*/
 /*.wt-icon-priority3-high { background-image: url('priority3-high_16.svg') !important; background-size: contain; }*/

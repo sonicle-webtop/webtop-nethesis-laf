@@ -13,28 +13,15 @@
     --wt-theme-color-surface-l2-inv: #030712; /* Gray/950 */
     --wt-theme-color-surface-l3: #374151; /* Gray/700 */
     --wt-theme-color-surface-l4: #4b5563; /* Gray/600 */
-    --wt-theme-color-surface-on-1: #f9fafb; /* Gray/50 - NDS : Text/Primary neutral */
-    --wt-theme-color-surface-on-1-inv: #111827; /* Gray/900 - NDS : Text/Primary invert neutral */
-    --wt-theme-color-surface-on-2: #e5e7eb; /* Gray/200  - NDS : Text/Secondary neutral */
-    --wt-theme-color-surface-on-3: #d1d5db; /* Gray/300 - NDS : Text/Tertiary neutral */
-    
-    --wt-theme-color-1: #f97316; /* Orange/500 */
-    --wt-theme-color-1-on: #030712; /* Gray/950 */
+    --wt-theme-color-ct-1: #c2410c; /* Orange/700 */
+    --wt-theme-color-ct-2: #22274f; /* Indigo/500 @20% - NDS : Surface/Overlay 20% */
+    --wt-theme-color-n1: #f9fafb; /* Gray/50 - NDS : Text/Primary neutral */
+    --wt-theme-color-n1-inv: #111827; /* Gray/900 - NDS : Text/Primary invert neutral */
+    --wt-theme-color-n2: #e5e7eb; /* Gray/200 - NDS : Text/Secondary neutral */
+    --wt-theme-color-n3: #d1d5db; /* Gray/300 - NDS : Text/Tertiary neutral */
+    --wt-theme-color-1: #f97316; /* Orange/500 - NDS : Product Primary/NethService/Active */
     --wt-theme-color-2: #6366f1; /* Indigo/500 - NDS : Text/Secondary */
-    --wt-theme-color-2-on: #f9fafb; /* Gray/50 */
-    
-    --wt-theme-color-1-ct: #c2410c; /* Orange/700 */
-    --wt-theme-color-1-ct-on: #111827; /* Gray/900 - NDS : Surface/Background/InputHover */
-    --wt-theme-color-2-ct: #22274f; /* Indigo/500 @20% - NDS : Surface/Overlay 20% */
-    --wt-theme-color-2-ct-on: #e5e7eb; /* Gray/200 - NDS : Icon/Secondary neutral */
-    
-    /*--wt-theme-color-2: #e5e7eb;*/ /* Gray/200 <---TODO */
-    /*--wt-theme-color-2-on: #111827;*/ /* Gray/900 <---TODO */
-    /*--wt-theme-color-ct-2: #ffffff;*/ /* White <---TODO */
-    /*--wt-theme-color-ct-2-on: #6b7280;*/ /* Gray/500 <---TODO */
-    
-    --wt-theme-color-3: #6b7280; /* Gray/500 - NDS : Text/Placeholder */
-    
+    --wt-theme-color-3: #6b7280; /* Gray/500 - NDS : Text/Placeholder */   
     --wt-theme-color-ok: #99f6e4; /* Teal/200 - NDS : Text/Inline notification/Success/Description */
     --wt-theme-color-ok-on: #115e59; /* Teal/800 */
     --wt-theme-color-ok-ct: #134e4a; /* Teal/900 - NDS : Surface/Inline notification/Success */
@@ -57,13 +44,13 @@
 	--wt-theme-color-scrollbar-track: #1f2937; /* Gray/800 */
     --wt-theme-color-mask: rgba(55, 65, 81, 0.75); /* Gray/700 @75% */
     --wt-theme-color-dialog: var(--wt-theme-color-surface-l1);
-    --wt-theme-color-dialog-on: var(--wt-theme-color-surface-on-2);
+    --wt-theme-color-dialog-on: var(--wt-theme-color-n2);
     --wt-theme-color-dialog-hd: var(--wt-theme-color-surface-l2);
-    --wt-theme-color-dialog-hd-on: var(--wt-theme-color-surface-on-1);
+    --wt-theme-color-dialog-hd-on: var(--wt-theme-color-n1);
     --wt-theme-color-mbox: var(--wt-theme-color-surface-l1);
-    --wt-theme-color-mbox-on: var(--wt-theme-color-surface-on-2);
+    --wt-theme-color-mbox-on: var(--wt-theme-color-n2);
     --wt-theme-color-mbox-hd: var(--wt-theme-color-surface-l1);
-    --wt-theme-color-mbox-hd-on: var(--wt-theme-color-surface-on-1);
+    --wt-theme-color-mbox-hd-on: var(--wt-theme-color-n1);
     --wt-theme-color-popup: #f3f4f6; /* Gray/100 - NDS : Surface/Background/Tooltip */
     --wt-theme-color-popup-on: #f0f0f0; /* ??? Maybe riton default? <---TODO */
     --wt-theme-color-topbar: var(--wt-theme-color-surface-l0);
@@ -108,13 +95,14 @@
     --so-displayfield-clickable-color: var(--wt-theme-color-1);
     --so-displayfield-clickable-hover-color: #9A3412;
     /* ---------- FullCalendar */
-    --fc-page-bg-color: var(--wt-theme-color-surface-l0) !Important;
-    --fc-border-color: var(--wt-theme-color-surface-l2) !Important;
-    --fc-neutral-bg-color: var(--wt-theme-color-surface-l0) !Important;
-    --fc-now-indicator-color: var(--wt-theme-color-1) !Important;
-    --fc-today-bg-color: rgba(99, 102, 241, 0.1) !Important; /* Indigo/500 @10% */
-    --fc-day-other-color: rgba(55,65,81,.3) !Important; /* Gray/700 */
-    --fc-non-business-color: rgba(55,65,81,.3) !Important; /* Gray/700 */
+    --fc-page-bg-color: var(--wt-theme-color-surface-l0) !important;
+    --fc-border-color: var(--wt-theme-color-surface-l2) !important;
+    --fc-neutral-bg-color: var(--wt-theme-color-surface-l0) !important;
+    --fc-now-indicator-color: var(--wt-theme-color-1) !important;
+    --fc-today-bg-color: rgba(99,102,241,.1) !important; /* Indigo/500 @10% */
+    --fc-day-other-color: rgba(55,65,81,.3) !important; /* Gray/700 */
+    --fc-non-business-color: rgba(55,65,81,.3) !important; /* Gray/700 */
+    --fc-highlight-color: rgba(67,56,202,.3) !important; /* Indigo/700 @30% */
     --fc-event-resizer-swatch-bg-color: #ffffff;
     --fc-event-resizer-swatch-border-color: #111827;
 	--fc-event-style-shadow: rgba(0,0,0,.1);
@@ -122,7 +110,7 @@
 
 body {
     background-color: var(--wt-theme-color-surface-l0, #000000);
-    color: var(--wt-theme-color-surface-on-1, #FFFFFF);
+    color: var(--wt-theme-color-n1, #FFFFFF);
 }
 
 /* ---------- Font */

@@ -136,3 +136,8 @@
 	-webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Saf3.0+, Chrome */
 	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
 }
+
+/* ---------- Sonicle.fullcalendar.Panel */
+.so-fullcalendar-panel {
+    background-color: var(--wt-theme-color-surface-l0);
+}

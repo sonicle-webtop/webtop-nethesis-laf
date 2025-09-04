@@ -49,7 +49,7 @@ body > .x-mask {
     height: 100%;
     /*top: -5%; for original lineheight */
     top: 0%;
-    border-color: var(--wt-theme-color-1);
+    border-color: var(--wt-theme-color-n1-inv);
 }
 .x-btn-wrap-button-secondary-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-secondary-medium.x-btn-split-right > .x-btn-button:after,
@@ -57,7 +57,7 @@ body > .x-mask {
     height: 100%;
     /*top: -5%; for original lineheight */
     top: 0%;
-    border-color: var(--wt-theme-color-1);
+    border-color: var(--wt-theme-color-n1-inv);
 }
 .x-btn-wrap-button-tertiary-small.x-btn-split-right > .x-btn-button:after,
 .x-btn-wrap-button-tertiary-medium.x-btn-split-right > .x-btn-button:after,
@@ -65,7 +65,7 @@ body > .x-mask {
     height: 100%;
     /*top: -5%; for original lineheight */
     top: 0%;
-    border-color: var(--wt-theme-color-1);
+    border-color: var(--wt-theme-color-n1-inv);
 }
 
 /* ---------- Ext.form.field.Display */
@@ -435,9 +435,6 @@ body > .x-mask {
 /* ---------- Sonicle.fullcalendar.Panel */
 .so-fullcalendar > .fc {
 	/*zoom: 1.1;*/
-}
-.so-fullcalendar-panel {
-    background-color: var(--wt-theme-color-surface-l1);
 }
 .so-fullcalendar-panel-toolbar-month {
     gap: 16px;

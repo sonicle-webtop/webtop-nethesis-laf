@@ -3633,7 +3633,7 @@ the height of a multi-line element */
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/LoadMask.scss:1 */
 .x-mask {
     background-image: none;
-    background-color: rgba(45, 63, 103, 0.5);
+    background-color: rgba(55, 65, 81, 0.5);
     cursor: default;
     border-style: solid;
     border-width: 1px;
@@ -3641,7 +3641,7 @@ the height of a multi-line element */
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
 .x-ie8 .x-mask {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#802d3f67, endColorstr=#802d3f67)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80374151, endColorstr=#80374151)";
     zoom: 1;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/LoadMask.scss:16 */
@@ -7592,7 +7592,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Splitter.scss:22 */
 .x-collapse-el {
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     display: table;
     table-layout: fixed;
     background-color: #374151;
@@ -7753,7 +7753,7 @@ body > .x-mask {
 .x-toolbar-default {
     padding: 6px 0 6px 8px;
     border-style: solid;
-    border-color: #2d3f67;
+    border-color: #374151;
     border-width: 1px;
     background-image: none;
     background-color: #111827;
@@ -7764,7 +7764,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:614 */
 .x-toolbar-default .x-tool-img {
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:629 */
 .x-toolbar-default .x-toolbar-item {
@@ -7846,7 +7846,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
 .x-box-scroller-toolbar-default {
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     opacity: 0.6;
 }
@@ -7943,10 +7943,10 @@ body > .x-mask {
 .x-toolbar-footer {
     padding: 6px 0 6px 6px;
     border-style: solid;
-    border-color: #2d3f67;
+    border-color: #374151;
     border-width: 0;
     background-image: none;
-    background-color: #abb2c2;
+    background-color: #1f2937;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:602 */
 .x-toolbar-footer.x-rtl {
@@ -7954,7 +7954,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:614 */
 .x-toolbar-footer .x-tool-img {
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:629 */
 .x-toolbar-footer .x-toolbar-item {
@@ -8036,7 +8036,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
 .x-box-scroller-toolbar-footer {
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     opacity: 0.6;
 }
@@ -8088,7 +8088,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:742 */
 .x-ie8 .x-box-scroller-toolbar-footer {
-    background-color: #abb2c2;
+    background-color: #1f2937;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:748 */
 .x-toolbar-more-icon {
@@ -8103,7 +8103,7 @@ body > .x-mask {
 .x-dd-drag-proxy {
     color: #f9fafb;
     font: 400 14px/17px Poppins, sans-serif;
-    border: 1px solid #2d3f67;
+    border: 1px solid #374151;
     background-color: #111827;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/dd/StatusProxy.scss:8 */
@@ -8307,7 +8307,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
 .x-panel-body-default {
     background: #111827;
-    border-color: #2d3f67;
+    border-color: #374151;
     color: #f9fafb;
     font-size: 12px;
     font-weight: 400;
@@ -8668,7 +8668,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
 .x-panel-body-default-framed {
     background: #111827;
-    border-color: #2d3f67;
+    border-color: #374151;
     color: #f9fafb;
     font-size: 12px;
     font-weight: 400;
@@ -10050,7 +10050,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/container/ButtonGroup.scss:243 */
 .x-btn-group-default {
-    border-color: #2d3f67;
+    border-color: #374151;
     -webkit-box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
     -moz-box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
     box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
@@ -10298,7 +10298,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/container/ButtonGroup.scss:243 */
 .x-btn-group-default-framed {
-    border-color: #2d3f67;
+    border-color: #374151;
     -webkit-box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
     -moz-box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
     box-shadow: #111827 0 1px 0px 0 inset, #111827 0 -1px 0px 0 inset, #111827 -1px 0 0px 0 inset, #111827 1px 0 0px 0 inset;
@@ -11971,7 +11971,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Checkbox.scss:109 */
 .x-form-radio-default {
     font: 18px/1 'Font Awesome 5 Free Regular';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-form-radio-default:before {
@@ -11988,7 +11988,7 @@ body > .x-mask {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/form/field/Checkbox.scss:126 */
 .x-form-checkbox-default {
     font: 18px/1 'Font Awesome 5 Free Regular';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-form-checkbox-default:before {
@@ -13066,23 +13066,23 @@ a.x-monthpicker-item-inner:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Color.scss:22 */
 a.x-color-picker-item:hover {
     border-color: #8bb8f3;
-    background-color: #293b5f;
+    background-color: #333c4b;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Color.scss:27 */
 .x-color-picker-selected {
     border-color: #8bb8f3;
-    background-color: #293b5f;
+    background-color: #333c4b;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/picker/Color.scss:32 */
 .x-color-picker-item-inner {
     line-height: 16px;
-    border-color: #2d3f67;
+    border-color: #374151;
     border-width: 1px;
     border-style: solid;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/form/field/HtmlEditor.scss:1 */
 .x-html-editor-tb .x-btn-icon-el {
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/form/field/HtmlEditor.scss:7 */
 .x-html-editor-tb .x-edit-bold,
@@ -13353,7 +13353,7 @@ a.x-color-picker-item:hover {
     background: #111827;
     border-width: 2px 1px 1px;
     border-style: solid;
-    border-color: #2d3f67;
+    border-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/view/Table.scss:22 */
 .x-grid-empty {
@@ -13555,7 +13555,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */
 .x-grid-header-ct {
-    border: 1px solid #2d3f67;
+    border: 1px solid #374151;
     border-bottom-color: #1f2937;
     background-color: #1f2937;
     background-image: none;
@@ -13572,7 +13572,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:31 */
 .x-grid-body {
-    border-top-color: #d1d5db;
+    border-top-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:35 */
 .x-hmenu-sort-asc {
@@ -13600,7 +13600,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:1 */
 .x-column-header {
-    border-right: 0px solid #d1d5db;
+    border-right: 0px solid #374151;
     color: #f9fafb;
     font: 500 14px/20px Poppins, sans-serif;
     outline: 0;
@@ -13610,12 +13610,12 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:21 */
 .x-rtl.x-column-header {
     border-right: 0 none;
-    border-left: 0px solid #d1d5db;
+    border-left: 0px solid #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:27 */
 .x-group-sub-header {
     background: transparent;
-    border-top: 0px solid #d1d5db;
+    border-top: 0px solid #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:32 */
 .x-group-sub-header .x-column-header-inner {
@@ -13758,7 +13758,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Action.scss:18 */
 .x-action-col-icon {
-    color: #d5d9e1;
+    color: #d7d9dc;
     font-size: 16px;
     height: 16px;
     width: 16px;
@@ -13772,7 +13772,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:20 */
 .x-column-header-checkbox {
-    border-color: #d1d5db;
+    border-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:22 */
 .x-column-header-checkbox .x-column-header-text {
@@ -13783,7 +13783,7 @@ a.x-color-picker-item:hover {
 .x-grid-checkcolumn:after {
     content: "\f0c8";
     font: 18px/1 'Font Awesome 5 Free Regular';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:42 */
 .x-item-disabled .x-column-header-checkbox .x-column-header-checkbox,
@@ -13796,13 +13796,13 @@ a.x-color-picker-item:hover {
 .x-grid-checkcolumn-checked:after {
     content: "\f14a";
     font: 18px/1 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:139 */
 .x-grid-item-selected .x-selmodel-column .x-grid-checkcolumn:after {
     content: "\f14a";
     font: 18px/1 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/column/Check.scss:79 */
 .x-selmodel-checkbox .x-grid-checkcolumn,
@@ -14357,7 +14357,7 @@ a.x-color-picker-item:hover {
 .x-grid-advanced-group-hd {
     border-width: 0 0 0 1px;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
     padding: 8px 10px 9px;
     cursor: pointer;
     white-space: nowrap;
@@ -14367,7 +14367,7 @@ a.x-color-picker-item:hover {
 .x-grid-advanced-group-record {
     border-width: 0 0 0 1px;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
     padding: 8px 10px 9px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGrouping.scss:18 */
@@ -14383,7 +14383,7 @@ a.x-color-picker-item:hover {
     content: '\f146';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGrouping.scss:38 */
 .x-rtl.x-grid-view .x-grid-advanced-group-hd-collapsible .x-grid-advanced-group-title {
@@ -14405,7 +14405,7 @@ a.x-color-picker-item:hover {
     content: '\f0fe';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGrouping.scss:66 */
 .x-groups-icon {
@@ -14470,7 +14470,7 @@ a.x-color-picker-item:hover {
 .x-grid-group-hd {
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
     padding: 8px 10px;
     background: #111827;
     cursor: pointer;
@@ -14488,7 +14488,7 @@ a.x-color-picker-item:hover {
     content: '\f146';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Grouping.scss:30 */
 .x-rtl.x-grid-view .x-grid-group-hd-collapsible .x-grid-group-title {
@@ -14497,7 +14497,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Grouping.scss:36 */
 .x-grid-group-title {
-    color: #9fb0d5;
+    color: #6366f1;
     font: 400 14px/16px Poppins, sans-serif;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
@@ -14505,7 +14505,7 @@ a.x-color-picker-item:hover {
     content: '\f0fe';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Grouping.scss:54 */
 .x-group-by-icon {
@@ -14523,7 +14523,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss:1 */
 .x-docked-summary {
     border-width: 1px;
-    border-color: #2d3f67;
+    border-color: #374151;
     border-style: solid;
     background: #111827!important;
 }
@@ -14785,7 +14785,7 @@ a.x-color-picker-item:hover {
     right: 0;
     margin: 0 4px 0;
     font: 16px/1 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-menu-item-arrow-default:before {
@@ -14833,7 +14833,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
 .x-box-scroller-menu-default {
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     opacity: 0.5;
 }
@@ -15118,7 +15118,7 @@ a.x-color-picker-item:hover {
     right: 5px;
     margin: 0 4px 0;
     font: 16px/1 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-menu-item-arrow-default-menubar:before {
@@ -15166,7 +15166,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
 .x-box-scroller-menu-default-menubar {
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     opacity: 0.5;
 }
@@ -15278,12 +15278,12 @@ a.x-color-picker-item:hover {
 .x-grid-locked-split .x-grid-inner-normal {
     border-width: 0 0 0 2px;
     border-style: solid;
-    border-left-color: #d1d5db;
+    border-left-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:18 */
 .x-grid-locked-split .x-rtl.x-grid-inner-normal {
     border-width: 0 2px 0 0;
-    border-right-color: #d1d5db;
+    border-right-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:24 */
 .x-grid-locking-body {
@@ -15299,7 +15299,7 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:40 */
 .x-grid-inner-locked {
-    border-right-color: #d1d5db;
+    border-right-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:45 */
 .x-grid-inner-locked .x-column-header-last,
@@ -15313,7 +15313,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:59 */
 .x-rtl.x-grid-inner-locked {
     border-right-color: #f3f4f6;
-    border-left-color: #d1d5db;
+    border-left-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:61 */
 .x-rtl.x-grid-inner-locked .x-grid-row .x-column-header-last {
@@ -15349,7 +15349,7 @@ a.x-color-picker-item:hover {
 .x-grid-scrollbar-locked {
     border-width: 0 2px 0 0;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss:116 */
 .x-grid-locked .x-rtl.x-grid-scrollbar-clipper-locked,
@@ -15416,7 +15416,7 @@ a.x-color-picker-item:hover {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss:31 */
 .x-grid-group-column-inner {
     padding: 3px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #374151;
     margin: 1px;
     font: 500 14px/20px Poppins, sans-serif;
 }
@@ -15431,35 +15431,35 @@ a.x-color-picker-item:hover {
     content: '\f013';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-grid-group-column-btn-sort-asc:before {
     content: '\f30c';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-grid-group-column-sort-icon-asc:before {
     content: '\f15d';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-grid-group-column-btn-sort-desc:before {
     content: '\f309';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-grid-group-column-sort-icon-desc:before {
     content: '\f15e';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Panel.scss:1 */
 .x-grid-group-panel-header {
@@ -15488,14 +15488,14 @@ a.x-color-picker-item:hover {
     content: "\e607";
     font-size: 14px;
     font-family: ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-grid-group-panel-clear-icon:before {
     content: '\f00d';
     font-size: 14px;
     font-family: 'Font Awesome 5 Free';
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:2 */
 .x-grid-row-editor .x-field {
@@ -15808,7 +15808,7 @@ a.x-color-picker-item:hover {
     width: 16px;
     height: 16px;
     cursor: pointer;
-    color: #d5d9e1;
+    color: #d7d9dc;
     font: 14px/1 'Font Awesome 5 Free';
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
@@ -15848,105 +15848,105 @@ a.x-color-picker-item:hover {
 .x-operator-like:before {
     content: "\e900";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-nlike:before {
     content: "\e901";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-eq:before {
     content: "\e902";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-neq:before {
     content: "\e903";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-gt:before {
     content: "\e90b";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-gte:before {
     content: "\e90c";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-lt:before {
     content: "\e90d";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-lte:before {
     content: "\e90e";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-in:before {
     content: "\e906";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-nin:before {
     content: "\e907";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-identical:before {
     content: "\e908";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-nidentical:before {
     content: "\e909";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-empty:before {
     content: "\e904";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-exists:before {
     content: "\e905";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-operator-fn:before {
     content: "\e90a";
     font: 12px/1 ExtJS;
-    color: #d5d9e1;
+    color: #d7d9dc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/Base.scss:2 */
 .x-grid-filter-base .x-form-trigger-wrap-default {
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/None.scss:1 */
 .x-grid-filter-none {
-    background-color: #1f2c48;
+    background-color: #262d38;
     min-height: 32px;
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: #d1d5db;
+    border-color: #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/FilterBar.scss:2 */
 .x-grid-filterbar .x-form-text {
@@ -16030,11 +16030,11 @@ a.x-color-picker-item:hover {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:45 */
 .x-accordion-item .x-accordion-hd-over {
-    background-color: #1f2c48;
+    background-color: #262d38;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:48 */
 .x-accordion-item .x-accordion-hd-over .x-tool-tool-el {
-    background-color: #1f2c48;
+    background-color: #262d38;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:54 */
 .x-accordion-item .x-accordion-hd-sibling-expanded {
@@ -16123,7 +16123,7 @@ div.x-border-layout-ct {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     opacity: 0;
     background-color: #374151;
-    color: #d5d9e1;
+    color: #d7d9dc;
     text-align: center;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:20 */

@@ -63,15 +63,12 @@ Ext.define('Nethesis.webtop.core.ux.field.Meeting', {
 		me.addCls('wt-field-fix-fallingtrigger');
 	}
 });
-Ext.define('Nethesis.form.field.InitialsAvatar', {
-	override: 'Sonicle.form.field.InitialsAvatar',
+Ext.define('Nethesis.overrides.mixin.Avatar', {
+	override: 'Sonicle.mixin.Avatar'
 	
-	colors: ['#000000'] // Force single dummy color: see color overrides in nethesisbuilt-override.css
-});
-Ext.define('Nethesis.grid.column.Avatar', {
-	override: 'Sonicle.grid.column.Avatar',
-	
-	colors: ['#000000'] // Force single dummy color: see color overrides in nethesisbuilt-override.css
+}, function() {
+	// Force single dummy color: see color overrides in nethesisbuilt-override.css
+	Sonicle.mixin.Avatar.palette = ['#000000'];
 });
 Ext.define('Nethesis.grid.column.Nest', {
 	override: 'Sonicle.grid.column.Nest',
@@ -243,8 +240,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 		
 		createAvatarButtonCfg: function() {
 			return Ext.apply(this.callParent(arguments), {
-				scale: 'large',
-				arrowVisible: false
+				scale: 'large'
 			});
 		}
 	}

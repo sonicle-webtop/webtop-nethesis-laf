@@ -332,10 +332,10 @@ body > .x-mask {
 }
 
 /* ---------- Sonicle.button.Avatar */
-.so-btn-avatar-swatch {
+.so-btn-avatar-wrap {
     background-color: var(--wt-theme-color-n2) !important;
 }
-.so-btn-avatar-swatch SPAN {
+.so-btn-avatar-wrap SPAN {
     color: var(--wt-theme-color-n1-inv) !important;
 }
 
@@ -545,10 +545,10 @@ body > .x-mask {
 
 /* ---------- Sonicle.form.field.InitialsAvatar */
 /* Do NOT use colors for avatar */
-.so-form-initialsavatar-field {
+.so-form-avatardisplay-field {
     background-color: var(--wt-theme-color-n2) !important;
 }
-.so-form-initialsavatar-field SPAN {
+.so-form-avatardisplay-field SPAN {
     color: var(--wt-theme-color-n1-inv) !important;
 }
 

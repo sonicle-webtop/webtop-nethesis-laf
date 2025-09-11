@@ -87,6 +87,10 @@
     --wt-theme-field-radius: 6px;
     --wt-theme-grid-radius: 8px;
     
+    /* ---------- Sonicle.ColorUtils */
+    --so-colorswatch-framed-border-color: #9ca3af; /* Gray/400 */
+    --so-colorswatch-darkmark-color: #111827; /* Gray/900 */
+    --so-colorswatch-lightmark-color: #f9fafb; /* Gray/50 */
     /* ---------- Sonicle.LoadMask */
     --so-mask-button-text-color: var(--wt-theme-color-1);
     /* ---------- Sonicle.panel.CanbanColumn */

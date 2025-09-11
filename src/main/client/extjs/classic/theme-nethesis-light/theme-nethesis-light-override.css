@@ -22,6 +22,8 @@
     --wt-theme-color-1: #c2410c; /* Orange/700 - NDS : Product Primary/NethService/Active */
     --wt-theme-color-2: #4338CA; /* Indigo/700 - NDS : Text/Secondary */
     --wt-theme-color-3: #9ca3af; /* Gray/400 - NDS : Text/Placeholder */
+    --wt-theme-color-off: #9ca3af; /* Gray/400 */
+    --wt-theme-color-hyperlink: var(--wt-theme-color-1);
     --wt-theme-color-ok: #0f766e; /* Teal/700 - NDS : Text/Inline notification/Success/Description */
     --wt-theme-color-ok-on: #ffffff; /* White */
     --wt-theme-color-ok-ct: #ccfbf1; /* Teal/100 - NDS : Surface/Inline notification/Success */
@@ -38,24 +40,23 @@
     --wt-theme-color-info-on: #eef2ff; /* Indigo/50 */
     --wt-theme-color-info-ct: #e0e7ff; /* Indigo/100 - NDS : Surface/Inline notification/Info */
     --wt-theme-color-info-ct-on: #3730a3; /* Indigo/800 - NDS : Text/Inline notification/Info/Title*/
-    --wt-theme-color-off: #9ca3af; /* Gray/400 */
     
     --wt-theme-color-scrollbar-thumb: rgba(156, 163, 175, 0.5); /* Gray/400 @50% */
 	--wt-theme-color-scrollbar-track: rgba(229, 231, 235, 0.25); /* Gray/200 @25% */
     --wt-theme-color-mask: rgba(107, 114, 128, 0.75); /* Gray/500 @75% */
-    --wt-theme-color-dialog: #ffffff; /* White */
+    --wt-theme-color-dialog: var(--wt-theme-color-surface-l0);
     --wt-theme-color-dialog-on: #111827; /* Gray/900 */
-    --wt-theme-color-dialog-hd: #f3f4f6; /* Gray/100 */
+    --wt-theme-color-dialog-hd: var(--wt-theme-color-surface-l2);
     --wt-theme-color-dialog-hd-on: #111827; /* Gray/900 */
-    --wt-theme-color-mbox: #ffffff; /* White */
+    --wt-theme-color-mbox: var(--wt-theme-color-surface-l0);
     --wt-theme-color-mbox-on: #374151; /* Gray/700 */
-    --wt-theme-color-mbox-hd: #ffffff; /* White */
+    --wt-theme-color-mbox-hd: var(--wt-theme-color-surface-l0);
     --wt-theme-color-mbox-hd-on: #111827; /* Gray/900 */
     --wt-theme-color-popup: #1f2937; /* Gray/800 - NDS : Surface/Background/Tooltip */
     --wt-theme-color-popup-on: #f0f0f0; /* ??? Maybe riton default? */
-    --wt-theme-color-topbar: #ffffff; /* White */
-    --wt-theme-color-navbar: #ffffff; /* White */
-    --wt-theme-color-taskbar: #f3f4f6; /* Gray/100 */
+    --wt-theme-color-topbar: var(--wt-theme-color-surface-l0);
+    --wt-theme-color-navbar: var(--wt-theme-color-surface-l0);
+    --wt-theme-color-taskbar: var(--wt-theme-color-surface-l2);
     
     --wt-theme-fontfamily: 'Poppins, helvetica, arial, verdana, sans-serif';
     --wt-theme-fontsize-xs: 12px;
@@ -87,11 +88,15 @@
     --wt-theme-field-radius: 6px;
     --wt-theme-grid-radius: 8px;
     
+    /* ---------- Sonicle.ColorUtils */
+    --so-colorswatch-framed-border-color: #9ca3af; /* Gray/400 */
+    --so-colorswatch-darkmark-color: #111827; /* Gray/900 */
+    --so-colorswatch-lightmark-color: #ffffff;
     /* ---------- Sonicle.LoadMask */
     --so-mask-button-text-color: var(--wt-theme-color-1);
     /* ---------- Sonicle.panel.CanbanColumn */
     --so-kanbancolumn-border-radius: 8px;
-     /* ---------- Sonicle.form.field.Display */
+    /* ---------- Sonicle.form.field.Display */
     --so-displayfield-clickable-color: var(--wt-theme-color-1);
     --so-displayfield-clickable-hover-color: #7c2d12;
     /* ---------- FullCalendar */

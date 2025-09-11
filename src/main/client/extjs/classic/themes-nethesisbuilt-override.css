@@ -321,15 +321,6 @@ body > .x-mask {
 	border-radius: 5px;
 	font-size: 90%;
 }
-.so-colorswatch-framed {
-    border-color: #9ca3af; /* Gray/400 */
-}
-.so-colorswatch-darkmark {
-	color: #111827; /* Gray/900 */
-}
-.so-colorswatch-lightmark {
-	color: #ffffff;
-}
 
 /* ---------- Sonicle.button.Avatar */
 .so-btn-avatar-wrap {

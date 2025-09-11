@@ -226,6 +226,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 			];
 		},
 		
+		/*
 		createNavbarItemsCfg: function() {
 			var items = [
 				{
@@ -237,6 +238,7 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 			Ext.Array.push(items, this.callParent(arguments));
 			return items;
 		},
+		*/
 		
 		createAvatarButtonCfg: function() {
 			return Ext.apply(this.callParent(arguments), {

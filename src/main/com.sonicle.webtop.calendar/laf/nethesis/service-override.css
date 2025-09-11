@@ -100,6 +100,12 @@
 .wtcal-tool-calendarpanel {
     margin-top: 6px;
 }
+
+/* ---------- Main (center) scheduler */
+.wtcal-main-scheduler {
+    padding: 26px 32px 0px 32px;
+}
+
 /* ---------- FullCalendar Panel (tooltip) */
 .so-cal-appo-hov {
     gap: 16px;

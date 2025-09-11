@@ -2,11 +2,8 @@
 /* Tweaks WebTop's components for specific theme
 /**************************************/
 
-.wt-theme-dialog-bgcolor {}
-.wt-theme-text-color-off { color: var(--wt-theme-color-off); }
 .wt-theme-text-color-title { color: var(--wt-theme-color-info-ct-on); }
 .wt-theme-text-color-subtitle {}
-.wt-theme-text-color-hyperlink { color: var(--wt-theme-color-1); }
 
 .wt-pane-body-title {
     font-size: var(--wt-theme-fontsize-base);

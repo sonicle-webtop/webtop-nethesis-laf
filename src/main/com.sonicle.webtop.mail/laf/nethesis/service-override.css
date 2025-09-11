@@ -148,6 +148,8 @@
     font-weight: var(--wt-theme-fontweight-bold, 500) !important;
 }
 
+
+
 /* ---------- Breadcrumb */
 .wtmail-breadcrumb .x-btn-inner-plain-toolbar-small {
 	font-size: 18px;
@@ -184,7 +186,6 @@
 }
 .wtmail-mv-avatar .so-avatar-initials { background-color: var(--wt-theme-color-n2) !important; }
 .wtmail-mv-avatar .so-avatar-initials SPAN { color: var(--wt-theme-color-n1-inv) !important; }
-.wtmail-unsubscribe-link { color: var(--wt-theme-color-1) !important; }
 .wtmail-note { color: #374151; }
 
 /* ---------- MessageGrid */

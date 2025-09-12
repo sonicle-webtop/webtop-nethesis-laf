@@ -22,6 +22,7 @@
 .wtmail-icon-markseen:before { content: '\f2b6'; font: var(--fa-font-solid); } .wtmail-icon-markseen { background-image: none !important }
 .wtmail-icon-markunseen:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtmail-icon-markunseen { background-image: none !important }
 .wtmail-icon-markspecial:before { content: '\f005'; font: var(--fa-font-regular); } .wtmail-icon-markspecial { background-image: none !important }
+.wtmail-icon-note:before { content: '\f249'; font: var(--fa-font-solid); } .wtmail-icon-note { background-image: none !important; }
 .wtmail-icon-bookmark:before { content: '\f02e'; font: var(--fa-font-regular); } .wtmail-icon-bookmark { background-image: none !important }
 .wtmail-icon-starred:before { content: '\f005'; font: var(--fa-font-regular); } .wtmail-icon-starred { background-image: none !important }
 .wtmail-icon-tag:before { content: '\f02b'; font: var(--fa-font-solid); } .wtmail-icon-tag { background-image: none !important }
@@ -186,7 +187,6 @@
 }
 .wtmail-mv-avatar .so-avatar-initials { background-color: var(--wt-theme-color-n2) !important; }
 .wtmail-mv-avatar .so-avatar-initials SPAN { color: var(--wt-theme-color-n1-inv) !important; }
-.wtmail-note { color: #374151; }
 
 /* ---------- MessageGrid */
 .wtmail-message-grid .x-grid-body {

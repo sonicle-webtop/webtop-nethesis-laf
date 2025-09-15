@@ -87,8 +87,10 @@
 .wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
 .wt-icon-remove:before { content: '\f068'; font: var(--fa-font-solid); } .wt-icon-remove { background-image: none !important }
 .wt-icon-delete:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-delete { background-image: none !important }
+.wt-icon-clone:before { content: '\f24d'; font: var(--fa-font-solid); } .wt-icon-clone { background-image: none !important }
 .wt-icon-copy:before { content: '\f24d'; font: var(--fa-font-solid); } .wt-icon-copy { background-image: none !important }
 .wt-icon-move:before { content: '\f061'; font: var(--fa-font-solid); } .wt-icon-move { background-image: none !important }
+.wt-icon-clipboard-copy:before { content: '\f24d'; font: var(--fa-font-solid); } .wt-icon-clipboard-copy { background-image: none !important }
 .wt-icon-clipboard-paste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wt-icon-clipboard-paste { background-image: none !important }
 .wt-icon-restore:before { content: '\f0e2'; font: var(--fa-font-solid); } .wt-icon-restore { background-image: none !important }
 .wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
@@ -179,6 +181,7 @@
 /*.wt-icon-emoji { background-image: url('emoji_16.svg') !important; background-size: contain; }*/
 .wt-icon-viewOptions:before { content: '\f0db'; font: var(--fa-font-solid); } .wt-icon-viewOptions { background-image: none !important }
 /*.wt-icon-clearState { background-image: url('clear-state_16.svg') !important; background-size: contain; }*/
+.wt-icon-audit:before { content: '\f1da'; font: var(--fa-font-solid); } .wt-icon-audit { background-image: none !important }
 /* ---------- Icons (HTMLEditor) */
 .wt-icon-htmled-forecolor:before { content: '\f031'; font: var(--fa-font-solid); } .wt-icon-htmled-forecolor { background-image: none !important }
 .wt-icon-htmled-backcolor:before { content: '\f591'; font: var(--fa-font-solid); } .wt-icon-htmled-backcolor { background-image: none !important }

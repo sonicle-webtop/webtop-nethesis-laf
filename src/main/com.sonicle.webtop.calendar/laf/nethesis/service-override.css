@@ -31,13 +31,13 @@
 .wtcal-icon-event-single:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event-single { background-image: none !important }
 .wtcal-icon-event-recurring:before { content: '\f021'; font: var(--fa-font-solid); } .wtcal-icon-event-recurring { background-image: none !important }
 .wtcal-icon-event-broken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-event-broken { background-image: none !important }
-.wtcal-icon-eventTitle:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-eventTitle { background-image: none !important }
-.wtcal-icon-eventDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-eventDescription { background-image: none !important }
-.wtcal-icon-eventDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-eventDateTime { background-image: none !important }
-.wtcal-icon-eventLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wtcal-icon-eventLocation { background-image: none !important }
-.wtcal-icon-eventReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-eventReminder { background-image: none !important }
-.wtcal-icon-eventAttendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-eventAttendees { background-image: none !important }
-.wtcal-icon-eventAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wtcal-icon-eventAttachments { background-image: none !important }
+.wtcal-icon-sectionAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttachments { background-image: none !important }
+.wtcal-icon-sectionAttendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttendees { background-image: none !important }
+.wtcal-icon-sectionDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-sectionDateTime { background-image: none !important }
+.wtcal-icon-sectionDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-sectionDescription { background-image: none !important }
+.wtcal-icon-sectionLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wtcal-icon-sectionLocation { background-image: none !important }
+.wtcal-icon-sectionReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-sectionReminder { background-image: none !important }
+.wtcal-icon-sectionTitle:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-sectionTitle { background-image: none !important }
 /*.wtcal-icon-attendeeResponse-NA { background-image: url('response-needsAction_16.svg') !important; background-size: contain; }*/
 /*.wtcal-icon-attendeeResponse-AC { background-image: url('response-accepted_16.svg') !important; background-size: contain; }*/
 /*.wtcal-icon-attendeeResponse-DE { background-image: url('response-declined_16.svg') !important; background-size: contain; }*/

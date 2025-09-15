@@ -40,17 +40,19 @@
 /*.wttasks-icon-taskImportance-1 { background-image: url('taskimportance-1_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskImportance-5 { background-image: url('taskimportance-5_16.svg') !important; background-size: contain; }*/
 /*.wttasks-icon-taskImportance-9 { background-image: url('taskimportance-9_16.svg') !important; background-size: contain; }*/
-.wttasks-icon-taskSubject:before { content: '\f1dc'; font: var(--fa-font-solid); } .wttasks-icon-taskSubject { background-image: none !important }
-.wttasks-icon-taskLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wttasks-icon-taskLocation { background-image: none !important }
-.wttasks-icon-taskContact:before { content: '\f007'; font: var(--fa-font-solid); } .wttasks-icon-taskContact { background-image: none !important }
-.wttasks-icon-taskDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wttasks-icon-taskDescription { background-image: none !important }
-.wttasks-icon-taskDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wttasks-icon-taskDateTime { background-image: none !important }
-.wttasks-icon-taskReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wttasks-icon-taskReminder { background-image: none !important }
-.wttasks-icon-taskStatus:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-taskStatus { background-image: none !important }
-.wttasks-icon-taskAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wttasks-icon-taskAttachments { background-image: none !important }
-.wttasks-icon-taskStart:before { content: '\f783'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-taskStart { background-image: none !important }
-.wttasks-icon-taskDue:before { content: '\f273'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-taskDue { background-image: none !important }
-.wttasks-icon-taskDocRef:before { content: '\f05a'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-taskDocRef { background-image: none !important }
+/*.wttasks-icon-taskPrivate { background-image: url('section-private_16.svg') !important; background-size: contain; } .wttasks-icon-taskPrivate:before { content: ''; }*/
+.wttasks-icon-sectionAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wttasks-icon-sectionAttachments { background-image: none !important }
+/*.wttasks-icon-sectionAssignees { background-image: url('section-assignees_16.svg') !important; background-size: contain; } .wttasks-icon-sectionAssignees:before { content: ''; }*/
+.wttasks-icon-sectionContact:before { content: '\f007'; font: var(--fa-font-solid); } .wttasks-icon-sectionContact { background-image: none !important }
+.wttasks-icon-sectionDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wttasks-icon-sectionDateTime { background-image: none !important }
+.wttasks-icon-sectionDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wttasks-icon-sectionDescription { background-image: none !important }
+.wttasks-icon-sectionDocRef:before { content: '\f05a'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-sectionDocRef { background-image: none !important }
+.wttasks-icon-sectionDue:before { content: '\f273'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-sectionDue { background-image: none !important }
+.wttasks-icon-sectionLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wttasks-icon-sectionLocation { background-image: none !important }
+.wttasks-icon-sectionReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wttasks-icon-sectionReminder { background-image: none !important }
+.wttasks-icon-sectionStatus:before { content: '\f46d'; font: var(--fa-font-solid); } .wttasks-icon-sectionStatus { background-image: none !important }
+.wttasks-icon-sectionStart:before { content: '\f783'; font: var(--fa-font-solid); background-size: contain; } .wttasks-icon-sectionStart { background-image: none !important }
+.wttasks-icon-sectionSubject:before { content: '\f1dc'; font: var(--fa-font-solid); } .wttasks-icon-sectionSubject { background-image: none !important }
 
 /* ---------- ToolPanel */
 .wttasks-tool-searchpanel-body {

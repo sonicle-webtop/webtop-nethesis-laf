@@ -8520,17 +8520,17 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */
 .x-panel-default-framed {
-    border-color: #f3f4f6;
+    border-color: #374151;
     padding: 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:802 */
 .x-panel-default-framed.x-masked {
-    border-color: #f9fafb;
+    border-color: #9ba0a8;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */
 .x-panel-header-default-framed {
     font-size: 14px;
-    border: 2px solid #f3f4f6;
+    border: 2px solid #374151;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/panel/Panel.scss:842 */
 .x-panel-header-default-framed-horizontal {

@@ -74,3 +74,21 @@
     line-height: var(--wt-theme-lineheight-sm, inherit);
     font-weight: var(--wt-theme-fontweight-regular, normal);
 }
+.wttasks-public-main-files-grid-title {
+    font-size: var(--wt-theme-fontsize-2xl);
+    line-height: var(--wt-theme-lineheight-2xl);
+}
+.wttasks-public-main-files-grid-toolbar {
+    margin-bottom: 10px;
+}
+.wtvfs-public-main-files-grid .x-column-header-inner {
+    padding: 18px 10px 18px;
+}
+.wtvfs-public-main-files-grid .x-grid-cell-inner {
+	padding: 22px 10px 22px;
+}
+.wtvfs-public-main-files-grid .x-grid-item {
+	font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+}

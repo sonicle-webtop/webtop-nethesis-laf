@@ -51,7 +51,7 @@
 }
 /* Navbar: define 50x50 logo image */
 .wt-viewport-navbar-logo.so-tbimage { padding: 0px; }
-.wt-viewport-navbar-logo.so-tbimage .so-tbimage-image { background-image: url('logo.svg'); background-repeat: round; width: 50px !important; height: 50px !important; }
+.wt-viewport-navbar-logo.so-tbimage .so-tbimage-image { background-image: url('logo-symbol.svg'); background-repeat: round; width: 50px !important; height: 50px !important; }
 
 /* MoreLinksButton: customize BoundList's iconSize */
 .wt-launcher-morelinksbutton-list .x-list-plain {

@@ -45,6 +45,7 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
+/* Disabled: see Ext.form.field.Text in themes-override.css
 Ext.define('Nethesis.form.field.Password', {
 	override: 'Sonicle.form.field.Password',
 	
@@ -63,6 +64,7 @@ Ext.define('Nethesis.webtop.core.ux.field.Meeting', {
 		me.addCls('wt-field-fix-fallingtrigger');
 	}
 });
+*/
 Ext.define('Nethesis.overrides.mixin.Avatar', {
 	override: 'Sonicle.mixin.Avatar'
 	

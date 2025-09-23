@@ -254,12 +254,3 @@
     left: 0px;
     background-color: var(--wt-theme-color-surface-l2);
 }
-
-/* ---------- Ext.form.field.Text */
-/* Fix trigger right-icons in simple fields falling-left in the middle of the field itself */
-/* Do NOT use it in other fields (like combos) otherwise it will break their layout (it's not clear why combos are not affected!) */
-/* Disabled: see Ext.form.field.Text in themes-override.css
-.wt-field-fix-fallingtrigger .x-form-text-wrap {
-	width: 100%;
-}
-*/

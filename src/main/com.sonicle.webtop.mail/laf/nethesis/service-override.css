@@ -67,12 +67,16 @@
 .wtmail-icon-outMailFilters:before { content: '\f0b0'; font: var(--fa-font-solid); } .wtmail-icon-outMailFilters { background-image: none !important; }
 .wtmail-icon-autoResponder:before { content: '\f658'; font: var(--fa-font-solid); } .wtmail-icon-autoResponder { background-image: none !important; }
 
+.wtmail-icon-msgAddReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtmail-icon-msgAddReminder { background-image: none !important; }
 .wtmail-icon-msgAddReminder-on:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtmail-icon-msgAddReminder-on { background-image: none !important; }
 .wtmail-icon-msgAddReminder-off:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtmail-icon-msgAddReminder-off { background-image: none !important; }
+.wtmail-icon-msgSetReceipt:before { content: '\f00c'; font: var(--fa-font-solid); } .wtmail-icon-msgSetReceipt { background-image: none !important; }
 .wtmail-icon-msgSetReceipt-on:before { content: '\f00c'; font: var(--fa-font-solid); } .wtmail-icon-msgSetReceipt-on { background-image: none !important; }
 .wtmail-icon-msgSetReceipt-off:before { content: '\f00c'; font: var(--fa-font-solid); } .wtmail-icon-msgSetReceipt-off { background-image: none !important; }
+.wtmail-icon-msgSetPriorityHigh:before { content: '\f12a'; font: var(--fa-font-solid); } .wtmail-icon-msgSetPriorityHigh { background-image: none !important; }
 .wtmail-icon-msgSetPriorityHigh-on:before { content: '\f12a'; font: var(--fa-font-solid); } .wtmail-icon-msgSetPriorityHigh-on { background-image: none !important; }
 .wtmail-icon-msgSetPriorityHigh-off:before { content: '\f12a'; font: var(--fa-font-solid); } .wtmail-icon-msgSetPriorityHigh-off { background-image: none !important; }
+.wtmail-icon-msgSetMailcard:before { content: '\f5b7'; font: var(--fa-font-solid); } .wtmail-icon-msgSetMailcard { background-image: none !important; }
 .wtmail-icon-msgSetMailcard-on:before { content: '\f5b7'; font: var(--fa-font-solid); } .wtmail-icon-msgSetMailcard-on { background-image: none !important; }
 .wtmail-icon-msgSetMailcard-off:before { content: '\f5b7'; font: var(--fa-font-solid); } .wtmail-icon-msgSetMailcard-off { background-image: none !important; }
 

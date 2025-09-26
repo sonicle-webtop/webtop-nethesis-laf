@@ -87,6 +87,10 @@
     --wt-theme-field-radius: 6px;
     --wt-theme-grid-radius: 8px;
     
+    /* ---------- Ext.button.Button */
+    --so-button-pressed-nostyle-color: var(--wt-theme-color-n1);
+    --so-button-toggle-indicator-color-off: var(--wt-theme-color-n3);
+    --so-button-toggle-indicator-color-on: var(--wt-theme-color-1);
     /* ---------- Sonicle.ColorUtils */
     --so-colorswatch-framed-border-color: #9ca3af; /* Gray/400 */
     --so-colorswatch-darkmark-color: #111827; /* Gray/900 */

@@ -11,6 +11,15 @@ Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 		return Ext.apply(this.callParent(arguments), {
 			padding: '24 0 24 24'
 		});
+	},
+	
+	privates: {
+		
+		createToButtonCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				width: 70
+			});
+		}
 	}
 });
 Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {

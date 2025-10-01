@@ -58,7 +58,7 @@
     --wt-theme-color-navbar: var(--wt-theme-color-surface-l0);
     --wt-theme-color-taskbar: var(--wt-theme-color-surface-l2);
     
-    --wt-theme-fontfamily: 'Poppins, helvetica, arial, verdana, sans-serif';
+    --wt-theme-fontfamily: Poppins, helvetica, arial, verdana, sans-serif;
     --wt-theme-fontsize-xs: 12px;
     --wt-theme-fontsize-sm: 14px;
     --wt-theme-fontsize-base: 16px;

@@ -77,8 +77,8 @@ Ext.define('Nethesis.webtop.core.ux.app.taskbar.Bar', {
 		width: 180 // Taskbar buttons MUST have a fixed-width
 	}
 });
-Ext.define('Nethesis.webtop.core.viewport.private.Default', {
-	override: 'Sonicle.webtop.core.viewport.private.Default',
+Ext.define('Nethesis.webtop.core.private.viewport.Default', {
+	override: 'Sonicle.webtop.core.private.viewport.Default',
 
 	/*
 	 * Added CSS classes:
@@ -259,8 +259,8 @@ Ext.define('Nethesis.overrides.webtop.core.view.WizardView', {
 		}
 	}
 });
-Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
-	override: 'Sonicle.webtop.core.viewport.private.ViewController',
+Ext.define('Nethesis.overrides.webtop.core.private.viewport.ViewController', {
+	override: 'Sonicle.webtop.core.private.viewport.ViewController',
 	
 	viewsScaleFactor: {width: 1.3, height: 1.3}
 });

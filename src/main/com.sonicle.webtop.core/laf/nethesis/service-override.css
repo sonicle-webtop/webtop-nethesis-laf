@@ -85,6 +85,14 @@
 .wt-icon-edit:before { content: '\f044'; font: var(--fa-font-solid); } .wt-icon-edit { background-image: none !important }
 .wt-icon-cancel:before { content: '\f00d'; font: var(--fa-font-solid); } .wt-icon-cancel { background-image: none !important }
 .wt-icon-trash:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-trash { background-image: none !important }
+.wt-icon-password:before { content: '\f084'; font: var(--fa-font-solid); } .wt-icon-password { background-image: none !important }
+.wt-icon-useradd:before { content: '\f234'; font: var(--fa-font-solid); } .wt-icon-useradd { background-image: none !important }
+.wt-icon-userdel:before { content: '\f235'; font: var(--fa-font-solid); } .wt-icon-userdel { background-image: none !important }
+.wt-icon-settings:before { content: '\f013'; font: var(--fa-font-solid); } .wt-icon-settings { background-image: none !important }
+.wt-icon-lock:before { content: '\f023'; font: var(--fa-font-solid); } .wt-icon-lock { background-image: none !important }
+.wt-icon-unlock:before { content: '\f3c1'; font: var(--fa-font-solid); } .wt-icon-unlock { background-image: none !important }
+.wt-icon-bolt:before { content: '\f0e7'; font: var(--fa-font-solid); } .wt-icon-bolt { background-image: none !important }
+.wt-icon-internet:before { content: '\f57d'; font: var(--fa-font-solid); } .wt-icon-internet { background-image: none !important }
 .wt-icon-remove:before { content: '\f068'; font: var(--fa-font-solid); } .wt-icon-remove { background-image: none !important }
 .wt-icon-delete:before { content: '\f1f8'; font: var(--fa-font-solid); } .wt-icon-delete { background-image: none !important }
 .wt-icon-clone:before { content: '\f24d'; font: var(--fa-font-solid); } .wt-icon-clone { background-image: none !important }

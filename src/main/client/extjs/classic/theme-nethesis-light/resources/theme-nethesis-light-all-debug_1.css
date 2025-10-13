@@ -7479,7 +7479,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:598 */
 .x-toolbar-footer {
-    padding: 6px 0 6px 6px;
+    padding: 6px 0 6px 8px;
     border-style: solid;
     border-color: #d1d1d1;
     border-width: 0;
@@ -7492,7 +7492,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:629 */
 .x-toolbar-footer .x-toolbar-item {
-    margin: 0 6px 0 0;
+    margin: 0 8px 0 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:639 */
 .x-toolbar-footer .x-toolbar-separator-horizontal {
@@ -7505,11 +7505,11 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:648 */
 .x-toolbar-footer .x-box-menu-after {
-    margin: 0 6px;
+    margin: 0 8px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:653 */
 .x-toolbar-footer-vertical {
-    padding: 6px 6px 0;
+    padding: 6px 8px 0;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:662 */
 .x-toolbar-footer-vertical .x-toolbar-item {
@@ -7544,7 +7544,7 @@ body > .x-mask {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
 .x-toolbar-footer-scroller .x-box-scroller-body-horizontal {
-    margin-left: 26px;
+    margin-left: 24px;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:195 */
 .x-toolbar-footer-vertical-scroller .x-box-scroller-body-vertical {

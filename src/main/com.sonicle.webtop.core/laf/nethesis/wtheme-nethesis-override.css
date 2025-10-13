@@ -106,6 +106,7 @@
 /* Customize trigger-icon */
 .wt-searchfield .x-form-arrow-trigger-default { background: url(search-sliders.svg) no-repeat left !important; }
 .wt-searchfield .x-form-arrow-trigger-default:before { content: ''; }
+.wt-searchfield .x-form-trigger-right { color: var(--wt-theme-color-1); opacity: 1 !important; }
 
 /* ---------- KanbanColumn */
 /* Change collapse/expand icons and header color */
@@ -149,6 +150,14 @@
 }
 .wt-tabpanel-margin-b {
 	margin-bottom: 24px;
+}
+
+/* ---------- Ext.form.trigger.Trigger */
+.x-form-trigger.x-form-trigger-right:not(.x-form-trigger-last) {
+    padding-right: 8px;
+}
+.x-form-trigger.x-form-trigger-left:not(.x-form-trigger-first) {
+    padding-left: 8px;
 }
 
 /* ---------- Ext.menu.Item */

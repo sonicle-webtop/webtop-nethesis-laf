@@ -59,3 +59,4 @@
 .wtadm-icon-stmtStatus-error:before { content: '\f057'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-error { background-image: none !important; background-size: contain; }
 .wtadm-icon-stmtStatus-warning:before { content: '\f071'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-warning { background-image: none !important; background-size: contain; }
 .wtadm-icon-stmtStatus-skipped:before { content: '\f04e'; font: var(--fa-font-solid); } .wtadm-icon-stmtStatus-skipped { background-image: none !important; background-size: contain; }
+.wtadm-icon-resources:before { content: '\f54f'; font: var(--fa-font-solid); } .wtadm-icon-resources { background-image: none !important }

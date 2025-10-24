@@ -1,13 +1,7 @@
-
-/* ---------- MessageView */
-.wtmail-messageview-toolbar-container {
-    background-color: var(--wt-theme-color-surface-l1) !important;
-}
+/* ---------- MessageGrid */
 .wtmail-grid-toolbar-container {
 	background-color: var(--wt-theme-color-surface-l1) !important;
 }
-
-/* ---------- MessageGrid */
 /* Unselected row Unread */
 .wtmail-message-grid .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-unread TD {
 	background-color: #1e1b4b; /* Indigo/950 - NDS : Surface/Background/New email */
@@ -16,6 +10,8 @@
 .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-today { 
 	background: initial;
 }
-
 /* ---------- MessageView */
+.wtmail-messageview-toolbar-container {
+    background-color: var(--wt-theme-color-surface-l1) !important;
+}
 .wtmail-mv-main, .wtmail-mv-table { background: var(--wt-theme-color-surface-l1) !important; }

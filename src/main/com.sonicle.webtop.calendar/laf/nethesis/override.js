@@ -10,9 +10,7 @@ Ext.define('Nethesis.overrides.webtop.calendar.Service', {
 	
 	createSchedulerCfg: function(tagsStore, cfg) {
 		return Ext.apply(this.callParent(arguments), {
-			showWeekNumbers: true,
-			toolbarLayout: ['headerText', ' ', 'controlButtons', '->', 'viewButtons'],
-			headerTextMinWidth: 180
+			showWeekNumbers: true
 		});
 	}
 });

@@ -147,8 +147,26 @@ body {
 	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.06); /* Opera 10.5, IE 9.0 */
 }
 /* Set BG for grids inside canbancolumn */
-.x-panel-panel-kanbancolumn .x-grid .x-grid-item {
+.x-panel-panel-kanbancolumn .x-grid .x-grid-body,
+.x-panel-panel-kanbancolumn .x-grid .x-grid-item,
+.x-panel-panel-kanbancolumn .x-grid-empty {
     background-color: var(--wt-theme-color-surface-l0);
+}
+
+/* ---------- Ext.panel.Panel */
+/* Force panel's body BG to base when using 'border' layout */
+.x-panel-body-default.x-border-layout-ct {
+	background-color: var(--wt-theme-color-surface-l1);
+}
+/* Force splitter BG to its original color, to avoid that the above override set it back to L0  */
+.x-splitter {
+    background-color: var(--wt-theme-color-surface-l3);
+}
+
+/* ---------- Sonicle.form.Image */
+/* Set BG like panels body */
+.so-form-image .x-form-trigger {
+    background-color: var(--wt-theme-color-surface-l1);
 }
 
 /* ---------- Sonicle.fullcalendar.Panel */

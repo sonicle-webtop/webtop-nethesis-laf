@@ -24,7 +24,7 @@
 .wtcon-icon-sendByEmail:before { content: '\f1e0'; font: var(--fa-font-solid); } .wtcon-icon-sendByEmail { background-image: none !important }
 .wtcon-icon-writeMessage:before { content: '\f0e0'; font: var(--fa-font-solid); } .wtcon-icon-writeMessage { background-image: none !important }
 .wtcon-icon-createEvent:before { content: '\f271'; font: var(--fa-font-solid); } .wtcon-icon-createEvent { background-image: none !important }
-.wtcon-icon-uploadContactPicture:before { content: '\f35b'; font: var(--fa-font-solid); }
+.wtcon-icon-uploadContactPicture:before { content: ''; font: var(--fa-font-solid); }
 .wtcon-icon-clearContactPicture:before { content: '\f057'; font: var(--fa-font-solid); }
 /* ---------- Icons (others) */
 .wtcon-icon-reminder-birthday:before { content: '\f1fd'; font: var(--fa-font-solid); } .wtcon-icon-reminder-birthday { background-image: none !important }

@@ -162,16 +162,6 @@ body > .x-mask {
 .x-menu-item-icon.fas { top: 8px; }
 .x-menu-item-icon.far { top: 8px; }
 
-/* ---------- Ext.panel.Panel (same as custombuilt.css) */
-/* Force panel's body BG to base when using 'border' layout */
-.x-panel-body-default.x-border-layout-ct {
-	background-color: var(--wt-theme-color-surface-l0);
-}
-/* Force splitter BG to its original color, to avoid that the above override set it back to L0  */
-.x-splitter {
-    background-color: var(--wt-theme-color-surface-l3);
-}
-
 /* ---------- Ext.panel.Panel@panel-kanbancolumn (same as custombuilt.css) */
 /* Add radius support to panel-kanbancolumn UI */
 .x-panel-panel-kanbancolumn {

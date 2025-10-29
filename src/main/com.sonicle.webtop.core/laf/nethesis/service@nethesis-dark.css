@@ -1,11 +1,20 @@
-/* Navbar: watermark */
+/* ---------- Navbar */
+/* Set watermark backgrounds */
 .wt-viewport-navbar-watermark-right {
     background-color: #374151; /* Gray/700 - NDS : Border/Ring/Secondary */
 }
+/* Set specific color to buttons */
+.wt-viewport-navbar .x-btn:not(.x-btn-over):not(.x-btn-pressed) {
+    background-color: var(--wt-theme-color-surface-l0);
+}
 
-/* Topbar customization */
+/* ---------- Topbar */
 .wt-viewport-topbar .x-toolbar-separator {
     border-left-color: #6b7280; /* Gray/500 */
+}
+/* Set specific color to buttons */
+.wt-viewport-topbar .x-btn:not(.x-btn-over):not(.x-btn-pressed) {
+    background-color: var(--wt-theme-color-surface-l0);
 }
 
 /* ---------- Tool HD/Body */

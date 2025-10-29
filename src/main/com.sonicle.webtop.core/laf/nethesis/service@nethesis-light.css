@@ -1,9 +1,10 @@
-/* Navbar: watermark */
+/* ---------- Navbar */
+/* Set watermark backgrounds */
 .wt-viewport-navbar-watermark-right {
     background-color: #e5e7eb; /* Gray/200 */
 }
 
-/* Topbar customization */
+/* ---------- Topbar */
 .wt-viewport-topbar .x-toolbar-separator {
     border-left-color: #d1d5db; /* Gray/300 */
 }

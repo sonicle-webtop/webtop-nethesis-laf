@@ -86,13 +86,14 @@
 .wtmail-pec-delivered:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wtmail-pec-delivered { background-image: none !important; }
 .wtmail-pec-error:before { content: '\e4e8'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wtmail-pec-error { background-image: none !important; }
 
-.wtmail-icon-pas-danger:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-1); } .wtmail-icon-pas-danger { background-image: none !important }
-.wtmail-icon-pas-warning:before { content: '\f058'; font: var(--fa-font-solid); color: #ebab37; } .wtmail-icon-pas-warning { background-image: none !important }
-.wtmail-icon-pas-ok:before { content: '\f058'; font: var(--fa-font-solid); color: #15803D; } .wtmail-icon-pas-ok { background-image: none !important }
-.wtmail-icon-pas-spam-green:before { content: '\f2ca'; font: var(--fa-font-solid); color: #15803D; } .wtmail-icon-pas-spam-green { background-image: none !important; }
-.wtmail-icon-pas-spam-yellow:before { content: '\f2c9'; font: var(--fa-font-solid); color: #ebab37; } .wtmail-icon-pas-spam-yellow { background-image: none !important; }
-.wtmail-icon-pas-spam-red:before { content: '\f2c7'; font: var(--fa-font-solid); color: var(--wt-theme-color-1); } .wtmail-icon-pas-spam-red { background-image: none !important; }
-.wtmail-icon-pas-spam-unknown:before { content: '\f2cb'; font: var(--fa-font-solid); color: #9CA3AF; } .wtmail-icon-pas-spam-unknown { background-image: none !important; }
+.wtmail-icon-pas-attention:before { content: '\f071'; font: var(--fa-font-solid); } .wtmail-icon-pas-attention { background-image: none !important }
+.wtmail-icon-pas-danger:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wtmail-icon-pas-danger { background-image: none !important }
+.wtmail-icon-pas-warning:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wtmail-icon-pas-warning { background-image: none !important }
+.wtmail-icon-pas-ok:before { content: '\f058'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wtmail-icon-pas-ok { background-image: none !important }
+.wtmail-icon-pas-spam-green:before { content: '\f2ca'; font: var(--fa-font-solid); color: var(--wt-theme-color-ok); } .wtmail-icon-pas-spam-green { background-image: none !important; }
+.wtmail-icon-pas-spam-yellow:before { content: '\f2c9'; font: var(--fa-font-solid); color: var(--wt-theme-color-warn); } .wtmail-icon-pas-spam-yellow { background-image: none !important; }
+.wtmail-icon-pas-spam-red:before { content: '\f2c7'; font: var(--fa-font-solid); color: var(--wt-theme-color-error); } .wtmail-icon-pas-spam-red { background-image: none !important; }
+.wtmail-icon-pas-spam-unknown:before { content: '\f2cb'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtmail-icon-pas-spam-unknown { background-image: none !important; }
 
 /*.wtmail-dockoff-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: url('dock-hide-on_16.svg') !important; background-size: contain; }*/
 /*.wtmail-dockoff-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: url('dock-hide-off_16.svg') !important; background-size: contain; }*/
@@ -205,11 +206,9 @@
 }
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-read:not(.wtmail-x-grid-item-noborderbottom) {
 	border-width: 0px 0 1px;
-	border-color: #e5e7eb;
 }
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-unread:not(.wtmail-x-grid-item-noborderbottom) {
 	border-width: 0px 0 1px;
-	border-color: white;
 }
 .wtmail-row-body .x-grid-rowbody {
 	padding-left: 100px !important;

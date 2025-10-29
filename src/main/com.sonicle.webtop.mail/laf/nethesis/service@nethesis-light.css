@@ -10,6 +10,14 @@
 .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-today { 
 	background: initial;
 }
+/* Set bottom border */
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-read:not(.wtmail-x-grid-item-noborderbottom) {
+	border-color: #e5e7eb; /* Gray/200 */
+}
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-unread:not(.wtmail-x-grid-item-noborderbottom) {
+	border-color:#e5e7eb; /* Gray/200 */
+}
+
 /* ---------- MessageView */
 .wtmail-messageview-toolbar-container {
     background-color: var(--wt-theme-color-surface-l2-inv) !important;

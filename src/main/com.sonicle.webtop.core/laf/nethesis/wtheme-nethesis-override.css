@@ -230,7 +230,7 @@
     box-shadow: 0px 0px 0px 8px var(--wt-theme-color-error-ct);
 }
 
-/* ---------- Sonicle.webtop.core.view.Options */
+/* ---------- .view.Options */
 /* Left pad the entire options view */
 .wt-view-options {
 	padding-left: 10px
@@ -244,22 +244,29 @@
 	border: 0px;
 }
 
-/* ---------- Sonicle.webtop.core.sdk.UserOptionsView */
+/* ---------- .sdk.UserOptionsView */
 /* Add pad to the upper side of the options view */
 .wt-useroptionsview {
 	padding-top: 24px;
 }
-/* Position left tabs as from mockup */
-.wt-useroptionsview * .x-tab-bar-body {
-    padding: 16px 24px 16px 14px;
+/* Style vertical tabs applying radius and BG */
+.wt-useroptionsview .x-tab-bar-vertical .x-tab.x-tab-over {
+    border-radius: 4px;
 }
-/* Style left tabs as from mockup */
-.wt-useroptionsview * .x-tab-active:before {
+.wt-useroptionsview .x-tab-bar-vertical .x-tab.x-tab-active {
+    border-radius: 4px;
+    background-color: var(--wt-theme-color-surface-l2);
+}
+/* Add left watermark to active tabs */
+.wt-useroptionsview .x-tab-bar-vertical .x-tab.x-tab-left.x-tab-active:before {
 	border-bottom: 0px !important;
     border-left: 2px solid var(--wt-theme-color-1) !important;
     border-radius: 4px;
     top: 2px;
     bottom: 2px;
     left: 0px;
-    background-color: var(--wt-theme-color-surface-l2);
+}
+/* Add some padding to tab body */
+.wt-useroptionsview .x-tab-bar-vertical .x-tab-bar-body {
+    padding: 16px 24px 16px 14px;
 }

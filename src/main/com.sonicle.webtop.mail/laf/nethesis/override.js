@@ -1,3 +1,50 @@
+Ext.define('Nethesis.overrides.webtop.mail.MessagesPanel', {
+	override: 'Sonicle.webtop.mail.MessagesPanel',
+	
+	queryMails: function(query) {
+		this.toggleKeepFilterButton(query.value);
+		this.callParent(arguments);
+	},
+	
+	privates: {
+		
+		createMainToolbarItems: function() {
+			var me = this,
+				ret = me.callParent(arguments),
+				iof = Ext.Array.indexOf(ret, me.keepFilterButton);
+			if (iof > -1) Ext.Array.replace(ret, iof, 2, [me.searchComponent, me.keepFilterButton]);
+			return ret;
+		},
+		
+		createKeepFilterBtnCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.ui;
+			delete ret.enableToggleIndicator;
+			return Ext.apply(ret, {
+				xtype: 'soplaintogglebutton',
+				hidden: true
+			});
+		},
+		
+		createSearchFieldCfg: function(cfg) {
+			var me = this,
+				ret = me.callParent(arguments);
+			return Ext.merge(ret, {
+				listeners: {
+					change: function(s, nv, ov) {
+						me.toggleKeepFilterButton(nv);
+					}
+				}
+			});
+		},
+		
+		toggleKeepFilterButton: function(value) {
+			var me = this, hidden=Ext.isEmpty(value);
+			if (hidden) me.keepFilterButton.toggle(false);
+			me.keepFilterButton.setHidden(hidden);
+		}
+	}
+});
 Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 	override: 'Sonicle.webtop.mail.view.MessageEditor',
 	

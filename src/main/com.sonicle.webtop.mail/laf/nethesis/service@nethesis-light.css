@@ -15,7 +15,7 @@
 	border-color: #e5e7eb; /* Gray/200 */
 }
 .wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-unread:not(.wtmail-x-grid-item-noborderbottom) {
-	border-color:#e5e7eb; /* Gray/200 */
+    border-color: var(--wt-theme-color-surface-l0);
 }
 
 /* ---------- MessageView */

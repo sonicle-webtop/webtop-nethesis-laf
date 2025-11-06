@@ -316,7 +316,7 @@
     width: 16px;
     height: 16px;
     font: 12px/1 'Font Awesome 5 Free';
-    color: #111827;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
 .x-tab-default .x-tab-close-btn:before {
@@ -336,7 +336,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4139 */
 .x-keyboard-mode .x-tab-default.x-tab-focus .x-tab-close-btn {
-    color: #111827;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4145 */
 .x-keyboard-mode .x-tab-bar-plain .x-tab-default.x-tab-focus .x-tab-close-btn {
@@ -344,7 +344,7 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4156 */
 .x-tab-default.x-tab-over .x-tab-close-btn {
-    color: #9ca3af;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4160 */
 .x-tab-bar-plain .x-tab-default.x-tab-over .x-tab-close-btn {
@@ -360,15 +360,15 @@
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4188 */
 .x-tab-default.x-tab-active .x-tab-close-btn {
-    color: #d7d9dc;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4219 */
 .x-keyboard-mode .x-tab-default.x-tab-focus.x-tab-active .x-tab-close-btn {
-    color: #d7d9dc;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4235 */
 .x-tab-default.x-tab-disabled .x-tab-close-btn {
-    color: #111827;
+    color: #d1d5db;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     opacity: 0.3;
     background-position: 0 0;

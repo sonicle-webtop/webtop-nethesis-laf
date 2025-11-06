@@ -15844,12 +15844,12 @@ div.x-border-layout-ct {
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3220 */
 .x-tab-inner-default {
     font: 500 16px/20px Poppins, sans-serif;
-    color: #6b7280;
+    color: #d1d5db;
     max-width: 100%;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3228 */
 .x-tab-bar-plain .x-tab-inner-default {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3236 */
 .x-tab-icon-right > .x-tab-inner-default,
@@ -15862,7 +15862,7 @@ div.x-border-layout-ct {
     background-position: center center;
     font-size: 20px;
     line-height: 20px;
-    color: #6b7280;
+    color: #d1d5db;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3245 */
 .x-tab-icon-left > .x-tab-icon-el-default,
@@ -15876,7 +15876,7 @@ div.x-border-layout-ct {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3261 */
 .x-tab-bar-plain .x-tab-icon-el-default {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3266 */
 .x-tab-icon-el-default.x-tab-glyph {
@@ -15926,21 +15926,21 @@ div.x-border-layout-ct {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3398 */
 .x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-inner-default {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3404 */
 .x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-icon-el {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3454 */
 .x-tab-over.x-tab-default {
     border-color: #fff;
     background-image: none;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
 .x-ie8 .x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14ffffff, endColorstr=#14ffffff)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff)";
     zoom: 1;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3483 */
@@ -15951,32 +15951,28 @@ div.x-border-layout-ct {
 .x-ie8 .x-tab-over.x-tab-default.x-tab-rotate-right {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
 }
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3515 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #9fb0d5;
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3510 */
+.x-tab-over.x-tab-default .x-tab-inner-default {
+    color: #f9fafb;
 }
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3546 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #9fb0d5;
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3530 */
+.x-tab-over.x-tab-default .x-tab-icon-el {
+    color: #f9fafb;
+}
+/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3539 */
+.x-ie8m .x-tab-over.x-tab-default .x-tab-icon-el {
+    color: #fbfcfc;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3567 */
 .x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
     border-color: #fff;
     background-image: none;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0);
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
 .x-ie8 .x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14ffffff, endColorstr=#14ffffff)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff)";
     zoom: 1;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3612 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #9fb0d5;
-}
-/* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3618 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #9fb0d5;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3642 */
 .x-keyboard-mode.x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-left {
@@ -16037,7 +16033,7 @@ div.x-border-layout-ct {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3981 */
 .x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4000 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el-default {
@@ -16046,13 +16042,13 @@ div.x-border-layout-ct {
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4005 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #6b7280;
+    color: #d1d5db;
     opacity: 0.3;
     filter: none;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4026 */
 .x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #9fb0d5;
+    color: #e5e7eb;
 }
 /* D:/Sonicle/Workspaces/wt5-workspace/extjs750/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4046 */
 .x-nbr .x-tab-default {

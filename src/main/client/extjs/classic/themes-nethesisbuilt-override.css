@@ -237,7 +237,7 @@ body > .x-mask {
 }
 
 /* ---------- Ext.tab.Panel */
-/* Add bottom-line to selected tab */
+/* Add bottom-line to active (selected) and hovered tab */
 .x-tab-active:before {
     content: '';
     position: absolute;
@@ -245,6 +245,13 @@ body > .x-mask {
     left: 5px;
     right: 5px;
     border-bottom: 2px solid var(--wt-theme-color-1);
+}
+.x-tab-bar-plain .x-tab:not(.x-tab-active):hover:before {
+	content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
 }
 
 /* ---------- Ext.tab.Tab  */

@@ -163,6 +163,12 @@ body {
     background-color: var(--wt-theme-color-surface-l3);
 }
 
+/* ---------- Ext.tab.Panel */
+/* Add bottom-line to active (selected) and hovered tab */
+.x-tab-bar-plain .x-tab:not(.x-tab-active):hover:before {
+    border-bottom: 2px solid #374151; /* Gray/700 - Border/Ring/Secondary */
+}
+
 /* ---------- Sonicle.form.Image */
 /* Set BG like panels body */
 .so-form-image .x-form-trigger {

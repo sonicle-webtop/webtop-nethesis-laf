@@ -253,6 +253,10 @@ body > .x-mask {
     left: 5px;
     right: 5px;
 }
+/* Hide over BG */
+.x-tab-bar-plain .x-tab.x-tab-over {
+    background-color: transparent;
+}
 
 /* ---------- Ext.tab.Tab  */
 /* Remove outline on focus and press */

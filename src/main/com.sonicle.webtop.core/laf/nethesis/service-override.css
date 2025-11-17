@@ -100,6 +100,7 @@
 .wt-icon-move:before { content: '\f061'; font: var(--fa-font-solid); } .wt-icon-move { background-image: none !important }
 .wt-icon-clipboard-copy:before { content: '\f24d'; font: var(--fa-font-solid); } .wt-icon-clipboard-copy { background-image: none !important }
 .wt-icon-clipboard-paste:before { content: '\f0ea'; font: var(--fa-font-solid); } .wt-icon-clipboard-paste { background-image: none !important }
+.wt-icon-generate:before { content: '\e2ca'; font: var(--fa-font-solid); } .wt-icon-generate { background-image: none !important }
 .wt-icon-restore:before { content: '\f0e2'; font: var(--fa-font-solid); } .wt-icon-restore { background-image: none !important }
 .wt-icon-refresh:before { content: '\f021'; font: var(--fa-font-solid); } .wt-icon-refresh { background-image: none !important }
 .wt-icon-cleanup:before { content: '\f51a'; font: var(--fa-font-solid); } .wt-icon-cleanup { background-image: none !important }

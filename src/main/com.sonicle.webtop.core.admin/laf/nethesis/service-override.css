@@ -28,6 +28,7 @@
 .wtadm-icon-dbUpgrader:before { content: '\f1c0'; font: var(--fa-font-solid); } .wtadm-icon-dbUpgrader { background-image: none !important; background-size: contain; }
 .wtadm-icon-domains:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtadm-icon-domains { background-image: none !important; background-size: contain; }
 .wtadm-icon-domain:before { content: '\f0ac'; font: var(--fa-font-solid); } .wtadm-icon-domain { background-image: none !important; background-size: contain; }
+.wtadm-icon-domain-enabled:before { content: '\f0ac'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtadm-icon-domain-enabled { background-image: none !important; background-size: contain; }
 .wtadm-icon-domain-disabled:before { content: '\f0ac'; font: var(--fa-font-solid); color: var(--wt-theme-color-off); } .wtadm-icon-domain-disabled { background-image: none !important; background-size: contain; }
 .wtadm-icon-groups:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtadm-icon-groups { background-image: none !important; background-size: contain; }
 .wtadm-icon-group:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtadm-icon-group { background-image: none !important; background-size: contain; }

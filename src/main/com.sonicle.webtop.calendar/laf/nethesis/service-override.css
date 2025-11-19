@@ -1,0 +1,133 @@
+/* ---------- Icons (service) */
+.wtcal-icon-service,
+.wtcal-icon-service-sm { background-image: url('service.svg') !important; background-size: contain; }
+.wtcal-icon-service-off-sm { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtcal-icon-service-md { background-image: url('service.svg') !important; background-size: contain; }
+.wtcal-icon-service-off-md { background-image: url('service-off.svg') !important; background-size: contain; }
+.wtcal-icon-service-lg { background-image: url('service.svg') !important; background-size: contain; }
+.wtcal-icon-service-off-lg { background-image: url('service-off.svg') !important; background-size: contain; }
+/* ---------- Icons (actions) */
+.wtcal-icon-addCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-addRemoteCalendar:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addRemoteCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-viewCalendarLinks:before { content: '\f0c1'; font: var(--fa-font-solid); } .wtcal-icon-viewCalendarLinks { background-image: none !important; background-size: contain; }
+.wtcal-icon-editCalendar:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-editCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-deleteCalendar:before { content: '\f1f8'; font: var(--fa-font-solid); } .wtcal-icon-deleteCalendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
+.wtcal-icon-addEvent:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addEvent { background-image: none !important }
+.wtcal-icon-openEvent:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-openEvent { background-image: none !important }
+.wtcal-icon-rejoinSeries:before { content: '\f0e2'; font: var(--fa-font-solid); } .wtcal-icon-rejoinSeries { background-image: none !important }
+.wtcal-icon-importEvents:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcal-icon-importEvents { background-image: none !important }
+.wtcal-icon-exportEvents:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcal-icon-exportEvents { background-image: none !important }
+.wtcal-icon-showDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-showDescription { background-image: none !important }
+.wtcal-icon-addResource:before { content: '\f055'; font-family: var(--fa-style-family-classic); } .wtcal-icon-addResource { background-image: none !important }
+.wtcal-icon-addMeeting:before { content: '\f03d'; font: var(--fa-font-solid); } .wtcal-icon-addMeeting { background-image: none !important }
+/* ---------- Icons (others) */
+.wtcal-icon-reminder-event:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-reminder-event { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendar:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendar { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarMy:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarMy { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarIncoming:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarIncoming { background-image: none !important; background-size: contain; }
+.wtcal-icon-calendarRemote:before { content: '\f133'; font: var(--fa-font-solid); } .wtcal-icon-calendarRemote { background-image: none !important; background-size: contain; }
+.wtcal-icon-event:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event { background-image: none !important }
+.wtcal-icon-event-single:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event-single { background-image: none !important }
+.wtcal-icon-event-recurring:before { content: '\f021'; font: var(--fa-font-solid); } .wtcal-icon-event-recurring { background-image: none !important }
+.wtcal-icon-event-broken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-event-broken { background-image: none !important }
+.wtcal-icon-sectionAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttachments { background-image: none !important }
+.wtcal-icon-sectionAttendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttendees { background-image: none !important }
+.wtcal-icon-sectionDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-sectionDateTime { background-image: none !important }
+.wtcal-icon-sectionDescription:before { content: '\f036'; font: var(--fa-font-solid); } .wtcal-icon-sectionDescription { background-image: none !important }
+.wtcal-icon-sectionLocation:before { content: '\f3c5'; font: var(--fa-font-solid); } .wtcal-icon-sectionLocation { background-image: none !important }
+.wtcal-icon-sectionReminder:before { content: '\f0f3'; font: var(--fa-font-solid); } .wtcal-icon-sectionReminder { background-image: none !important }
+.wtcal-icon-sectionTitle:before { content: '\f1dc'; font: var(--fa-font-solid); } .wtcal-icon-sectionTitle { background-image: none !important }
+/*.wtcal-icon-attendeeResponse-NA { background-image: url('response-needsAction_16.svg') !important; background-size: contain; }*/
+/*.wtcal-icon-attendeeResponse-AC { background-image: url('response-accepted_16.svg') !important; background-size: contain; }*/
+/*.wtcal-icon-attendeeResponse-DE { background-image: url('response-declined_16.svg') !important; background-size: contain; }*/
+/*.wtcal-icon-attendeeResponse-TE { background-image: url('response-tentative_16.svg') !important; background-size: contain; }*/
+
+/* ---------- Planning Grid */
+.wtcal-planning-grid .x-group-header:after {
+	width: 0px;
+}
+/* ---------- view.Event */
+/* Force same spacing like from field and import button */
+.wtcal-spacer-event-addresource {
+    margin-right: 16px !important;
+}
+/* ---------- Attendees checked icon */
+.wtcal-attendees-notify-checkcolumn:after {
+    content: '\f204';
+    font-family: var(--fa-style-family-classic);
+    color: var(--wt-theme-color-off);
+}
+.wtcal-attendees-notify-checkcolumn.x-grid-checkcolumn-checked:after {
+    content: '\f205';
+    color: var(--wt-theme-color-1);
+}
+/* ---------- Portlet Grid */
+/* Override padding */
+.wtcal-portlet-grid .x-grid-item {
+    border-color: transparent;
+}
+.wtcal-portlet-grid .x-grid-cell-first .x-grid-cell-inner {
+    padding-left: 16px;
+}
+.wtcal-portlet-grid .x-grid-rowbody {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/* ---------- Portlet EventsBody */
+/* Override default style */
+.wtcal-portlet-event-body .x-grid-rowbody {
+    gap: 8px;
+}
+.wtcal-portlet-event-body-atdate {
+	color: var(--wt-theme-color-n3);
+}
+.wtcal-portlet-event-body-attime {
+	padding: 2px 10px;
+	border-radius: 10px;
+	background: var(--wt-theme-color-surface-l2);
+}
+.wtcal-portlet-event-body-location {
+    color: unset;
+}
+/* ---------- ToolPanel */
+.wtcal-tool-searchpanel-body {
+    padding: 24px 16px 18px 16px;
+}
+.wtcal-tool-tree {
+    margin-left: 10px;
+}
+.wtcal-tool-calendarpanel {
+    margin-top: 6px;
+}
+
+/* ---------- Main (center) scheduler */
+.wtcal-main-scheduler {
+    padding: 26px 32px 0px 32px;
+}
+
+/* ---------- FullCalendar Panel (tooltip) */
+.so-cal-appo-hov {
+    gap: 16px;
+	font-size: var(--wt-theme-fontsize-sm);
+    font-weight: var(--wt-theme-fontweight-regular);
+}
+.so-cal-appo-hov-group {
+    gap: 8px;
+}
+.so-cal-appo-hov-title {
+	font-size: var(--wt-theme-fontsize-lg);
+    font-weight: var(--wt-theme-fontweight-medium);
+}
+.so-cal-appo-hov-when {
+	font-size: var(--wt-theme-fontsize-xs);
+}
+.so-cal-appo-hov-calendar > i,
+.so-cal-appo-hov-where > i,
+.so-cal-appo-hov-organizer > i {
+    margin-right: 8px;
+}
+/* ---------- EventView */
+.wtcal-event-info .x-form-display-field {
+	padding-left: 45px;
+}

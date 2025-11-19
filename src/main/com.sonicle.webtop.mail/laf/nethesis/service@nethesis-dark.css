@@ -1,0 +1,30 @@
+/* ---------- MessageGrid */
+.wtmail-grid-toolbar-container {
+	background-color: var(--wt-theme-color-surface-l1) !important;
+}
+/* Unselected row Unread */
+.wtmail-message-grid .x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-unread TD {
+	background-color: #1e1b4b; /* Indigo/950 - NDS : Surface/Background/New email */
+}
+/* Unselected row Today */
+.x-grid-item:not([class*="x-grid-item-selected"]) .wtmail-row-today { 
+	background: initial;
+}
+/* Set bottom border */
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-read:not(.wtmail-x-grid-item-noborderbottom) {
+	border-color: #374151; /* Gray/700 */
+}
+.wtmail-message-grid .x-grid-with-row-lines .x-grid-item.wtmail-x-grid-item-unread:not(.wtmail-x-grid-item-noborderbottom) {
+	border-color: var(--wt-theme-color-surface-l1);
+}
+/* ---------- MessageView */
+.wtmail-messageview-toolbar-container {
+    background-color: var(--wt-theme-color-surface-l1) !important;
+}
+.wtmail-mv-main, .wtmail-mv-table { background: var(--wt-theme-color-surface-l1) !important; }
+
+/* ---------- MessageEditor */
+/* Set attachments field BG like panel BG */
+.wtmail-attach-taglist .x-form-text-default {
+    background-color: var(--wt-theme-color-surface-l1);
+}

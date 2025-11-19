@@ -1,0 +1,568 @@
+/**************************************/
+/* This file should contain tweaks/fixes for all themer-built Nethesis themes that 
+/* use the modern "triton" theme as base theme.
+/* Only for custom-built Nethesis themes (customized using Themer app).
+/**************************************/
+
+/* ---------- Browser */
+/* Increase scrollbar size */
+::-webkit-scrollbar {
+    width: 8px; /* for vertical scrollbars */
+    height: 8px; /* for horizontal scrollbars */
+}
+
+/* ---------- Ext.Mask (same as custombuilt.css) */
+body > .x-mask {
+    background-color: var(--wt-theme-color-mask);
+}
+
+/* ---------- Ext.button.Button (same as custombuilt.css) */
+/* Add default icon family to FA free */
+.x-btn-icon-el:empty { font-family: var(--fa-style-family-classic); }
+/* Fix arrow color not customizable via SenchaThemer */
+.x-btn-button-secondary-small .x-btn-arrow-right:after,
+.x-btn-button-secondary-medium .x-btn-arrow-right:after,
+.x-btn-button-secondary-large .x-btn-arrow-right:after {
+    color: var(--wt-theme-color-1);
+}
+
+/* ---------- Ext.button.Segmented (same as custombuilt.css) */
+/* Customize segmented UI (button-segmented) */
+.x-btn-button-segmented-small.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-medium.x-btn-pressed .x-btn-inner,
+.x-btn-button-segmented-large.x-btn-pressed .x-btn-inner {
+    color: var(--wt-theme-color-1);
+}
+
+/* ---------- Ext.button.Split (same as custombuilt.css) */
+/* Force icon color */
+.x-btn-wrap-button-secondary-small.x-btn-split:after,
+.x-btn-wrap-button-tertiary-small.x-btn-split:after { color: var(--wt-theme-color-1); }
+.x-btn-wrap-button-secondary-medium.x-btn-split:after,
+.x-btn-wrap-button-tertiary-medium.x-btn-split:after { color: var(--wt-theme-color-1); }
+.x-btn-wrap-button-secondary-large.x-btn-split:after,
+.x-btn-wrap-button-tertiary-large.x-btn-split:after { color: var(--wt-theme-color-1); }
+/* Fix separator color and height (default was a top-bottom line) */
+.x-btn-wrap-default-small.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-default-medium.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-default-large.x-btn-split-right > .x-btn-button:after {
+    height: 100%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
+    border-color: var(--wt-theme-color-n1-inv);
+}
+.x-btn-wrap-button-secondary-small.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-button-secondary-medium.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-button-secondary-large.x-btn-split-right > .x-btn-button:after {
+    height: 100%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
+    border-color: var(--wt-theme-color-n1-inv);
+}
+.x-btn-wrap-button-tertiary-small.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-button-tertiary-medium.x-btn-split-right > .x-btn-button:after,
+.x-btn-wrap-button-tertiary-large.x-btn-split-right > .x-btn-button:after {
+    height: 100%;
+    /*top: -5%; for original lineheight */
+    top: 0%;
+    border-color: var(--wt-theme-color-n1-inv);
+}
+
+/* ---------- Ext.form.field.Display */
+/* Fix text vertical alignment */
+.x-form-display-field-default {
+    /*margin-top: 14px;*/ /* commented for fixing */
+}
+
+/* ---------- Ext.form.field.Text */
+.x-form-trigger {
+    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
+    text-align: left;
+    width: 24px;
+}
+.x-form-trigger-left {
+    text-align: right;
+    width: 24px;
+}
+
+/* ---------- Ext.form.field.TextArea */
+/* Provide SW (south-west) handle for customized smart resizing */
+.x-form-text-wrap {
+    border-radius: 6px; /* Triggers do NOT have rounded corners by default, so the hides radius on fields */
+}
+
+/* ---------- Ext.form.Labelable  */
+/* Avoid wrap round of text, good for label align top */
+.x-form-item-label-text {
+	text-wrap: nowrap;
+}
+
+/* ---------- Ext.form.trigger.Spinner  */
+/* Fix width, too large for field */
+.x-form-spinner-default {
+    width: 15px;
+}
+
+/* ---------- Ext.grid.Panel */
+/* Fix hide top border when x-grid-no-border (custom class) is explict */
+.x-grid .x-grid-body.x-grid-no-border {
+	border-top: 0px;
+}
+/* Fix top-border size and apply radius only for no-header grids */
+.x-grid.x-grid-header-hidden .x-grid-body:not(.x-grid-no-border) {
+    border-top-width: 1px;
+    border-radius: 4px;
+}
+/* Support rounded-style for Header */
+.x-grid.x-grid-rounded .x-grid-header-ct {
+	border-top-left-radius: var(--wt-theme-grid-radius, 0px);
+	border-top-right-radius: var(--wt-theme-grid-radius, 0px);
+}
+/* Support rounded-style for Body */
+.x-grid.x-grid-rounded .x-grid-body {
+    border-bottom-left-radius: var(--wt-theme-grid-radius, 0px);
+	border-bottom-right-radius: var(--wt-theme-grid-radius, 0px);
+}
+/* Add depth effect for rounded-style grids */
+.x-grid.x-grid-rounded .x-grid-item:not(.x-grid-item-selected) {
+    background-color: var(--wt-theme-color-surface-l0);
+}
+
+/* ---------- Ext.grid.RowEditorButtons (same as custombuilt.css) */
+/* Apply base background for row-editor and disarm clip applied on main element */
+.x-grid-row-editor-buttons-default-bottom {
+	background-color: var(--wt-theme-color-dialog);
+    clip: unset !important;
+}
+
+/* ---------- Ext.grid.column.Action */
+/* Adds some extra spacing between action column icons */
+.x-action-col-icon {
+	margin-left: 12px;
+}
+/* Override action color only for grids */
+.x-grid-view .x-action-col-icon {
+    color: var(--wt-theme-color-1);
+}
+
+/* ---------- Ext.menu.Menu (same as custombuilt.css) */
+/* Add border radius */
+.x-menu-body { border-radius: var(--wt-theme-menu-radius); }
+/* Hide unwanted vertical icon separator */
+.x-menu-icon-separator {
+    display: none !important;
+}
+/* Set separator color */
+.x-menu-item-separator {
+    border-top-color: #e5e7eb !important; /* Gray/200 */
+}
+
+/* ---------- Ext.menu.Item */
+/* Fix FontAwesome icons vertical position */
+.x-menu-item-icon.fas { top: 8px; }
+.x-menu-item-icon.far { top: 8px; }
+
+/* ---------- Ext.panel.Panel@panel-kanbancolumn (same as custombuilt.css) */
+/* Add radius support to panel-kanbancolumn UI */
+.x-panel-panel-kanbancolumn {
+    border-top-left-radius: var(--so-kanbancolumn-border-radius);
+    border-top-right-radius: var(--so-kanbancolumn-border-radius);
+    border-bottom-left-radius: var(--so-kanbancolumn-border-radius);
+    border-bottom-right-radius: var(--so-kanbancolumn-border-radius);
+}
+.x-panel-panel-kanbancolumn .x-panel-header {
+    border-top-left-radius: var(--so-kanbancolumn-border-radius);
+    border-top-right-radius: var(--so-kanbancolumn-border-radius);
+}
+.x-panel-panel-kanbancolumn .x-panel-header.x-panel-header-collapsed {
+    border-bottom-left-radius: var(--so-kanbancolumn-border-radius);
+    border-bottom-right-radius: var(--so-kanbancolumn-border-radius);
+}
+.x-panel-panel-kanbancolumn .x-panel-body-panel-kanbancolumn {
+    border-bottom-left-radius: var(--so-kanbancolumn-border-radius);
+    border-bottom-right-radius: var(--so-kanbancolumn-border-radius);
+}
+
+/* ---------- Ext.panel.Tool (same as custombuilt.css) */
+/* Expand/Collapse tools must be colored */
+.x-tool-expand-left, .x-tool-expand-right, .x-tool-collapse-left, .x-tool-collapse-right {
+    color: var(--wt-theme-color-1) !important;
+    opacity: 1 !important;
+}
+
+/* ---------- Ext.picker.Date (same as custombuilt.css) */
+/* Center items text */
+.x-datepicker-column-header-inner, .x-datepicker-date {
+    text-align: center;
+}
+.x-datepicker-selected div.x-datepicker-date {
+    border-radius: 50%;
+}
+/* Fix button down-arrow color and icon */
+.x-datepicker .x-btn-wrap-default-small.x-btn-arrow-right:after {
+    color: var(--wt-theme-color-n1);
+    content: '\f0d7'
+}
+/* Style highlight and full dates */
+.x-datepicker-cell.so-datepicker-highlighted {
+    background-color: var(--wt-theme-color-ct-2);
+}
+.x-datepicker-cell.so-datepicker-highlighted.so-datepicker-highlighted-begin {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.x-datepicker-cell.so-datepicker-highlighted.so-datepicker-highlighted-begin.so-datepicker-highlighted-row {
+    border-bottom-left-radius: 0px;
+}
+.x-datepicker-cell.so-datepicker-highlighted.so-datepicker-highlighted-end {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.x-datepicker-cell.so-datepicker-highlighted.so-datepicker-highlighted-end.so-datepicker-highlighted-row {
+    border-top-right-radius: 0px;
+}
+.x-datepicker-cell.so-datepicker-fulldate > .x-datepicker-date {
+    font-weight: 700 !important;
+}
+/* Draw rounded circle over today date */
+.x-datepicker-cell.x-datepicker-today:before {
+    position: absolute;
+    pointer-events: none;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid var(--wt-theme-color-1);
+    content: '';
+    width: 27.28px;
+    height: 28px;
+}
+
+/* ---------- Ext.tab.Panel */
+/* Add bottom-line to active (selected) and hovered tab */
+.x-tab-active:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    border-bottom: 2px solid var(--wt-theme-color-1);
+}
+.x-tab-bar-plain .x-tab:not(.x-tab-active):hover:before {
+	content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+}
+/* Hide over BG */
+.x-tab-bar-plain .x-tab.x-tab-over {
+    background-color: transparent;
+}
+
+/* ---------- Ext.tab.Tab  */
+/* Remove outline on focus and press */
+.x-tab-pressed {
+	outline: 0px !important;	
+}
+.x-tab-active {
+	outline: 0px !important;	
+}
+
+/* ---------- Ext.tip.QuickTip (same as custombuilt.css) */
+/* Add border radius */
+.x-tip-default { border-radius: var(--wt-theme-dialog-radius); }
+
+/* ---------- Ext.tree.Panel */
+/* UIs are not supported for Tree/Grid panels: provide a bigger styling */
+/* NB: not all necessary classes are covered here: see saved "tree-ui-alternative.patch".patch file to determine all modified CSS classed */
+.x-tree-view .x-grid-item {
+	font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+}
+.x-tree-view .x-grid-cell-inner-action-col {
+	padding: 10px 4px 9px 4px;
+}
+.x-tree-view .x-grid-cell-inner-row-expander {
+	padding: 10px 8px 9px 8px;
+}
+.x-tree-view .x-tree-checkbox {
+    top: 9px;
+}
+.x-tree-view .x-tree-icon {
+    height: 35px;
+	line-height: 35px;
+}
+.x-tree-view .x-tree-elbow-img {
+    height: 35px;
+    line-height: 35px;
+}
+.x-tree-view .x-theme-row-height-el {
+    height: 35px;
+}
+.x-tree-view .x-grid-cell-inner-treecolumn {
+    padding: 6px 10px 6px 6px;
+}
+.x-tree-view .x-grid-item-selected { border-radius: 5px; }
+/*.x-tree-view .x-grid-item-selected { background-color: #e5e7eb !important; border-radius: 5px; }*/
+.x-tree-view .x-grid-item-over { border-radius: 5px; }
+
+/* ---------- Ext.view.BoundList (same as custombuilt.css) */
+/* Avoid borders */
+.x-boundlist {
+    border-style: none;
+}
+
+/* ---------- Ext.window.Window */
+/* (WindowsPanels/PopupPanels) Body do NOT have rounded corners by default, so the hides radius on boundary */
+.x-window-body { border-radius: 6px; }
+
+/* ---------- Sonicle.ColorUtils */
+/* Customize radius and tick colors */
+.so-colorswatch-rounded {
+	border-radius: 5px;
+	font-size: 90%;
+}
+
+/* ---------- Sonicle.button.Avatar */
+.so-btn-avatar-wrap {
+    background-color: var(--wt-theme-color-n2) !important;
+}
+.so-btn-avatar-wrap SPAN {
+    color: var(--wt-theme-color-n1-inv) !important;
+}
+
+/* ---------- Sonicle.form.Feedback */
+.so-formfeedback {
+    font-size: var(--wt-theme-fontsize-sm, inherit);
+    line-height: var(--wt-theme-lineheight-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+    border-radius: 6px;
+}
+.so-formfeedback.so-formfeedback-accent {
+	border-left-width: 6px;
+}
+.so-formfeedback-wrap {
+    padding: 16px;
+}
+
+/* ---------- Sonicle.form.FieldSection */
+.so-fieldsection .so-label-icon-el {
+    margin-right: 0;
+    font-size: 15px;
+}
+.so-fieldsection .so-item-label-iconed .x-form-item-label-inner {
+    margin-top: 30px;
+}
+.so-fieldsection > .x-form-item-body {
+    padding-left: 19px; /* 5px (related to label) are already there */
+}
+
+/* ---------- Sonicle.form.HSpacer */
+.so-form-hspacer.x-component-default {
+	margin: 0 5px 0 0;
+}
+.so-form-hspacer.x-component-small {
+	margin: 0 16px 0 0;
+}
+.so-form-hspacer.x-component-medium {
+	margin: 0 24px 0 0;
+}
+.so-form-hspacer.x-component-large {
+	margin: 0 32px 0 0;
+}
+
+/* ---------- Sonicle.form.VSpacer */
+.so-form-vspacer.x-component-default {
+	margin: 8px 0 0 0;
+}
+.so-form-vspacer.x-component-small {
+	margin: 8px 0 0 0;
+}
+.so-form-vspacer.x-component-medium {
+	margin: 24px 0 0 0;
+}
+.so-form-vspacer.x-component-large {
+	margin: 40px 0 0 0;
+}
+
+/* ---------- Sonicle.form.Separator */
+.so-form-separator .x-fieldset-header-text {
+	font-size: var(--wt-theme-fontsize-base);
+    font-weight: var(--wt-theme-fontweight-medium);
+	color: var(--wt-theme-color-info-ct-on);
+}
+/* Remove line after title */
+.so-form-separator.x-fieldset {
+    border-top: 0px !important;
+}
+/* Align left */
+.so-form-separator .x-fieldset-header {
+	padding-left: 0px;
+}
+
+/* ---------- Sonicle.form.field.Display */
+.so-displayfield-icon {
+    margin-right: 8px;
+}
+.so-displayfield-swatch {
+    /*margin-top: 14px;*/ /* commented for fixing */
+}
+
+/* ---------- Sonicle.form.field.Image */
+/* Align trigger icon on top */
+.so-form-image-field-body .x-form-trigger {
+    vertical-align: top;
+    /*padding-top: 10px;*/
+}
+/* Hide field borders */
+.so-form-image .x-form-trigger-wrap {
+    border-color: transparent;
+}
+
+/* ---------- Sonicle.form.field.tinymce.HTMLEditor */
+.so-tmcetextarea .x-form-text-field-body {
+    background-color: var(--wt-theme-color-surface-l0);
+}
+
+/* ---------- Sonicle.fullcalendar.Panel */
+.so-fullcalendar > .fc {
+	/*zoom: 1.1;*/
+}
+.so-fullcalendar-panel-toolbar-month {
+    gap: 16px;
+    width: 260px; /* Keep nav-buttons equally spaced! */
+}
+.so-fullcalendar-panel-toolbar {
+    margin-bottom: 16px;
+}
+.so-fullcalendar-panel-toolbar-hdtext {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-3xl);
+    line-height: var(--wt-theme-lineheight-3xl);
+}
+.so-fullcalendar-panel-toolbar-hdtext .so-fullcalendar-panel-toolbar-hdtext-cmyo span[data-part="view-month"] {
+    font-weight: var(--wt-theme-fontweight-medium);
+}
+/* Hide old-style borders */
+.so-fullcalendar .fc-theme-standard table.fc-scrollgrid {
+    border: transparent; /* Hide external (top/right) border */
+}
+.so-fullcalendar .fc-theme-standard div.fc-timegrid table.fc-scrollgrid td:nth-child(1),
+.so-fullcalendar .fc-theme-standard th {
+    border-right: transparent; /* Hide R-borders in dayviews TD[1] and THs */
+}
+.so-fullcalendar .fc-theme-standard div.fc-daygrid table.fc-scrollgrid td:nth-child(1) {
+    border-left: 1px solid var(--fc-border-color); /* Restore L-borders in timeviews TD[1] */
+}
+.so-fullcalendar .fc-theme-standard .fc-col-header th {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.so-fullcalendar .fc-daygrid-week-number {
+    background-color: var(--wt-theme-color-ct-2);
+}
+.so-fullcalendar .fc-more-link {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-col-header-cell.fc-day-today .fc-col-header-cell-cushion {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+    color: var(--wt-theme-color-1) !important;
+}
+.so-fullcalendar .fc-daygrid-event,
+.so-fullcalendar .fc-timegrid-event {
+    border-radius: 6px;
+}
+.so-fullcalendar .fc-timegrid-slot-minor {
+    border-top-style: solid; /* Do not use dotted style */
+    /*border-top-color: #F3F4F6; /* Gray/100 */
+}
+/* Add padding in event content */
+.so-fullcalendar .fc-timegrid .fc-event-main {
+    padding: 2px;
+}
+.so-fullcalendar .fc-daygrid .fc-event-main {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.so-fullcalendar .so-cal-appo-icons {
+    left: 4px;
+    bottom: 1px;
+}
+.so-fullcalendar .so-cal-appo-bottomline {
+    flex-basis: 10px;
+}
+.so-fullcalendar .fc-timegrid-event, .so-fullcalendar .fc-daygrid-event {
+    font-size: 11px;
+}
+
+/* ---------- Sonicle.grid.column.Color */
+.so-grid-cell-inner-colorcolumn .so-colorcolumn-text {
+    margin-left: 8px;
+}
+
+/* ---------- Sonicle.grid.column.Icon */
+.so-grid-cell-inner-iconcolumn .so-iconcolumn-text {
+    margin-left: 8px;
+}
+
+/* ---------- Sonicle.grid.column.Nest */
+.so-nestcolumn-hierarchysymbol {
+    color: var(--wt-theme-color-n2);
+}
+.so-nestcolumn-wrap-root > span:nth-of-type(1), .so-nestcolumn-wrap-root > i:nth-of-type(1) {
+	margin-right: 8px;
+}
+.so-nestcolumn-wrap-child > span:nth-of-type(1), .so-nestcolumn-wrap-child > i:nth-of-type(1) {
+	margin-right: 8px;
+}
+
+/* ---------- Sonicle.grid.TileList (same as custombuilt.css) */
+.so-tilelist-caption {
+    font-weight: var(--wt-theme-fontweight-medium);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+.so-tilelist-value {
+    font-weight: var(--wt-theme-fontweight-regular);
+    font-size: var(--wt-theme-fontsize-xs);
+    line-height: var(--wt-theme-lineheight-xs);
+}
+
+/* ---------- Sonicle.view.BoundList */
+.so-boundlist-swatchitem .so-boundlist-display {
+	padding-left: 25px;
+}
+
+/* ---------- Sonicle.form.field.InitialsAvatar */
+/* Do NOT use colors for avatar */
+.so-form-avatardisplay-field {
+    background-color: var(--wt-theme-color-n2) !important;
+}
+.so-form-avatardisplay-field SPAN {
+    color: var(--wt-theme-color-n1-inv) !important;
+}
+
+/* ---------- Sonicle.grid.column.Avatar */
+/* Do NOT use colors for avatar */
+.so-avatarcolumn .so-avatar-initials {
+    background-color: var(--wt-theme-color-n2) !important;
+}
+.so-avatarcolumn .so-avatar-initials SPAN {
+    color: var(--wt-theme-color-n1-inv) !important;
+}
+
+/* ---------- Sonicle.LoadMask */
+.so-mask-button-wrap {
+    padding-top: 15px;
+}
+.so-mask-button {
+    padding: 6px;
+    border-radius: 6px;
+}
+.so-mask-button:hover {
+	text-decoration: none !important;
+    /*color: var(--wt-theme-color-1);*/
+    background-color: var(--wt-theme-color-surface-l3);
+}

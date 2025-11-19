@@ -1,3 +1,25 @@
+Ext.define('Nethesis.overrides.webtop.mail.MessagesPanel', {
+	override: 'Sonicle.webtop.mail.MessagesPanel',
+	
+	privates: {
+		createMainToolbarItems: function() {
+			var me = this,
+				ret = me.callParent(arguments),
+				iof = Ext.Array.indexOf(ret, me.keepFilterButton);
+			if (iof > -1) Ext.Array.replace(ret, iof, 2, [me.searchComponent, me.keepFilterButton]);
+			return ret;
+		},
+		
+		createKeepFilterBtnCfg: function(cfg) {
+			var ret = this.callParent(arguments);
+			delete ret.ui;
+			delete ret.enableToggleIndicator;
+			return Ext.apply(ret, {
+				xtype: 'soplaintogglebutton'
+			});
+		}
+	}
+});
 Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 	override: 'Sonicle.webtop.mail.view.MessageEditor',
 	
@@ -11,13 +33,21 @@ Ext.define('Nethesis.overrides.webtop.mail.view.MessageEditor', {
 		return Ext.apply(this.callParent(arguments), {
 			padding: '24 0 24 24'
 		});
+	},
+	
+	privates: {
+		
+		createToButtonCfg: function(cfg) {
+			return Ext.apply(this.callParent(arguments), {
+				width: 70
+			});
+		}
 	}
 });
 Ext.define('Nethesis.overrides.webtop.mail.view.UserOptions', {
 	override: 'Sonicle.webtop.mail.view.UserOptions',
 	
 	//overridable properties to influence UI
-	mainTodayRowColorWidth: 64,
 	mainTodayRowColorHidden: true,
 	editingFontSizeWidth: 64,
 	editingFontColorWidth: 64,

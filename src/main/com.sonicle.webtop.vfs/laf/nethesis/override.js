@@ -25,3 +25,27 @@ Ext.define('Nethesis.overrides.webtop.vfs.Service', {
 		me.callParent([cfg]);
 	}
 });
+Ext.define('Nethesis.overrides.webtop.vfs.view-public.DownloadLink', {
+	override: 'Sonicle.webtop.vfs.view-public.DownloadLink',
+	
+	privates: {
+		createGridCfg: function(store, cfg) {
+			var me = this,
+				cfg = me.callParent(arguments);
+			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			return cfg;
+		}
+	}
+});
+Ext.define('Nethesis.overrides.webtop.vfs.view-public.UploadLink', {
+	override: 'Sonicle.webtop.vfs.view-public.UploadLink',
+	
+	privates: {
+		createGridCfg: function(store, cfg) {
+			var me = this,
+				cfg = me.callParent(arguments);
+			cfg.cls = Sonicle.String.join(' ', cfg.cls, 'x-grid-rounded');
+			return cfg;
+		}
+	}
+});

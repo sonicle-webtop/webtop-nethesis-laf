@@ -45,33 +45,12 @@ Ext.define('Nethesis.overrides.window.MessageBox', {
 		return me;
 	}
 });
-Ext.define('Nethesis.form.field.Password', {
-	override: 'Sonicle.form.field.Password',
+Ext.define('Nethesis.overrides.mixin.Avatar', {
+	override: 'Sonicle.mixin.Avatar'
 	
-	initComponent: function() {
-		var me = this;
-		me.callParent(arguments);
-		me.addCls('wt-field-fix-fallingtrigger');
-	}
-});
-Ext.define('Nethesis.webtop.core.ux.field.Meeting', {
-	override: 'Sonicle.webtop.core.ux.field.Meeting',
-	
-	initComponent: function() {
-		var me = this;
-		me.callParent(arguments);
-		me.addCls('wt-field-fix-fallingtrigger');
-	}
-});
-Ext.define('Nethesis.form.field.InitialsAvatar', {
-	override: 'Sonicle.form.field.InitialsAvatar',
-	
-	colors: ['#9CA3AF'] // Force single color: Gray/400
-});
-Ext.define('Nethesis.grid.column.Avatar', {
-	override: 'Sonicle.grid.column.Avatar',
-	
-	colors: ['#9CA3AF'] // Force single color: Gray/400
+}, function() {
+	// Force single dummy color: see color overrides in nethesisbuilt-override.css
+	Sonicle.mixin.Avatar.palette = ['#000000'];
 });
 Ext.define('Nethesis.grid.column.Nest', {
 	override: 'Sonicle.grid.column.Nest',
@@ -98,8 +77,8 @@ Ext.define('Nethesis.webtop.core.ux.app.taskbar.Bar', {
 		width: 180 // Taskbar buttons MUST have a fixed-width
 	}
 });
-Ext.define('Nethesis.webtop.core.viewport.private.Default', {
-	override: 'Sonicle.webtop.core.viewport.private.Default',
+Ext.define('Nethesis.webtop.core.private.viewport.Default', {
+	override: 'Sonicle.webtop.core.private.viewport.Default',
 
 	/*
 	 * Added CSS classes:
@@ -225,17 +204,11 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 					cls: 'wt-tool-hd-title'
 				},
 				'->',
-				{
-					xtype: 'splitbutton',
-					ui: '{primary}',
-					reference: 'newbtn',
-					text: WT.res('new.btn-new.lbl'),
-					menu: [],
-					handler: 'onNewActionButtonClick'
-				}
+				this.createNewButtonCfg()
 			];
 		},
 		
+		/*
 		createNavbarItemsCfg: function() {
 			var items = [
 				{
@@ -247,11 +220,11 @@ Ext.define('Nethesis.webtop.core.viewport.private.Default', {
 			Ext.Array.push(items, this.callParent(arguments));
 			return items;
 		},
+		*/
 		
 		createAvatarButtonCfg: function() {
 			return Ext.apply(this.callParent(arguments), {
-				scale: 'large',
-				arrowVisible: false
+				scale: 'large'
 			});
 		}
 	}
@@ -286,8 +259,8 @@ Ext.define('Nethesis.overrides.webtop.core.view.WizardView', {
 		}
 	}
 });
-Ext.define('Nethesis.overrides.webtop.core.viewport.private.ViewController', {
-	override: 'Sonicle.webtop.core.viewport.private.ViewController',
+Ext.define('Nethesis.overrides.webtop.core.private.viewport.ViewController', {
+	override: 'Sonicle.webtop.core.private.viewport.ViewController',
 	
 	viewsScaleFactor: {width: 1.3, height: 1.3}
 });

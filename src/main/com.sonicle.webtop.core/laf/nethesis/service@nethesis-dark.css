@@ -1,0 +1,34 @@
+/* ---------- Navbar */
+/* Set watermark backgrounds */
+.wt-viewport-navbar-watermark-right {
+    background-color: #374151; /* Gray/700 - NDS : Border/Ring/Secondary */
+}
+/* Set specific color to buttons */
+.wt-viewport-navbar .x-btn:not(.x-btn-over):not(.x-btn-pressed) {
+    background-color: var(--wt-theme-color-surface-l0);
+}
+
+/* ---------- Topbar */
+.wt-viewport-topbar .x-toolbar-separator {
+    border-left-color: #6b7280; /* Gray/500 */
+}
+/* Set specific color to buttons */
+.wt-viewport-topbar .x-btn:not(.x-btn-over):not(.x-btn-pressed) {
+    background-color: var(--wt-theme-color-surface-l0);
+}
+
+/* ---------- Tool HD/Body */
+.wt-tool-hd-separator { border-top-color: #4b5563 !important; } /* Gray/600 FIXME: evaluate to change directly fieldset color in theme */
+
+/* ---------- ContextMenu */
+/* Highlight owner */
+.x-grid-view .so-contextmenu-owner,
+.x-tree-view .so-contextmenu-owner {
+    background-color: #6b7280 !important; /* Gray/500 */
+}
+
+/* ---------- Ext.menu.Menu */
+/* Set separator color */
+.x-menu-item-separator {
+    border-top-color: #374151 !important; /* Gray/700 - NDS : Border/Ring/Layout divider */
+}

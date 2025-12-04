@@ -154,7 +154,16 @@
     font-weight: var(--wt-theme-fontweight-bold, 500) !important;
 }
 
-
+/* ---------- Quota */
+.wtmail-progress-quota-ct {
+    /*margin: 4px 24px 0px 24px;*/
+}
+.wtmail-progress-quota.x-progress.x-progress-default {
+    background-color: var(--wt-theme-color-surface-l4) !important;
+}
+.wtmail-progress-quota .x-progress-bar-default {
+    background-color: var(--wt-theme-color-popup) !important;
+}
 
 /* ---------- Breadcrumb */
 .wtmail-breadcrumb .x-btn-inner-plain-toolbar-small {
@@ -273,11 +282,6 @@
 .wtmail-editor-htmleditor-container .so-tmcehtmleditor-toolbar {
 	padding-left: 24px;
 }
-
-/* ---------- Quota */
-.wtmail-progress-quota { background-color: var(--wt-theme-color-surface-l4); height: 6px; border-radius: 10px }
-/* Style progress fill */
-.wtmail-progress-quota .x-progress-bar { background-color: var(--wt-theme-color-popup); height: 6px; border-radius: 10px; }
 
 /* ---------- UX grid.column.Message */
 .wtmail-messagecolumn-head {

@@ -31,7 +31,7 @@
     --wt-theme-color-warn: #fde68a; /* Amber/200 - NDS : Text/Inline notification/Warning/Description */
     --wt-theme-color-warn-on: #92400e; /* Amber/800 */
     --wt-theme-color-warn-ct: #b45309; /* Amber/700 - NDS : Surface/Inline notification/Warning */
-    --wt-theme-color-warn-ct-on: #fef3c7; /* Amber/100 - NDS : Text/Inline notification/Warning/Title*/
+    --wt-theme-color-warn-ct-on: #fffbef; /* Amber/50 - NDS : Text/Inline notification/Warning/Title*/
     --wt-theme-color-error: #fecdd3; /* Rose/200 - NDS : Text/Inline notification/Error/Description */
     --wt-theme-color-error-on: #9f1239; /* Rose/800 */
     --wt-theme-color-error-ct: #881337; /* Rose/900 - NDS : Surface/Inline notification/Error */
@@ -122,12 +122,6 @@ body {
     background-color: var(--wt-theme-color-surface-l0, #000000);
     color: var(--wt-theme-color-n1, #FFFFFF);
 }
-
-/* ---------- Font */
-/* Import full Poppins family */
-/*
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
-*/
 
 /* ---------- Ext.Shadow */
 .x-css-shadow {

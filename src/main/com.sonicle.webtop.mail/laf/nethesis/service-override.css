@@ -183,10 +183,21 @@
 }
 
 /* ---------- MessageView */
-.wtmail-mv-header { font-family: Poppins, sans-serif; padding: 0px 6px 0px 12px; }
+.wtmail-mv-header {
+    padding: 0px 6px 0px 12px;
+}
 .wtmail-mv-header-avatar { vertical-align: top; width: 48px; }
-.wtmail-mv-hsubject { padding-bottom: 8px; padding-left: 8px; font-size:20px; }
-.wtmail-mv-hfromname { padding-bottom: 8px; font-size:14px; font-weight: bold }
+.wtmail-mv-hsubject {
+    padding-bottom: 8px;
+    padding-left: 8px;
+    font-size: var(--wt-theme-fontsize-xl);
+    line-height: var(--wt-theme-lineheight-xl);
+}
+.wtmail-mv-hfromname {
+    padding-bottom: 8px;
+    font-size: var(--wt-theme-fontsize-sm);
+    font-weight: var(--wt-theme-fontweight-bold);
+}
 .wtmail-mv-hthroughname { padding-bottom: 8px; }
 .wtmail-mv-hdate { padding-bottom: 8px; }
 .wtmail-mv-hto { padding-bottom: 8px; }

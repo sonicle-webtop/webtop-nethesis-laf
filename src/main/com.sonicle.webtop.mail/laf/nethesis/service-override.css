@@ -156,7 +156,7 @@
 
 /* ---------- Quota */
 .wtmail-progress-quota-ct {
-    /*margin: 4px 24px 0px 24px;*/
+    margin: 4px 24px 8px 24px;
 }
 .wtmail-progress-quota.x-progress.x-progress-default {
     background-color: var(--wt-theme-color-surface-l4) !important;

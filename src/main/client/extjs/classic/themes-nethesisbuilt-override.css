@@ -341,6 +341,18 @@ body > .x-mask {
     color: var(--wt-theme-color-n1-inv) !important;
 }
 
+/* ---------- Sonicle.form.ActionFeedback */
+.so-formactionfeedback .x-form-item-body {
+    border-radius: 6px;
+}
+.so-formactionfeedback.so-formactionfeedback-accent .x-form-item-body {
+	border-left-width: 6px !important;
+}
+.so-formactionfeedback.so-formactionfeedback-info label {
+    font-size: var(--wt-theme-fontsize-sm, inherit);
+    font-weight: var(--wt-theme-fontweight-regular, normal);
+}
+
 /* ---------- Sonicle.form.Feedback */
 .so-formfeedback {
     font-size: var(--wt-theme-fontsize-sm, inherit);

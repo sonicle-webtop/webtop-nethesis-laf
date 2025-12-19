@@ -72,9 +72,18 @@ Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 		/**
 		 * Override original {@link Sonicle.webtop.calendar.view.Event#prepareMainFields}
 		 * - Remove tags field from returned items: it's the 1st field added by createTagsFieldCfg() in original impl.
+		 * - Move description section just after title
 		 */
 		prepareMainFields: function() {
-			return Ext.Array.slice(this.callParent(arguments), 1);
+			var fields = Ext.Array.slice(this.callParent(arguments), 1), // Skip the first field (tags)
+				iofTitleSec = Ext.Array.findIndexBy(fields, function(itm) {
+					return itm && itm.itemId === 'secfldtitle';
+				}),
+				iofDescSec = Ext.Array.findIndexBy(fields, function(itm) {
+					return itm && itm.itemId === 'secflddescription';
+				});
+			Ext.Array.swap(fields, iofTitleSec+1, iofDescSec);
+			return fields;
 		},
 		
 		/**

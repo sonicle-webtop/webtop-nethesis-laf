@@ -1,3 +1,6 @@
+/* La scritta "Nessun messaggio selezionato”: light deve essere indigo 700 (#4338ca) e dark indigo 300 (#a5b4fc) */
+.wt-theme-text-color-title { color: #4338ca; /* Indigo/700 */ }
+
 /* ---------- Navbar */
 /* Set watermark backgrounds */
 .wt-viewport-navbar-watermark-right {

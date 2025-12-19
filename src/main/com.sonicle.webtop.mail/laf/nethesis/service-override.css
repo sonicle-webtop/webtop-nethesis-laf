@@ -213,6 +213,12 @@
 .wtmail-mv-avatar .so-avatar-initials { background-color: var(--wt-theme-color-n2) !important; }
 .wtmail-mv-avatar .so-avatar-initials SPAN { color: var(--wt-theme-color-n1-inv) !important; }
 
+/* Customize PAS banner */
+.wtmail-mv-pas {
+    border: 0px;
+    border-radius: 6px;
+}
+
 /* ---------- MessageGrid */
 .wtmail-message-grid .x-grid-body {
 	border-top: 0px;

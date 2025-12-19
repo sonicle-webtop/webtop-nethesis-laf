@@ -30,7 +30,7 @@ Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 		var me = this;
 		cfg = WTA.sdk.UIView.overrideDockableConfig(cfg, {autoScale: false, width: 820/*, height: 620*/});
 		me.callParent([cfg]);
-		me.getVM().set('hidden.flddescription', true);
+		me.getVM().set('hidden.flddescription', true); // Change original default!
 	},
 	
 	/**
@@ -96,12 +96,14 @@ Ext.define('Nethesis.overrides.webtop.calendar.view.Event', {
 		
 		/**
 		 * Override original {@link Sonicle.webtop.calendar.view.Event#initHiddenFields}
-		 * - Show/Hide description field according to its value
+		 * - Show/Hide description field according to its value only if not NEW
 		 */
 		initHiddenFields: function() {
 			var me = this;
 			me.callParent(arguments);
-			me.getVM().set('hidden.flddescription', me.getModel().isFieldEmpty('description'));
+			if (!me.isMode(me.MODE_NEW)) {
+				me.getVM().set('hidden.flddescription', me.getModel().isFieldEmpty('description'));
+			}
 		},
 		
 		createDescriptionFieldCfg: function(cfg) {

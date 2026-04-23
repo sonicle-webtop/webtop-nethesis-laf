@@ -15,6 +15,7 @@
 .wtcal-icon-newEvent:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-newEvent { background-image: none !important }
 .wtcal-icon-addEvent:before { content: '\f055'; font: var(--fa-font-solid); } .wtcal-icon-addEvent { background-image: none !important }
 .wtcal-icon-openEvent:before { content: '\f044'; font: var(--fa-font-solid); } .wtcal-icon-openEvent { background-image: none !important }
+.wtcal-icon-openSeries:before { content: '\f534'; font: var(--fa-font-solid); } .wtcal-icon-openSeries { background-image: none !important }
 .wtcal-icon-rejoinSeries:before { content: '\f0e2'; font: var(--fa-font-solid); } .wtcal-icon-rejoinSeries { background-image: none !important }
 .wtcal-icon-importEvents:before { content: '\f0aa'; font: var(--fa-font-solid); } .wtcal-icon-importEvents { background-image: none !important }
 .wtcal-icon-exportEvents:before { content: '\f0ab'; font: var(--fa-font-solid); } .wtcal-icon-exportEvents { background-image: none !important }
@@ -31,6 +32,10 @@
 .wtcal-icon-event-single:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-event-single { background-image: none !important }
 .wtcal-icon-event-recurring:before { content: '\f021'; font: var(--fa-font-solid); } .wtcal-icon-event-recurring { background-image: none !important }
 .wtcal-icon-event-broken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-event-broken { background-image: none !important }
+.wtcal-icon-eventType-default:before { content: '\f783'; font: var(--fa-font-solid); } .wtcal-icon-eventType-default { background-image: none !important }
+.wtcal-icon-eventType-seriesMaster:before { content: '\f534'; font: var(--fa-font-solid); } .wtcal-icon-eventType-seriesMaster { background-image: none !important }
+.wtcal-icon-eventType-seriesItem:before { content: '\f021'; font: var(--fa-font-solid); } .wtcal-icon-eventType-seriesItem { background-image: none !important }
+.wtcal-icon-eventType-seriesBroken:before { content: '\f127'; font: var(--fa-font-solid); } .wtcal-icon-eventType-seriesBroken { background-image: none !important }
 .wtcal-icon-sectionAttachments:before { content: '\f0c6'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttachments { background-image: none !important }
 .wtcal-icon-sectionAttendees:before { content: '\f0c0'; font: var(--fa-font-solid); } .wtcal-icon-sectionAttendees { background-image: none !important }
 .wtcal-icon-sectionDateTime:before { content: '\f017'; font: var(--fa-font-solid); } .wtcal-icon-sectionDateTime { background-image: none !important }
